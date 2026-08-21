@@ -65,10 +65,10 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Service Areas (4 cols) */}
-          <div className="lg:col-span-4 space-y-3">
+          {/* Col 2: Service Areas (3 cols) */}
+          <div className="lg:col-span-3 space-y-3">
             <h4 className="text-sm font-bold uppercase text-white tracking-wider border-b border-slate-800 pb-2">
-              Northwest Arkansas Coverage
+              City Hubs
             </h4>
             <ul className="space-y-2 text-slate-300">
               <li>
@@ -101,46 +101,91 @@ export default function Footer() {
                   <span className="text-slate-500">72762, 72764</span>
                 </Link>
               </li>
+              <li>
+                <Link href="/seamless-gutter-installation-nwa" className="hover:text-emerald-400 flex justify-between">
+                  <span>Seamless Gutter Install</span>
+                  <span className="text-slate-500">NWA Metro</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Col 3: Services & Warranty (3 cols) */}
-          <div className="lg:col-span-3 space-y-3">
+          {/* Col 3: Services & Systems (2 cols) */}
+          <div className="lg:col-span-2 space-y-3">
             <h4 className="text-sm font-bold uppercase text-white tracking-wider border-b border-slate-800 pb-2">
-              Services &amp; Resources
+              Services
             </h4>
             <ul className="space-y-2 text-slate-300">
               <li>
-                <Link href="/pine-needle-gutter-guards" className="hover:text-emerald-400">
-                  Pine Needle Filtration System
+                <Link href="/pine-needle-gutter-protection" className="hover:text-emerald-400">
+                  Pine Needle Defense
+                </Link>
+              </li>
+              <li>
+                <Link href="/oak-tassel-gutter-protection" className="hover:text-emerald-400">
+                  Oak Catkin Filtration
+                </Link>
+              </li>
+              <li>
+                <Link href="/foundation-water-damage-prevention" className="hover:text-emerald-400">
+                  Foundation Protection
                 </Link>
               </li>
               <li>
                 <Link href="/gutter-cleaning" className="hover:text-emerald-400">
-                  Diagnostic Cleanout &amp; 21-Pt Audit ($149)
+                  $149 Cleanout &amp; Audit
                 </Link>
               </li>
               <li>
-                <a href="#specs" className="hover:text-emerald-400">
-                  316 Stainless Specifications
-                </a>
+                <Link href="/micro-mesh-vs-screen-guards" className="hover:text-emerald-400">
+                  Micro-Mesh vs Screens
+                </Link>
               </li>
               <li>
-                <a href="#process" className="hover:text-emerald-400">
-                  5-Stage Gutter Restoration
-                </a>
+                <Link href="/hoa-gutter-cleaning-nwa" className="hover:text-emerald-400">
+                  HOA &amp; Commercial
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 4: Sitemap & Crawl Index (2 cols) */}
+          <div className="lg:col-span-2 space-y-3">
+            <h4 className="text-sm font-bold uppercase text-white tracking-wider border-b border-slate-800 pb-2">
+              Site Index
+            </h4>
+            <ul className="space-y-2 text-slate-300">
+              <li>
+                <Link href="/site-directory" className="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1">
+                  <span>★ Full Site Directory</span>
+                </Link>
               </li>
               <li>
-                <a href="#reviews" className="hover:text-emerald-400">
-                  Customer Reviews
+                <Link href="/reviews" className="hover:text-emerald-400">
+                  Verified Reviews (5.0★)
+                </Link>
+              </li>
+              <li>
+                <Link href="/before-after-photos" className="hover:text-emerald-400">
+                  Before &amp; After Logs
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides" className="hover:text-emerald-400">
+                  Homeowner Guides
+                </Link>
+              </li>
+              <li>
+                <Link href="/satellite-quote" className="hover:text-emerald-400">
+                  90-Sec Satellite Quote
+                </Link>
+              </li>
+              <li>
+                <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-[11px] font-mono block pt-1">
+                  [XML Sitemap]
                 </a>
               </li>
             </ul>
-
-            <div className="p-3.5 rounded bg-slate-900 border border-slate-800 mt-4 text-slate-300">
-              <span className="font-bold text-white block mb-1">10-Year Transferable Guarantee</span>
-              <span className="text-[11px] text-slate-400">Written warranty protecting your roofline, fascia boards, and foundation.</span>
-            </div>
           </div>
 
         </div>
