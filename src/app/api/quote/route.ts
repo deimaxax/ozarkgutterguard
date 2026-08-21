@@ -1,50 +1,72 @@
 import { NextResponse } from 'next/server';
 
 interface QuoteLead {
-  address: string;
-  name: string;
-  phone: string;
+  address?: string;
+  streetAddress?: string;
+  city?: string;
+  name?: string;
+  phone?: string;
+  homeType?: string;
   stories?: string;
+  service?: string;
+  serviceType?: string;
+  estimatedCost?: string;
+  estimatedCleanPrice?: string;
+  footage?: string;
+  treeThreat?: string;
+  source?: string;
   estimatedLow?: number;
   estimatedHigh?: number;
-  source?: string;
-  city?: string;
 }
 
 export async function POST(request: Request) {
   try {
     const data: QuoteLead = await request.json();
 
-    if (!data.address || !data.phone) {
+    const phone = data.phone?.trim() || '';
+    const address = data.address?.trim() || data.streetAddress?.trim() || '';
+
+    if (!phone && !address) {
       return NextResponse.json(
-        { error: 'Address and phone number are required.' },
+        { error: 'At least a phone number or address is required.' },
         { status: 400 }
       );
     }
 
     const timestamp = new Date().toLocaleString('en-US', { timeZone: 'America/Chicago' });
-    const cleanPhone = data.phone.replace(/\D/g, '');
+    const cleanPhone = phone.replace(/\D/g, '');
 
-    // Formatted notification text for Telegram Bot or SMS Webhook
-    const message = `🚨 *NEW NWA SATELLITE LEAD* 🚨\n\n` +
-      `📍 *Address:* ${data.address}\n` +
-      `👤 *Name:* ${data.name || 'Not provided'}\n` +
-      `📞 *Phone:* ${data.phone}\n` +
-      `🏠 *Stories:* ${data.stories || '1-story'}\n` +
-      `💵 *Est. Price:* $${data.estimatedLow || 1250} – $${data.estimatedHigh || 1650}\n` +
-      `🌐 *Source Page:* ${data.source || '/'}\n` +
+    const nameText = data.name && data.name.trim() ? data.name.trim() : 'Not provided';
+    const addressText = address || 'Address not provided';
+    const serviceText = data.serviceType || data.service || 'Satellite Estimate / Lead Inquiry';
+    const priceText = data.estimatedCost || data.estimatedCleanPrice || (data.estimatedLow ? `$${data.estimatedLow} – $${data.estimatedHigh}` : 'Requesting Quote');
+    const storiesText = data.homeType || data.stories || 'N/A';
+    const footageText = data.footage ? `\n📏 *Footage:* ${data.footage}` : '';
+    const treeText = data.treeThreat ? `\n🌲 *Tree Threat:* ${data.treeThreat}` : '';
+    const sourceText = data.source || 'Website Form';
+
+    // Formatted Telegram notification text
+    const message = `🚨 *NEW NWA LEAD CAPTURED* 🚨\n\n` +
+      `👤 *Name:* ${nameText}\n` +
+      `📞 *Phone:* ${phone || 'Not provided'}\n` +
+      `📍 *Address:* ${addressText}\n` +
+      `🛠️ *Service:* ${serviceText}\n` +
+      `💵 *Est. Price:* ${priceText}\n` +
+      `🏠 *Stories:* ${storiesText}${footageText}${treeText}\n` +
+      `🌐 *Source Page:* ${sourceText}\n` +
       `⏰ *Time (CST):* ${timestamp}\n\n` +
-      `👉 [Click to Call Lead](tel:+1${cleanPhone})`;
+      `👉 [Tap to Call Customer](tel:+1${cleanPhone})`;
 
-    // Log the lead server-side
+    // Server log
     console.log('[LEAD CAPTURED]', JSON.stringify(data, null, 2));
 
-    // Optional Telegram Bot Webhook (triggered if env variables set)
+    // Telegram Bot Dispatch
     const telegramToken = process.env.TELEGRAM_BOT_TOKEN;
     const telegramChatId = process.env.TELEGRAM_CHAT_ID;
 
     if (telegramToken && telegramChatId) {
       try {
+        const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addressText)}`;
         await fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -52,6 +74,15 @@ export async function POST(request: Request) {
             chat_id: telegramChatId,
             text: message,
             parse_mode: 'Markdown',
+            disable_web_page_preview: true,
+            reply_markup: {
+              inline_keyboard: [
+                [
+                  { text: `📞 Call Customer`, url: `https://t.me/share/url?url=${encodeURIComponent(`tel:+1${cleanPhone}`)}` },
+                  { text: `🗺️ Google Maps`, url: mapsUrl }
+                ]
+              ]
+            }
           }),
         });
       } catch (err) {
@@ -59,7 +90,7 @@ export async function POST(request: Request) {
       }
     }
 
-    // Optional Generic Webhook (Zapier, Make, HighLevel, Twilio)
+    // Generic Webhook Dispatch (Zapier / Make / HighLevel)
     const genericWebhook = process.env.LEAD_WEBHOOK_URL;
     if (genericWebhook) {
       try {
@@ -69,6 +100,7 @@ export async function POST(request: Request) {
           body: JSON.stringify({
             ...data,
             timestamp,
+            cleanPhone,
             callUrl: `tel:+1${cleanPhone}`,
           }),
         });
@@ -82,15 +114,15 @@ export async function POST(request: Request) {
       message: 'Lead captured and dispatched successfully.',
       timestamp,
       lead: {
-        address: data.address,
-        estimatedLow: data.estimatedLow || 1250,
-        estimatedHigh: data.estimatedHigh || 1650,
+        address: addressText,
+        phone,
+        name: nameText,
       }
     });
   } catch (error) {
     console.error('[QUOTE API ERROR]', error);
     return NextResponse.json(
-      { error: 'Failed to process satellite estimate request.' },
+      { error: 'Failed to process lead request.' },
       { status: 500 }
     );
   }
