@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    color: #0F172A;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Contractor Button Styles (Leafguard & GutterTex Style) */
+.btn-contractor-green {
+  background-color: #1E7E34;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-contractor-green:hover {
+  background-color: #155724;
+  box-shadow: 0 4px 12px rgba(30, 126, 52, 0.25);
+}
+
+.btn-contractor-navy {
+  background-color: #1B2A4A;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-contractor-navy:hover {
+  background-color: #0F1A2E;
+}
+
+.btn-contractor-outline {
+  border: 2px solid #1B2A4A;
+  color: #1B2A4A;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-contractor-outline:hover {
+  background-color: #1B2A4A;
+  color: #FFFFFF;
+}
+
+/* Card Styling */
+.contractor-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.contractor-card:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}

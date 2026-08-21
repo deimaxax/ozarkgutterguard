@@ -1,0 +1,108 @@
+import type { Metadata, Viewport } from 'next';
+import './globals.css';
+import SchemaJsonLd from '@/components/SchemaJsonLd';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#1B2A4A',
+};
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://ozarkgutterguard.com'),
+  title: {
+    default: 'Ozark Gutter Guard Co. | #1 Gutter Guards in Northwest Arkansas',
+    template: '%s | Ozark Gutter Guard Co.'
+  },
+  description: 'Skip the $6,000 corporate markup. Medical-grade 316 surgical stainless steel micro-mesh gutter guards installed across Bentonville, Bella Vista, Rogers, Fayetteville & Springdale. 10-Year Transferable No-Clog Guarantee.',
+  keywords: [
+    'gutter guards northwest arkansas',
+    'bentonville gutter guards',
+    'bella vista gutter protection',
+    'rogers ar gutter guards',
+    'fayetteville gutter guards',
+    'springdale gutter guards',
+    'pine needle gutter guard',
+    'micro mesh gutter guard NWA',
+    'leaffilter alternative arkansas',
+    'gutter cleaning bentonville'
+  ],
+  authors: [{ name: 'Ozark Gutter Guard Co.', url: 'https://ozarkgutterguard.com' }],
+  creator: 'Ozark Gutter Guard Co.',
+  publisher: 'Ozark Gutter Guard Co.',
+  formatDetection: {
+    telephone: true,
+    address: true,
+    email: true,
+  },
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Ozark Gutter Guard Co. | Northwest Arkansas Gutter Protection',
+    description: 'Get an accurate instant satellite quote in 90 seconds. 10-Year No-Clog Guarantee with surgical 316 stainless steel micro-mesh.',
+    url: 'https://ozarkgutterguard.com',
+    siteName: 'Ozark Gutter Guard Co.',
+    locale: 'en_US',
+    type: 'website',
+    images: [
+      {
+        url: '/images/contractor_truck.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Ozark Gutter Guard Co. installation crew in Northwest Arkansas',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ozark Gutter Guard Co. | Northwest Arkansas Gutter Protection',
+    description: 'Direct contractor pricing on 316 surgical stainless steel micro-mesh gutter protection. 10-Year No-Clog Guarantee.',
+    images: ['/images/contractor_truck.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  icons: {
+    icon: [
+      { url: '/logo.png' },
+      { url: '/logo.png', sizes: '32x32', type: 'image/png' },
+      { url: '/logo.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/manifest.webmanifest',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <meta name="geo.region" content="US-AR" />
+        <meta name="geo.placename" content="Bentonville, Arkansas" />
+        <meta name="geo.position" content="36.3729;-94.2088" />
+        <meta name="ICBM" content="36.3729, -94.2088" />
+        <SchemaJsonLd type="business" />
+      </head>
+      <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-white font-sans selection:bg-emerald-100 selection:text-emerald-900">
+        {children}
+      </body>
+    </html>
+  );
+}
