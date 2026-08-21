@@ -8,6 +8,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StickyMobileBar from '@/components/StickyMobileBar';
 import SatelliteEstimator from '@/components/SatelliteEstimator';
+import GutterCleaningCalculator from '@/components/GutterCleaningCalculator';
 
 export default function GutterCleaningPage() {
   const phoneHref = "tel:+14799292516";
@@ -210,7 +211,7 @@ export default function GutterCleaningPage() {
 
               {/* Right Column: Interactive Schedule / Quote Form */}
               <div className="lg:col-span-5">
-                <SatelliteEstimator initialCity="Bentonville" />
+                <GutterCleaningCalculator initialCity="Bentonville" />
               </div>
 
             </div>
