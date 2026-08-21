@@ -12,3 +12,34 @@ src/app/guides/
   page.tsx           ← sąrašas
   [slug]/
     page.tsx         ← atskiras postas
+
+
+
+
+    Kaip rašyti naują postą — 3 žingsniai:
+1. Sukurk src/data/guides/07-tavo-tema.ts — kopijuok struktūrą iš bet kurio esamo failo
+
+2. Pakeisk slug, title, sections su savo turiniu
+
+3. _index.ts faile pridėk:
+
+import post07 from './07-tavo-tema';
+// ...
+export const GUIDES_DATA = [
+  post01, post02, ..., post07,  // ← pridedi čia
+];
+
+
+src/data/guides/
+  _types.ts       ← GuidePost interface (liečiama tik jei reikia nauko lauko)
+  _index.ts       ← surenka viską, čia importuoji naują failą
+  01-oak-catkins.ts
+  02-foundation-cracks.ts
+  03-ozark-rainfall.ts
+  04-loblolly-pine.ts
+  05-foundation-audit.ts
+  06-beaver-lake.ts       ← KIEKVIENAS POSTAS = ATSKIRAS FAILAS
+
+src/app/guides/
+  page.tsx          ← /guides sąrašas
+  [slug]/page.tsx   ← atskiras straipsnis

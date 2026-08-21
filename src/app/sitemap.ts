@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
-import { SEO_PAGES_DATA } from '@/data/seoPages';
+import { SEO_PAGES_DATA } from '@/data/seoPages/_index';
+import { GUIDES_DATA } from '@/data/guides/_index';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://ozarkgutterguard.com';
@@ -11,6 +12,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'weekly',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/guides`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.95,
     },
     {
       url: `${baseUrl}/quote`,
@@ -28,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/gutter-cleaning`,
       lastModified,
       changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/gutter-cleaning-inspection-nwa`,
+      lastModified,
+      changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
@@ -90,5 +103,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       };
     });
 
-  return [...staticRoutes, ...dynamicRoutes];
+  const guideRoutes: MetadataRoute.Sitemap = GUIDES_DATA.map((g) => ({
+    url: `${baseUrl}/guides/${g.slug}`,
+    lastModified: new Date(g.publishDate),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...dynamicRoutes, ...guideRoutes];
 }

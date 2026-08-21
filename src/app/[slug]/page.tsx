@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { SEO_PAGES_DATA, getSeoPage } from '@/data/seoPages';
+import { SEO_PAGES_DATA, getSeoPage } from '@/data/seoPages/_index';
 import { FAQS_DATA } from '@/data/faqs';
 import { CITIES_DATA } from '@/data/cities';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';

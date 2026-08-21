@@ -1,23 +1,23 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, Clock, BookOpen } from 'lucide-react';
+import { ArrowRight, Clock, BookOpen, ShieldCheck, MapPin, Phone } from 'lucide-react';
 import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { GUIDES_DATA } from '@/data/guides';
+import { GUIDES_DATA } from '@/data/guides/_index';
 
 export const metadata: Metadata = {
   title: 'NWA Homeowner Guides | Foundation, Gutters & Ozark Weather | Ozark Gutter Guard',
-  description: 'Free expert guides for Northwest Arkansas homeowners: why foundations crack, oak catkin season, Beaver Lake humidity, and how to stop gutter damage before it costs thousands.',
+  description: 'Field-tested gutter, leaf protection, and foundation drainage guides for Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista homeowners.',
   alternates: { canonical: 'https://ozarkgutterguard.com/guides' },
 };
 
 const categoryLabels: Record<string, string> = {
-  foundation: 'Foundation & Water Damage',
-  trees: 'NWA Tree Threats',
-  weather: 'Ozark Weather & Drainage',
-  'diy-warning': 'DIY Safety',
-  homeowner: 'Homeowner Guide',
+  foundation: 'Foundation & Soil Damage',
+  trees: 'Tree Foliage & Pine Needles',
+  weather: 'Ozark Storms & Weather',
+  'diy-warning': 'DIY Safety & Comparisons',
+  homeowner: 'Cost & Buyer Guides',
 };
 
 const categoryColors: Record<string, string> = {
@@ -39,14 +39,29 @@ export default function GuidesIndexPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
             <div className="flex items-center gap-2 text-orange-400 text-xs font-black uppercase tracking-wider">
               <BookOpen className="w-4 h-4" />
-              <span>Free NWA Homeowner Guides</span>
+              <span>Northwest Arkansas Field Guides</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
-              Guides That Save NWA Homeowners Thousands
+              Honest Advice on Gutters, Trees & Ozark Weather
             </h1>
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl">
-              Real field knowledge from installing gutter systems across Bentonville, Rogers, Bella Vista, Fayetteville, and Springdale — the stuff foundation contractors and roofers won't tell you.
+              Practical advice from local installers in Bentonville, Rogers, Bella Vista, Fayetteville, and Springdale. Clear comparisons, real costs, and zero high-pressure sales talk.
             </p>
+
+            <div className="flex items-center gap-4 pt-2 text-xs text-slate-400 flex-wrap">
+              <span className="flex items-center gap-1">
+                <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                <span>Written by Local Installers</span>
+              </span>
+              <span className="flex items-center gap-1">
+                <MapPin className="w-4 h-4 text-orange-400" />
+                <span>Benton & Washington County, AR</span>
+              </span>
+              <a href="tel:+14799292516" className="flex items-center gap-1 text-orange-400 hover:underline font-bold">
+                <Phone className="w-3.5 h-3.5" />
+                <span>(479) 929-2516</span>
+              </a>
+            </div>
           </div>
         </section>
 
