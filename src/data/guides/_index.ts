@@ -47,6 +47,11 @@ import newPost33 from './33-moss-roof-gutter-guards';
 import newPost34 from './34-hail-storm-gutter-inspection';
 import newPost35 from './35-gutter-guards-home-value-nwa';
 import newPost36 from './36-gutter-guards-rental-property-nwa';
+import post37 from './37-leafguard-vs-ozark-comparison';
+import post38 from './38-gutter-helmet-vs-ozark-comparison';
+import post39 from './39-home-depot-lowes-vs-pro-guards';
+import post40 from './40-kguard-vs-ozark-comparison';
+import post41 from './41-gutterglove-leafblaster-vs-ozark';
 
 export const GUIDES_DATA = [
   post01, // oak-catkins-clogging-gutters-nwa
@@ -89,6 +94,11 @@ export const GUIDES_DATA = [
   newPost34,
   newPost35,
   newPost36,
+  post37,
+  post38,
+  post39,
+  post40,
+  post41,
 ];
 
 export function getGuide(slug: string) {
