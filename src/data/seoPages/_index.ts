@@ -17,6 +17,7 @@ import { EXTENDED_QUERIES } from './extended-queries';
 import { HIGH_INTENT_KEYWORD_PAGES } from './high-intent-keywords';
 import { ROOFING_LEAD_GEN_PAGES } from './roofing-lead-gen';
 import { SEARCH_MATRIX_PAGES } from './search-matrix';
+import { CLEANING_HYPER_TARGETING_PAGES } from './cleaning-hyper-targeting';
 
 export type { SeoPageData };
 
@@ -52,6 +53,7 @@ const ZIP_CODE_PAGES: SeoPageData[] = NWA_ZIP_CODES.map((z) => ({
 }));
 
 export const SEO_PAGES_DATA: SeoPageData[] = [
+  ...CLEANING_HYPER_TARGETING_PAGES.map(p => ({ ...p, noindex: false })),
   ...SEARCH_MATRIX_PAGES.map(p => ({ ...p, noindex: false })),
   ...ROOFING_LEAD_GEN_PAGES.map(p => ({ ...p, noindex: false })),
   ...HIGH_INTENT_KEYWORD_PAGES.map(p => ({ ...p, noindex: false })),
