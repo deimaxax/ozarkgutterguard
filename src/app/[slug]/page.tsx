@@ -99,8 +99,8 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   const postalCodes = cityData?.postalCodes;
   const installationLogs = INSTALLATION_LOGS[cityKey] ?? [];
 
-  // Serve the full rich CitySiloTemplate for cities that have CITIES_DATA entries — more E-E-A-T signals
-  if (cityData) {
+  // Serve the full rich CitySiloTemplate ONLY for the main city guard hub slugs
+  if (cityData && page.slug === cityData.slug) {
     return <CitySiloTemplate city={cityData} />;
   }
 
