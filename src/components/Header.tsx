@@ -16,12 +16,26 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
   const phoneHref = "tel:+14799292516";
   const phoneDisplay = "(479) 929-2516";
 
-  const cityLinks = [
+  const guardCities = [
     { name: "Bentonville", slug: "/gutter-guards-bentonville-ar" },
     { name: "Bella Vista", slug: "/gutter-guards-bella-vista-ar" },
     { name: "Rogers", slug: "/gutter-guards-rogers-ar" },
     { name: "Fayetteville", slug: "/gutter-guards-fayetteville-ar" },
     { name: "Springdale", slug: "/gutter-guards-springdale-ar" },
+    { name: "Centerton", slug: "/gutter-guards-centerton-ar" },
+    { name: "Cave Springs", slug: "/gutter-guards-cave-springs-ar" },
+    { name: "Lowell", slug: "/gutter-guards-lowell-ar" },
+  ];
+
+  const cleaningCities = [
+    { name: "Bentonville", slug: "/gutter-cleaning-bentonville-ar" },
+    { name: "Bella Vista", slug: "/gutter-cleaning-bella-vista-ar" },
+    { name: "Rogers", slug: "/gutter-cleaning-rogers-ar" },
+    { name: "Fayetteville", slug: "/gutter-cleaning-fayetteville-ar" },
+    { name: "Springdale", slug: "/gutter-cleaning-springdale-ar" },
+    { name: "Centerton", slug: "/gutter-cleaning-centerton-ar" },
+    { name: "Cave Springs", slug: "/gutter-cleaning-cave-springs-ar" },
+    { name: "Lowell", slug: "/gutter-cleaning-lowell-ar" },
   ];
 
   return (
@@ -73,7 +87,7 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
               Reviews
             </Link>
 
-            {/* Service Areas Dropdown */}
+            {/* Service Areas Mega Dropdown */}
             <div className="relative" onMouseLeave={() => setLocationsOpen(false)}>
               <button
                 type="button"
@@ -86,17 +100,65 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
               </button>
 
               {locationsOpen && (
-                <div className="absolute top-full left-0 w-56 bg-white rounded-lg shadow-lg border border-slate-200 py-2 z-50">
-                  {cityLinks.map((item) => (
-                    <Link
-                      key={item.slug}
-                      href={item.slug}
-                      onClick={() => setLocationsOpen(false)}
-                      className="block px-4 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50 hover:text-brand-green transition-colors"
-                    >
-                      {item.name} Gutter Guards
+                <div className="absolute top-full -left-20 w-[540px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-5 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                  <div className="grid grid-cols-2 gap-6">
+                    {/* Gutter Guards Column */}
+                    <div>
+                      <div className="flex items-center gap-1.5 pb-2.5 mb-2 border-b border-slate-100">
+                        <span className="text-xs font-black text-brand-navy uppercase tracking-wider">
+                          🛡️ Gutter Guards by City
+                        </span>
+                      </div>
+                      <div className="space-y-1">
+                        {guardCities.map((item) => (
+                          <Link
+                            key={item.slug}
+                            href={item.slug}
+                            onClick={() => setLocationsOpen(false)}
+                            className="block px-2.5 py-1.5 rounded text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-brand-green transition-colors"
+                          >
+                            {item.name} Gutter Guards →
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Gutter Cleaning Column */}
+                    <div>
+                      <div className="flex items-center gap-1.5 pb-2.5 mb-2 border-b border-slate-100">
+                        <span className="text-xs font-black text-brand-green uppercase tracking-wider">
+                          🧹 $149 Cleanout &amp; Audit
+                        </span>
+                      </div>
+                      <div className="space-y-1">
+                        {cleaningCities.map((item) => (
+                          <Link
+                            key={item.slug}
+                            href={item.slug}
+                            onClick={() => setLocationsOpen(false)}
+                            className="block px-2.5 py-1.5 rounded text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-brand-green transition-colors"
+                          >
+                            {item.name} Gutter Cleaning →
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Specialty Footer */}
+                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-slate-500">
+                    <Link href="/pine-needle-gutter-protection" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
+                      🌲 Pine Needle Armor
                     </Link>
-                  ))}
+                    <span>•</span>
+                    <Link href="/oak-tassel-gutter-protection" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
+                      🍂 Oak Tassel Armor
+                    </Link>
+                    <span>•</span>
+                    <Link href="/seamless-gutter-installation-nwa" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
+                      🏠 Seamless Gutters
+                    </Link>
+                  </div>
                 </div>
               )}
             </div>
@@ -146,7 +208,7 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white/98 backdrop-blur-lg border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="lg:hidden bg-white/98 backdrop-blur-lg border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-xl max-h-[85vh] overflow-y-auto animate-in fade-in slide-in-from-top-2 duration-200">
           <div className="space-y-1 text-sm font-bold text-slate-800">
             <Link
               href="/#specs"
@@ -185,7 +247,46 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
             </Link>
           </div>
 
-          <div className="pt-2 border-t border-slate-100 flex flex-col gap-2.5">
+          {/* Mobile Service Areas Accordion / Grouped Links */}
+          <div className="pt-3 border-t border-slate-200 space-y-3">
+            <div>
+              <span className="text-xs font-black text-brand-navy uppercase tracking-wider block px-3 mb-2">
+                🛡️ Gutter Guards by City:
+              </span>
+              <div className="grid grid-cols-2 gap-1.5 px-2">
+                {guardCities.map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={item.slug}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="px-2.5 py-2 rounded-lg bg-slate-50 border border-slate-200 text-xs font-bold text-slate-700 active:bg-emerald-50 active:text-brand-green transition-colors text-center"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <span className="text-xs font-black text-brand-green uppercase tracking-wider block px-3 mb-2">
+                🧹 $149 Cleanout by City:
+              </span>
+              <div className="grid grid-cols-2 gap-1.5 px-2">
+                {cleaningCities.map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={item.slug}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="px-2.5 py-2 rounded-lg bg-emerald-50/60 border border-emerald-200 text-xs font-bold text-brand-green active:bg-emerald-100 transition-colors text-center"
+                  >
+                    {item.name} Clean
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-3 border-t border-slate-100 flex flex-col gap-2.5">
             <a
               href="/quote"
               onClick={() => setMobileMenuOpen(false)}

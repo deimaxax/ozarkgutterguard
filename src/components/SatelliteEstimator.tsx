@@ -168,7 +168,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                     : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border-slate-200'
                 }`}
               >
-                + Other NWA
+                + Other
               </button>
             </div>
 
