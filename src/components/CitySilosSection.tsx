@@ -26,7 +26,7 @@ export default function CitySilosSection() {
             <Link
               key={city.slug}
               href={`/${city.slug}`}
-              className="bg-slate-50 border border-slate-200 p-3.5 rounded-lg hover:border-brand-green hover:bg-emerald-50/30 transition text-center group flex flex-col justify-between"
+              className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl hover:border-brand-green hover:bg-emerald-50/30 active:scale-95 transition text-center group flex flex-col justify-between shadow-2xs"
             >
               <div>
                 <MapPin className="w-4 h-4 text-brand-green mx-auto mb-1.5" />
@@ -47,7 +47,7 @@ export default function CitySilosSection() {
           {/* Specialty Foliage Card: Pine Needle Protection */}
           <Link
             href="/pine-needle-gutter-guards"
-            className="bg-brand-navy text-white p-3.5 rounded-lg hover:bg-brand-navyDark transition text-center group flex flex-col justify-between"
+            className="bg-brand-navy text-white p-3.5 rounded-xl hover:bg-brand-navyDark active:scale-95 transition text-center group flex flex-col justify-between shadow-2xs"
           >
             <div>
               <span className="text-[10px] font-bold text-amber-400 block uppercase">Specialty</span>

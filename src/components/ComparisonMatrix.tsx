@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Check, ShieldCheck } from 'lucide-react';
 
 export default function ComparisonMatrix() {
@@ -67,8 +67,13 @@ export default function ComparisonMatrix() {
           </p>
         </div>
 
-        <div className="border border-slate-200 rounded-lg overflow-x-auto bg-white shadow-xs">
-          <table className="w-full text-left border-collapse text-xs sm:text-sm">
+        {/* Mobile Swipe Hint */}
+        <div className="sm:hidden flex items-center justify-center gap-1.5 text-xs text-slate-500 font-semibold mb-2 bg-slate-100 py-1.5 px-3 rounded-lg border border-slate-200">
+          <span>👈 Swipe horizontally to compare all specs 👉</span>
+        </div>
+
+        <div className="border border-slate-200 rounded-xl overflow-x-auto bg-white shadow-xs" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <table className="w-full min-w-[640px] text-left border-collapse text-xs sm:text-sm">
             <thead>
               <tr className="bg-brand-navy text-white text-xs font-bold uppercase tracking-wider">
                 <th className="py-3.5 px-4 w-1/4">Engineering Metric</th>

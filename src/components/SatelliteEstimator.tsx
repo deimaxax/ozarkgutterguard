@@ -206,20 +206,22 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 id="street-address-field"
                 type="text"
                 required
+                inputMode="text"
+                autoComplete="street-address"
                 value={streetAddress}
                 onChange={(e) => {
                   setStreetAddress(e.target.value);
                   if (errorMsg) setErrorMsg('');
                 }}
                 placeholder="Enter street address (e.g. 1404 SW A St)"
-                className="w-full px-3.5 py-2.5 rounded border border-slate-300 focus:border-brand-green focus:ring-1 focus:ring-brand-green text-sm text-slate-900 bg-white outline-none"
+                className="w-full px-3.5 py-3 rounded-lg border border-slate-300 focus:border-brand-green focus:ring-2 focus:ring-brand-green/20 text-base sm:text-sm text-slate-900 bg-white outline-none"
               />
             </div>
           </div>
 
           {/* Home Type */}
           <div>
-            <label className="block text-xs font-bold text-slate-900 mb-1">
+            <label className="block text-xs font-bold text-slate-900 mb-1.5">
               3. Home Size / Stories:
             </label>
             <div className="grid grid-cols-3 gap-2">
@@ -232,7 +234,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                   key={type.id}
                   type="button"
                   onClick={() => setStories(type.id as any)}
-                  className={`p-2.5 rounded border text-left transition cursor-pointer ${
+                  className={`min-h-[52px] p-2.5 rounded-lg border text-left transition cursor-pointer active:scale-95 ${
                     stories === type.id
                       ? 'border-brand-green bg-emerald-50 text-brand-navy font-bold shadow-xs'
                       : 'border-slate-200 bg-white hover:bg-slate-50 text-slate-700'
@@ -246,14 +248,14 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           </div>
 
           {errorMsg && (
-            <p className="text-xs text-red-600 font-semibold bg-red-50 p-2 rounded border border-red-200">
+            <p className="text-xs text-red-600 font-semibold bg-red-50 p-2.5 rounded-lg border border-red-200">
               {errorMsg}
             </p>
           )}
 
           <button
             type="submit"
-            className="w-full btn-contractor-green py-3 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer shadow-sm"
+            className="w-full btn-contractor-green min-h-[48px] py-3 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer shadow-sm active:scale-[0.98] transition-transform"
           >
             <span>See Instant Price &amp; Footage</span>
             <ArrowRight className="w-4 h-4" />
@@ -272,7 +274,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
         <form onSubmit={handleFinalSubmit} className="p-5 sm:p-6 space-y-4">
           
           {/* Price Card */}
-          <div className="p-4 rounded bg-slate-50 border border-slate-200 space-y-2">
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
             <div className="flex justify-between text-xs text-slate-600 border-b border-slate-200 pb-2 font-medium">
               <span className="truncate max-w-[200px] font-bold text-slate-900">{fullDisplayAddress}</span>
               <span className="font-bold text-slate-800">{priceDetails.footage}</span>
@@ -310,10 +312,12 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 id="contact-name-field"
                 type="text"
                 required
+                inputMode="text"
+                autoComplete="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Full Name"
-                className="w-full px-3 py-2 rounded border border-slate-300 text-sm text-slate-900 outline-none focus:border-brand-green"
+                className="w-full px-3.5 py-3 rounded-lg border border-slate-300 text-base sm:text-sm text-slate-900 outline-none focus:border-brand-green focus:ring-2 focus:ring-brand-green/20"
               />
             </div>
 
@@ -325,16 +329,18 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 id="contact-phone-field"
                 type="tel"
                 required
+                inputMode="tel"
+                autoComplete="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="(479) 929-2516"
-                className="w-full px-3 py-2 rounded border border-slate-300 text-sm text-slate-900 outline-none focus:border-brand-green"
+                className="w-full px-3.5 py-3 rounded-lg border border-slate-300 text-base sm:text-sm text-slate-900 outline-none focus:border-brand-green focus:ring-2 focus:ring-brand-green/20"
               />
             </div>
           </div>
 
           {errorMsg && (
-            <p className="text-xs text-red-600 font-semibold bg-red-50 p-2 rounded border border-red-200">
+            <p className="text-xs text-red-600 font-semibold bg-red-50 p-2.5 rounded-lg border border-red-200">
               {errorMsg}
             </p>
           )}
@@ -343,14 +349,14 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             <button
               type="button"
               onClick={() => setStep(1)}
-              className="py-2.5 px-4 rounded border border-slate-300 text-xs font-bold text-slate-700 hover:bg-slate-50 cursor-pointer"
+              className="py-3 px-4 rounded-lg border border-slate-300 text-xs font-bold text-slate-700 hover:bg-slate-50 cursor-pointer min-h-[48px] active:scale-95 transition-transform"
             >
               Back
             </button>
             <button
               type="submit"
               disabled={isSubmitting}
-              className="flex-1 btn-contractor-green py-2.5 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer shadow-sm"
+              className="flex-1 btn-contractor-green min-h-[48px] py-3 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer shadow-sm active:scale-[0.98] transition-transform"
             >
               {isSubmitting ? 'Sending Quote...' : 'Send Me My Written Estimate'}
             </button>

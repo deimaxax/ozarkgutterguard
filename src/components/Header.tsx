@@ -146,56 +146,56 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+        <div className="lg:hidden bg-white/98 backdrop-blur-lg border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-xl animate-in fade-in slide-in-from-top-2 duration-200">
           <div className="space-y-1 text-sm font-bold text-slate-800">
             <Link
               href="/#specs"
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-slate-50"
+              className="min-h-[44px] flex items-center px-3 py-2.5 rounded-lg active:bg-slate-100 transition-colors"
             >
               Gutter Guards
             </Link>
             <Link
               href="/gutter-cleaning"
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded bg-emerald-50 text-brand-green font-bold border border-emerald-200"
+              className="min-h-[44px] flex items-center px-3 py-2.5 rounded-lg bg-emerald-50 text-brand-green font-bold border border-emerald-200 active:bg-emerald-100 transition-colors"
             >
               🧹 $149 Diagnostic Cleanout &amp; 21-Point Audit
             </Link>
             <Link
               href="/#process"
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-slate-50"
+              className="min-h-[44px] flex items-center px-3 py-2.5 rounded-lg active:bg-slate-100 transition-colors"
             >
               How It Works
             </Link>
             <Link
               href="/#evidence"
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-slate-50"
+              className="min-h-[44px] flex items-center px-3 py-2.5 rounded-lg active:bg-slate-100 transition-colors"
             >
               Before &amp; After
             </Link>
             <Link
               href="/#reviews"
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded hover:bg-slate-50"
+              className="min-h-[44px] flex items-center px-3 py-2.5 rounded-lg active:bg-slate-100 transition-colors"
             >
               Reviews
             </Link>
           </div>
 
-          <div className="pt-2 border-t border-slate-100 flex flex-col gap-2">
+          <div className="pt-2 border-t border-slate-100 flex flex-col gap-2.5">
             <a
               href="/quote"
               onClick={() => setMobileMenuOpen(false)}
-              className="btn-contractor-green py-3 text-center text-sm font-bold"
+              className="btn-contractor-green min-h-[48px] py-3 text-center text-sm font-bold flex items-center justify-center active:scale-[0.98] transition-transform"
             >
               Get Free Quote
             </a>
             <a
               href={phoneHref}
-              className="btn-contractor-navy py-3 text-center text-sm font-bold flex items-center justify-center gap-2"
+              className="btn-contractor-navy min-h-[48px] py-3 text-center text-sm font-bold flex items-center justify-center gap-2 active:scale-[0.98] transition-transform"
             >
               <Phone className="w-4 h-4 text-emerald-400" />
               <span>Call Shop: {phoneDisplay}</span>

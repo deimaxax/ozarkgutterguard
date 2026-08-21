@@ -8,6 +8,8 @@
   html {
     scroll-behavior: smooth;
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    touch-action: manipulation;
   }
   
   body {
@@ -15,6 +17,14 @@
     color: #1E293B;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Prevent iOS Safari auto-zoom on input focus (requires >= 16px font size on inputs) */
+  @media screen and (max-width: 767px) {
+    input, select, textarea {
+      font-size: 16px !important;
+    }
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -22,6 +32,15 @@
     color: #0F172A;
     letter-spacing: -0.02em;
   }
+}
+
+/* iOS Safe Area Padding Utilities */
+.safe-area-pb {
+  padding-bottom: max(10px, env(safe-area-inset-bottom, 12px));
+}
+
+.safe-area-pt {
+  padding-top: max(10px, env(safe-area-inset-top, 12px));
 }
 
 /* Contractor Button Styles (Leafguard & GutterTex Style) */
@@ -38,6 +57,10 @@
   box-shadow: 0 4px 12px rgba(30, 126, 52, 0.25);
 }
 
+.btn-contractor-green:active {
+  transform: scale(0.98);
+}
+
 .btn-contractor-navy {
   background-color: #1B2A4A;
   color: #FFFFFF;
@@ -48,6 +71,10 @@
 
 .btn-contractor-navy:hover {
   background-color: #0F1A2E;
+}
+
+.btn-contractor-navy:active {
+  transform: scale(0.98);
 }
 
 .btn-contractor-outline {
@@ -62,6 +89,10 @@
 .btn-contractor-outline:hover {
   background-color: #1B2A4A;
   color: #FFFFFF;
+}
+
+.btn-contractor-outline:active {
+  transform: scale(0.98);
 }
 
 /* Card Styling */

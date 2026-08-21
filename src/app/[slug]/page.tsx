@@ -952,10 +952,10 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       )}
 
       {/* FOOTER */}
-      <footer className="bg-slate-950 text-slate-400 py-10 px-4 text-center text-xs border-t border-slate-800">
+      <footer className="bg-slate-950 text-slate-400 pt-10 pb-24 sm:pb-10 px-4 text-center text-xs border-t border-slate-800">
         <div className="max-w-4xl mx-auto space-y-3">
           <p className="font-bold text-slate-200 text-sm">Ozark Gutter Guard Co. — Northwest Arkansas Direct Gutter Armor</p>
-          <p>© {new Date().getFullYear()} Ozark Gutter Guard Co. All Rights Reserved. Fully Licensed & Insured.</p>
+          <p>© {new Date().getFullYear()} Ozark Gutter Guard Co. All Rights Reserved. Fully Licensed &amp; Insured.</p>
           <p className="text-slate-500">
             Serving Bentonville (72712, 72713, 72716), Bella Vista (72714, 72715), Rogers (72756, 72757, 72758), Fayetteville (72701, 72702, 72703, 72704), and Springdale (72762, 72764, 72765, 72766), Arkansas.
           </p>
@@ -963,17 +963,17 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       </footer>
 
       {/* MOBILE STICKY BOTTOM BAR */}
-      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 flex gap-2 shadow-2xl">
+      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 px-3 pt-2.5 shadow-2xl safe-area-pb flex gap-2">
         <a
           href={phoneHref}
-          className="flex-1 py-3 px-3 rounded-lg bg-slate-950 text-white text-center font-bold text-xs flex items-center justify-center gap-1.5 shadow-md"
+          className="flex-1 min-h-[48px] py-3 px-3 rounded-lg bg-slate-950 text-white text-center font-bold text-xs flex items-center justify-center gap-1.5 shadow-md active:scale-95 transition"
         >
           <Phone className="w-3.5 h-3.5 text-orange-400" />
           <span>CALL {phoneDisplay}</span>
         </a>
         <a
           href="#estimate-form"
-          className="flex-1 py-3 px-3 rounded-lg bg-orange-600 text-white text-center font-black text-xs flex items-center justify-center shadow-md active:scale-95 transition"
+          className="flex-1 min-h-[48px] py-3 px-3 rounded-lg bg-orange-600 text-white text-center font-black text-xs flex items-center justify-center shadow-md active:scale-95 transition"
         >
           90-SEC QUOTE
         </a>

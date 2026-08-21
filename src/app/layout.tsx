@@ -6,7 +6,13 @@ import SchemaJsonLd from '@/components/SchemaJsonLd';
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#1B2A4A',
+  maximumScale: 5,
+  userScalable: true,
+  viewportFit: 'cover',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#FFFFFF' },
+    { media: '(prefers-color-scheme: dark)', color: '#1B2A4A' },
+  ],
 };
 
 export const metadata: Metadata = {
@@ -130,7 +136,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <meta name="ICBM" content="36.3729, -94.2088" />
         <SchemaJsonLd type="business" />
       </head>
-      <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-white font-sans selection:bg-emerald-100 selection:text-emerald-900">
+      <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-white font-sans selection:bg-emerald-100 selection:text-emerald-900 overflow-x-clip">
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
