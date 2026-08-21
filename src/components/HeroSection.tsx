@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { ShieldCheck, CheckCircle2, Phone, Star, Award, Check } from 'lucide-react';
+import { ShieldCheck, Check, MapPin, Truck } from 'lucide-react';
 import SatelliteEstimator from './SatelliteEstimator';
 
 interface HeroSectionProps {
@@ -12,16 +12,13 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({ cityName, customH1, customSub }: HeroSectionProps) {
-  const phoneHref = "tel:+14799292516";
-  const phoneDisplay = "(479) 929-2516";
-
   return (
-    <section className="bg-gradient-to-b from-slate-50 via-white to-slate-50 border-b border-slate-200 py-10 sm:py-14">
+    <section className="bg-gradient-to-b from-slate-50 via-white to-slate-50 border-b border-slate-200 py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
           
-          {/* Left Column: Value Proposition */}
+          {/* Left Column: Value Proposition & Real Local Fleet Visual */}
           <div className="lg:col-span-7 space-y-5">
             
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-emerald-50 border border-emerald-200 text-brand-green text-xs font-bold">
@@ -36,6 +33,31 @@ export default function HeroSection({ cityName, customH1, customSub }: HeroSecti
             <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
               {customSub || 'Direct contractor installation of 316 surgical stainless steel micro-mesh across Bentonville, Bella Vista, Rogers, Fayetteville, and Springdale. Zero high-pressure salesmen, 100% shingle-safe, and backed by our 10-Year No-Clog Guarantee.'}
             </p>
+
+            {/* Real NWA Fleet Hero Showcase Image */}
+            <div className="relative rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md group">
+              <div className="relative h-56 sm:h-72 w-full">
+                <Image
+                  src="/images/contractor_truck.jpg"
+                  alt="Ozark Gutter Guard Co. installation truck parked in Bentonville, Arkansas home driveway"
+                  fill
+                  priority
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 700px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"></div>
+              </div>
+              <div className="absolute bottom-3 left-3 right-3 flex flex-wrap items-center justify-between gap-2 text-white text-xs">
+                <div className="flex items-center gap-2 bg-slate-950/85 backdrop-blur-xs px-3 py-1.5 rounded-lg border border-slate-700/80 font-bold">
+                  <Truck className="w-4 h-4 text-emerald-400 shrink-0" />
+                  <span>Bentonville Installation Fleet &amp; Crew</span>
+                </div>
+                <div className="flex items-center gap-1.5 bg-emerald-950/90 backdrop-blur-xs px-3 py-1.5 rounded-lg border border-emerald-500/50 text-emerald-300 font-bold font-mono">
+                  <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                  <span>Bentonville, AR · (479) 343-8585</span>
+                </div>
+              </div>
+            </div>
 
             {/* Direct Checklist */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1 text-xs sm:text-sm text-slate-800 font-bold">
@@ -68,7 +90,7 @@ export default function HeroSection({ cityName, customH1, customSub }: HeroSecti
             {/* Trust Badges Bar */}
             <div className="pt-3 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs">
               <div className="p-2.5 rounded bg-white border border-slate-200">
-                <span className="block font-black text-brand-navy text-sm">440-Micron</span>
+                <span className="block font-black text-brand-navy text-sm">50-Micron</span>
                 <span className="text-[10px] text-slate-500 font-semibold">Surgical Mesh</span>
               </div>
               <div className="p-2.5 rounded bg-white border border-slate-200">
@@ -102,7 +124,7 @@ export default function HeroSection({ cityName, customH1, customSub }: HeroSecti
           </div>
 
           {/* Right Column: Clean Instant Estimate Form */}
-          <div id="estimate-section" className="lg:col-span-5">
+          <div id="estimate-section" className="lg:col-span-5 lg:sticky lg:top-24">
             <SatelliteEstimator initialCity={cityName} />
           </div>
 
