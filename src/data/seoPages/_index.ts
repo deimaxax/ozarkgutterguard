@@ -1,23 +1,13 @@
-// Norint prideti naują SEO puslapį:
-// - Miesto gutter guards puslapis → core-pages.ts
-// - Naujų miestų gutter cleaning/repair/installation → service-city.ts arba traffic-horse.ts
-// - Naujų rajonų puslapis (Pinnacle Hills tipo) → neighborhoods.ts
-// - HOA / sezoniniai / brand-vs → deep-authority.ts
-// - Comparison/cost/problem su giliu turiniu → paversk į guides/_index.ts
+// Kiekvienas ranka kurtas SEO puslapis turi savo atskirą .ts failą:
+// - Visi puslapiai randasi `src/data/seoPages/pages/<slug>.ts`
+// - Norėdamas pridėti naują puslapį, sukurk naują .ts failą `pages/` folderyje ir pridėk jo importą į `pages/_index.ts`
+// - Jei nori paversti puslapį į pilną straipsnį, sukurk jį `src/data/guides/` folderyje
 
 import { NWA_ZIP_CODES } from '../zipCodes';
 import type { SeoPageData } from './_types';
-import { CORE_PAGES } from './core-pages';
-import { SERVICE_CITY_PAGES } from './service-city';
-import { TRAFFIC_HORSE_PAGES } from './traffic-horse';
-import { NEIGHBORHOOD_PAGES } from './neighborhoods';
-import { MISSING_PAGES } from './missing-pages';
-import { DEEP_AUTHORITY_PAGES } from './deep-authority';
+import { INDIVIDUAL_PAGES } from './pages/_index';
 import { EXTENDED_QUERIES } from './extended-queries';
-import { HIGH_INTENT_KEYWORD_PAGES } from './high-intent-keywords';
-import { ROOFING_LEAD_GEN_PAGES } from './roofing-lead-gen';
 import { SEARCH_MATRIX_PAGES } from './search-matrix';
-import { CLEANING_HYPER_TARGETING_PAGES } from './cleaning-hyper-targeting';
 
 export type { SeoPageData };
 
@@ -53,17 +43,9 @@ const ZIP_CODE_PAGES: SeoPageData[] = NWA_ZIP_CODES.map((z) => ({
 }));
 
 export const SEO_PAGES_DATA: SeoPageData[] = [
-  ...CLEANING_HYPER_TARGETING_PAGES.map(p => ({ ...p, noindex: false })),
+  ...INDIVIDUAL_PAGES.map(p => ({ ...p, noindex: false })),
   ...SEARCH_MATRIX_PAGES.map(p => ({ ...p, noindex: false })),
-  ...ROOFING_LEAD_GEN_PAGES.map(p => ({ ...p, noindex: false })),
-  ...HIGH_INTENT_KEYWORD_PAGES.map(p => ({ ...p, noindex: false })),
-  ...MISSING_PAGES.map(p => ({ ...p, noindex: false })),
-  ...DEEP_AUTHORITY_PAGES.map(p => ({ ...p, noindex: false })),
-  ...TRAFFIC_HORSE_PAGES.map(p => ({ ...p, noindex: false })),
-  ...NEIGHBORHOOD_PAGES.map(p => ({ ...p, noindex: false })),
   ...ZIP_CODE_PAGES,
-  ...SERVICE_CITY_PAGES.map(p => ({ ...p, noindex: false })),
-  ...CORE_PAGES.map(p => ({ ...p, noindex: false })),
   ...EXTENDED_QUERIES
     .filter(q => !GUIDE_SLUGS_PROMOTED.has(q.slug))
     .map(q => ({
