@@ -286,23 +286,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
           </div>
         </section>
 
-        {/* Google Maps embed — direct geographic relevance signal for local Map Pack ranking */}
-        <section className="py-8 bg-white border-t border-slate-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="rounded-xl overflow-hidden border border-slate-200 shadow-xs" style={{ height: '300px' }}>
-              <iframe
-                title={`Ozark Gutter Guard Co. service area map — ${city.cityName}, AR`}
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                loading="lazy"
-                allowFullScreen
-                referrerPolicy="no-referrer-when-downgrade"
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU3Kro&q=Ozark+Gutter+Guard+Co.,+Bentonville,+AR&center=${city.geo.latitude},${city.geo.longitude}&zoom=12`}
-              />
-            </div>
-          </div>
-        </section>
+
 
         {/* FIELD INSTALLATION LOGS — E-E-A-T proof of physical presence in {city.cityName} */}
         {installationLogs.length > 0 && (
