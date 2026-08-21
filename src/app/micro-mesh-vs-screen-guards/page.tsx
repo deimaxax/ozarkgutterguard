@@ -7,9 +7,10 @@ import SatelliteEstimator from '@/components/SatelliteEstimator';
 import { Layers, CheckCircle2, XCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Micro-Mesh vs Screen Gutter Guards | Arkansas Durability Review',
-  description: 'Technical comparison between surgical stainless micro-mesh and standard plastic/perforated screen guards. Why micro-mesh lasts 20+ years in Ozark climates.',
+  title: 'LeafGuard vs LeafFilter vs Micro Mesh | 2026 Comparison | Ozark Gutter Guard Co.',
+  description: 'Technical comparison between LeafGuard curved hoods, LeafFilter plastic micro-mesh, and Ozark Gutter Guard 316 surgical stainless mesh. Save $3,000+ in NWA.',
   keywords: [
+    'leafguard vs leaffilter vs micro mesh',
     'micro mesh vs screen gutter guards',
     'best gutter guard material',
     'perforated aluminum vs stainless mesh',
@@ -35,7 +36,7 @@ export default function MicroMeshVsScreensPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-black text-brand-navy tracking-tight leading-[1.12]">
-                  Micro-Mesh vs. Screen Guards: What Actually Works?
+                  LeafGuard vs LeafFilter vs Micro Mesh Gutter Guards
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">

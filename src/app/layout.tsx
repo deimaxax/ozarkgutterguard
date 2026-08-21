@@ -18,10 +18,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://ozarkgutterguard.com'),
   title: {
-    default: 'Ozark Gutter Guard Co. | #1 Gutter Guards in Northwest Arkansas',
+    default: 'Best Gutter Guards Northwest Arkansas | Micro Mesh Installers Near Me | Ozark Gutter Guard Co.',
     template: '%s | Ozark Gutter Guard Co.'
   },
-  description: 'Skip the $6,000 corporate markup. Medical-grade 316 surgical stainless steel micro-mesh gutter guards installed across Bentonville, Bella Vista, Rogers, Fayetteville & Springdale. 10-Year Transferable No-Clog Guarantee.',
+  description: 'Best gutter guards in Northwest Arkansas. Surgical 316 stainless micro mesh installers near you in Bentonville, Bella Vista, Rogers, Fayetteville & Springdale. Save $3,000+ vs LeafFilter.',
   keywords: [
     'gutter guards northwest arkansas',
     'bentonville gutter guards',

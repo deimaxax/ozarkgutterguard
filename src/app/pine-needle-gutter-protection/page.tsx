@@ -9,9 +9,11 @@ import FaqSection from '@/components/FaqSection';
 import { TreePine, CheckCircle2, AlertOctagon, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Pine Needle Gutter Protection in Northwest Arkansas | Ozark Gutter Guard',
-  description: 'Stop Loblolly pine needles from clogging your gutters. 440-micron surgical stainless steel micro-mesh engineered for Bella Vista & Ozark pine canopies.',
+  title: 'Best Gutter Guards for Pine Needles | 50-Micron Mesh | Ozark Gutter Guard Co.',
+  description: 'Stop Loblolly pine needles from clogging your gutters. 50-micron surgical stainless steel micro-mesh engineered for Bella Vista & Ozark pine canopies.',
   keywords: [
+    'best gutter guards for pine needles',
+    'how to stop pine needles in gutters',
     'pine needle gutter guard',
     'loblolly pine gutter protection',
     'bella vista pine needle screen',
@@ -37,11 +39,11 @@ export default function PineNeedlePage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-black text-brand-navy tracking-tight leading-[1.12]">
-                  Permanent Pine Needle Defense for Northwest Arkansas
+                  Best Gutter Guards for Pine Needles in Arkansas
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
-                  Standard slotted screens and reverse-curve hoods fail completely against pine needles. Our 440-micron medical-grade surgical stainless micro-mesh creates an impenetrable barrier that pine needles cannot penetrate.
+                  Standard slotted screens and reverse-curve hoods fail completely against pine needles. Our 50-micron medical-grade surgical stainless micro-mesh creates an impenetrable barrier that pine needles cannot penetrate.
                 </p>
 
                 <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-semibold pt-1">

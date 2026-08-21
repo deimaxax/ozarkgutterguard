@@ -7,9 +7,11 @@ import SatelliteEstimator from '@/components/SatelliteEstimator';
 import { Hammer, CheckCircle2, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Seamless Gutter Installation Near Me | Northwest Arkansas Custom Gutters',
-  description: 'Custom on-site extruded 6-inch seamless aluminum gutters in Bentonville, Rogers, Fayetteville & Bella Vista. Heavy-gauge .032 aluminum. 10-Yr Warranty.',
+  title: 'Seamless Gutters Northwest Arkansas | Custom 6-Inch | Ozark Gutter Guard Co.',
+  description: 'Seamless gutters in Northwest Arkansas. Custom 6-inch aluminum extruded on-site in Bentonville, Rogers, Fayetteville, Bella Vista & Springdale. 10-Yr Guarantee.',
   keywords: [
+    'seamless gutters northwest arkansas',
+    '6 inch seamless gutter replacement rogers ar',
     'seamless gutter installation near me',
     'seamless gutters bentonville ar',
     'custom aluminum gutters rogers',
@@ -38,7 +40,7 @@ export default function SeamlessGuttersPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-black text-brand-navy tracking-tight leading-[1.12]">
-                  Seamless Aluminum Gutter Installation in NWA
+                  Seamless Gutters Northwest Arkansas — Custom 6-Inch
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">

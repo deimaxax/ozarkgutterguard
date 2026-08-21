@@ -1,6 +1,86 @@
 ﻿import type { SeoPageData } from './_types';
 
 const DEEP_AUTHORITY_PAGES: SeoPageData[] = [
+  // HIGH-INTENT QUOTE BUSTERS & COMPETITOR HIJACKING (LEVEL 2)
+  {
+    slug: 'leaffilter-alternatives-nwa',
+    cluster: 'comparison',
+    metaTitle: 'LeafFilter Alternatives Arkansas | Save $3,000+ | Ozark Gutter Guard Co.',
+    metaDescription: 'Looking for LeafFilter alternatives in Arkansas? Compare 316 marine-grade stainless micro-mesh on extruded aluminum ($8.50–$10.50/ft) vs $35–$45/ft corporate markups.',
+    badge: 'LeafFilter Alternative Specialist',
+    h1: 'LeafFilter Alternatives in Arkansas — 316 Surgical Steel vs Franchise Overhead',
+    subheadline: 'Why NWA homeowners save $3,000 to $5,000 on medical-grade stainless micro-mesh gutter guards by choosing local direct contractor installation over national franchise markups.',
+    painPointTitle: 'LeafFilter Cost Per Foot NWA Comparison & Performance Matrix',
+    painPoints: [
+      { title: 'LeafFilter Cost Per Foot NWA: $35–$45/ft vs $8.50–$10.50/ft', description: 'LeafFilter quotes for standard 180 LF homes in Bentonville, Rogers, and Fayetteville average $5,500–$7,200. Ozark Gutter Guard installs identical 316 stainless specification for $1,350–$1,750.' },
+      { title: 'Frame Metallurgy: Extruded T6 Aluminum vs uPVC Plastic', description: 'LeafFilter glues steel mesh over uPVC plastic frames that can warp under 100°F+ Ozark summer heat. We use rigid extruded T6 aluminum chassis that never warps or sags.' },
+      { title: 'Zero Shingle Contact vs Under-Shingle Warranty Hazards', description: 'Our 50-micron mesh mounts strictly to the gutter lip and fascia board, preserving 100% of your GAF, CertainTeed, or Owens Corning roof warranty.' },
+    ],
+    localContext: {
+      heading: 'LeafFilter Cost Per Foot NWA Comparison Table',
+      content: 'LeafFilter is a proven micro-mesh concept, but their $30–$45/ft pricing in Northwest Arkansas is severely inflated to pay for national television commercials, commissioned in-home sales reps, and franchise corporate royalties. Ozark Gutter Guard Co. installs 316 marine-grade stainless steel micro-mesh on extruded aluminum frames for $8.50–$10.50 per linear foot installed — backed by an identical 10-Year Transferable No-Clog Guarantee and local Benton County accountability. Call (479) 929-2516 for a 15-minute satellite estimate.',
+    },
+  },
+  {
+    slug: 'gutter-guards-cost-arkansas',
+    cluster: 'cost',
+    metaTitle: 'How Much Do Gutter Guards Cost in Arkansas? | Ozark Gutter Guard Co.',
+    metaDescription: 'Discover how much gutter guards cost in Arkansas. Complete linear foot pricing breakdown: $8.50–$10.50/ft direct vs $35–$45/ft franchise. Call (479) 929-2516.',
+    badge: 'Arkansas Gutter Guard Cost Guide',
+    h1: 'How Much Do Gutter Guards Cost in Arkansas? (2026 Price Guide)',
+    subheadline: 'Complete per-linear-foot cost breakdown for gutter guard installation in Bentonville, Rogers, Bella Vista, Fayetteville, and Springdale, AR.',
+    painPointTitle: 'Gutter Guard Cost Per Linear Foot Breakdown in Arkansas',
+    painPoints: [
+      { title: 'Gutter Guard Cost Per Linear Foot: $8.50–$10.50/ft Turnkey', description: 'Direct local contractor rate for 50-micron 316 surgical stainless steel micro-mesh including full cleanout, laser pitch realignment, and 10-year guarantee.' },
+      { title: 'Home Size Cost Matrix (150 LF, 200 LF, 250 LF)', description: 'Single-story ranches (120–150 LF): $1,050–$1,350 total. Two-story homes (180–220 LF): $1,350–$1,750 total. Large multi-level estates (250+ LF): $1,850–$2,350 total.' },
+      { title: 'Hidden Franchise Add-On Surcharges', description: 'National brands charge $500–$1,000 extra for gutter cleanout, slope realignment, and miter sealing. We include all 3 in our base contractor price.' },
+    ],
+    localContext: {
+      heading: 'Gutter Guard Cost Per Linear Foot Table',
+      content: 'Gutter guard cost in Arkansas varies dramatically between direct local contractors ($8.50–$10.50/ft installed) and national franchise chains ($30–$45/ft installed). For a standard 180 linear foot home in Bentonville or Rogers, you will pay $1,450–$1,750 with Ozark Gutter Guard versus $5,500–$7,200 with LeafFilter or LeafGuard. Our satellite quote system measures your exact roof perimeter from GIS aerial maps and texts you a fixed itemized quote in 15 minutes. Call (479) 929-2516.',
+    },
+  },
+
+  // OZARK PAIN POINTS (LEVEL 3)
+  {
+    slug: 'pine-needle-gutter-guards',
+    cluster: 'problem',
+    metaTitle: 'Best Gutter Guards for Pine Needles | 50-Micron Mesh | Ozark Gutter Guard Co.',
+    metaDescription: 'Best gutter guards for pine needles in Bella Vista, Rogers & Ozark forests. 50-micron 316 surgical stainless steel micro-mesh eliminates needle penetration.',
+    badge: 'Pine Needle Filtration Specialist',
+    h1: 'Best Gutter Guards for Pine Needles in Arkansas',
+    subheadline: 'Engineered specifically for Bella Vista and Rogers Loblolly and Shortleaf pine canopies — 50-micron surgical stainless mesh eliminates pine needle clogging forever.',
+    painPointTitle: 'How to Stop Pine Needles in Gutters (Technical 50-Micron Solution)',
+    painPoints: [
+      { title: 'How to Stop Pine Needles in Gutters: Aperture Physics', description: 'Loblolly pine needle tips are 1,000–2,000 microns in diameter. Standard slotted vinyl (5,000 microns) and national mesh (250 microns) act as combs. 50-micron mesh blocks them completely.' },
+      { title: 'Steep Hillside Eave Drop Safety in Bella Vista', description: 'Bella Vista walkout rear eaves reach 25–30 feet on Loch Lomond and Highlands slopes. 50-micron pine armor eliminates dangerous ladder climbing permanently.' },
+      { title: 'Acidic Pine Tannin Corrosion Defense', description: 'Decomposing pine needles release tannic acid (pH 3.5–4.5). Our 316 marine-grade stainless steel and anodized aluminum frame resist pine tannin acid for 20+ years.' },
+    ],
+    localContext: {
+      heading: 'How to Stop Pine Needles in Gutters Permanently',
+      content: 'Bella Vista and Lake Loch Lomond homes sit beneath dense Loblolly and Shortleaf pine canopies that drop sharp oily needles 365 days a year. Standard slotted covers, foam inserts, and reverse-curve hoods fail because needles penetrate vertical openings or catch along curved edges. Our 50-micron 316 surgical stainless steel micro-mesh creates an impenetrable surface where pine needles dry in the sun and blow away in the daily Ozark breeze. Includes full 10-Year Transferable Guarantee. Call (479) 929-2516 for a 15-minute satellite estimate.',
+    },
+  },
+  {
+    slug: 'pine-needle-gutter-protection',
+    cluster: 'problem',
+    metaTitle: 'Pine Needle Gutter Protection | Bella Vista AR Loblolly Armor',
+    metaDescription: 'Permanent pine needle gutter protection in Bella Vista, Rogers & NWA. 50-micron surgical stainless steel micro-mesh. 10-Year No-Clog Guarantee. (479) 929-2516.',
+    badge: 'Bella Vista Pine Protection',
+    h1: 'Pine Needle Gutter Protection in Northwest Arkansas',
+    subheadline: 'Surgical 50-micron stainless steel micro-mesh engineered for Bella Vista, Rogers, and Ozark pine forests.',
+    painPointTitle: 'Why Loblolly Pine Needles Destroy Standard Gutter Covers',
+    painPoints: [
+      { title: 'Vertical Needle Piercing', description: 'Thin pine needles enter standard slotted covers vertically, forming a dense matted bridge that blocks all water intake.' },
+      { title: 'Year-Round Needle Shedding', description: 'Pines shed continuously in spring, summer, fall, and winter — requiring 365-day filtration rather than seasonal cleaning.' },
+      { title: 'Steep lot runoff velocity', description: 'Bella Vista 9/12 to 12/12 steep rooflines accelerate rainwater speed, requiring capillary siphoning to prevent overflow.' },
+    ],
+    localContext: {
+      heading: 'Engineered for Bella Vista, Lake Loch Lomond, Highlands & Rogers Ridge Homes',
+      content: 'Stop paying $250 quarterly for dangerous 25-foot ladder pine needle cleanouts. Ozark Gutter Guard Co. installs medical-grade 316 stainless steel micro-mesh with 50-micron apertures that block 100% of Loblolly pine needles, Shortleaf needles, and cedar debris. Mounted strictly to gutter lip and fascia board — zero shingle contact. Call (479) 929-2516.',
+    },
+  },
+
   // HOA & PROPERTY MANAGER
   {
     slug: 'hoa-gutter-cleaning-nwa',

@@ -7,9 +7,10 @@ import SatelliteEstimator from '@/components/SatelliteEstimator';
 import { TreeDeciduous, CheckCircle2, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Oak Tassel & Spring Catkin Gutter Protection | Ozark Gutter Guard',
+  title: 'Gutter Guards for Oak Tree Tassels | Spring Catkin Armor | Ozark Gutter Guard Co.',
   description: 'Stop spring oak tassels (catkins) from turning your gutters into concrete sludge in Bentonville, Fayetteville & Coler Preserve. 10-Yr Guarantee.',
   keywords: [
+    'gutter guards for oak tree tassels',
     'oak tassels clogging gutters',
     'gutter guards for oak trees arkansas',
     'oak catkin gutter filter',
@@ -35,7 +36,7 @@ export default function OakTasselsPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-black text-brand-navy tracking-tight leading-[1.12]">
-                  Stop Oak Tassels &amp; Catkins from Cementing Your Gutters
+                  Gutter Guards for Oak Tree Tassels &amp; Catkins
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
@@ -45,7 +46,7 @@ export default function OakTasselsPage() {
                 <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-semibold pt-1">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand-green shrink-0" />
-                    <span>440-micron micro-mesh allows 100% of rainwater through while shedding oak tassels</span>
+                    <span>50-micron micro-mesh allows 100% of rainwater through while shedding oak tassels</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand-green shrink-0" />

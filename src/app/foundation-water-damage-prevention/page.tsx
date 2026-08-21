@@ -7,9 +7,10 @@ import SatelliteEstimator from '@/components/SatelliteEstimator';
 import { ShieldAlert, CheckCircle2, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Prevent Foundation Water Damage with Proper Gutter Armor | NWA',
+  title: 'Prevent Foundation Damage Overflowing Gutters | Ozark Gutter Guard Co.',
   description: 'Protect your Northwest Arkansas home foundation from $20,000 erosion and structural shifting caused by overflowing clogged gutters. 10-Yr Guarantee.',
   keywords: [
+    'prevent foundation damage overflowing gutters',
     'how to protect house foundation from rain',
     'gutter overflow foundation damage arkansas',
     'foundation water pooling springdale',
@@ -35,7 +36,7 @@ export default function FoundationProtectionPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-5xl font-black text-brand-navy tracking-tight leading-[1.12]">
-                  How Overflowing Gutters Destroy Northwest Arkansas Foundations
+                  Prevent Foundation Damage from Overflowing Gutters
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
