@@ -4,7 +4,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Specialists",
     "h1": "Gutter Guard in Northwest Arkansas",
@@ -36,7 +36,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Gutters Specialists",
     "h1": "Gutter Guard Gutters in Northwest Arkansas",
@@ -68,7 +68,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-and-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Gutters And Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters And Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters and gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters And Gutter Guards Specialists",
     "h1": "Gutters And Gutter Guards in Northwest Arkansas",
@@ -100,7 +100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-guards",
     "cluster": "service",
-    "metaTitle": "Eavestrough Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Guards Specialists",
     "h1": "Eavestrough Guards in Northwest Arkansas",
@@ -132,7 +132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Eavestrough Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Gutter Guards Specialists",
     "h1": "Eavestrough Gutter Guards in Northwest Arkansas",
@@ -164,7 +164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard",
     "cluster": "service",
-    "metaTitle": "Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Specialists",
     "h1": "Leaf Guard in Northwest Arkansas",
@@ -196,7 +196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Cost Specialists",
     "h1": "Leaf Filter Cost in Northwest Arkansas",
@@ -228,7 +228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutters",
     "cluster": "service",
-    "metaTitle": "Leafguard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutters Specialists",
     "h1": "Leafguard Gutters in Northwest Arkansas",
@@ -260,7 +260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Cost Specialists",
     "h1": "Leaf Guard Cost in Northwest Arkansas",
@@ -292,7 +292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers",
     "cluster": "service",
-    "metaTitle": "Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers Specialists",
     "h1": "Gutter Covers in Northwest Arkansas",
@@ -324,7 +324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutters Specialists",
     "h1": "Leaf Filter Gutters in Northwest Arkansas",
@@ -356,7 +356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guards Specialists",
     "h1": "Best Gutter Guards in Northwest Arkansas",
@@ -388,7 +388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Installation Specialists",
     "h1": "Gutter Guard Installation in Northwest Arkansas",
@@ -420,7 +420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filters",
     "cluster": "service",
-    "metaTitle": "Leaf Filters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filters Specialists",
     "h1": "Leaf Filters in Northwest Arkansas",
@@ -452,7 +452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter",
     "cluster": "service",
-    "metaTitle": "Leaf Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Specialists",
     "h1": "Leaf Gutter in Northwest Arkansas",
@@ -484,7 +484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter-protection",
     "cluster": "problem",
-    "metaTitle": "Leaf Gutter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Protection Specialists",
     "h1": "Leaf Gutter Protection in Northwest Arkansas",
@@ -516,7 +516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protection",
     "cluster": "problem",
-    "metaTitle": "Gutter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protection Specialists",
     "h1": "Gutter Protection in Northwest Arkansas",
@@ -548,7 +548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Cost Specialists",
     "h1": "Gutter Guard Cost in Northwest Arkansas",
@@ -580,7 +580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screens",
     "cluster": "service",
-    "metaTitle": "Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screens Specialists",
     "h1": "Gutter Screens in Northwest Arkansas",
@@ -612,7 +612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Guards Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards Home Depot Specialists",
     "h1": "Gutter Guards Home Depot in Northwest Arkansas",
@@ -644,7 +644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Cost Per Foot Specialists",
     "h1": "Leaf Filter Cost Per Foot in Northwest Arkansas",
@@ -676,7 +676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guards-consumer-reports",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guards Consumer Reports NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guards Consumer Reports NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guards consumer reports in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guards Consumer Reports Specialists",
     "h1": "Best Gutter Guards Consumer Reports in Northwest Arkansas",
@@ -708,7 +708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-installation-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Installation Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Installation Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard installation cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Installation Cost Specialists",
     "h1": "Gutter Guard Installation Cost in Northwest Arkansas",
@@ -738,41 +738,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "copper-gutters",
-    "cluster": "service",
-    "metaTitle": "Copper Gutters NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for copper gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Copper Gutters Specialists",
-    "h1": "Copper Gutters in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for copper gutters in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Copper Gutters in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for copper gutters throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Copper Gutters Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for copper gutters in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-company",
     "cluster": "service",
-    "metaTitle": "Gutter Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Company Specialists",
     "h1": "Gutter Company in Northwest Arkansas",
@@ -804,7 +772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Covers Specialists",
     "h1": "Rain Gutter Covers in Northwest Arkansas",
@@ -836,7 +804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutters-cost",
     "cluster": "cost",
-    "metaTitle": "Leafguard Gutters Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutters Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutters cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutters Cost Specialists",
     "h1": "Leafguard Gutters Cost in Northwest Arkansas",
@@ -868,7 +836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-companies",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Companies Specialists",
     "h1": "Gutter Guard Companies in Northwest Arkansas",
@@ -900,7 +868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-company",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Company Specialists",
     "h1": "Leaf Filter Company in Northwest Arkansas",
@@ -932,7 +900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-installation",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Installation Specialists",
     "h1": "Leaf Guard Installation in Northwest Arkansas",
@@ -964,7 +932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutter Guards Specialists",
     "h1": "Leaf Filter Gutter Guards in Northwest Arkansas",
@@ -996,7 +964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-rain-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Rain Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Rain Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard rain gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Rain Gutters Specialists",
     "h1": "Leaf Guard Rain Gutters in Northwest Arkansas",
@@ -1028,7 +996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-shield",
     "cluster": "service",
-    "metaTitle": "Gutter Shield NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Shield NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter shield in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Shield Specialists",
     "h1": "Gutter Shield in Northwest Arkansas",
@@ -1060,7 +1028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Gutter Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Cost Specialists",
     "h1": "Leaf Gutter Cost in Northwest Arkansas",
@@ -1092,7 +1060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-guard-for-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Guard For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Guard For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf guard for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Guard For Gutters Specialists",
     "h1": "Best Leaf Guard For Gutters in Northwest Arkansas",
@@ -1124,7 +1092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "englert-leafguard",
     "cluster": "service",
-    "metaTitle": "Englert Leafguard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Englert Leafguard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for englert leafguard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Englert Leafguard Specialists",
     "h1": "Englert Leafguard in Northwest Arkansas",
@@ -1156,7 +1124,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guard-system",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guard System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guard System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guard system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guard System Specialists",
     "h1": "Best Gutter Guard System in Northwest Arkansas",
@@ -1188,7 +1156,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-filters",
     "cluster": "service",
-    "metaTitle": "Gutter Filters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Filters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter filters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Filters Specialists",
     "h1": "Gutter Filters in Northwest Arkansas",
@@ -1220,7 +1188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "kguard-gutters",
     "cluster": "service",
-    "metaTitle": "Kguard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Kguard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for kguard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Kguard Gutters Specialists",
     "h1": "Kguard Gutters in Northwest Arkansas",
@@ -1252,7 +1220,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "costco-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Costco Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Costco Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for costco gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Costco Gutter Guards Specialists",
     "h1": "Costco Gutter Guards in Northwest Arkansas",
@@ -1284,7 +1252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guards-for-pine-needles",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guards For Pine Needles NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guards For Pine Needles NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guards for pine needles in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guards For Pine Needles Specialists",
     "h1": "Best Gutter Guards For Pine Needles in Northwest Arkansas",
@@ -1316,7 +1284,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "micro-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Micro Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Micro Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for micro mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Micro Mesh Gutter Guards Specialists",
     "h1": "Micro Mesh Gutter Guards in Northwest Arkansas",
@@ -1348,7 +1316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Lowes Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Gutter Guards Specialists",
     "h1": "Lowes Gutter Guards in Northwest Arkansas",
@@ -1380,7 +1348,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Guards Specialists",
     "h1": "Rain Gutter Guards in Northwest Arkansas",
@@ -1412,7 +1380,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutter-protection-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Gutter Protection Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutter Protection Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutter protection cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutter Protection Cost Specialists",
     "h1": "Leaf Filter Gutter Protection Cost in Northwest Arkansas",
@@ -1444,7 +1412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutters-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Leafguard Gutters Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutters Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutters cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutters Cost Per Foot Specialists",
     "h1": "Leafguard Gutters Cost Per Foot in Northwest Arkansas",
@@ -1476,7 +1444,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Amerimax Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Gutter Guard Specialists",
     "h1": "Amerimax Gutter Guard in Northwest Arkansas",
@@ -1508,7 +1476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raptor-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Raptor Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raptor Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raptor gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raptor Gutter Guard Specialists",
     "h1": "Raptor Gutter Guard in Northwest Arkansas",
@@ -1540,7 +1508,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Covers Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers Cost Specialists",
     "h1": "Gutter Covers Cost in Northwest Arkansas",
@@ -1572,7 +1540,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-relief-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Leaf Relief Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Relief Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf relief gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Relief Gutter Guard Specialists",
     "h1": "Leaf Relief Gutter Guard in Northwest Arkansas",
@@ -1604,7 +1572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cover-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Cover Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cover Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cover installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cover Installation Specialists",
     "h1": "Gutter Cover Installation in Northwest Arkansas",
@@ -1636,7 +1604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-cost-per-foot-installed",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Cost Per Foot Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Cost Per Foot Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard cost per foot installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Cost Per Foot Installed Specialists",
     "h1": "Leaf Guard Cost Per Foot Installed in Northwest Arkansas",
@@ -1668,7 +1636,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protection-systems",
     "cluster": "problem",
-    "metaTitle": "Gutter Protection Systems NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protection Systems NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protection systems in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protection Systems Specialists",
     "h1": "Gutter Protection Systems in Northwest Arkansas",
@@ -1700,7 +1668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-covers",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Covers Specialists",
     "h1": "Best Gutter Covers in Northwest Arkansas",
@@ -1732,7 +1700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protection-companies",
     "cluster": "problem",
-    "metaTitle": "Gutter Protection Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protection Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protection companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protection Companies Specialists",
     "h1": "Gutter Protection Companies in Northwest Arkansas",
@@ -1764,7 +1732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-lowes",
     "cluster": "service",
-    "metaTitle": "Gutter Guards Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards Lowes Specialists",
     "h1": "Gutter Guards Lowes in Northwest Arkansas",
@@ -1796,7 +1764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Cost Per Foot Specialists",
     "h1": "Leaf Guard Cost Per Foot in Northwest Arkansas",
@@ -1828,7 +1796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-leaf-filter",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leaf Filter Specialists",
     "h1": "Average Cost Of Leaf Filter in Northwest Arkansas",
@@ -1860,7 +1828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-system",
     "cluster": "service",
-    "metaTitle": "Leaf Filter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter System Specialists",
     "h1": "Leaf Filter System in Northwest Arkansas",
@@ -1892,7 +1860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutter-protection",
     "cluster": "problem",
-    "metaTitle": "Leafguard Gutter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutter Protection Specialists",
     "h1": "Leafguard Gutter Protection in Northwest Arkansas",
@@ -1924,7 +1892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Mesh Gutter Guards Specialists",
     "h1": "Mesh Gutter Guards in Northwest Arkansas",
@@ -1956,7 +1924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-pine-needles",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For Pine Needles NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For Pine Needles NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for pine needles in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For Pine Needles Specialists",
     "h1": "Gutter Guards For Pine Needles in Northwest Arkansas",
@@ -1988,7 +1956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-protection",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Protection Specialists",
     "h1": "Best Gutter Protection in Northwest Arkansas",
@@ -2020,7 +1988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-mesh",
     "cluster": "service",
-    "metaTitle": "Gutter Mesh NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Mesh NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter mesh in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Mesh Specialists",
     "h1": "Gutter Mesh in Northwest Arkansas",
@@ -2052,7 +2020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-service",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Service NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Service NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter service in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Service Specialists",
     "h1": "Leaf Filter Service in Northwest Arkansas",
@@ -2084,7 +2052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-price",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Price Specialists",
     "h1": "Leaf Filter Price in Northwest Arkansas",
@@ -2116,7 +2084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "shurflo-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Shurflo Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Shurflo Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for shurflo gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Shurflo Gutter Guards Specialists",
     "h1": "Shurflo Gutter Guards in Northwest Arkansas",
@@ -2146,41 +2114,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "gutter-cleaning-and-guard-installation",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Guard Installation NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning and guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning And Guard Installation Specialists",
-    "h1": "Gutter Cleaning And Guard Installation in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning and guard installation in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning And Guard Installation in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning and guard installation throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning And Guard Installation Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning and guard installation in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-covers-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Covers Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers Home Depot Specialists",
     "h1": "Gutter Covers Home Depot in Northwest Arkansas",
@@ -2212,7 +2148,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutterglove-pro",
     "cluster": "service",
-    "metaTitle": "Gutterglove Pro NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutterglove Pro NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutterglove pro in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutterglove Pro Specialists",
     "h1": "Gutterglove Pro in Northwest Arkansas",
@@ -2244,7 +2180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bulldog-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Bulldog Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bulldog Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bulldog gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bulldog Gutter Guards Specialists",
     "h1": "Bulldog Gutter Guards in Northwest Arkansas",
@@ -2276,7 +2212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-rated-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Rated Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Rated Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best rated gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Rated Gutter Guards Specialists",
     "h1": "Best Rated Gutter Guards in Northwest Arkansas",
@@ -2308,7 +2244,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-splash-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Splash Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Splash Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter splash guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Splash Guard Specialists",
     "h1": "Gutter Splash Guard in Northwest Arkansas",
@@ -2340,7 +2276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-covers-for-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Covers For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Covers For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf covers for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Covers For Gutters Specialists",
     "h1": "Leaf Covers For Gutters in Northwest Arkansas",
@@ -2372,7 +2308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Gutter Guards Specialists",
     "h1": "Average Cost Of Gutter Guards in Northwest Arkansas",
@@ -2404,7 +2340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-gutter-guards-installed",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Gutter Guards Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Gutter Guards Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of gutter guards installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Gutter Guards Installed Specialists",
     "h1": "Average Cost Of Gutter Guards Installed in Northwest Arkansas",
@@ -2436,7 +2372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-system",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter System Specialists",
     "h1": "Best Gutter System in Northwest Arkansas",
@@ -2468,7 +2404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "the-best-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "The Best Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "The Best Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for the best gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "The Best Gutter Guards Specialists",
     "h1": "The Best Gutter Guards in Northwest Arkansas",
@@ -2500,7 +2436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-leaf-filter-per-foot",
     "cluster": "cost",
-    "metaTitle": "Cost Of Leaf Filter Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Leaf Filter Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of leaf filter per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Leaf Filter Per Foot Specialists",
     "h1": "Cost Of Leaf Filter Per Foot in Northwest Arkansas",
@@ -2532,7 +2468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-rx",
     "cluster": "service",
-    "metaTitle": "Gutter Rx NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Rx NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter rx in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Rx Specialists",
     "h1": "Gutter Rx in Northwest Arkansas",
@@ -2564,7 +2500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-cost-per-foot-installed",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Cost Per Foot Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Cost Per Foot Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard cost per foot installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Cost Per Foot Installed Specialists",
     "h1": "Gutter Guard Cost Per Foot Installed in Northwest Arkansas",
@@ -2596,7 +2532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutter-system",
     "cluster": "service",
-    "metaTitle": "Leafguard Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutter System Specialists",
     "h1": "Leafguard Gutter System in Northwest Arkansas",
@@ -2628,7 +2564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutters-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Gutters Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutters Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutters cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutters Cost Specialists",
     "h1": "Leaf Filter Gutters Cost in Northwest Arkansas",
@@ -2660,7 +2596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-and-fascia",
     "cluster": "service",
-    "metaTitle": "Gutters And Fascia NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters And Fascia NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters and fascia in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters And Fascia Specialists",
     "h1": "Gutters And Fascia in Northwest Arkansas",
@@ -2692,7 +2628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafblaster-pro",
     "cluster": "service",
-    "metaTitle": "Leafblaster Pro NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafblaster Pro NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafblaster pro in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafblaster Pro Specialists",
     "h1": "Leafblaster Pro in Northwest Arkansas",
@@ -2724,7 +2660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutter-system",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutter System Specialists",
     "h1": "Leaf Filter Gutter System in Northwest Arkansas",
@@ -2756,7 +2692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-filter-for-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Filter For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Filter For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf filter for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Filter For Gutters Specialists",
     "h1": "Best Leaf Filter For Gutters in Northwest Arkansas",
@@ -2788,7 +2724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "green-leaf-gutters",
     "cluster": "service",
-    "metaTitle": "Green Leaf Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Green Leaf Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for green leaf gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Green Leaf Gutters Specialists",
     "h1": "Green Leaf Gutters in Northwest Arkansas",
@@ -2820,7 +2756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-installation-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Installation Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Installation Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard installation cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Installation Cost Specialists",
     "h1": "Leaf Guard Installation Cost in Northwest Arkansas",
@@ -2852,7 +2788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-system",
     "cluster": "service",
-    "metaTitle": "Leaf Guard System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard System Specialists",
     "h1": "Leaf Guard System in Northwest Arkansas",
@@ -2884,7 +2820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-company",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Company Specialists",
     "h1": "Leaf Guard Company in Northwest Arkansas",
@@ -2916,7 +2852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-leaf-filter-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Cost Of Leaf Filter Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Leaf Filter Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of leaf filter gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Leaf Filter Gutter Guards Specialists",
     "h1": "Cost Of Leaf Filter Gutter Guards in Northwest Arkansas",
@@ -2948,7 +2884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Gutter Covers Specialists",
     "h1": "Leaf Guard Gutter Covers in Northwest Arkansas",
@@ -2980,7 +2916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutters-price",
     "cluster": "cost",
-    "metaTitle": "Leafguard Gutters Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutters Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutters price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutters Price Specialists",
     "h1": "Leafguard Gutters Price in Northwest Arkansas",
@@ -3012,7 +2948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screen-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Screen Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screen Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screen installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screen Installation Specialists",
     "h1": "Gutter Screen Installation in Northwest Arkansas",
@@ -3044,7 +2980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutters-consumer-reports",
     "cluster": "comparison",
-    "metaTitle": "Best Gutters Consumer Reports NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutters Consumer Reports NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutters consumer reports in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutters Consumer Reports Specialists",
     "h1": "Best Gutters Consumer Reports in Northwest Arkansas",
@@ -3076,7 +3012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Roof Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Gutter Guards Specialists",
     "h1": "Roof Gutter Guards in Northwest Arkansas",
@@ -3108,7 +3044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Aluminum Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Gutter Guards Specialists",
     "h1": "Aluminum Gutter Guards in Northwest Arkansas",
@@ -3140,7 +3076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-systems",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Systems NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Systems NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard systems in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Systems Specialists",
     "h1": "Gutter Guard Systems in Northwest Arkansas",
@@ -3172,7 +3108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-home-depot",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Home Depot Specialists",
     "h1": "Leaf Guard Home Depot in Northwest Arkansas",
@@ -3204,7 +3140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-proof-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Proof Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Proof Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf proof gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Proof Gutters Specialists",
     "h1": "Leaf Proof Gutters in Northwest Arkansas",
@@ -3236,7 +3172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "price-of-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Price Of Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Price Of Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for price of gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Price Of Gutter Guards Specialists",
     "h1": "Price Of Gutter Guards in Northwest Arkansas",
@@ -3268,7 +3204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-installation-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Installation Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Installation Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard installation cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Installation Cost Per Foot Specialists",
     "h1": "Gutter Guard Installation Cost Per Foot in Northwest Arkansas",
@@ -3300,7 +3236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "box-gutters",
     "cluster": "service",
-    "metaTitle": "Box Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Box Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for box gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Box Gutters Specialists",
     "h1": "Box Gutters in Northwest Arkansas",
@@ -3332,7 +3268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-lifter-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Lifter Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Lifter Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf lifter gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Lifter Gutter Guards Specialists",
     "h1": "Leaf Lifter Gutter Guards in Northwest Arkansas",
@@ -3364,7 +3300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-gutter-installation",
     "cluster": "service",
-    "metaTitle": "Amerimax Gutter Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Gutter Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax gutter installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Gutter Installation Specialists",
     "h1": "Amerimax Gutter Installation in Northwest Arkansas",
@@ -3396,7 +3332,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "sure-flow-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Sure Flow Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Sure Flow Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for sure flow gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Sure Flow Gutter Guards Specialists",
     "h1": "Sure Flow Gutter Guards in Northwest Arkansas",
@@ -3428,7 +3364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilters",
     "cluster": "service",
-    "metaTitle": "Leaffilters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilters Specialists",
     "h1": "Leaffilters in Northwest Arkansas",
@@ -3460,7 +3396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "am-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Am Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Am Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for am gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Am Gutter Guard Specialists",
     "h1": "Am Gutter Guard in Northwest Arkansas",
@@ -3492,7 +3428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-price-per-foot",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Price Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Price Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter price per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Price Per Foot Specialists",
     "h1": "Leaf Filter Price Per Foot in Northwest Arkansas",
@@ -3524,7 +3460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-cost-per-foot-installed",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Cost Per Foot Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Cost Per Foot Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter cost per foot installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Cost Per Foot Installed Specialists",
     "h1": "Leaf Filter Cost Per Foot Installed in Northwest Arkansas",
@@ -3556,7 +3492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "reverse-curve-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Reverse Curve Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Reverse Curve Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for reverse curve gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Reverse Curve Gutter Guards Specialists",
     "h1": "Reverse Curve Gutter Guards in Northwest Arkansas",
@@ -3588,7 +3524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-nearby",
     "cluster": "service",
-    "metaTitle": "Gutter Guards Nearby NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards Nearby NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards nearby in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards Nearby Specialists",
     "h1": "Gutter Guards Nearby in Northwest Arkansas",
@@ -3620,7 +3556,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-for-homes",
     "cluster": "service",
-    "metaTitle": "Gutters For Homes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters For Homes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters for homes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters For Homes Specialists",
     "h1": "Gutters For Homes in Northwest Arkansas",
@@ -3652,7 +3588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-and-guards",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning And Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning and guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning And Guards Specialists",
     "h1": "Gutter Cleaning And Guards in Northwest Arkansas",
@@ -3684,7 +3620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-screens",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Screens Specialists",
     "h1": "Rain Gutter Screens in Northwest Arkansas",
@@ -3716,7 +3652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguard-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leafguard Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguard Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguard gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguard Gutter Guards Specialists",
     "h1": "Leafguard Gutter Guards in Northwest Arkansas",
@@ -3748,7 +3684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Metal Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Gutter Guard Specialists",
     "h1": "Metal Gutter Guard in Northwest Arkansas",
@@ -3780,7 +3716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "mastershield-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Mastershield Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Mastershield Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for mastershield gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Mastershield Gutter Guard Specialists",
     "h1": "Mastershield Gutter Guard in Northwest Arkansas",
@@ -3812,7 +3748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-glove-pro",
     "cluster": "service",
-    "metaTitle": "Gutter Glove Pro NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Glove Pro NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter glove pro in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Glove Pro Specialists",
     "h1": "Gutter Glove Pro in Northwest Arkansas",
@@ -3844,7 +3780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-steel-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Stainless Steel Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Steel Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless steel gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Steel Gutter Guard Specialists",
     "h1": "Stainless Steel Gutter Guard in Northwest Arkansas",
@@ -3876,7 +3812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafree-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Leafree Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafree Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafree gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafree Gutter Guard Specialists",
     "h1": "Leafree Gutter Guard in Northwest Arkansas",
@@ -3908,7 +3844,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-new-gutters-with-guards",
     "cluster": "cost",
-    "metaTitle": "Cost Of New Gutters With Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of New Gutters With Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of new gutters with guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of New Gutters With Guards Specialists",
     "h1": "Cost Of New Gutters With Guards in Northwest Arkansas",
@@ -3940,7 +3876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-price",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Price Specialists",
     "h1": "Leaf Guard Price in Northwest Arkansas",
@@ -3972,7 +3908,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-helmet-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Helmet Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Helmet Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter helmet cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Helmet Cost Per Foot Specialists",
     "h1": "Gutter Helmet Cost Per Foot in Northwest Arkansas",
@@ -4004,7 +3940,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-brush-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Brush Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Brush Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter brush guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Brush Guard Specialists",
     "h1": "Gutter Brush Guard in Northwest Arkansas",
@@ -4036,7 +3972,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-price-per-foot",
     "cluster": "cost",
-    "metaTitle": "Leaf Guard Price Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Price Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard price per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Price Per Foot Specialists",
     "h1": "Leaf Guard Price Per Foot in Northwest Arkansas",
@@ -4068,7 +4004,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-for-leaf-filter",
     "cluster": "cost",
-    "metaTitle": "Average Cost For Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost For Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost for leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost For Leaf Filter Specialists",
     "h1": "Average Cost For Leaf Filter in Northwest Arkansas",
@@ -4100,7 +4036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "solid-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Solid Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Solid Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for solid gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Solid Gutter Covers Specialists",
     "h1": "Solid Gutter Covers in Northwest Arkansas",
@@ -4132,7 +4068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-screens-for-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Screens For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Screens For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf screens for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Screens For Gutters Specialists",
     "h1": "Leaf Screens For Gutters in Northwest Arkansas",
@@ -4164,7 +4100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers-lowes",
     "cluster": "service",
-    "metaTitle": "Gutter Covers Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers Lowes Specialists",
     "h1": "Gutter Covers Lowes in Northwest Arkansas",
@@ -4196,7 +4132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-filter-systems",
     "cluster": "service",
-    "metaTitle": "Gutter Filter Systems NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Filter Systems NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter filter systems in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Filter Systems Specialists",
     "h1": "Gutter Filter Systems in Northwest Arkansas",
@@ -4228,7 +4164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "6-inch-gutter-guards",
     "cluster": "service",
-    "metaTitle": "6 Inch Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "6 Inch Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 6 inch gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "6 Inch Gutter Guards Specialists",
     "h1": "6 Inch Gutter Guards in Northwest Arkansas",
@@ -4260,7 +4196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-and-gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning And Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning and gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning And Gutter Guard Installation Specialists",
     "h1": "Gutter Cleaning And Gutter Guard Installation in Northwest Arkansas",
@@ -4292,7 +4228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-for-house",
     "cluster": "service",
-    "metaTitle": "Gutter For House NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter For House NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter for house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter For House Specialists",
     "h1": "Gutter For House in Northwest Arkansas",
@@ -4322,41 +4258,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "6-inch-gutters",
-    "cluster": "service",
-    "metaTitle": "6 Inch Gutters NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for 6 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "6 Inch Gutters Specialists",
-    "h1": "6 Inch Gutters in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for 6 inch gutters in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for 6 Inch Gutters in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for 6 inch gutters throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "6 Inch Gutters Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for 6 inch gutters in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "leaf-filter-north",
     "cluster": "service",
-    "metaTitle": "Leaf Filter North NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter North NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter north in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter North Specialists",
     "h1": "Leaf Filter North in Northwest Arkansas",
@@ -4388,7 +4292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screens-lowes",
     "cluster": "service",
-    "metaTitle": "Gutter Screens Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screens Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screens lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screens Lowes Specialists",
     "h1": "Gutter Screens Lowes in Northwest Arkansas",
@@ -4420,7 +4324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "englert-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Englert Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Englert Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for englert leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Englert Leaf Guard Specialists",
     "h1": "Englert Leaf Guard in Northwest Arkansas",
@@ -4452,7 +4356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-by-gutterglove",
     "cluster": "service",
-    "metaTitle": "Gutter Guard By Gutterglove NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard By Gutterglove NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard by gutterglove in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard By Gutterglove Specialists",
     "h1": "Gutter Guard By Gutterglove in Northwest Arkansas",
@@ -4484,7 +4388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-lowes",
     "cluster": "service",
-    "metaTitle": "Gutters Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Lowes Specialists",
     "h1": "Gutters Lowes in Northwest Arkansas",
@@ -4516,7 +4420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screens-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Screens Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screens Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screens cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screens Cost Specialists",
     "h1": "Gutter Screens Cost in Northwest Arkansas",
@@ -4548,7 +4452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-leaf-guard-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Leaf Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Leaf Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter leaf guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Leaf Guard Installation Specialists",
     "h1": "Gutter Leaf Guard Installation in Northwest Arkansas",
@@ -4580,7 +4484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Specialists",
     "h1": "Best Gutter in Northwest Arkansas",
@@ -4612,7 +4516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-metal-roof",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For Metal Roof NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For Metal Roof NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for metal roof in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For Metal Roof Specialists",
     "h1": "Gutter Guards For Metal Roof in Northwest Arkansas",
@@ -4644,7 +4548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-for-leaf-guard-gutters",
     "cluster": "cost",
-    "metaTitle": "Average Cost For Leaf Guard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost For Leaf Guard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost for leaf guard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost For Leaf Guard Gutters Specialists",
     "h1": "Average Cost For Leaf Guard Gutters in Northwest Arkansas",
@@ -4676,7 +4580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-installation-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Installation Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Installation Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter installation cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Installation Cost Specialists",
     "h1": "Leaf Filter Installation Cost in Northwest Arkansas",
@@ -4708,7 +4612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "consumer-reports-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Consumer Reports Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Consumer Reports Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for consumer reports gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Consumer Reports Gutter Guards Specialists",
     "h1": "Consumer Reports Gutter Guards in Northwest Arkansas",
@@ -4740,7 +4644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-replaced",
     "cluster": "service",
-    "metaTitle": "Gutters Replaced NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Replaced NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters replaced in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Replaced Specialists",
     "h1": "Gutters Replaced in Northwest Arkansas",
@@ -4772,7 +4676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "4-inch-gutter-guards",
     "cluster": "service",
-    "metaTitle": "4 Inch Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "4 Inch Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 4 inch gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "4 Inch Gutter Guards Specialists",
     "h1": "4 Inch Gutter Guards in Northwest Arkansas",
@@ -4804,7 +4708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "helmet-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Helmet Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Helmet Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for helmet gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Helmet Gutter Guards Specialists",
     "h1": "Helmet Gutter Guards in Northwest Arkansas",
@@ -4836,7 +4740,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Cleaning Specialists",
     "h1": "Gutter Guard Cleaning in Northwest Arkansas",
@@ -4868,7 +4772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amazon-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Amazon Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amazon Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amazon gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amazon Gutter Guards Specialists",
     "h1": "Amazon Gutter Guards in Northwest Arkansas",
@@ -4900,7 +4804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "down-spout-guard",
     "cluster": "service",
-    "metaTitle": "Down Spout Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Down Spout Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for down spout guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Down Spout Guard Specialists",
     "h1": "Down Spout Guard in Northwest Arkansas",
@@ -4932,7 +4836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-leaf-guard",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leaf Guard Specialists",
     "h1": "Average Cost Of Leaf Guard in Northwest Arkansas",
@@ -4964,7 +4868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raptor-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Raptor Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raptor Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raptor gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raptor Gutter Guards Specialists",
     "h1": "Raptor Gutter Guards in Northwest Arkansas",
@@ -4996,7 +4900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-protection",
     "cluster": "problem",
-    "metaTitle": "Leaf Guard Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Protection Specialists",
     "h1": "Leaf Guard Protection in Northwest Arkansas",
@@ -5028,7 +4932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers-for-pine-needles",
     "cluster": "service",
-    "metaTitle": "Gutter Covers For Pine Needles NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers For Pine Needles NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers for pine needles in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers For Pine Needles Specialists",
     "h1": "Gutter Covers For Pine Needles in Northwest Arkansas",
@@ -5060,7 +4964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "6-gutter-guards",
     "cluster": "service",
-    "metaTitle": "6 Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "6 Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 6 gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "6 Gutter Guards Specialists",
     "h1": "6 Gutter Guards in Northwest Arkansas",
@@ -5092,7 +4996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "house-gutter-covers",
     "cluster": "service",
-    "metaTitle": "House Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "House Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for house gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "House Gutter Covers Specialists",
     "h1": "House Gutter Covers in Northwest Arkansas",
@@ -5124,7 +5028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-x-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf X Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf X Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf x gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf X Gutter Guards Specialists",
     "h1": "Leaf X Gutter Guards in Northwest Arkansas",
@@ -5156,7 +5060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-price-for-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Average Price For Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Price For Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average price for gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Price For Gutter Guards Specialists",
     "h1": "Average Price For Gutter Guards in Northwest Arkansas",
@@ -5188,7 +5092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-rain-gutter-covers",
     "cluster": "comparison",
-    "metaTitle": "Best Rain Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Rain Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best rain gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Rain Gutter Covers Specialists",
     "h1": "Best Rain Gutter Covers in Northwest Arkansas",
@@ -5220,7 +5124,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bronze-gutters",
     "cluster": "service",
-    "metaTitle": "Bronze Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bronze Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bronze gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bronze Gutters Specialists",
     "h1": "Bronze Gutters in Northwest Arkansas",
@@ -5252,7 +5156,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "screen-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Screen Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Screen Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for screen gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Screen Gutter Guards Specialists",
     "h1": "Screen Gutter Guards in Northwest Arkansas",
@@ -5284,7 +5188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screens-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Screens Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screens Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screens home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screens Home Depot Specialists",
     "h1": "Gutter Screens Home Depot in Northwest Arkansas",
@@ -5316,7 +5220,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-mesh",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Mesh NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Mesh NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard mesh in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Mesh Specialists",
     "h1": "Leaf Guard Mesh in Northwest Arkansas",
@@ -5348,7 +5252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-leafguard-gutters",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leafguard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leafguard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leafguard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leafguard Gutters Specialists",
     "h1": "Average Cost Of Leafguard Gutters in Northwest Arkansas",
@@ -5380,7 +5284,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "helmet-gutters",
     "cluster": "service",
-    "metaTitle": "Helmet Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Helmet Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for helmet gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Helmet Gutters Specialists",
     "h1": "Helmet Gutters in Northwest Arkansas",
@@ -5412,7 +5316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "half-round-gutter-hangers",
     "cluster": "service",
-    "metaTitle": "Half Round Gutter Hangers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Half Round Gutter Hangers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for half round gutter hangers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Half Round Gutter Hangers Specialists",
     "h1": "Half Round Gutter Hangers in Northwest Arkansas",
@@ -5444,7 +5348,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Guards Specialists",
     "h1": "Best Leaf Guards in Northwest Arkansas",
@@ -5476,7 +5380,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-net",
     "cluster": "service",
-    "metaTitle": "Gutter Net NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Net NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter net in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Net Specialists",
     "h1": "Gutter Net in Northwest Arkansas",
@@ -5508,7 +5412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raptor-gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Raptor Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raptor Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raptor gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raptor Gutter Guard Installation Specialists",
     "h1": "Raptor Gutter Guard Installation in Northwest Arkansas",
@@ -5540,7 +5444,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "xtreme-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Xtreme Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Xtreme Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for xtreme gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Xtreme Gutter Guard Specialists",
     "h1": "Xtreme Gutter Guard in Northwest Arkansas",
@@ -5572,7 +5476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "price-for-leaf-filter",
     "cluster": "cost",
-    "metaTitle": "Price For Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Price For Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for price for leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Price For Leaf Filter Specialists",
     "h1": "Price For Leaf Filter in Northwest Arkansas",
@@ -5604,7 +5508,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter-filters",
     "cluster": "service",
-    "metaTitle": "Leaf Gutter Filters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter Filters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter filters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Filters Specialists",
     "h1": "Leaf Gutter Filters in Northwest Arkansas",
@@ -5636,7 +5540,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-home-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Home Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Home Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf home gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Home Gutters Specialists",
     "h1": "Leaf Home Gutters in Northwest Arkansas",
@@ -5668,7 +5572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "black-gutter",
     "cluster": "service",
-    "metaTitle": "Black Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Black Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for black gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Black Gutter Specialists",
     "h1": "Black Gutter in Northwest Arkansas",
@@ -5700,7 +5604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "copper-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Copper Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Copper Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for copper gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Copper Gutter Guards Specialists",
     "h1": "Copper Gutter Guards in Northwest Arkansas",
@@ -5732,7 +5636,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-leaf-filter-gutters",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leaf Filter Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leaf Filter Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leaf filter gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leaf Filter Gutters Specialists",
     "h1": "Average Cost Of Leaf Filter Gutters in Northwest Arkansas",
@@ -5764,7 +5668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-leaf-filter",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Leaf Filter Specialists",
     "h1": "Gutter Guard Leaf Filter in Northwest Arkansas",
@@ -5796,7 +5700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "5-inch-gutter-guards",
     "cluster": "service",
-    "metaTitle": "5 Inch Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "5 Inch Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 5 inch gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "5 Inch Gutter Guards Specialists",
     "h1": "5 Inch Gutter Guards in Northwest Arkansas",
@@ -5828,7 +5732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ladder-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Ladder Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ladder Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ladder gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ladder Gutter Guard Specialists",
     "h1": "Ladder Gutter Guard in Northwest Arkansas",
@@ -5860,7 +5764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guard-company",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guard Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guard Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guard company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guard Company Specialists",
     "h1": "Best Gutter Guard Company in Northwest Arkansas",
@@ -5892,7 +5796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "home-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Home Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Home Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for home gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Home Gutter Guards Specialists",
     "h1": "Home Gutter Guards in Northwest Arkansas",
@@ -5924,7 +5828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-gutters-with-leaf-guards",
     "cluster": "cost",
-    "metaTitle": "Cost Of Gutters With Leaf Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Gutters With Leaf Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of gutters with leaf guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Gutters With Leaf Guards Specialists",
     "h1": "Cost Of Gutters With Leaf Guards in Northwest Arkansas",
@@ -5956,7 +5860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "superior-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Superior Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Superior Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for superior gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Superior Gutter Guards Specialists",
     "h1": "Superior Gutter Guards in Northwest Arkansas",
@@ -5988,7 +5892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "home-depot-gutter-guards-prices",
     "cluster": "cost",
-    "metaTitle": "Home Depot Gutter Guards Prices NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Home Depot Gutter Guards Prices NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for home depot gutter guards prices in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Home Depot Gutter Guards Prices Specialists",
     "h1": "Home Depot Gutter Guards Prices in Northwest Arkansas",
@@ -6020,7 +5924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "installing-gutter-guards-under-shingles",
     "cluster": "service",
-    "metaTitle": "Installing Gutter Guards Under Shingles NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Installing Gutter Guards Under Shingles NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for installing gutter guards under shingles in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Installing Gutter Guards Under Shingles Specialists",
     "h1": "Installing Gutter Guards Under Shingles in Northwest Arkansas",
@@ -6052,7 +5956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutters-company",
     "cluster": "service",
-    "metaTitle": "Leaf Gutters Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutters Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutters company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutters Company Specialists",
     "h1": "Leaf Gutters Company in Northwest Arkansas",
@@ -6084,7 +5988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "senox-gutter",
     "cluster": "service",
-    "metaTitle": "Senox Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Senox Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for senox gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Senox Gutter Specialists",
     "h1": "Senox Gutter in Northwest Arkansas",
@@ -6116,7 +6020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "my-gutter-guards",
     "cluster": "service",
-    "metaTitle": "My Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "My Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for my gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "My Gutter Guards Specialists",
     "h1": "My Gutter Guards in Northwest Arkansas",
@@ -6148,7 +6052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-installer",
     "cluster": "service",
-    "metaTitle": "Leaffilter Installer NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Installer NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter installer in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Installer Specialists",
     "h1": "Leaffilter Installer in Northwest Arkansas",
@@ -6180,7 +6084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "downspout-guards",
     "cluster": "service",
-    "metaTitle": "Downspout Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Downspout Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for downspout guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Downspout Guards Specialists",
     "h1": "Downspout Guards in Northwest Arkansas",
@@ -6212,7 +6116,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafguards",
     "cluster": "service",
-    "metaTitle": "Leafguards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafguards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafguards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafguards Specialists",
     "h1": "Leafguards in Northwest Arkansas",
@@ -6244,7 +6148,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-leafguard-gutters-installed",
     "cluster": "cost",
-    "metaTitle": "Cost Of Leafguard Gutters Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Leafguard Gutters Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of leafguard gutters installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Leafguard Gutters Installed Specialists",
     "h1": "Cost Of Leafguard Gutters Installed in Northwest Arkansas",
@@ -6276,7 +6180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-screen",
     "cluster": "service",
-    "metaTitle": "Leaf Screen NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Screen NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf screen in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Screen Specialists",
     "h1": "Leaf Screen in Northwest Arkansas",
@@ -6308,7 +6212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "black-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Black Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Black Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for black gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Black Gutter Guards Specialists",
     "h1": "Black Gutter Guards in Northwest Arkansas",
@@ -6340,7 +6244,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "house-gutter-guards",
     "cluster": "service",
-    "metaTitle": "House Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "House Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for house gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "House Gutter Guards Specialists",
     "h1": "House Gutter Guards in Northwest Arkansas",
@@ -6372,7 +6276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-leaf-filter-cost",
     "cluster": "cost",
-    "metaTitle": "Average Leaf Filter Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Leaf Filter Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average leaf filter cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Leaf Filter Cost Specialists",
     "h1": "Average Leaf Filter Cost in Northwest Arkansas",
@@ -6404,7 +6308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-installation",
     "cluster": "service",
-    "metaTitle": "Leaffilter Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Installation Specialists",
     "h1": "Leaffilter Installation in Northwest Arkansas",
@@ -6436,7 +6340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bulldog-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Bulldog Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bulldog Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bulldog leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bulldog Leaf Guard Specialists",
     "h1": "Bulldog Leaf Guard in Northwest Arkansas",
@@ -6468,7 +6372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminium-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Aluminium Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminium Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminium gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminium Gutter Guard Specialists",
     "h1": "Aluminium Gutter Guard in Northwest Arkansas",
@@ -6500,7 +6404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "k-guard-gutters-cost",
     "cluster": "cost",
-    "metaTitle": "K Guard Gutters Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "K Guard Gutters Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for k guard gutters cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "K Guard Gutters Cost Specialists",
     "h1": "K Guard Gutters Cost in Northwest Arkansas",
@@ -6532,7 +6436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "plastic-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Plastic Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Plastic Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for plastic gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Plastic Gutter Guards Specialists",
     "h1": "Plastic Gutter Guards in Northwest Arkansas",
@@ -6564,7 +6468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "king-gutters",
     "cluster": "service",
-    "metaTitle": "King Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "King Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for king gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "King Gutters Specialists",
     "h1": "King Gutters in Northwest Arkansas",
@@ -6596,7 +6500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "covers-for-gutters-to-keep-leaves-out",
     "cluster": "service",
-    "metaTitle": "Covers For Gutters To Keep Leaves Out NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Covers For Gutters To Keep Leaves Out NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for covers for gutters to keep leaves out in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Covers For Gutters To Keep Leaves Out Specialists",
     "h1": "Covers For Gutters To Keep Leaves Out in Northwest Arkansas",
@@ -6628,7 +6532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafblaster",
     "cluster": "service",
-    "metaTitle": "Leafblaster NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafblaster NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafblaster in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafblaster Specialists",
     "h1": "Leafblaster in Northwest Arkansas",
@@ -6660,7 +6564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flexxpoint-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Flexxpoint Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flexxpoint Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flexxpoint gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flexxpoint Gutter Guard Specialists",
     "h1": "Flexxpoint Gutter Guard in Northwest Arkansas",
@@ -6692,7 +6596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raindrop-gutter-guard-cost",
     "cluster": "cost",
-    "metaTitle": "Raindrop Gutter Guard Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raindrop Gutter Guard Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raindrop gutter guard cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raindrop Gutter Guard Cost Specialists",
     "h1": "Raindrop Gutter Guard Cost in Northwest Arkansas",
@@ -6724,7 +6628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-home-depot",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Home Depot Specialists",
     "h1": "Leaf Filter Home Depot in Northwest Arkansas",
@@ -6756,7 +6660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-rain-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Rain Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Rain Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best rain gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Rain Gutter Guards Specialists",
     "h1": "Best Rain Gutter Guards in Northwest Arkansas",
@@ -6788,7 +6692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-leaf-filter",
     "cluster": "cost",
-    "metaTitle": "Cost Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Leaf Filter Specialists",
     "h1": "Cost Leaf Filter in Northwest Arkansas",
@@ -6820,7 +6724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "highest-rated-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Highest Rated Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Highest Rated Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for highest rated gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Highest Rated Gutter Guards Specialists",
     "h1": "Highest Rated Gutter Guards in Northwest Arkansas",
@@ -6852,7 +6756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-pieces",
     "cluster": "service",
-    "metaTitle": "Gutter Pieces NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Pieces NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter pieces in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Pieces Specialists",
     "h1": "Gutter Pieces in Northwest Arkansas",
@@ -6884,7 +6788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hydro-flo-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Hydro Flo Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hydro Flo Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hydro flo gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hydro Flo Gutter Guard Specialists",
     "h1": "Hydro Flo Gutter Guard in Northwest Arkansas",
@@ -6916,7 +6820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-solution-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Solution Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Solution Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf solution gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Solution Gutter Guards Specialists",
     "h1": "Leaf Solution Gutter Guards in Northwest Arkansas",
@@ -6948,7 +6852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "4-gutter-guard",
     "cluster": "service",
-    "metaTitle": "4 Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "4 Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 4 gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "4 Gutter Guard Specialists",
     "h1": "4 Gutter Guard in Northwest Arkansas",
@@ -6980,7 +6884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-elbows",
     "cluster": "service",
-    "metaTitle": "Gutter Elbows NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Elbows NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter elbows in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Elbows Specialists",
     "h1": "Gutter Elbows in Northwest Arkansas",
@@ -7012,7 +6916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-screens",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Screens Specialists",
     "h1": "Best Gutter Screens in Northwest Arkansas",
@@ -7044,7 +6948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Ez Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Gutter Guard Specialists",
     "h1": "Ez Gutter Guard in Northwest Arkansas",
@@ -7076,7 +6980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "5-inch-gutter-guards-at-lowes",
     "cluster": "service",
-    "metaTitle": "5 Inch Gutter Guards At Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "5 Inch Gutter Guards At Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 5 inch gutter guards at lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "5 Inch Gutter Guards At Lowes Specialists",
     "h1": "5 Inch Gutter Guards At Lowes in Northwest Arkansas",
@@ -7108,7 +7012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-6-inch-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For 6 Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For 6 Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for 6 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For 6 Inch Gutters Specialists",
     "h1": "Gutter Guards For 6 Inch Gutters in Northwest Arkansas",
@@ -7140,7 +7044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rx-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Rx Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rx Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rx gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rx Gutter Guard Specialists",
     "h1": "Rx Gutter Guard in Northwest Arkansas",
@@ -7172,7 +7076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-shield-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Shield Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Shield Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter shield installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Shield Installation Specialists",
     "h1": "Gutter Shield Installation in Northwest Arkansas",
@@ -7204,7 +7108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-pro",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Pro NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Pro NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard pro in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Pro Specialists",
     "h1": "Gutter Guard Pro in Northwest Arkansas",
@@ -7236,7 +7140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screen-installation-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Screen Installation Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screen Installation Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screen installation cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screen Installation Cost Specialists",
     "h1": "Gutter Screen Installation Cost in Northwest Arkansas",
@@ -7268,7 +7172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "easyon-gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Easyon Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Easyon Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for easyon gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Easyon Gutter Guard Installation Specialists",
     "h1": "Easyon Gutter Guard Installation in Northwest Arkansas",
@@ -7300,7 +7204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-mesh-screen",
     "cluster": "service",
-    "metaTitle": "Gutter Mesh Screen NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Mesh Screen NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter mesh screen in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Mesh Screen Specialists",
     "h1": "Gutter Mesh Screen in Northwest Arkansas",
@@ -7332,7 +7236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-existing-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For Existing Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For Existing Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for existing gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For Existing Gutters Specialists",
     "h1": "Gutter Guards For Existing Gutters in Northwest Arkansas",
@@ -7364,7 +7268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "keep-leaves-out-of-gutters",
     "cluster": "service",
-    "metaTitle": "Keep Leaves Out Of Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Keep Leaves Out Of Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for keep leaves out of gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Keep Leaves Out Of Gutters Specialists",
     "h1": "Keep Leaves Out Of Gutters in Northwest Arkansas",
@@ -7396,7 +7300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-valley-splash-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Valley Splash Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Valley Splash Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter valley splash guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Valley Splash Guard Specialists",
     "h1": "Gutter Valley Splash Guard in Northwest Arkansas",
@@ -7428,7 +7332,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "half-round-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Half Round Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Half Round Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for half round gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Half Round Gutter Guards Specialists",
     "h1": "Half Round Gutter Guards in Northwest Arkansas",
@@ -7460,7 +7364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covering-systems",
     "cluster": "service",
-    "metaTitle": "Gutter Covering Systems NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covering Systems NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covering systems in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covering Systems Specialists",
     "h1": "Gutter Covering Systems in Northwest Arkansas",
@@ -7492,7 +7396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "seamless-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Seamless Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Seamless Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for seamless gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Seamless Gutter Guards Specialists",
     "h1": "Seamless Gutter Guards in Northwest Arkansas",
@@ -7524,7 +7428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "frost-king-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Frost King Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Frost King Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for frost king gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Frost King Gutter Guard Specialists",
     "h1": "Frost King Gutter Guard in Northwest Arkansas",
@@ -7556,7 +7460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guards-for-metal-roofs",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guards For Metal Roofs NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guards For Metal Roofs NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guards for metal roofs in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guards For Metal Roofs Specialists",
     "h1": "Best Gutter Guards For Metal Roofs in Northwest Arkansas",
@@ -7588,7 +7492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafblaster-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leafblaster Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafblaster Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafblaster gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafblaster Gutter Guards Specialists",
     "h1": "Leafblaster Gutter Guards in Northwest Arkansas",
@@ -7620,7 +7524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-covers",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Covers Specialists",
     "h1": "Gutter Guard Covers in Northwest Arkansas",
@@ -7652,7 +7556,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Cost Per Foot Specialists",
     "h1": "Gutter Guard Cost Per Foot in Northwest Arkansas",
@@ -7684,7 +7588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "downspout-gutter",
     "cluster": "service",
-    "metaTitle": "Downspout Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Downspout Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for downspout gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Downspout Gutter Specialists",
     "h1": "Downspout Gutter in Northwest Arkansas",
@@ -7716,7 +7620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-leaf-guard-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Leaf Guard Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Leaf Guard Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter leaf guard home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Leaf Guard Home Depot Specialists",
     "h1": "Gutter Leaf Guard Home Depot in Northwest Arkansas",
@@ -7748,7 +7652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-price-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Price Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Price Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard price per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Price Per Foot Specialists",
     "h1": "Gutter Guard Price Per Foot in Northwest Arkansas",
@@ -7780,7 +7684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-to-install-gutter-guards",
     "cluster": "cost",
-    "metaTitle": "Average Cost To Install Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost To Install Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost to install gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost To Install Gutter Guards Specialists",
     "h1": "Average Cost To Install Gutter Guards in Northwest Arkansas",
@@ -7812,7 +7716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "one-guard-gutter-guard",
     "cluster": "service",
-    "metaTitle": "One Guard Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "One Guard Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for one guard gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "One Guard Gutter Guard Specialists",
     "h1": "One Guard Gutter Guard in Northwest Arkansas",
@@ -7844,7 +7748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "affordable-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Affordable Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Affordable Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for affordable gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Affordable Gutter Guards Specialists",
     "h1": "Affordable Gutter Guards in Northwest Arkansas",
@@ -7876,7 +7780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-seamless-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Seamless Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Seamless Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard seamless gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Seamless Gutters Specialists",
     "h1": "Leaf Guard Seamless Gutters in Northwest Arkansas",
@@ -7908,7 +7812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-protection",
     "cluster": "problem",
-    "metaTitle": "Leaf Filter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Protection Specialists",
     "h1": "Leaf Filter Protection in Northwest Arkansas",
@@ -7940,7 +7844,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "surface-tension-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Surface Tension Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Surface Tension Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for surface tension gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Surface Tension Gutter Guards Specialists",
     "h1": "Surface Tension Gutter Guards in Northwest Arkansas",
@@ -7972,7 +7876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-average-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Filter Average Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Average Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter average cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Average Cost Specialists",
     "h1": "Leaf Filter Average Cost in Northwest Arkansas",
@@ -8004,7 +7908,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Lowes Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Leaf Guard Specialists",
     "h1": "Lowes Leaf Guard in Northwest Arkansas",
@@ -8036,7 +7940,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-and-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning And Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning and gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning And Gutter Guards Specialists",
     "h1": "Gutter Cleaning And Gutter Guards in Northwest Arkansas",
@@ -8068,7 +7972,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-for-gutter-guard-installation",
     "cluster": "cost",
-    "metaTitle": "Average Cost For Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost For Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost for gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost For Gutter Guard Installation Specialists",
     "h1": "Average Cost For Gutter Guard Installation in Northwest Arkansas",
@@ -8100,7 +8004,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-to-have-gutter-guards-installed",
     "cluster": "cost",
-    "metaTitle": "Cost To Have Gutter Guards Installed NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost To Have Gutter Guards Installed NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost to have gutter guards installed in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost To Have Gutter Guards Installed Specialists",
     "h1": "Cost To Have Gutter Guards Installed in Northwest Arkansas",
@@ -8132,7 +8036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Amerimax Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Gutter Guard Installation Specialists",
     "h1": "Amerimax Gutter Guard Installation in Northwest Arkansas",
@@ -8164,7 +8068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-protection-for-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Protection For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Protection For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf protection for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Protection For Gutters Specialists",
     "h1": "Best Leaf Protection For Gutters in Northwest Arkansas",
@@ -8194,41 +8098,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "cleaning-gutters-with-gutter-guards",
-    "cluster": "service",
-    "metaTitle": "Cleaning Gutters With Gutter Guards NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for cleaning gutters with gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Cleaning Gutters With Gutter Guards Specialists",
-    "h1": "Cleaning Gutters With Gutter Guards in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for cleaning gutters with gutter guards in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Cleaning Gutters With Gutter Guards in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for cleaning gutters with gutter guards throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Cleaning Gutters With Gutter Guards Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for cleaning gutters with gutter guards in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "average-cost-of-leaf-filter-system",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leaf Filter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leaf Filter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leaf filter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leaf Filter System Specialists",
     "h1": "Average Cost Of Leaf Filter System in Northwest Arkansas",
@@ -8260,7 +8132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-blaster-pro-cost",
     "cluster": "cost",
-    "metaTitle": "Leaf Blaster Pro Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Blaster Pro Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf blaster pro cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Blaster Pro Cost Specialists",
     "h1": "Leaf Blaster Pro Cost in Northwest Arkansas",
@@ -8292,7 +8164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-installation-companies",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Installation Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Installation Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard installation companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Installation Companies Specialists",
     "h1": "Gutter Guard Installation Companies in Northwest Arkansas",
@@ -8324,7 +8196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers-costco",
     "cluster": "cost",
-    "metaTitle": "Gutter Covers Costco NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers Costco NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers costco in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers Costco Specialists",
     "h1": "Gutter Covers Costco in Northwest Arkansas",
@@ -8356,7 +8228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "galvanized-steel-gutters",
     "cluster": "service",
-    "metaTitle": "Galvanized Steel Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Galvanized Steel Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for galvanized steel gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Galvanized Steel Gutters Specialists",
     "h1": "Galvanized Steel Gutters in Northwest Arkansas",
@@ -8388,7 +8260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-guard-system",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Guard System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Guard System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf guard system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Guard System Specialists",
     "h1": "Best Leaf Guard System in Northwest Arkansas",
@@ -8420,7 +8292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "fascia-gutters",
     "cluster": "service",
-    "metaTitle": "Fascia Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Fascia Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for fascia gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Fascia Gutters Specialists",
     "h1": "Fascia Gutters in Northwest Arkansas",
@@ -8452,7 +8324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "solid-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Solid Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Solid Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for solid gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Solid Gutter Guards Specialists",
     "h1": "Solid Gutter Guards in Northwest Arkansas",
@@ -8484,7 +8356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "price-per-foot-for-gutters",
     "cluster": "cost",
-    "metaTitle": "Price Per Foot For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Price Per Foot For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for price per foot for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Price Per Foot For Gutters Specialists",
     "h1": "Price Per Foot For Gutters in Northwest Arkansas",
@@ -8516,7 +8388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-pricing",
     "cluster": "cost",
-    "metaTitle": "Gutters Pricing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Pricing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters pricing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Pricing Specialists",
     "h1": "Gutters Pricing in Northwest Arkansas",
@@ -8548,7 +8420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "most-affordable-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Most Affordable Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Most Affordable Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for most affordable gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Most Affordable Gutter Guards Specialists",
     "h1": "Most Affordable Gutter Guards in Northwest Arkansas",
@@ -8580,7 +8452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shield-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Shield Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shield Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shield gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shield Gutters Specialists",
     "h1": "Leaf Shield Gutters in Northwest Arkansas",
@@ -8612,7 +8484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-leaf-protection",
     "cluster": "problem",
-    "metaTitle": "Rain Gutter Leaf Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Leaf Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter leaf protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Leaf Protection Specialists",
     "h1": "Rain Gutter Leaf Protection in Northwest Arkansas",
@@ -8644,7 +8516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "fine-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Fine Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Fine Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for fine mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Fine Mesh Gutter Guards Specialists",
     "h1": "Fine Mesh Gutter Guards in Northwest Arkansas",
@@ -8676,7 +8548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "heated-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Heated Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Heated Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for heated gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Heated Gutter Guards Specialists",
     "h1": "Heated Gutter Guards in Northwest Arkansas",
@@ -8708,7 +8580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-of-leaffilter",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Leaffilter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Leaffilter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of leaffilter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Leaffilter Specialists",
     "h1": "Average Cost Of Leaffilter in Northwest Arkansas",
@@ -8740,7 +8612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raindrop-pro-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Raindrop Pro Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raindrop Pro Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raindrop pro gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raindrop Pro Gutter Guard Specialists",
     "h1": "Raindrop Pro Gutter Guard in Northwest Arkansas",
@@ -8772,7 +8644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "downspout-leaf-filter",
     "cluster": "service",
-    "metaTitle": "Downspout Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Downspout Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for downspout leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Downspout Leaf Filter Specialists",
     "h1": "Downspout Leaf Filter in Northwest Arkansas",
@@ -8804,7 +8676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "k-gutter",
     "cluster": "service",
-    "metaTitle": "K Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "K Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for k gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "K Gutter Specialists",
     "h1": "K Gutter in Northwest Arkansas",
@@ -8836,7 +8708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-covers-for-pine-needles",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Covers For Pine Needles NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Covers For Pine Needles NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter covers for pine needles in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Covers For Pine Needles Specialists",
     "h1": "Best Gutter Covers For Pine Needles in Northwest Arkansas",
@@ -8868,7 +8740,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-leaf-gutter-system",
     "cluster": "comparison",
-    "metaTitle": "Best Leaf Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Leaf Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best leaf gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Leaf Gutter System Specialists",
     "h1": "Best Leaf Gutter System in Northwest Arkansas",
@@ -8900,7 +8772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-filter",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Filter Specialists",
     "h1": "Rain Gutter Filter in Northwest Arkansas",
@@ -8932,7 +8804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-overflow-guard",
     "cluster": "problem",
-    "metaTitle": "Gutter Overflow Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Overflow Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter overflow guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Overflow Guard Specialists",
     "h1": "Gutter Overflow Guard in Northwest Arkansas",
@@ -8964,7 +8836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-protection",
     "cluster": "problem",
-    "metaTitle": "Leaf Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Protection Specialists",
     "h1": "Leaf Protection in Northwest Arkansas",
@@ -8996,7 +8868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-rx-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Gutter Rx Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Rx Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter rx gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Rx Gutter Guards Specialists",
     "h1": "Gutter Rx Gutter Guards in Northwest Arkansas",
@@ -9028,7 +8900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-protection-system",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Protection System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Protection System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter protection system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Protection System Specialists",
     "h1": "Best Gutter Protection System in Northwest Arkansas",
@@ -9060,7 +8932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-glove-install",
     "cluster": "service",
-    "metaTitle": "Gutter Glove Install NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Glove Install NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter glove install in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Glove Install Specialists",
     "h1": "Gutter Glove Install in Northwest Arkansas",
@@ -9092,7 +8964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-helmet-installation",
     "cluster": "service",
-    "metaTitle": "Gutter Helmet Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Helmet Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter helmet installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Helmet Installation Specialists",
     "h1": "Gutter Helmet Installation in Northwest Arkansas",
@@ -9124,7 +8996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-steel-micro-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Stainless Steel Micro Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Steel Micro Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless steel micro mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Steel Micro Mesh Gutter Guards Specialists",
     "h1": "Stainless Steel Micro Mesh Gutter Guards in Northwest Arkansas",
@@ -9156,7 +9028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "5-gutter-guard",
     "cluster": "service",
-    "metaTitle": "5 Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "5 Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 5 gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "5 Gutter Guard Specialists",
     "h1": "5 Gutter Guard in Northwest Arkansas",
@@ -9188,7 +9060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Guard Specialists",
     "h1": "Gutter Downspout Guard in Northwest Arkansas",
@@ -9220,7 +9092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-for-gutter-guard-installation",
     "cluster": "cost",
-    "metaTitle": "Cost For Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost For Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost for gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost For Gutter Guard Installation Specialists",
     "h1": "Cost For Gutter Guard Installation in Northwest Arkansas",
@@ -9252,7 +9124,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-flow-gutters",
     "cluster": "service",
-    "metaTitle": "Rain Flow Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Flow Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain flow gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Flow Gutters Specialists",
     "h1": "Rain Flow Gutters in Northwest Arkansas",
@@ -9284,7 +9156,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-half-round-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For Half Round Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For Half Round Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for half round gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For Half Round Gutters Specialists",
     "h1": "Gutter Guards For Half Round Gutters in Northwest Arkansas",
@@ -9316,7 +9188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-leaf-removal",
     "cluster": "service",
-    "metaTitle": "Gutter Leaf Removal NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Leaf Removal NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter leaf removal in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Leaf Removal Specialists",
     "h1": "Gutter Leaf Removal in Northwest Arkansas",
@@ -9348,7 +9220,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "curved-gutters",
     "cluster": "service",
-    "metaTitle": "Curved Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Curved Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for curved gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Curved Gutters Specialists",
     "h1": "Curved Gutters in Northwest Arkansas",
@@ -9380,7 +9252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-strainer",
     "cluster": "service",
-    "metaTitle": "Gutter Strainer NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Strainer NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter strainer in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Strainer Specialists",
     "h1": "Gutter Strainer in Northwest Arkansas",
@@ -9412,7 +9284,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "water-gutters",
     "cluster": "service",
-    "metaTitle": "Water Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Water Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for water gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Water Gutters Specialists",
     "h1": "Water Gutters in Northwest Arkansas",
@@ -9444,7 +9316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Metal Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Gutter Covers Specialists",
     "h1": "Metal Gutter Covers in Northwest Arkansas",
@@ -9476,7 +9348,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-screen-covers",
     "cluster": "service",
-    "metaTitle": "Gutter Screen Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Screen Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter screen covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Screen Covers Specialists",
     "h1": "Gutter Screen Covers in Northwest Arkansas",
@@ -9508,7 +9380,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shield-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Shield Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shield Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shield gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shield Gutter Guards Specialists",
     "h1": "Leaf Shield Gutter Guards in Northwest Arkansas",
@@ -9540,7 +9412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-with-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning With Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning With Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning with gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning With Gutter Guards Specialists",
     "h1": "Gutter Cleaning With Gutter Guards in Northwest Arkansas",
@@ -9572,7 +9444,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-clogged",
     "cluster": "problem",
-    "metaTitle": "Gutter Clogged NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Clogged NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter clogged in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Clogged Specialists",
     "h1": "Gutter Clogged in Northwest Arkansas",
@@ -9604,7 +9476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-lock-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Ez Lock Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Lock Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez lock gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Lock Gutter Guard Specialists",
     "h1": "Ez Lock Gutter Guard in Northwest Arkansas",
@@ -9636,7 +9508,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-micro-mesh-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Micro Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Micro Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best micro mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Micro Mesh Gutter Guards Specialists",
     "h1": "Best Micro Mesh Gutter Guards in Northwest Arkansas",
@@ -9668,7 +9540,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hidden-gutters",
     "cluster": "service",
-    "metaTitle": "Hidden Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hidden Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hidden gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hidden Gutters Specialists",
     "h1": "Hidden Gutters in Northwest Arkansas",
@@ -9700,7 +9572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-gators",
     "cluster": "service",
-    "metaTitle": "Gutter Gators NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Gators NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter gators in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Gators Specialists",
     "h1": "Gutter Gators in Northwest Arkansas",
@@ -9732,7 +9604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-downspout-guards",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Downspout Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Downspout Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter downspout guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Downspout Guards Specialists",
     "h1": "Best Gutter Downspout Guards in Northwest Arkansas",
@@ -9764,7 +9636,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "sure-flo-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Sure Flo Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Sure Flo Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for sure flo gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Sure Flo Gutter Guards Specialists",
     "h1": "Sure Flo Gutter Guards in Northwest Arkansas",
@@ -9796,7 +9668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-gutter-screens",
     "cluster": "service",
-    "metaTitle": "Lowes Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Gutter Screens Specialists",
     "h1": "Lowes Gutter Screens in Northwest Arkansas",
@@ -9828,7 +9700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "good-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Good Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Good Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for good gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Good Gutter Guards Specialists",
     "h1": "Good Gutter Guards in Northwest Arkansas",
@@ -9860,7 +9732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "wooden-gutters",
     "cluster": "service",
-    "metaTitle": "Wooden Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Wooden Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for wooden gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Wooden Gutters Specialists",
     "h1": "Wooden Gutters in Northwest Arkansas",
@@ -9892,7 +9764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gusher-guard",
     "cluster": "service",
-    "metaTitle": "Gusher Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gusher Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gusher guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gusher Guard Specialists",
     "h1": "Gusher Guard in Northwest Arkansas",
@@ -9924,7 +9796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "4-inch-gutters",
     "cluster": "service",
-    "metaTitle": "4 Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "4 Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 4 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "4 Inch Gutters Specialists",
     "h1": "4 Inch Gutters in Northwest Arkansas",
@@ -9956,7 +9828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rx-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Rx Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rx Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rx leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rx Leaf Guard Specialists",
     "h1": "Rx Leaf Guard in Northwest Arkansas",
@@ -9988,7 +9860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "smart-flow-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Smart Flow Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Smart Flow Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for smart flow gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Smart Flow Gutter Guard Specialists",
     "h1": "Smart Flow Gutter Guard in Northwest Arkansas",
@@ -10020,7 +9892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Leaffilter Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Gutter Cleaning Specialists",
     "h1": "Leaffilter Gutter Cleaning in Northwest Arkansas",
@@ -10052,7 +9924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-netting",
     "cluster": "service",
-    "metaTitle": "Gutter Netting NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Netting NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter netting in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Netting Specialists",
     "h1": "Gutter Netting in Northwest Arkansas",
@@ -10084,7 +9956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leafblaster-pro-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leafblaster Pro Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leafblaster Pro Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leafblaster pro gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leafblaster Pro Gutter Guards Specialists",
     "h1": "Leafblaster Pro Gutter Guards in Northwest Arkansas",
@@ -10116,7 +9988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutter-guards-for-heavy-rain",
     "cluster": "comparison",
-    "metaTitle": "Best Gutter Guards For Heavy Rain NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutter Guards For Heavy Rain NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutter guards for heavy rain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutter Guards For Heavy Rain Specialists",
     "h1": "Best Gutter Guards For Heavy Rain in Northwest Arkansas",
@@ -10148,7 +10020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "3-inch-gutters",
     "cluster": "service",
-    "metaTitle": "3 Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "3 Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 3 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "3 Inch Gutters Specialists",
     "h1": "3 Inch Gutters in Northwest Arkansas",
@@ -10180,7 +10052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-filter",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Filter Specialists",
     "h1": "Gutter Downspout Filter in Northwest Arkansas",
@@ -10212,7 +10084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "local-gutter",
     "cluster": "service",
-    "metaTitle": "Local Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Local Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for local gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Local Gutter Specialists",
     "h1": "Local Gutter in Northwest Arkansas",
@@ -10244,7 +10116,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "6in-gutters",
     "cluster": "service",
-    "metaTitle": "6in Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "6in Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 6in gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "6in Gutters Specialists",
     "h1": "6in Gutters in Northwest Arkansas",
@@ -10276,7 +10148,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "vinyl-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Vinyl Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Vinyl Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for vinyl gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Vinyl Gutter Guards Specialists",
     "h1": "Vinyl Gutter Guards in Northwest Arkansas",
@@ -10308,7 +10180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-price-for-leaf-guard",
     "cluster": "cost",
-    "metaTitle": "Average Price For Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Price For Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average price for leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Price For Leaf Guard Specialists",
     "h1": "Average Price For Leaf Guard in Northwest Arkansas",
@@ -10340,7 +10212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-consumer-reports",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Consumer Reports NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Consumer Reports NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter consumer reports in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Consumer Reports Specialists",
     "h1": "Leaf Filter Consumer Reports in Northwest Arkansas",
@@ -10372,7 +10244,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bird-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Bird Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bird Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bird gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bird Gutter Guard Specialists",
     "h1": "Bird Gutter Guard in Northwest Arkansas",
@@ -10404,7 +10276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-gutterbrush",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Gutterbrush NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Gutterbrush NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard gutterbrush in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Gutterbrush Specialists",
     "h1": "Gutter Guard Gutterbrush in Northwest Arkansas",
@@ -10436,7 +10308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-gutters",
     "cluster": "service",
-    "metaTitle": "Ez Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Gutters Specialists",
     "h1": "Ez Gutters in Northwest Arkansas",
@@ -10468,7 +10340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-screen",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Screen NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Screen NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout screen in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Screen Specialists",
     "h1": "Gutter Downspout Screen in Northwest Arkansas",
@@ -10500,7 +10372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hydroflow-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Hydroflow Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hydroflow Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hydroflow gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hydroflow Gutter Guard Specialists",
     "h1": "Hydroflow Gutter Guard in Northwest Arkansas",
@@ -10532,7 +10404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-pro-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Leaf Pro Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Pro Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf pro gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Pro Gutter Guard Specialists",
     "h1": "Leaf Pro Gutter Guard in Northwest Arkansas",
@@ -10564,7 +10436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-gutter-company",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Gutter Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Gutter Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter gutter company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Gutter Company Specialists",
     "h1": "Leaf Filter Gutter Company in Northwest Arkansas",
@@ -10596,7 +10468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "brown-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Brown Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Brown Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for brown gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Brown Gutter Guards Specialists",
     "h1": "Brown Gutter Guards in Northwest Arkansas",
@@ -10628,7 +10500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "downspout-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Downspout Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Downspout Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for downspout leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Downspout Leaf Guard Specialists",
     "h1": "Downspout Leaf Guard in Northwest Arkansas",
@@ -10660,7 +10532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-filler",
     "cluster": "service",
-    "metaTitle": "Gutter Filler NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Filler NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter filler in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Filler Specialists",
     "h1": "Gutter Filler in Northwest Arkansas",
@@ -10692,7 +10564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-guard-gutter-system",
     "cluster": "service",
-    "metaTitle": "Rain Guard Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Guard Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain guard gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Guard Gutter System Specialists",
     "h1": "Rain Guard Gutter System in Northwest Arkansas",
@@ -10724,7 +10596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "drain-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Drain Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Drain Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for drain leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Drain Leaf Guard Specialists",
     "h1": "Drain Leaf Guard in Northwest Arkansas",
@@ -10756,7 +10628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-corner-splash-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Corner Splash Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Corner Splash Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter corner splash guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Corner Splash Guard Specialists",
     "h1": "Gutter Corner Splash Guard in Northwest Arkansas",
@@ -10788,7 +10660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ogee-gutters",
     "cluster": "service",
-    "metaTitle": "Ogee Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ogee Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ogee gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ogee Gutters Specialists",
     "h1": "Ogee Gutters in Northwest Arkansas",
@@ -10820,7 +10692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Stainless Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Gutter Guard Specialists",
     "h1": "Stainless Gutter Guard in Northwest Arkansas",
@@ -10852,7 +10724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-sentry-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Sentry Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Sentry Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf sentry gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Sentry Gutter Guards Specialists",
     "h1": "Leaf Sentry Gutter Guards in Northwest Arkansas",
@@ -10884,7 +10756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "armour-screen-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Armour Screen Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Armour Screen Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for armour screen gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Armour Screen Gutter Guard Specialists",
     "h1": "Armour Screen Gutter Guard in Northwest Arkansas",
@@ -10916,7 +10788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raytec-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Raytec Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raytec Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raytec gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raytec Gutter Guards Specialists",
     "h1": "Raytec Gutter Guards in Northwest Arkansas",
@@ -10948,7 +10820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hallett-gutter-supply",
     "cluster": "service",
-    "metaTitle": "Hallett Gutter Supply NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hallett Gutter Supply NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hallett gutter supply in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hallett Gutter Supply Specialists",
     "h1": "Hallett Gutter Supply in Northwest Arkansas",
@@ -10980,7 +10852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "spectra-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Spectra Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Spectra Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for spectra gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Spectra Gutter Guards Specialists",
     "h1": "Spectra Gutter Guards in Northwest Arkansas",
@@ -11012,7 +10884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-covers-lowes",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Covers Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Covers Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter covers lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Covers Lowes Specialists",
     "h1": "Rain Gutter Covers Lowes in Northwest Arkansas",
@@ -11044,7 +10916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shields-for-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Shields For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shields For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shields for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shields For Gutters Specialists",
     "h1": "Leaf Shields For Gutters in Northwest Arkansas",
@@ -11076,7 +10948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "waterlock-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Waterlock Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Waterlock Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for waterlock gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Waterlock Gutter Guard Specialists",
     "h1": "Waterlock Gutter Guard in Northwest Arkansas",
@@ -11108,7 +10980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "am-gutter-guard-installation",
     "cluster": "service",
-    "metaTitle": "Am Gutter Guard Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Am Gutter Guard Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for am gutter guard installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Am Gutter Guard Installation Specialists",
     "h1": "Am Gutter Guard Installation in Northwest Arkansas",
@@ -11140,7 +11012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "mesh-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Mesh Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Mesh Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for mesh leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Mesh Leaf Guard Specialists",
     "h1": "Mesh Leaf Guard in Northwest Arkansas",
@@ -11172,7 +11044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-gutter-protection-price",
     "cluster": "cost",
-    "metaTitle": "Leaffilter Gutter Protection Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Gutter Protection Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter gutter protection price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Gutter Protection Price Specialists",
     "h1": "Leaffilter Gutter Protection Price in Northwest Arkansas",
@@ -11204,7 +11076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-drain-cover",
     "cluster": "service",
-    "metaTitle": "Gutter Drain Cover NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Drain Cover NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter drain cover in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Drain Cover Specialists",
     "h1": "Gutter Drain Cover in Northwest Arkansas",
@@ -11236,7 +11108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-perforated-gutter-guard",
     "cluster": "comparison",
-    "metaTitle": "Aluminum Perforated Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Perforated Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum perforated gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Perforated Gutter Guard Specialists",
     "h1": "Aluminum Perforated Gutter Guard in Northwest Arkansas",
@@ -11268,7 +11140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-guards-lowes",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Guards Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Guards Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter guards lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Guards Lowes Specialists",
     "h1": "Rain Gutter Guards Lowes in Northwest Arkansas",
@@ -11300,7 +11172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-maintenance",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Maintenance NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Maintenance NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter maintenance in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Maintenance Specialists",
     "h1": "Leaf Filter Maintenance in Northwest Arkansas",
@@ -11332,7 +11204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-copper-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For Copper Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For Copper Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for copper gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For Copper Gutters Specialists",
     "h1": "Gutter Guards For Copper Gutters in Northwest Arkansas",
@@ -11364,7 +11236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "residential-gutter",
     "cluster": "service",
-    "metaTitle": "Residential Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Residential Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for residential gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Residential Gutter Specialists",
     "h1": "Residential Gutter in Northwest Arkansas",
@@ -11396,7 +11268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "home-depot-leaf-filter",
     "cluster": "service",
-    "metaTitle": "Home Depot Leaf Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Home Depot Leaf Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for home depot leaf filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Home Depot Leaf Filter Specialists",
     "h1": "Home Depot Leaf Filter in Northwest Arkansas",
@@ -11428,7 +11300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-relief-gutter",
     "cluster": "service",
-    "metaTitle": "Leaf Relief Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Relief Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf relief gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Relief Gutter Specialists",
     "h1": "Leaf Relief Gutter in Northwest Arkansas",
@@ -11460,7 +11332,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-rx",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Rx NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Rx NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard rx in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Rx Specialists",
     "h1": "Gutter Guard Rx in Northwest Arkansas",
@@ -11492,7 +11364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "sheerflow-gutter-filter",
     "cluster": "service",
-    "metaTitle": "Sheerflow Gutter Filter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Sheerflow Gutter Filter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for sheerflow gutter filter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Sheerflow Gutter Filter Specialists",
     "h1": "Sheerflow Gutter Filter in Northwest Arkansas",
@@ -11524,7 +11396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Eavestrough Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Leaf Guard Specialists",
     "h1": "Eavestrough Leaf Guard in Northwest Arkansas",
@@ -11556,7 +11428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leak-guard-gutters",
     "cluster": "problem",
-    "metaTitle": "Leak Guard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leak Guard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leak guard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leak Guard Gutters Specialists",
     "h1": "Leak Guard Gutters in Northwest Arkansas",
@@ -11588,7 +11460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "wire-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Wire Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Wire Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for wire mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Wire Mesh Gutter Guards Specialists",
     "h1": "Wire Mesh Gutter Guards in Northwest Arkansas",
@@ -11620,7 +11492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-brush-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Brush Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Brush Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter brush leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Brush Leaf Guard Specialists",
     "h1": "Gutter Brush Leaf Guard in Northwest Arkansas",
@@ -11652,7 +11524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-covers-for-rain-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Covers For Rain Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Covers For Rain Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf covers for rain gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Covers For Rain Gutters Specialists",
     "h1": "Leaf Covers For Rain Gutters in Northwest Arkansas",
@@ -11684,7 +11556,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-installation-price",
     "cluster": "cost",
-    "metaTitle": "Gutter Guard Installation Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Installation Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard installation price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Installation Price Specialists",
     "h1": "Gutter Guard Installation Price in Northwest Arkansas",
@@ -11716,7 +11588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protector-for-ladder",
     "cluster": "problem",
-    "metaTitle": "Gutter Protector For Ladder NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protector For Ladder NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protector for ladder in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protector For Ladder Specialists",
     "h1": "Gutter Protector For Ladder in Northwest Arkansas",
@@ -11748,7 +11620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "4-inch-gutter-guards-lowes",
     "cluster": "service",
-    "metaTitle": "4 Inch Gutter Guards Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "4 Inch Gutter Guards Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 4 inch gutter guards lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "4 Inch Gutter Guards Lowes Specialists",
     "h1": "4 Inch Gutter Guards Lowes in Northwest Arkansas",
@@ -11780,7 +11652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-steel-mesh-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Stainless Steel Mesh Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Steel Mesh Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless steel mesh gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Steel Mesh Gutter Guard Specialists",
     "h1": "Stainless Steel Mesh Gutter Guard in Northwest Arkansas",
@@ -11812,7 +11684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-deflector",
     "cluster": "service",
-    "metaTitle": "Gutter Deflector NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Deflector NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter deflector in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Deflector Specialists",
     "h1": "Gutter Deflector in Northwest Arkansas",
@@ -11844,7 +11716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-keep-leaves-out-of-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Keep Leaves Out Of Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Keep Leaves Out Of Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to keep leaves out of gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Keep Leaves Out Of Gutters Specialists",
     "h1": "Best Way To Keep Leaves Out Of Gutters in Northwest Arkansas",
@@ -11876,7 +11748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "steel-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Steel Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Steel Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for steel mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Steel Mesh Gutter Guards Specialists",
     "h1": "Steel Mesh Gutter Guards in Northwest Arkansas",
@@ -11908,7 +11780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "oversize-gutters",
     "cluster": "service",
-    "metaTitle": "Oversize Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Oversize Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for oversize gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Oversize Gutters Specialists",
     "h1": "Oversize Gutters in Northwest Arkansas",
@@ -11940,7 +11812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "senox-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Senox Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Senox Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for senox gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Senox Gutter Guards Specialists",
     "h1": "Senox Gutter Guards in Northwest Arkansas",
@@ -11972,7 +11844,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-cover-installation",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Cover Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Cover Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter cover installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Cover Installation Specialists",
     "h1": "Rain Gutter Cover Installation in Northwest Arkansas",
@@ -12004,7 +11876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-flow-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Ez Flow Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Flow Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez flow gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Flow Gutter Guards Specialists",
     "h1": "Ez Flow Gutter Guards in Northwest Arkansas",
@@ -12036,7 +11908,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "armour-lock-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Armour Lock Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Armour Lock Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for armour lock gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Armour Lock Gutter Guard Specialists",
     "h1": "Armour Lock Gutter Guard in Northwest Arkansas",
@@ -12068,7 +11940,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-5-inch-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For 5 Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For 5 Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for 5 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For 5 Inch Gutters Specialists",
     "h1": "Gutter Guards For 5 Inch Gutters in Northwest Arkansas",
@@ -12100,7 +11972,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter-screens",
     "cluster": "service",
-    "metaTitle": "Leaf Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Screens Specialists",
     "h1": "Leaf Gutter Screens in Northwest Arkansas",
@@ -12132,7 +12004,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-shield",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Shield NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Shield NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter shield in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Shield Specialists",
     "h1": "Rain Gutter Shield in Northwest Arkansas",
@@ -12164,7 +12036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-to-install-gutter-guards-per-foot",
     "cluster": "cost",
-    "metaTitle": "Cost To Install Gutter Guards Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost To Install Gutter Guards Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost to install gutter guards per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost To Install Gutter Guards Per Foot Specialists",
     "h1": "Cost To Install Gutter Guards Per Foot in Northwest Arkansas",
@@ -12196,7 +12068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "micro-mesh-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Micro Mesh Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Micro Mesh Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for micro mesh leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Micro Mesh Leaf Guard Specialists",
     "h1": "Micro Mesh Leaf Guard in Northwest Arkansas",
@@ -12228,7 +12100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-blaster-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Blaster Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Blaster Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf blaster gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Blaster Gutter Guards Specialists",
     "h1": "Leaf Blaster Gutter Guards in Northwest Arkansas",
@@ -12260,7 +12132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "3-inch-gutter-guards",
     "cluster": "service",
-    "metaTitle": "3 Inch Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "3 Inch Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 3 inch gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "3 Inch Gutter Guards Specialists",
     "h1": "3 Inch Gutter Guards in Northwest Arkansas",
@@ -12292,7 +12164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-gutter-screens",
     "cluster": "service",
-    "metaTitle": "Metal Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Gutter Screens Specialists",
     "h1": "Metal Gutter Screens in Northwest Arkansas",
@@ -12324,7 +12196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "valley-gutters",
     "cluster": "service",
-    "metaTitle": "Valley Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Valley Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for valley gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Valley Gutters Specialists",
     "h1": "Valley Gutters in Northwest Arkansas",
@@ -12356,7 +12228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-leaf-guard-gutters",
     "cluster": "service",
-    "metaTitle": "Cleaning Leaf Guard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning Leaf Guard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning leaf guard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning Leaf Guard Gutters Specialists",
     "h1": "Cleaning Leaf Guard Gutters in Northwest Arkansas",
@@ -12388,7 +12260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protection-home-depot",
     "cluster": "problem",
-    "metaTitle": "Gutter Protection Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protection Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protection home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protection Home Depot Specialists",
     "h1": "Gutter Protection Home Depot in Northwest Arkansas",
@@ -12420,7 +12292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-lock-gutter-screen",
     "cluster": "service",
-    "metaTitle": "Ez Lock Gutter Screen NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Lock Gutter Screen NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez lock gutter screen in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Lock Gutter Screen Specialists",
     "h1": "Ez Lock Gutter Screen in Northwest Arkansas",
@@ -12452,7 +12324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-splash-guard",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Splash Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Splash Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter splash guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Splash Guard Specialists",
     "h1": "Rain Gutter Splash Guard in Northwest Arkansas",
@@ -12484,7 +12356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ultra-flow-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Ultra Flow Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ultra Flow Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ultra flow gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ultra Flow Gutter Guard Specialists",
     "h1": "Ultra Flow Gutter Guard in Northwest Arkansas",
@@ -12516,7 +12388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-screens",
     "cluster": "service",
-    "metaTitle": "Eavestrough Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Screens Specialists",
     "h1": "Eavestrough Screens in Northwest Arkansas",
@@ -12548,7 +12420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "invisible-gutters",
     "cluster": "service",
-    "metaTitle": "Invisible Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Invisible Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for invisible gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Invisible Gutters Specialists",
     "h1": "Invisible Gutters in Northwest Arkansas",
@@ -12580,7 +12452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "steel-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Steel Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Steel Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for steel gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Steel Gutter Guards Specialists",
     "h1": "Steel Gutter Guards in Northwest Arkansas",
@@ -12612,7 +12484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-filter-lowes",
     "cluster": "service",
-    "metaTitle": "Leaf Filter Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Filter Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf filter lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Filter Lowes Specialists",
     "h1": "Leaf Filter Lowes in Northwest Arkansas",
@@ -12644,7 +12516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "20-ft-gutter",
     "cluster": "service",
-    "metaTitle": "20 Ft Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "20 Ft Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 20 ft gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "20 Ft Gutter Specialists",
     "h1": "20 Ft Gutter in Northwest Arkansas",
@@ -12676,7 +12548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-for-garage",
     "cluster": "service",
-    "metaTitle": "Gutters For Garage NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters For Garage NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters for garage in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters For Garage Specialists",
     "h1": "Gutters For Garage in Northwest Arkansas",
@@ -12708,7 +12580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "shurflo-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Shurflo Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Shurflo Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for shurflo leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Shurflo Leaf Guard Specialists",
     "h1": "Shurflo Leaf Guard in Northwest Arkansas",
@@ -12740,7 +12612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "valley-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Valley Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Valley Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for valley gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Valley Gutter Guard Specialists",
     "h1": "Valley Gutter Guard in Northwest Arkansas",
@@ -12772,7 +12644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-to-install-leaf-guard-gutters",
     "cluster": "cost",
-    "metaTitle": "Average Cost To Install Leaf Guard Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost To Install Leaf Guard Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost to install leaf guard gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost To Install Leaf Guard Gutters Specialists",
     "h1": "Average Cost To Install Leaf Guard Gutters in Northwest Arkansas",
@@ -12804,7 +12676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "mesh-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Mesh Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Mesh Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for mesh gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Mesh Gutter Covers Specialists",
     "h1": "Mesh Gutter Covers in Northwest Arkansas",
@@ -12836,7 +12708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-helmet-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Gutter Helmet Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Helmet Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter helmet gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Helmet Gutter Guards Specialists",
     "h1": "Gutter Helmet Gutter Guards in Northwest Arkansas",
@@ -12868,7 +12740,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shelter",
     "cluster": "service",
-    "metaTitle": "Leaf Shelter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shelter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shelter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shelter Specialists",
     "h1": "Leaf Shelter in Northwest Arkansas",
@@ -12900,7 +12772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-drain-gutter",
     "cluster": "service",
-    "metaTitle": "Rain Drain Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Drain Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain drain gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Drain Gutter Specialists",
     "h1": "Rain Drain Gutter in Northwest Arkansas",
@@ -12932,7 +12804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-gutter-guard-cost",
     "cluster": "cost",
-    "metaTitle": "Leaffilter Gutter Guard Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Gutter Guard Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter gutter guard cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Gutter Guard Cost Specialists",
     "h1": "Leaffilter Gutter Guard Cost in Northwest Arkansas",
@@ -12964,7 +12836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "premier-gutter",
     "cluster": "service",
-    "metaTitle": "Premier Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Premier Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for premier gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Premier Gutter Specialists",
     "h1": "Premier Gutter in Northwest Arkansas",
@@ -12996,7 +12868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-smooth-flow-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Ez Smooth Flow Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Smooth Flow Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez smooth flow gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Smooth Flow Gutter Guard Specialists",
     "h1": "Ez Smooth Flow Gutter Guard in Northwest Arkansas",
@@ -13028,7 +12900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "box-gutter-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Box Gutter Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Box Gutter Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for box gutter leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Box Gutter Leaf Guard Specialists",
     "h1": "Box Gutter Leaf Guard in Northwest Arkansas",
@@ -13060,7 +12932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raptor-micro-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Raptor Micro Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raptor Micro Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raptor micro mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raptor Micro Mesh Gutter Guards Specialists",
     "h1": "Raptor Micro Mesh Gutter Guards in Northwest Arkansas",
@@ -13092,7 +12964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-5-inch",
     "cluster": "service",
-    "metaTitle": "Gutter Guards 5 Inch NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards 5 Inch NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards 5 inch in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards 5 Inch Specialists",
     "h1": "Gutter Guards 5 Inch in Northwest Arkansas",
@@ -13124,7 +12996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutterglove-leafblaster",
     "cluster": "service",
-    "metaTitle": "Gutterglove Leafblaster NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutterglove Leafblaster NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutterglove leafblaster in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutterglove Leafblaster Specialists",
     "h1": "Gutterglove Leafblaster in Northwest Arkansas",
@@ -13156,7 +13028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-gusher-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Gusher Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Gusher Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter gusher guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Gusher Guard Specialists",
     "h1": "Gutter Gusher Guard in Northwest Arkansas",
@@ -13188,7 +13060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-lock-in-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Amerimax Lock In Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Lock In Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax lock in gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Lock In Gutter Guard Specialists",
     "h1": "Amerimax Lock In Gutter Guard in Northwest Arkansas",
@@ -13220,7 +13092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bulldog-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Bulldog Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bulldog Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bulldog gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bulldog Gutter Covers Specialists",
     "h1": "Bulldog Gutter Covers in Northwest Arkansas",
@@ -13252,7 +13124,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-blaster-pro-installation",
     "cluster": "service",
-    "metaTitle": "Leaf Blaster Pro Installation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Blaster Pro Installation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf blaster pro installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Blaster Pro Installation Specialists",
     "h1": "Leaf Blaster Pro Installation in Northwest Arkansas",
@@ -13284,7 +13156,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaffilter-gutter-company",
     "cluster": "service",
-    "metaTitle": "Leaffilter Gutter Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaffilter Gutter Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaffilter gutter company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaffilter Gutter Company Specialists",
     "h1": "Leaffilter Gutter Company in Northwest Arkansas",
@@ -13316,7 +13188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Metal Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Mesh Gutter Guards Specialists",
     "h1": "Metal Mesh Gutter Guards in Northwest Arkansas",
@@ -13348,7 +13220,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-covers-for-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Covers For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Covers For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best covers for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Covers For Gutters Specialists",
     "h1": "Best Covers For Gutters in Northwest Arkansas",
@@ -13380,7 +13252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-gutters-for-house",
     "cluster": "comparison",
-    "metaTitle": "Best Gutters For House NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Gutters For House NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best gutters for house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Gutters For House Specialists",
     "h1": "Best Gutters For House in Northwest Arkansas",
@@ -13412,7 +13284,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shelter-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Leaf Shelter Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shelter Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shelter gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shelter Gutter Guard Specialists",
     "h1": "Leaf Shelter Gutter Guard in Northwest Arkansas",
@@ -13444,7 +13316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "box-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Box Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Box Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for box gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Box Gutter Guard Specialists",
     "h1": "Box Gutter Guard in Northwest Arkansas",
@@ -13476,7 +13348,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-blaster-pro-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Leaf Blaster Pro Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Blaster Pro Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf blaster pro gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Blaster Pro Gutter Guards Specialists",
     "h1": "Leaf Blaster Pro Gutter Guards in Northwest Arkansas",
@@ -13508,7 +13380,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutterglove-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutterglove Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutterglove Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutterglove home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutterglove Home Depot Specialists",
     "h1": "Gutterglove Home Depot in Northwest Arkansas",
@@ -13540,7 +13412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Aluminum Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Gutter Covers Specialists",
     "h1": "Aluminum Gutter Covers in Northwest Arkansas",
@@ -13572,7 +13444,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "wire-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Wire Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Wire Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for wire gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Wire Gutter Guards Specialists",
     "h1": "Wire Gutter Guards in Northwest Arkansas",
@@ -13604,7 +13476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gorilla-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Gorilla Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gorilla Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gorilla gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gorilla Gutter Guard Specialists",
     "h1": "Gorilla Gutter Guard in Northwest Arkansas",
@@ -13636,7 +13508,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-rodent-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Rodent Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Rodent Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter rodent guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Rodent Guard Specialists",
     "h1": "Gutter Rodent Guard in Northwest Arkansas",
@@ -13668,7 +13540,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-snow-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Snow Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Snow Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter snow guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Snow Guard Specialists",
     "h1": "Gutter Snow Guard in Northwest Arkansas",
@@ -13700,7 +13572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stop-leaves-in-gutters",
     "cluster": "comparison",
-    "metaTitle": "Stop Leaves In Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stop Leaves In Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stop leaves in gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stop Leaves In Gutters Specialists",
     "h1": "Stop Leaves In Gutters in Northwest Arkansas",
@@ -13732,7 +13604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-for-box-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guard For Box Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard For Box Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard for box gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard For Box Gutters Specialists",
     "h1": "Gutter Guard For Box Gutters in Northwest Arkansas",
@@ -13764,7 +13636,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guard-removal",
     "cluster": "service",
-    "metaTitle": "Gutter Guard Removal NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guard Removal NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guard removal in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guard Removal Specialists",
     "h1": "Gutter Guard Removal in Northwest Arkansas",
@@ -13796,7 +13668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "terratone-gutters",
     "cluster": "service",
-    "metaTitle": "Terratone Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Terratone Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for terratone gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Terratone Gutters Specialists",
     "h1": "Terratone Gutters in Northwest Arkansas",
@@ -13828,7 +13700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-mesh-for-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Mesh For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Mesh For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf mesh for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Mesh For Gutters Specialists",
     "h1": "Leaf Mesh For Gutters in Northwest Arkansas",
@@ -13860,7 +13732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-steel-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Stainless Steel Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Steel Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless steel leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Steel Leaf Guard Specialists",
     "h1": "Stainless Steel Leaf Guard in Northwest Arkansas",
@@ -13892,7 +13764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "raptor-gutter-guard-home-depot",
     "cluster": "service",
-    "metaTitle": "Raptor Gutter Guard Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Raptor Gutter Guard Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for raptor gutter guard home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Raptor Gutter Guard Home Depot Specialists",
     "h1": "Raptor Gutter Guard Home Depot in Northwest Arkansas",
@@ -13924,7 +13796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "round-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Round Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Round Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for round gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Round Gutter Guards Specialists",
     "h1": "Round Gutter Guards in Northwest Arkansas",
@@ -13956,7 +13828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-helmet-price-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Helmet Price Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Helmet Price Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter helmet price per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Helmet Price Per Foot Specialists",
     "h1": "Gutter Helmet Price Per Foot in Northwest Arkansas",
@@ -13988,7 +13860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-shield-gutter-protection",
     "cluster": "problem",
-    "metaTitle": "Leaf Shield Gutter Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Shield Gutter Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf shield gutter protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Shield Gutter Protection Specialists",
     "h1": "Leaf Shield Gutter Protection in Northwest Arkansas",
@@ -14020,7 +13892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-corner-guard",
     "cluster": "service",
-    "metaTitle": "Gutter Corner Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Corner Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter corner guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Corner Guard Specialists",
     "h1": "Gutter Corner Guard in Northwest Arkansas",
@@ -14052,7 +13924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-exterminator-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Leaf Exterminator Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Exterminator Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf exterminator gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Exterminator Gutter Guard Specialists",
     "h1": "Leaf Exterminator Gutter Guard in Northwest Arkansas",
@@ -14084,7 +13956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "perforated-aluminum-gutter-guards",
     "cluster": "comparison",
-    "metaTitle": "Perforated Aluminum Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Perforated Aluminum Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for perforated aluminum gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Perforated Aluminum Gutter Guards Specialists",
     "h1": "Perforated Aluminum Gutter Guards in Northwest Arkansas",
@@ -14116,7 +13988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-leaf-guard",
     "cluster": "service",
-    "metaTitle": "Aluminum Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Leaf Guard Specialists",
     "h1": "Aluminum Leaf Guard in Northwest Arkansas",
@@ -14148,7 +14020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flowing-gutters",
     "cluster": "service",
-    "metaTitle": "Flowing Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flowing Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flowing gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flowing Gutters Specialists",
     "h1": "Flowing Gutters in Northwest Arkansas",
@@ -14180,7 +14052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "copper-colored-aluminum-gutters",
     "cluster": "service",
-    "metaTitle": "Copper Colored Aluminum Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Copper Colored Aluminum Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for copper colored aluminum gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Copper Colored Aluminum Gutters Specialists",
     "h1": "Copper Colored Aluminum Gutters in Northwest Arkansas",
@@ -14212,7 +14084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "perforated-gutter-guard",
     "cluster": "comparison",
-    "metaTitle": "Perforated Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Perforated Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for perforated gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Perforated Gutter Guard Specialists",
     "h1": "Perforated Gutter Guard in Northwest Arkansas",
@@ -14244,7 +14116,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "premium-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Premium Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Premium Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for premium gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Premium Gutter Guards Specialists",
     "h1": "Premium Gutter Guards in Northwest Arkansas",
@@ -14276,7 +14148,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "micro-mesh-gutter-covers",
     "cluster": "service",
-    "metaTitle": "Micro Mesh Gutter Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Micro Mesh Gutter Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for micro mesh gutter covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Micro Mesh Gutter Covers Specialists",
     "h1": "Micro Mesh Gutter Covers in Northwest Arkansas",
@@ -14308,7 +14180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutterglove-pro-costco",
     "cluster": "cost",
-    "metaTitle": "Gutterglove Pro Costco NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutterglove Pro Costco NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutterglove pro costco in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutterglove Pro Costco Specialists",
     "h1": "Gutterglove Pro Costco in Northwest Arkansas",
@@ -14340,7 +14212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-covers-at-lowes",
     "cluster": "service",
-    "metaTitle": "Gutter Covers At Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Covers At Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter covers at lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Covers At Lowes Specialists",
     "h1": "Gutter Covers At Lowes in Northwest Arkansas",
@@ -14372,7 +14244,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "heated-gutter-system",
     "cluster": "service",
-    "metaTitle": "Heated Gutter System NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Heated Gutter System NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for heated gutter system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Heated Gutter System Specialists",
     "h1": "Heated Gutter System in Northwest Arkansas",
@@ -14404,7 +14276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "trimdek-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Trimdek Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Trimdek Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for trimdek gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Trimdek Gutter Guard Specialists",
     "h1": "Trimdek Gutter Guard in Northwest Arkansas",
@@ -14436,7 +14308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "micro-screen-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Micro Screen Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Micro Screen Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for micro screen gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Micro Screen Gutter Guards Specialists",
     "h1": "Micro Screen Gutter Guards in Northwest Arkansas",
@@ -14468,7 +14340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-for-leaf-guard",
     "cluster": "cost",
-    "metaTitle": "Cost For Leaf Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost For Leaf Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost for leaf guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost For Leaf Guard Specialists",
     "h1": "Cost For Leaf Guard in Northwest Arkansas",
@@ -14500,7 +14372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-nets",
     "cluster": "service",
-    "metaTitle": "Gutter Nets NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Nets NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter nets in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Nets Specialists",
     "h1": "Gutter Nets in Northwest Arkansas",
@@ -14532,7 +14404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "sams-club-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Sams Club Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Sams Club Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for sams club gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Sams Club Gutter Guards Specialists",
     "h1": "Sams Club Gutter Guards in Northwest Arkansas",
@@ -14564,7 +14436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "zinc-gutter",
     "cluster": "service",
-    "metaTitle": "Zinc Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Zinc Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for zinc gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Zinc Gutter Specialists",
     "h1": "Zinc Gutter in Northwest Arkansas",
@@ -14596,7 +14468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "extra-wide-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Extra Wide Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Extra Wide Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for extra wide gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Extra Wide Gutter Guard Specialists",
     "h1": "Extra Wide Gutter Guard in Northwest Arkansas",
@@ -14628,7 +14500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "deep-gutter",
     "cluster": "service",
-    "metaTitle": "Deep Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Deep Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for deep gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Deep Gutter Specialists",
     "h1": "Deep Gutter in Northwest Arkansas",
@@ -14660,7 +14532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "galvanized-rain-gutters",
     "cluster": "service",
-    "metaTitle": "Galvanized Rain Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Galvanized Rain Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for galvanized rain gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Galvanized Rain Gutters Specialists",
     "h1": "Galvanized Rain Gutters in Northwest Arkansas",
@@ -14692,7 +14564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-for-4-inch-gutters",
     "cluster": "service",
-    "metaTitle": "Gutter Guards For 4 Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards For 4 Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards for 4 inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards For 4 Inch Gutters Specialists",
     "h1": "Gutter Guards For 4 Inch Gutters in Northwest Arkansas",
@@ -14724,7 +14596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "straight-gutter-splash-guard",
     "cluster": "service",
-    "metaTitle": "Straight Gutter Splash Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Straight Gutter Splash Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for straight gutter splash guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Straight Gutter Splash Guard Specialists",
     "h1": "Straight Gutter Splash Guard in Northwest Arkansas",
@@ -14756,7 +14628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-guards-from-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Guards From Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Guards From Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter guards from home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Guards From Home Depot Specialists",
     "h1": "Gutter Guards From Home Depot in Northwest Arkansas",
@@ -14788,7 +14660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-brushes-to-stop-leaves",
     "cluster": "comparison",
-    "metaTitle": "Gutter Brushes To Stop Leaves NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Brushes To Stop Leaves NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter brushes to stop leaves in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Brushes To Stop Leaves Specialists",
     "h1": "Gutter Brushes To Stop Leaves in Northwest Arkansas",
@@ -14820,7 +14692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-brush-home-depot",
     "cluster": "service",
-    "metaTitle": "Gutter Brush Home Depot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Brush Home Depot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter brush home depot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Brush Home Depot Specialists",
     "h1": "Gutter Brush Home Depot in Northwest Arkansas",
@@ -14852,7 +14724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-sleeve",
     "cluster": "service",
-    "metaTitle": "Gutter Sleeve NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Sleeve NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter sleeve in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Sleeve Specialists",
     "h1": "Gutter Sleeve in Northwest Arkansas",
@@ -14884,7 +14756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "armor-lock-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Armor Lock Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Armor Lock Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for armor lock gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Armor Lock Gutter Guard Specialists",
     "h1": "Armor Lock Gutter Guard in Northwest Arkansas",
@@ -14916,7 +14788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-aluminum-gutters",
     "cluster": "service",
-    "metaTitle": "Lowes Aluminum Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Aluminum Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes aluminum gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Aluminum Gutters Specialists",
     "h1": "Lowes Aluminum Gutters in Northwest Arkansas",
@@ -14948,7 +14820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-guard-alternatives",
     "cluster": "service",
-    "metaTitle": "Leaf Guard Alternatives NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Guard Alternatives NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf guard alternatives in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Guard Alternatives Specialists",
     "h1": "Leaf Guard Alternatives in Northwest Arkansas",
@@ -14980,7 +14852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "champion-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Champion Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Champion Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for champion gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Champion Gutter Guards Specialists",
     "h1": "Champion Gutter Guards in Northwest Arkansas",
@@ -15012,7 +14884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "spouting-covers",
     "cluster": "service",
-    "metaTitle": "Spouting Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Spouting Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for spouting covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Spouting Covers Specialists",
     "h1": "Spouting Covers in Northwest Arkansas",
@@ -15044,7 +14916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "guard-leaf",
     "cluster": "service",
-    "metaTitle": "Guard Leaf NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Guard Leaf NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for guard leaf in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Guard Leaf Specialists",
     "h1": "Guard Leaf in Northwest Arkansas",
@@ -15076,7 +14948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "waterlock-pro-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Waterlock Pro Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Waterlock Pro Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for waterlock pro gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Waterlock Pro Gutter Guards Specialists",
     "h1": "Waterlock Pro Gutter Guards in Northwest Arkansas",
@@ -15108,7 +14980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "six-inch-gutters",
     "cluster": "service",
-    "metaTitle": "Six Inch Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Six Inch Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for six inch gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Six Inch Gutters Specialists",
     "h1": "Six Inch Gutters in Northwest Arkansas",
@@ -15140,7 +15012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "custom-gutter-downspouts",
     "cluster": "service",
-    "metaTitle": "Custom Gutter Downspouts NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Custom Gutter Downspouts NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for custom gutter downspouts in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Custom Gutter Downspouts Specialists",
     "h1": "Custom Gutter Downspouts in Northwest Arkansas",
@@ -15172,7 +15044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "corner-gutter",
     "cluster": "service",
-    "metaTitle": "Corner Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Corner Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for corner gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Corner Gutter Specialists",
     "h1": "Corner Gutter in Northwest Arkansas",
@@ -15204,7 +15076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "Aluminum Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Mesh Gutter Guards Specialists",
     "h1": "Aluminum Mesh Gutter Guards in Northwest Arkansas",
@@ -15236,7 +15108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "wide-gutter",
     "cluster": "service",
-    "metaTitle": "Wide Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Wide Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for wide gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Wide Gutter Specialists",
     "h1": "Wide Gutter in Northwest Arkansas",
@@ -15268,7 +15140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-protection-installer",
     "cluster": "problem",
-    "metaTitle": "Gutter Protection Installer NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Protection Installer NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter protection installer in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Protection Installer Specialists",
     "h1": "Gutter Protection Installer in Northwest Arkansas",
@@ -15300,7 +15172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hydroflo-gutter-guard",
     "cluster": "service",
-    "metaTitle": "Hydroflo Gutter Guard NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hydroflo Gutter Guard NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hydroflo gutter guard in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hydroflo Gutter Guard Specialists",
     "h1": "Hydroflo Gutter Guard in Northwest Arkansas",
@@ -15332,7 +15204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-covers",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Covers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Covers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout covers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Covers Specialists",
     "h1": "Gutter Downspout Covers in Northwest Arkansas",
@@ -15364,7 +15236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "telescopic-gutter-brush",
     "cluster": "service",
-    "metaTitle": "Telescopic Gutter Brush NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Telescopic Gutter Brush NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for telescopic gutter brush in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Telescopic Gutter Brush Specialists",
     "h1": "Telescopic Gutter Brush in Northwest Arkansas",
@@ -15396,7 +15268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-leaf-guards-lowes",
     "cluster": "service",
-    "metaTitle": "Gutter Leaf Guards Lowes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Leaf Guards Lowes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter leaf guards lowes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Leaf Guards Lowes Specialists",
     "h1": "Gutter Leaf Guards Lowes in Northwest Arkansas",
@@ -15428,7 +15300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-rx-price",
     "cluster": "cost",
-    "metaTitle": "Gutter Rx Price NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Rx Price NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter rx price in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Rx Price Specialists",
     "h1": "Gutter Rx Price in Northwest Arkansas",
@@ -15460,7 +15332,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "bulldog-gutter",
     "cluster": "service",
-    "metaTitle": "Bulldog Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Bulldog Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for bulldog gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Bulldog Gutter Specialists",
     "h1": "Bulldog Gutter in Northwest Arkansas",
@@ -15492,7 +15364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-gutter-cover",
     "cluster": "service",
-    "metaTitle": "Amerimax Gutter Cover NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Gutter Cover NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax gutter cover in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Gutter Cover Specialists",
     "h1": "Amerimax Gutter Cover in Northwest Arkansas",
@@ -15524,7 +15396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stainless-steel-gutter-screens",
     "cluster": "service",
-    "metaTitle": "Stainless Steel Gutter Screens NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stainless Steel Gutter Screens NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stainless steel gutter screens in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stainless Steel Gutter Screens Specialists",
     "h1": "Stainless Steel Gutter Screens in Northwest Arkansas",
@@ -15556,7 +15428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "top-gutters",
     "cluster": "comparison",
-    "metaTitle": "Top Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Top Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for top gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Top Gutters Specialists",
     "h1": "Top Gutters in Northwest Arkansas",
@@ -15588,7 +15460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "narrow-gutters",
     "cluster": "service",
-    "metaTitle": "Narrow Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Narrow Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for narrow gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Narrow Gutters Specialists",
     "h1": "Narrow Gutters in Northwest Arkansas",
@@ -15620,7 +15492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-mesh",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Mesh NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Mesh NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter mesh in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Mesh Specialists",
     "h1": "Rain Gutter Mesh in Northwest Arkansas",
@@ -15652,7 +15524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "6-micro-mesh-gutter-guards",
     "cluster": "service",
-    "metaTitle": "6 Micro Mesh Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "6 Micro Mesh Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 6 micro mesh gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "6 Micro Mesh Gutter Guards Specialists",
     "h1": "6 Micro Mesh Gutter Guards in Northwest Arkansas",
@@ -15684,7 +15556,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "micro-mesh-gutter-guards-costco",
     "cluster": "cost",
-    "metaTitle": "Micro Mesh Gutter Guards Costco NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Micro Mesh Gutter Guards Costco NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for micro mesh gutter guards costco in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Micro Mesh Gutter Guards Costco Specialists",
     "h1": "Micro Mesh Gutter Guards Costco in Northwest Arkansas",
@@ -15716,7 +15588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "drip-edge-gutter",
     "cluster": "service",
-    "metaTitle": "Drip Edge Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Drip Edge Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for drip edge gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Drip Edge Gutter Specialists",
     "h1": "Drip Edge Gutter in Northwest Arkansas",
@@ -15748,7 +15620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "white-gutter-guards",
     "cluster": "service",
-    "metaTitle": "White Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "White Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for white gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "White Gutter Guards Specialists",
     "h1": "White Gutter Guards in Northwest Arkansas",
@@ -15780,7 +15652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "genova-gutters",
     "cluster": "service",
-    "metaTitle": "Genova Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Genova Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for genova gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Genova Gutters Specialists",
     "h1": "Genova Gutters in Northwest Arkansas",
@@ -15812,7 +15684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amerimax-gutter-hangers",
     "cluster": "service",
-    "metaTitle": "Amerimax Gutter Hangers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amerimax Gutter Hangers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amerimax gutter hangers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amerimax Gutter Hangers Specialists",
     "h1": "Amerimax Gutter Hangers in Northwest Arkansas",
@@ -15844,7 +15716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "5-in-gutter-guards",
     "cluster": "service",
-    "metaTitle": "5 In Gutter Guards NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "5 In Gutter Guards NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 5 in gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "5 In Gutter Guards Specialists",
     "h1": "5 In Gutter Guards in Northwest Arkansas",
@@ -15876,7 +15748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-spout-cover",
     "cluster": "service",
-    "metaTitle": "Gutter Spout Cover NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Spout Cover NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter spout cover in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Spout Cover Specialists",
     "h1": "Gutter Spout Cover in Northwest Arkansas",
@@ -15908,7 +15780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-top",
     "cluster": "comparison",
-    "metaTitle": "Gutter Top NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Top NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter top in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Top Specialists",
     "h1": "Gutter Top in Northwest Arkansas",
@@ -15940,7 +15812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "shurflo-gutters",
     "cluster": "service",
-    "metaTitle": "Shurflo Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Shurflo Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for shurflo gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Shurflo Gutters Specialists",
     "h1": "Shurflo Gutters in Northwest Arkansas",
@@ -15970,329 +15842,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "guttering-near-me",
-    "cluster": "service",
-    "metaTitle": "Guttering Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for guttering near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Guttering Near Me Specialists",
-    "h1": "Guttering Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for guttering near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Guttering Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for guttering near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Guttering Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for guttering near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Specialists",
-    "h1": "Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Near Me Specialists",
-    "h1": "Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-cost",
-    "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Cost NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Cost Specialists",
-    "h1": "Gutter Cleaning Cost in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning cost in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Cost in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning cost throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Cost Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning cost in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "99-gutter-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "99 Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for 99 gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "99 Gutter Cleaning Near Me Specialists",
-    "h1": "99 Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for 99 gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for 99 Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for 99 gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "99 Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for 99 gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-service",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning Service NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning service in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Service Specialists",
-    "h1": "Gutter Cleaning Service in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning service in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Service in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning service throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Service Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning service in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "roof-and-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Roof And Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roof and gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roof And Gutter Cleaning Specialists",
-    "h1": "Roof And Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roof and gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roof And Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roof and gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roof And Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roof and gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-services-near-me",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning Services Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning services near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Services Near Me Specialists",
-    "h1": "Gutter Cleaning Services Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning services near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Services Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning services near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Services Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning services near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "eavestrough-cleaning",
-    "cluster": "service",
-    "metaTitle": "Eavestrough Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for eavestrough cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Eavestrough Cleaning Specialists",
-    "h1": "Eavestrough Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for eavestrough cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Eavestrough Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for eavestrough cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Eavestrough Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for eavestrough cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-guys-near-me",
-    "cluster": "service",
-    "metaTitle": "Gutter Guys Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter guys near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Guys Near Me Specialists",
-    "h1": "Gutter Guys Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter guys near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Guys Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter guys near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Guys Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter guys near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "roof-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Roof Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Gutter Cleaning Specialists",
     "h1": "Roof Gutter Cleaning in Northwest Arkansas",
@@ -16324,7 +15876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-prices",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Prices NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Prices NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning prices in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Prices Specialists",
     "h1": "Gutter Cleaning Prices in Northwest Arkansas",
@@ -16354,361 +15906,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "rain-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Rain Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for rain gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Rain Gutter Cleaning Specialists",
-    "h1": "Rain Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for rain gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Rain Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for rain gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Rain Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for rain gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "rain-gutter-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "Rain Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for rain gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Rain Gutter Cleaning Near Me Specialists",
-    "h1": "Rain Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for rain gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Rain Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for rain gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Rain Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for rain gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "ned-stevens-gutter-cleaning-cost",
-    "cluster": "cost",
-    "metaTitle": "Ned Stevens Gutter Cleaning Cost NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for ned stevens gutter cleaning cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Ned Stevens Gutter Cleaning Cost Specialists",
-    "h1": "Ned Stevens Gutter Cleaning Cost in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for ned stevens gutter cleaning cost in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Ned Stevens Gutter Cleaning Cost in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for ned stevens gutter cleaning cost throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Ned Stevens Gutter Cleaning Cost Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for ned stevens gutter cleaning cost in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "local-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Local Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for local gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Local Gutter Cleaning Specialists",
-    "h1": "Local Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for local gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Local Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for local gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Local Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for local gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaners-in-my-area",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaners In My Area NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaners in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaners In My Area Specialists",
-    "h1": "Gutter Cleaners In My Area in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaners in my area in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaners In My Area in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaners in my area throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaners In My Area Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaners in my area in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "handyman-to-clean-gutters-near-me",
-    "cluster": "service",
-    "metaTitle": "Handyman To Clean Gutters Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for handyman to clean gutters near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Handyman To Clean Gutters Near Me Specialists",
-    "h1": "Handyman To Clean Gutters Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for handyman to clean gutters near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Handyman To Clean Gutters Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for handyman to clean gutters near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Handyman To Clean Gutters Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for handyman to clean gutters near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "best-gutter-cleaning-near-me",
-    "cluster": "comparison",
-    "metaTitle": "Best Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for best gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Best Gutter Cleaning Near Me Specialists",
-    "h1": "Best Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for best gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Best Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for best gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Best Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for best gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-companies",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning Companies NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Companies Specialists",
-    "h1": "Gutter Cleaning Companies in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning companies in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Companies in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning companies throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Companies Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning companies in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-prices-near-me",
-    "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Prices Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning prices near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Prices Near Me Specialists",
-    "h1": "Gutter Cleaning Prices Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning prices near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Prices Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning prices near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Prices Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning prices near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "roof-and-gutter-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "Roof And Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roof and gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roof And Gutter Cleaning Near Me Specialists",
-    "h1": "Roof And Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roof and gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roof And Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roof and gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roof And Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roof and gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-vac",
-    "cluster": "service",
-    "metaTitle": "Gutter Vac NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter vac in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Vac Specialists",
-    "h1": "Gutter Vac in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter vac in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Vac in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter vac throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Vac Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter vac in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-and-downspout-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter And Downspout Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter And Downspout Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter and downspout cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter And Downspout Cleaning Specialists",
     "h1": "Gutter And Downspout Cleaning in Northwest Arkansas",
@@ -16738,137 +15938,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "gutter-clean-out",
-    "cluster": "service",
-    "metaTitle": "Gutter Clean Out NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter clean out in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Clean Out Specialists",
-    "h1": "Gutter Clean Out in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter clean out in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Clean Out in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter clean out throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Clean Out Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter clean out in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "cost-to-clean-gutters-2-story-house",
-    "cluster": "cost",
-    "metaTitle": "Cost To Clean Gutters 2 Story House NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for cost to clean gutters 2 story house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Cost To Clean Gutters 2 Story House Specialists",
-    "h1": "Cost To Clean Gutters 2 Story House in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for cost to clean gutters 2 story house in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Cost To Clean Gutters 2 Story House in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for cost to clean gutters 2 story house throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Cost To Clean Gutters 2 Story House Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for cost to clean gutters 2 story house in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-cleaning-companies-near-me",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning Companies Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning Companies Near Me Specialists",
-    "h1": "Gutter Cleaning Companies Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning companies near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning Companies Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning companies near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning Companies Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning companies near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "gutter-maintenance-near-me",
-    "cluster": "service",
-    "metaTitle": "Gutter Maintenance Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter maintenance near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Maintenance Near Me Specialists",
-    "h1": "Gutter Maintenance Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter maintenance near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Maintenance Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter maintenance near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Maintenance Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter maintenance near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "average-cost-of-gutter-cleaning",
     "cluster": "cost",
-    "metaTitle": "Average Cost Of Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost Of Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost of gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost Of Gutter Cleaning Specialists",
     "h1": "Average Cost Of Gutter Cleaning in Northwest Arkansas",
@@ -16898,73 +15970,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "house-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "House Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for house gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "House Gutter Cleaning Specialists",
-    "h1": "House Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for house gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for House Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for house gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "House Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for house gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "clean-my-gutters",
-    "cluster": "service",
-    "metaTitle": "Clean My Gutters NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for clean my gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Clean My Gutters Specialists",
-    "h1": "Clean My Gutters in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for clean my gutters in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Clean My Gutters in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for clean my gutters throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Clean My Gutters Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for clean my gutters in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-maintenance",
     "cluster": "service",
-    "metaTitle": "Gutter Maintenance NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Maintenance NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter maintenance in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Maintenance Specialists",
     "h1": "Gutter Maintenance in Northwest Arkansas",
@@ -16994,41 +16002,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "commercial-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Commercial Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for commercial gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Commercial Gutter Cleaning Specialists",
-    "h1": "Commercial Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for commercial gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Commercial Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for commercial gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Commercial Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for commercial gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-cleaning-cost-near-me",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Cost Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Cost Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning cost near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Cost Near Me Specialists",
     "h1": "Gutter Cleaning Cost Near Me in Northwest Arkansas",
@@ -17060,7 +16036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Gutters Specialists",
     "h1": "Best Way To Clean Gutters in Northwest Arkansas",
@@ -17092,7 +16068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-and-roof-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Gutter And Roof Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter And Roof Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter and roof cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter And Roof Cleaning Near Me Specialists",
     "h1": "Gutter And Roof Cleaning Near Me in Northwest Arkansas",
@@ -17124,7 +16100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "professional-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Professional Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Professional Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for professional gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Professional Gutter Cleaning Specialists",
     "h1": "Professional Gutter Cleaning in Northwest Arkansas",
@@ -17156,7 +16132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Leaf Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Gutter Cleaner Specialists",
     "h1": "Leaf Gutter Cleaner in Northwest Arkansas",
@@ -17186,41 +16162,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "downspout-cleaning",
-    "cluster": "service",
-    "metaTitle": "Downspout Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for downspout cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Downspout Cleaning Specialists",
-    "h1": "Downspout Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for downspout cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Downspout Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for downspout cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Downspout Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for downspout cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "home-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Home Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Home Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for home gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Home Gutter Cleaning Specialists",
     "h1": "Home Gutter Cleaning in Northwest Arkansas",
@@ -17252,7 +16196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-drain-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter Drain Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Drain Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter drain cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Drain Cleaning Specialists",
     "h1": "Gutter Drain Cleaning in Northwest Arkansas",
@@ -17284,7 +16228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-estimate",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Estimate NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Estimate NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning estimate in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Estimate Specialists",
     "h1": "Gutter Cleaning Estimate in Northwest Arkansas",
@@ -17316,7 +16260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "guttering-services-near-me",
     "cluster": "service",
-    "metaTitle": "Guttering Services Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Guttering Services Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for guttering services near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Guttering Services Near Me Specialists",
     "h1": "Guttering Services Near Me in Northwest Arkansas",
@@ -17348,7 +16292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-cleaning-service",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Cleaning Service NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Cleaning Service NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter cleaning service in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Cleaning Service Specialists",
     "h1": "Rain Gutter Cleaning Service in Northwest Arkansas",
@@ -17380,7 +16324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-price-for-gutter-cleaning",
     "cluster": "cost",
-    "metaTitle": "Average Price For Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Price For Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average price for gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Price For Gutter Cleaning Specialists",
     "h1": "Average Price For Gutter Cleaning in Northwest Arkansas",
@@ -17412,7 +16356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-clean-out-near-me",
     "cluster": "service",
-    "metaTitle": "Gutter Clean Out Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Clean Out Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter clean out near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Clean Out Near Me Specialists",
     "h1": "Gutter Clean Out Near Me in Northwest Arkansas",
@@ -17444,7 +16388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Eavestrough Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Cleaning Near Me Specialists",
     "h1": "Eavestrough Cleaning Near Me in Northwest Arkansas",
@@ -17476,7 +16420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-business",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Business NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Business NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning business in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Business Specialists",
     "h1": "Gutter Cleaning Business in Northwest Arkansas",
@@ -17508,7 +16452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-service-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Service Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Service Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning service cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Service Cost Specialists",
     "h1": "Gutter Cleaning Service Cost in Northwest Arkansas",
@@ -17540,7 +16484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-services-in-my-area",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Services In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Services In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning services in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Services In My Area Specialists",
     "h1": "Gutter Cleaning Services In My Area in Northwest Arkansas",
@@ -17572,7 +16516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "neds-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Neds Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Neds Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for neds gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Neds Gutter Cleaning Specialists",
     "h1": "Neds Gutter Cleaning in Northwest Arkansas",
@@ -17602,41 +16546,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "men-in-kilts-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Men In Kilts Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for men in kilts gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Men In Kilts Gutter Cleaning Specialists",
-    "h1": "Men In Kilts Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for men in kilts gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Men In Kilts Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for men in kilts gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Men In Kilts Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for men in kilts gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "clean-gutters-from-ground",
     "cluster": "service",
-    "metaTitle": "Clean Gutters From Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clean Gutters From Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clean gutters from ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clean Gutters From Ground Specialists",
     "h1": "Clean Gutters From Ground in Northwest Arkansas",
@@ -17668,7 +16580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "the-gutter-guys-near-me",
     "cluster": "service",
-    "metaTitle": "The Gutter Guys Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "The Gutter Guys Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for the gutter guys near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "The Gutter Guys Near Me Specialists",
     "h1": "The Gutter Guys Near Me in Northwest Arkansas",
@@ -17700,7 +16612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-and-drain-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter And Drain Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter And Drain Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter and drain cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter And Drain Cleaning Specialists",
     "h1": "Gutter And Drain Cleaning in Northwest Arkansas",
@@ -17730,41 +16642,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "commercial-gutter-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "Commercial Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for commercial gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Commercial Gutter Cleaning Near Me Specialists",
-    "h1": "Commercial Gutter Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for commercial gutter cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Commercial Gutter Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for commercial gutter cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Commercial Gutter Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for commercial gutter cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-cleaning-quotes",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Quotes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Quotes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning quotes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Quotes Specialists",
     "h1": "Gutter Cleaning Quotes in Northwest Arkansas",
@@ -17794,41 +16674,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "gutter-cleaning-and-power-washing",
-    "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Power Washing NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter cleaning and power washing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Cleaning And Power Washing Specialists",
-    "h1": "Gutter Cleaning And Power Washing in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter cleaning and power washing in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Cleaning And Power Washing in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter cleaning and power washing throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Cleaning And Power Washing Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter cleaning and power washing in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-removal",
     "cluster": "service",
-    "metaTitle": "Gutter Removal NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Removal NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter removal in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Removal Specialists",
     "h1": "Gutter Removal in Northwest Arkansas",
@@ -17860,7 +16708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-protection",
     "cluster": "problem",
-    "metaTitle": "Gutters Protection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Protection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters protection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Protection Specialists",
     "h1": "Gutters Protection in Northwest Arkansas",
@@ -17892,7 +16740,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "need-gutters-cleaned",
     "cluster": "service",
-    "metaTitle": "Need Gutters Cleaned NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Need Gutters Cleaned NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for need gutters cleaned in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Need Gutters Cleaned Specialists",
     "h1": "Need Gutters Cleaned in Northwest Arkansas",
@@ -17924,7 +16772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "get-gutters-cleaned",
     "cluster": "service",
-    "metaTitle": "Get Gutters Cleaned NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Get Gutters Cleaned NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for get gutters cleaned in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Get Gutters Cleaned Specialists",
     "h1": "Get Gutters Cleaned in Northwest Arkansas",
@@ -17956,7 +16804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-machine",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Machine NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Machine NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning machine in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Machine Specialists",
     "h1": "Gutter Cleaning Machine in Northwest Arkansas",
@@ -17988,7 +16836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "telescopic-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Telescopic Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Telescopic Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for telescopic gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Telescopic Gutter Cleaner Specialists",
     "h1": "Telescopic Gutter Cleaner in Northwest Arkansas",
@@ -18020,7 +16868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Cleaning Specialists",
     "h1": "Gutter Downspout Cleaning in Northwest Arkansas",
@@ -18052,7 +16900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-service-cost",
     "cluster": "cost",
-    "metaTitle": "Gutter Service Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Service Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter service cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Service Cost Specialists",
     "h1": "Gutter Service Cost in Northwest Arkansas",
@@ -18084,7 +16932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "pro-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Pro Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Pro Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for pro gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Pro Gutter Cleaning Specialists",
     "h1": "Pro Gutter Cleaning in Northwest Arkansas",
@@ -18116,7 +16964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "no-clean-gutters",
     "cluster": "service",
-    "metaTitle": "No Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "No Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for no clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "No Clean Gutters Specialists",
     "h1": "No Clean Gutters in Northwest Arkansas",
@@ -18148,7 +16996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clogged-gutter-drain",
     "cluster": "problem",
-    "metaTitle": "Clogged Gutter Drain NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clogged Gutter Drain NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clogged gutter drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clogged Gutter Drain Specialists",
     "h1": "Clogged Gutter Drain in Northwest Arkansas",
@@ -18180,7 +17028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "angi-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Angi Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Angi Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for angi gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Angi Gutter Cleaning Specialists",
     "h1": "Angi Gutter Cleaning in Northwest Arkansas",
@@ -18212,7 +17060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "residential-gutter-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Residential Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Residential Gutter Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for residential gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Residential Gutter Cleaning Near Me Specialists",
     "h1": "Residential Gutter Cleaning Near Me in Northwest Arkansas",
@@ -18244,7 +17092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "power-washing-and-gutter-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Power Washing And Gutter Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Power Washing And Gutter Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for power washing and gutter cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Power Washing And Gutter Cleaning Near Me Specialists",
     "h1": "Power Washing And Gutter Cleaning Near Me in Northwest Arkansas",
@@ -18274,41 +17122,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "downspout-cleaning-near-me",
-    "cluster": "service",
-    "metaTitle": "Downspout Cleaning Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for downspout cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Downspout Cleaning Near Me Specialists",
-    "h1": "Downspout Cleaning Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for downspout cleaning near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Downspout Cleaning Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for downspout cleaning near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Downspout Cleaning Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for downspout cleaning near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "handyman-to-clean-gutters",
     "cluster": "service",
-    "metaTitle": "Handyman To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Handyman To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for handyman to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Handyman To Clean Gutters Specialists",
     "h1": "Handyman To Clean Gutters in Northwest Arkansas",
@@ -18340,7 +17156,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-cost-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Cost Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Cost Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning cost per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Cost Per Foot Specialists",
     "h1": "Gutter Cleaning Cost Per Foot in Northwest Arkansas",
@@ -18372,7 +17188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-to-get-gutters-cleaned",
     "cluster": "cost",
-    "metaTitle": "Cost To Get Gutters Cleaned NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost To Get Gutters Cleaned NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost to get gutters cleaned in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost To Get Gutters Cleaned Specialists",
     "h1": "Cost To Get Gutters Cleaned in Northwest Arkansas",
@@ -18402,41 +17218,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "skyvac-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Skyvac Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for skyvac gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Skyvac Gutter Cleaning Specialists",
-    "h1": "Skyvac Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for skyvac gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Skyvac Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for skyvac gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Skyvac Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for skyvac gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-clean-up",
     "cluster": "service",
-    "metaTitle": "Gutter Clean Up NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Clean Up NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter clean up in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Clean Up Specialists",
     "h1": "Gutter Clean Up in Northwest Arkansas",
@@ -18468,7 +17252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-price-per-foot",
     "cluster": "cost",
-    "metaTitle": "Gutter Cleaning Price Per Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Price Per Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning price per foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Price Per Foot Specialists",
     "h1": "Gutter Cleaning Price Per Foot in Northwest Arkansas",
@@ -18500,7 +17284,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-downspout-cleanout",
     "cluster": "service",
-    "metaTitle": "Gutter Downspout Cleanout NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Downspout Cleanout NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter downspout cleanout in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Downspout Cleanout Specialists",
     "h1": "Gutter Downspout Cleanout in Northwest Arkansas",
@@ -18532,7 +17316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-gutters-from-ground",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Gutters From Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Gutters From Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean gutters from ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Gutters From Ground Specialists",
     "h1": "Best Way To Clean Gutters From Ground in Northwest Arkansas",
@@ -18562,41 +17346,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "gutter-drain-pipe-cleaning",
-    "cluster": "service",
-    "metaTitle": "Gutter Drain Pipe Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for gutter drain pipe cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Gutter Drain Pipe Cleaning Specialists",
-    "h1": "Gutter Drain Pipe Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for gutter drain pipe cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Gutter Drain Pipe Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for gutter drain pipe cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Gutter Drain Pipe Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for gutter drain pipe cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-service-in-my-area",
     "cluster": "service",
-    "metaTitle": "Gutter Service In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Service In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter service in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Service In My Area Specialists",
     "h1": "Gutter Service In My Area in Northwest Arkansas",
@@ -18628,7 +17380,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-maid",
     "cluster": "service",
-    "metaTitle": "Gutter Maid NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Maid NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter maid in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Maid Specialists",
     "h1": "Gutter Maid in Northwest Arkansas",
@@ -18660,7 +17412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "easiest-way-to-clean-gutters",
     "cluster": "service",
-    "metaTitle": "Easiest Way To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Easiest Way To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for easiest way to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Easiest Way To Clean Gutters Specialists",
     "h1": "Easiest Way To Clean Gutters in Northwest Arkansas",
@@ -18692,7 +17444,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "industrial-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Industrial Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Industrial Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for industrial gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Industrial Gutter Cleaning Specialists",
     "h1": "Industrial Gutter Cleaning in Northwest Arkansas",
@@ -18724,7 +17476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaf-removal-from-gutters",
     "cluster": "service",
-    "metaTitle": "Leaf Removal From Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf Removal From Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf removal from gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf Removal From Gutters Specialists",
     "h1": "Leaf Removal From Gutters in Northwest Arkansas",
@@ -18754,73 +17506,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "pressure-washer-gutter-cleaner",
-    "cluster": "service",
-    "metaTitle": "Pressure Washer Gutter Cleaner NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for pressure washer gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Pressure Washer Gutter Cleaner Specialists",
-    "h1": "Pressure Washer Gutter Cleaner in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for pressure washer gutter cleaner in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Pressure Washer Gutter Cleaner in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for pressure washer gutter cleaner throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Pressure Washer Gutter Cleaner Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for pressure washer gutter cleaner in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "power-washing-and-gutter-cleaning",
-    "cluster": "service",
-    "metaTitle": "Power Washing And Gutter Cleaning NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for power washing and gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Power Washing And Gutter Cleaning Specialists",
-    "h1": "Power Washing And Gutter Cleaning in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for power washing and gutter cleaning in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Power Washing And Gutter Cleaning in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for power washing and gutter cleaning throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Power Washing And Gutter Cleaning Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for power washing and gutter cleaning in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "leaf-and-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Leaf And Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaf And Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaf and gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaf And Gutter Cleaning Specialists",
     "h1": "Leaf And Gutter Cleaning in Northwest Arkansas",
@@ -18852,7 +17540,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaner-in-my-area",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaner In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaner In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaner in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaner In My Area Specialists",
     "h1": "Gutter Cleaner In My Area in Northwest Arkansas",
@@ -18884,7 +17572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-clear",
     "cluster": "service",
-    "metaTitle": "Gutter Clear NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Clear NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter clear in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Clear Specialists",
     "h1": "Gutter Clear in Northwest Arkansas",
@@ -18916,7 +17604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "home-depot-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Home Depot Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Home Depot Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for home depot gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Home Depot Gutter Cleaner Specialists",
     "h1": "Home Depot Gutter Cleaner in Northwest Arkansas",
@@ -18948,7 +17636,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-cleaning-and-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Roof Cleaning And Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Cleaning And Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof cleaning and gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Cleaning And Gutter Cleaning Specialists",
     "h1": "Roof Cleaning And Gutter Cleaning in Northwest Arkansas",
@@ -18980,7 +17668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "kens-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Kens Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Kens Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for kens gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Kens Gutter Cleaning Specialists",
     "h1": "Kens Gutter Cleaning in Northwest Arkansas",
@@ -19012,7 +17700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-washing-near-me",
     "cluster": "service",
-    "metaTitle": "Gutter Washing Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Washing Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter washing near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Washing Near Me Specialists",
     "h1": "Gutter Washing Near Me in Northwest Arkansas",
@@ -19044,7 +17732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-eavestrough",
     "cluster": "service",
-    "metaTitle": "Cleaning Eavestrough NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning Eavestrough NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning eavestrough in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning Eavestrough Specialists",
     "h1": "Cleaning Eavestrough in Northwest Arkansas",
@@ -19076,7 +17764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-cleaning-cost",
     "cluster": "cost",
-    "metaTitle": "Rain Gutter Cleaning Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Cleaning Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter cleaning cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Cleaning Cost Specialists",
     "h1": "Rain Gutter Cleaning Cost in Northwest Arkansas",
@@ -19108,7 +17796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-downspouts",
     "cluster": "service",
-    "metaTitle": "Gutters Downspouts NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Downspouts NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters downspouts in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Downspouts Specialists",
     "h1": "Gutters Downspouts in Northwest Arkansas",
@@ -19140,7 +17828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eavestrough-cleaning-cost",
     "cluster": "cost",
-    "metaTitle": "Eavestrough Cleaning Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eavestrough Cleaning Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eavestrough cleaning cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eavestrough Cleaning Cost Specialists",
     "h1": "Eavestrough Cleaning Cost in Northwest Arkansas",
@@ -19172,7 +17860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-to-clean-out-gutters",
     "cluster": "cost",
-    "metaTitle": "Cost To Clean Out Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost To Clean Out Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost to clean out gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost To Clean Out Gutters Specialists",
     "h1": "Cost To Clean Out Gutters in Northwest Arkansas",
@@ -19204,7 +17892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "blocked-gutter-drain",
     "cluster": "service",
-    "metaTitle": "Blocked Gutter Drain NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Blocked Gutter Drain NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for blocked gutter drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Blocked Gutter Drain Specialists",
     "h1": "Blocked Gutter Drain in Northwest Arkansas",
@@ -19236,7 +17924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clogged-gutter-downspout",
     "cluster": "problem",
-    "metaTitle": "Clogged Gutter Downspout NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clogged Gutter Downspout NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clogged gutter downspout in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clogged Gutter Downspout Specialists",
     "h1": "Clogged Gutter Downspout in Northwest Arkansas",
@@ -19268,7 +17956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleanpro-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Cleanpro Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleanpro Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleanpro gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleanpro Gutter Cleaning Specialists",
     "h1": "Cleanpro Gutter Cleaning in Northwest Arkansas",
@@ -19300,7 +17988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-drain-pipe-clogged",
     "cluster": "problem",
-    "metaTitle": "Gutter Drain Pipe Clogged NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Drain Pipe Clogged NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter drain pipe clogged in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Drain Pipe Clogged Specialists",
     "h1": "Gutter Drain Pipe Clogged in Northwest Arkansas",
@@ -19332,7 +18020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "exterior-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Exterior Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Exterior Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for exterior gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Exterior Gutter Cleaning Specialists",
     "h1": "Exterior Gutter Cleaning in Northwest Arkansas",
@@ -19364,7 +18052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "vinyl-gutter",
     "cluster": "service",
-    "metaTitle": "Vinyl Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Vinyl Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for vinyl gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Vinyl Gutter Specialists",
     "h1": "Vinyl Gutter in Northwest Arkansas",
@@ -19396,7 +18084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clogged-gutter",
     "cluster": "problem",
-    "metaTitle": "Clogged Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clogged Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clogged gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clogged Gutter Specialists",
     "h1": "Clogged Gutter in Northwest Arkansas",
@@ -19428,7 +18116,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "guttersucker",
     "cluster": "service",
-    "metaTitle": "Guttersucker NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Guttersucker NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for guttersucker in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Guttersucker Specialists",
     "h1": "Guttersucker in Northwest Arkansas",
@@ -19460,7 +18148,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "professional-gutters",
     "cluster": "service",
-    "metaTitle": "Professional Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Professional Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for professional gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Professional Gutters Specialists",
     "h1": "Professional Gutters in Northwest Arkansas",
@@ -19492,7 +18180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-cleaning-gutters-and-downspouts",
     "cluster": "cost",
-    "metaTitle": "Cost Of Cleaning Gutters And Downspouts NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Cleaning Gutters And Downspouts NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of cleaning gutters and downspouts in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Cleaning Gutters And Downspouts Specialists",
     "h1": "Cost Of Cleaning Gutters And Downspouts in Northwest Arkansas",
@@ -19524,7 +18212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "irobot-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Irobot Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Irobot Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for irobot gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Irobot Gutter Cleaner Specialists",
     "h1": "Irobot Gutter Cleaner in Northwest Arkansas",
@@ -19556,7 +18244,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-gutter-cleaning-prices",
     "cluster": "cost",
-    "metaTitle": "Commercial Gutter Cleaning Prices NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Gutter Cleaning Prices NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial gutter cleaning prices in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Gutter Cleaning Prices Specialists",
     "h1": "Commercial Gutter Cleaning Prices in Northwest Arkansas",
@@ -19588,7 +18276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Lowes Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Gutter Cleaner Specialists",
     "h1": "Lowes Gutter Cleaner in Northwest Arkansas",
@@ -19620,7 +18308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutters-service",
     "cluster": "service",
-    "metaTitle": "Gutters Service NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutters Service NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutters service in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutters Service Specialists",
     "h1": "Gutters Service in Northwest Arkansas",
@@ -19652,7 +18340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "rain-gutter-maintenance",
     "cluster": "service",
-    "metaTitle": "Rain Gutter Maintenance NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Rain Gutter Maintenance NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for rain gutter maintenance in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Rain Gutter Maintenance Specialists",
     "h1": "Rain Gutter Maintenance in Northwest Arkansas",
@@ -19684,7 +18372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaves-in-gutters",
     "cluster": "service",
-    "metaTitle": "Leaves In Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaves In Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaves in gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaves In Gutters Specialists",
     "h1": "Leaves In Gutters in Northwest Arkansas",
@@ -19716,7 +18404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-contractors",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Contractors NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Contractors NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning contractors in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Contractors Specialists",
     "h1": "Gutter Cleaning Contractors in Northwest Arkansas",
@@ -19748,7 +18436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-high-gutters",
     "cluster": "service",
-    "metaTitle": "Cleaning High Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning High Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning high gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning High Gutters Specialists",
     "h1": "Cleaning High Gutters in Northwest Arkansas",
@@ -19780,7 +18468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-of-having-gutters-cleaned",
     "cluster": "cost",
-    "metaTitle": "Cost Of Having Gutters Cleaned NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost Of Having Gutters Cleaned NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost of having gutters cleaned in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost Of Having Gutters Cleaned Specialists",
     "h1": "Cost Of Having Gutters Cleaned in Northwest Arkansas",
@@ -19812,7 +18500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ryobi-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Ryobi Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ryobi Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ryobi gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ryobi Gutter Cleaner Specialists",
     "h1": "Ryobi Gutter Cleaner in Northwest Arkansas",
@@ -19844,7 +18532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ned-stevens-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Ned Stevens Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ned Stevens Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ned stevens gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ned Stevens Gutter Cleaner Specialists",
     "h1": "Ned Stevens Gutter Cleaner in Northwest Arkansas",
@@ -19876,7 +18564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "average-cost-to-get-gutters-cleaned",
     "cluster": "cost",
-    "metaTitle": "Average Cost To Get Gutters Cleaned NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Average Cost To Get Gutters Cleaned NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for average cost to get gutters cleaned in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Average Cost To Get Gutters Cleaned Specialists",
     "h1": "Average Cost To Get Gutters Cleaned in Northwest Arkansas",
@@ -19908,7 +18596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-falling-off-house",
     "cluster": "service",
-    "metaTitle": "Gutter Falling Off House NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Falling Off House NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter falling off house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Falling Off House Specialists",
     "h1": "Gutter Falling Off House in Northwest Arkansas",
@@ -19940,7 +18628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-out-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Out Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Out Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean out gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Out Gutters Specialists",
     "h1": "Best Way To Clean Out Gutters in Northwest Arkansas",
@@ -19972,7 +18660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-and-maintenance",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning And Maintenance NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning And Maintenance NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning and maintenance in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning And Maintenance Specialists",
     "h1": "Gutter Cleaning And Maintenance in Northwest Arkansas",
@@ -20004,7 +18692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "power-washer-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Power Washer Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Power Washer Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for power washer gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Power Washer Gutter Cleaner Specialists",
     "h1": "Power Washer Gutter Cleaner in Northwest Arkansas",
@@ -20036,7 +18724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-co",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Co NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Co NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning co in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Co Specialists",
     "h1": "Gutter Cleaning Co in Northwest Arkansas",
@@ -20068,7 +18756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-roof-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Gutter Roof Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Roof Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter roof cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Roof Cleaning Near Me Specialists",
     "h1": "Gutter Roof Cleaning Near Me in Northwest Arkansas",
@@ -20100,7 +18788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-outside-of-gutters",
     "cluster": "service",
-    "metaTitle": "Cleaning Outside Of Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning Outside Of Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning outside of gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning Outside Of Gutters Specialists",
     "h1": "Cleaning Outside Of Gutters in Northwest Arkansas",
@@ -20132,7 +18820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-washing",
     "cluster": "service",
-    "metaTitle": "Gutter Washing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Washing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter washing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Washing Specialists",
     "h1": "Gutter Washing in Northwest Arkansas",
@@ -20164,7 +18852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "fascia-and-soffit-cleaning-near-me",
     "cluster": "service",
-    "metaTitle": "Fascia And Soffit Cleaning Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Fascia And Soffit Cleaning Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for fascia and soffit cleaning near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Fascia And Soffit Cleaning Near Me Specialists",
     "h1": "Fascia And Soffit Cleaning Near Me in Northwest Arkansas",
@@ -20196,7 +18884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "two-story-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Two Story Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Two Story Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for two story gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Two Story Gutter Cleaner Specialists",
     "h1": "Two Story Gutter Cleaner in Northwest Arkansas",
@@ -20228,7 +18916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "downspout-clean-out",
     "cluster": "service",
-    "metaTitle": "Downspout Clean Out NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Downspout Clean Out NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for downspout clean out in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Downspout Clean Out Specialists",
     "h1": "Downspout Clean Out in Northwest Arkansas",
@@ -20260,7 +18948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-your-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Your Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Your Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean your gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Your Gutters Specialists",
     "h1": "Best Way To Clean Your Gutters in Northwest Arkansas",
@@ -20292,7 +18980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "krud-kutter-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Krud Kutter Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Krud Kutter Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for krud kutter gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Krud Kutter Gutter Cleaner Specialists",
     "h1": "Krud Kutter Gutter Cleaner in Northwest Arkansas",
@@ -20324,7 +19012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-rain-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Rain Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Rain Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean rain gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Rain Gutters Specialists",
     "h1": "Best Way To Clean Rain Gutters in Northwest Arkansas",
@@ -20356,7 +19044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-by-the-foot",
     "cluster": "service",
-    "metaTitle": "Gutter By The Foot NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter By The Foot NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter by the foot in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter By The Foot Specialists",
     "h1": "Gutter By The Foot in Northwest Arkansas",
@@ -20388,7 +19076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-soffit-and-fascia-cleaning-prices",
     "cluster": "cost",
-    "metaTitle": "Gutter Soffit And Fascia Cleaning Prices NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Soffit And Fascia Cleaning Prices NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter soffit and fascia cleaning prices in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Soffit And Fascia Cleaning Prices Specialists",
     "h1": "Gutter Soffit And Fascia Cleaning Prices in Northwest Arkansas",
@@ -20420,7 +19108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-and-soffit-cleaning",
     "cluster": "service",
-    "metaTitle": "Gutter And Soffit Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter And Soffit Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter and soffit cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter And Soffit Cleaning Specialists",
     "h1": "Gutter And Soffit Cleaning in Northwest Arkansas",
@@ -20452,7 +19140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-unclogger",
     "cluster": "problem",
-    "metaTitle": "Gutter Unclogger NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Unclogger NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter unclogger in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Unclogger Specialists",
     "h1": "Gutter Unclogger in Northwest Arkansas",
@@ -20484,7 +19172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "amazon-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Amazon Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Amazon Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for amazon gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Amazon Gutter Cleaner Specialists",
     "h1": "Amazon Gutter Cleaner in Northwest Arkansas",
@@ -20516,7 +19204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-hook",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Hook NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Hook NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning hook in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Hook Specialists",
     "h1": "Gutter Cleaning Hook in Northwest Arkansas",
@@ -20548,7 +19236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-pressure-washer",
     "cluster": "service",
-    "metaTitle": "Gutter Pressure Washer NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Pressure Washer NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter pressure washer in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Pressure Washer Specialists",
     "h1": "Gutter Pressure Washer in Northwest Arkansas",
@@ -20580,7 +19268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-washer",
     "cluster": "service",
-    "metaTitle": "Gutter Washer NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Washer NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter washer in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Washer Specialists",
     "h1": "Gutter Washer in Northwest Arkansas",
@@ -20612,7 +19300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-2-story-house",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning 2 Story House NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning 2 Story House NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning 2 story house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning 2 Story House Specialists",
     "h1": "Gutter Cleaning 2 Story House in Northwest Arkansas",
@@ -20642,41 +19330,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "snow-guards-for-gutters",
-    "cluster": "service",
-    "metaTitle": "Snow Guards For Gutters NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for snow guards for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Snow Guards For Gutters Specialists",
-    "h1": "Snow Guards For Gutters in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for snow guards for gutters in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Snow Guards For Gutters in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for snow guards for gutters throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Snow Guards For Gutters Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for snow guards for gutters in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "gutter-cleaning-two-story-house",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Two Story House NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Two Story House NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning two story house in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Two Story House Specialists",
     "h1": "Gutter Cleaning Two Story House in Northwest Arkansas",
@@ -20708,7 +19364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clogged-rain-gutter",
     "cluster": "problem",
-    "metaTitle": "Clogged Rain Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clogged Rain Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clogged rain gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clogged Rain Gutter Specialists",
     "h1": "Clogged Rain Gutter in Northwest Arkansas",
@@ -20740,7 +19396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "automatic-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Automatic Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Automatic Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for automatic gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Automatic Gutter Cleaner Specialists",
     "h1": "Automatic Gutter Cleaner in Northwest Arkansas",
@@ -20772,7 +19428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-pros",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Pros NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Pros NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning pros in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Pros Specialists",
     "h1": "Gutter Cleaning Pros in Northwest Arkansas",
@@ -20804,7 +19460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "keep-gutters-clean",
     "cluster": "service",
-    "metaTitle": "Keep Gutters Clean NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Keep Gutters Clean NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for keep gutters clean in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Keep Gutters Clean Specialists",
     "h1": "Keep Gutters Clean in Northwest Arkansas",
@@ -20836,7 +19492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "extension-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Extension Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Extension Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for extension gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Extension Gutter Cleaner Specialists",
     "h1": "Extension Gutter Cleaner in Northwest Arkansas",
@@ -20868,7 +19524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "worx-gutter-pro",
     "cluster": "service",
-    "metaTitle": "Worx Gutter Pro NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Worx Gutter Pro NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for worx gutter pro in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Worx Gutter Pro Specialists",
     "h1": "Worx Gutter Pro in Northwest Arkansas",
@@ -20898,41 +19554,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "removing-gutter-guards",
-    "cluster": "service",
-    "metaTitle": "Removing Gutter Guards NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for removing gutter guards in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Removing Gutter Guards Specialists",
-    "h1": "Removing Gutter Guards in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for removing gutter guards in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Removing Gutter Guards in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for removing gutter guards throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Removing Gutter Guards Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for removing gutter guards in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "extended-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Extended Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Extended Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for extended gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Extended Gutter Cleaner Specialists",
     "h1": "Extended Gutter Cleaner in Northwest Arkansas",
@@ -20964,7 +19588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clean-pro-gutter",
     "cluster": "service",
-    "metaTitle": "Clean Pro Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clean Pro Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clean pro gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clean Pro Gutter Specialists",
     "h1": "Clean Pro Gutter in Northwest Arkansas",
@@ -20996,7 +19620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "filter-for-gutters",
     "cluster": "service",
-    "metaTitle": "Filter For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Filter For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for filter for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Filter For Gutters Specialists",
     "h1": "Filter For Gutters in Northwest Arkansas",
@@ -21028,7 +19652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "aluminum-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Aluminum Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Aluminum Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for aluminum gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Aluminum Gutter Cleaner Specialists",
     "h1": "Aluminum Gutter Cleaner in Northwest Arkansas",
@@ -21060,7 +19684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "powerwash-gutters",
     "cluster": "service",
-    "metaTitle": "Powerwash Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Powerwash Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for powerwash gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Powerwash Gutters Specialists",
     "h1": "Powerwash Gutters in Northwest Arkansas",
@@ -21092,7 +19716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-gutter-cleaning-service",
     "cluster": "service",
-    "metaTitle": "Roof Gutter Cleaning Service NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Gutter Cleaning Service NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof gutter cleaning service in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Gutter Cleaning Service Specialists",
     "h1": "Roof Gutter Cleaning Service in Northwest Arkansas",
@@ -21124,7 +19748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "2-story-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "2 Story Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "2 Story Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for 2 story gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "2 Story Gutter Cleaner Specialists",
     "h1": "2 Story Gutter Cleaner in Northwest Arkansas",
@@ -21156,7 +19780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaner-for-gutters",
     "cluster": "service",
-    "metaTitle": "Cleaner For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaner For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaner for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaner For Gutters Specialists",
     "h1": "Cleaner For Gutters in Northwest Arkansas",
@@ -21188,7 +19812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "drain-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Drain Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Drain Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for drain gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Drain Gutter Cleaner Specialists",
     "h1": "Drain Gutter Cleaner in Northwest Arkansas",
@@ -21220,7 +19844,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clear-gutter-downspout",
     "cluster": "service",
-    "metaTitle": "Clear Gutter Downspout NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clear Gutter Downspout NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clear gutter downspout in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clear Gutter Downspout Specialists",
     "h1": "Clear Gutter Downspout in Northwest Arkansas",
@@ -21252,7 +19876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clean-gutter-downspout-from-ground",
     "cluster": "service",
-    "metaTitle": "Clean Gutter Downspout From Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clean Gutter Downspout From Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clean gutter downspout from ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clean Gutter Downspout From Ground Specialists",
     "h1": "Clean Gutter Downspout From Ground in Northwest Arkansas",
@@ -21284,7 +19908,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-sweeps",
     "cluster": "service",
-    "metaTitle": "Gutter Sweeps NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Sweeps NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter sweeps in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Sweeps Specialists",
     "h1": "Gutter Sweeps in Northwest Arkansas",
@@ -21316,7 +19940,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cost-to-clean-gutters-homewyse",
     "cluster": "cost",
-    "metaTitle": "Cost To Clean Gutters Homewyse NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cost To Clean Gutters Homewyse NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cost to clean gutters homewyse in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cost To Clean Gutters Homewyse Specialists",
     "h1": "Cost To Clean Gutters Homewyse in Northwest Arkansas",
@@ -21348,7 +19972,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "fastest-way-to-clean-gutters",
     "cluster": "service",
-    "metaTitle": "Fastest Way To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Fastest Way To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for fastest way to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Fastest Way To Clean Gutters Specialists",
     "h1": "Fastest Way To Clean Gutters in Northwest Arkansas",
@@ -21380,7 +20004,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "leaves-in-gutter",
     "cluster": "service",
-    "metaTitle": "Leaves In Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Leaves In Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for leaves in gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Leaves In Gutter Specialists",
     "h1": "Leaves In Gutter in Northwest Arkansas",
@@ -21412,7 +20036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "done-gutter",
     "cluster": "service",
-    "metaTitle": "Done Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Done Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for done gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Done Gutter Specialists",
     "h1": "Done Gutter in Northwest Arkansas",
@@ -21444,7 +20068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-flusher",
     "cluster": "service",
-    "metaTitle": "Gutter Flusher NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Flusher NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter flusher in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Flusher Specialists",
     "h1": "Gutter Flusher in Northwest Arkansas",
@@ -21476,7 +20100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cluster-buster",
     "cluster": "service",
-    "metaTitle": "Gutter Cluster Buster NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cluster Buster NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cluster buster in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cluster Buster Specialists",
     "h1": "Gutter Cluster Buster in Northwest Arkansas",
@@ -21508,7 +20132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-a-gutter",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean A Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean A Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean a gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean A Gutter Specialists",
     "h1": "Best Way To Clean A Gutter in Northwest Arkansas",
@@ -21540,7 +20164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "easiest-way-to-clean-gutters-from-the-ground",
     "cluster": "service",
-    "metaTitle": "Easiest Way To Clean Gutters From The Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Easiest Way To Clean Gutters From The Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for easiest way to clean gutters from the ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Easiest Way To Clean Gutters From The Ground Specialists",
     "h1": "Easiest Way To Clean Gutters From The Ground in Northwest Arkansas",
@@ -21572,7 +20196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-soffits",
     "cluster": "service",
-    "metaTitle": "Cleaning Soffits NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning Soffits NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning soffits in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning Soffits Specialists",
     "h1": "Cleaning Soffits in Northwest Arkansas",
@@ -21604,7 +20228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-green",
     "cluster": "service",
-    "metaTitle": "Gutter Green NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Green NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter green in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Green Specialists",
     "h1": "Gutter Green in Northwest Arkansas",
@@ -21636,7 +20260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "clean-your-gutters-from-the-ground",
     "cluster": "service",
-    "metaTitle": "Clean Your Gutters From The Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Clean Your Gutters From The Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for clean your gutters from the ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Clean Your Gutters From The Ground Specialists",
     "h1": "Clean Your Gutters From The Ground in Northwest Arkansas",
@@ -21668,7 +20292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "auto-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Auto Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Auto Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for auto gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Auto Gutter Cleaner Specialists",
     "h1": "Auto Gutter Cleaner in Northwest Arkansas",
@@ -21700,7 +20324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-gutters-out",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Gutters Out NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Gutters Out NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean gutters out in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Gutters Out Specialists",
     "h1": "Best Way To Clean Gutters Out in Northwest Arkansas",
@@ -21732,7 +20356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-and-siding-cleaner",
     "cluster": "service",
-    "metaTitle": "Gutter And Siding Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter And Siding Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter and siding cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter And Siding Cleaner Specialists",
     "h1": "Gutter And Siding Cleaner in Northwest Arkansas",
@@ -21764,7 +20388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "ez-smart-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Ez Smart Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Ez Smart Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for ez smart gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Ez Smart Gutter Cleaner Specialists",
     "h1": "Ez Smart Gutter Cleaner in Northwest Arkansas",
@@ -21796,7 +20420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "extension-to-clean-gutters",
     "cluster": "service",
-    "metaTitle": "Extension To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Extension To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for extension to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Extension To Clean Gutters Specialists",
     "h1": "Extension To Clean Gutters in Northwest Arkansas",
@@ -21828,7 +20452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "fascia-cleaner",
     "cluster": "service",
-    "metaTitle": "Fascia Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Fascia Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for fascia cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Fascia Cleaner Specialists",
     "h1": "Fascia Cleaner in Northwest Arkansas",
@@ -21860,7 +20484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cleaning-white-gutters",
     "cluster": "service",
-    "metaTitle": "Cleaning White Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cleaning White Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cleaning white gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cleaning White Gutters Specialists",
     "h1": "Cleaning White Gutters in Northwest Arkansas",
@@ -21892,7 +20516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-clutter",
     "cluster": "service",
-    "metaTitle": "Gutter Clutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Clutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter clutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Clutter Specialists",
     "h1": "Gutter Clutter in Northwest Arkansas",
@@ -21924,7 +20548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "black-and-decker-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Black And Decker Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Black And Decker Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for black and decker gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Black And Decker Gutter Cleaner Specialists",
     "h1": "Black And Decker Gutter Cleaner in Northwest Arkansas",
@@ -21956,7 +20580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stihl-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Stihl Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stihl Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stihl gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stihl Gutter Cleaner Specialists",
     "h1": "Stihl Gutter Cleaner in Northwest Arkansas",
@@ -21988,7 +20612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "compressed-air-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Compressed Air Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Compressed Air Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for compressed air gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Compressed Air Gutter Cleaner Specialists",
     "h1": "Compressed Air Gutter Cleaner in Northwest Arkansas",
@@ -22020,7 +20644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-cleaner-for-siding-and-gutters",
     "cluster": "comparison",
-    "metaTitle": "Best Cleaner For Siding And Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Cleaner For Siding And Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best cleaner for siding and gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Cleaner For Siding And Gutters Specialists",
     "h1": "Best Cleaner For Siding And Gutters in Northwest Arkansas",
@@ -22052,7 +20676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "worx-wa4092",
     "cluster": "service",
-    "metaTitle": "Worx Wa4092 NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Worx Wa4092 NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for worx wa4092 in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Worx Wa4092 Specialists",
     "h1": "Worx Wa4092 in Northwest Arkansas",
@@ -22084,7 +20708,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "power-washer-extension-for-gutters",
     "cluster": "service",
-    "metaTitle": "Power Washer Extension For Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Power Washer Extension For Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for power washer extension for gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Power Washer Extension For Gutters Specialists",
     "h1": "Power Washer Extension For Gutters in Northwest Arkansas",
@@ -22116,7 +20740,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "stihl-rain-gutter-cleaner",
     "cluster": "service",
-    "metaTitle": "Stihl Rain Gutter Cleaner NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Stihl Rain Gutter Cleaner NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for stihl rain gutter cleaner in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Stihl Rain Gutter Cleaner Specialists",
     "h1": "Stihl Rain Gutter Cleaner in Northwest Arkansas",
@@ -22148,7 +20772,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-eaves",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Eaves NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Eaves NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean eaves in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Eaves Specialists",
     "h1": "Best Way To Clean Eaves in Northwest Arkansas",
@@ -22180,7 +20804,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-soffit-and-fascia",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Soffit And Fascia NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Soffit And Fascia NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean soffit and fascia in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Soffit And Fascia Specialists",
     "h1": "Best Way To Clean Soffit And Fascia in Northwest Arkansas",
@@ -22212,7 +20836,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-way-to-clean-soffits",
     "cluster": "comparison",
-    "metaTitle": "Best Way To Clean Soffits NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Way To Clean Soffits NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best way to clean soffits in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Way To Clean Soffits Specialists",
     "h1": "Best Way To Clean Soffits in Northwest Arkansas",
@@ -22244,7 +20868,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-cleaning-business-reddit",
     "cluster": "service",
-    "metaTitle": "Gutter Cleaning Business Reddit NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Cleaning Business Reddit NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter cleaning business reddit in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Cleaning Business Reddit Specialists",
     "h1": "Gutter Cleaning Business Reddit in Northwest Arkansas",
@@ -22276,7 +20900,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-ground",
     "cluster": "service",
-    "metaTitle": "Gutter Ground NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Ground NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter ground in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Ground Specialists",
     "h1": "Gutter Ground in Northwest Arkansas",
@@ -22308,7 +20932,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-k",
     "cluster": "service",
-    "metaTitle": "Gutter K NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter K NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter k in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter K Specialists",
     "h1": "Gutter K in Northwest Arkansas",
@@ -22340,7 +20964,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-sludge",
     "cluster": "service",
-    "metaTitle": "Gutter Sludge NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Sludge NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter sludge in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Sludge Specialists",
     "h1": "Gutter Sludge in Northwest Arkansas",
@@ -22372,7 +20996,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "gutter-upvc",
     "cluster": "service",
-    "metaTitle": "Gutter Upvc NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Gutter Upvc NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for gutter upvc in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Gutter Upvc Specialists",
     "h1": "Gutter Upvc in Northwest Arkansas",
@@ -22404,7 +21028,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "guttersweep",
     "cluster": "service",
-    "metaTitle": "Guttersweep NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Guttersweep NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for guttersweep in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Guttersweep Specialists",
     "h1": "Guttersweep in Northwest Arkansas",
@@ -22436,7 +21060,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "pressure-washer-to-clean-gutters",
     "cluster": "service",
-    "metaTitle": "Pressure Washer To Clean Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Pressure Washer To Clean Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for pressure washer to clean gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Pressure Washer To Clean Gutters Specialists",
     "h1": "Pressure Washer To Clean Gutters in Northwest Arkansas",
@@ -22468,7 +21092,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "pros-gutter-cleaning",
     "cluster": "service",
-    "metaTitle": "Pros Gutter Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Pros Gutter Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for pros gutter cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Pros Gutter Cleaning Specialists",
     "h1": "Pros Gutter Cleaning in Northwest Arkansas",
@@ -22500,7 +21124,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "simple-gutter",
     "cluster": "service",
-    "metaTitle": "Simple Gutter NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Simple Gutter NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for simple gutter in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Simple Gutter Specialists",
     "h1": "Simple Gutter in Northwest Arkansas",
@@ -22530,73 +21154,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "roofing-companies-near-me",
-    "cluster": "service",
-    "metaTitle": "Roofing Companies Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roofing companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roofing Companies Near Me Specialists",
-    "h1": "Roofing Companies Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roofing companies near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roofing Companies Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roofing companies near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roofing Companies Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roofing companies near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "roofers-near-me",
-    "cluster": "service",
-    "metaTitle": "Roofers Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roofers Near Me Specialists",
-    "h1": "Roofers Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roofers near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roofers Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roofers near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roofers Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roofers near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "roofing",
     "cluster": "service",
-    "metaTitle": "Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Specialists",
     "h1": "Roofing in Northwest Arkansas",
@@ -22628,7 +21188,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-companies",
     "cluster": "service",
-    "metaTitle": "Roofing Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Companies Specialists",
     "h1": "Roofing Companies in Northwest Arkansas",
@@ -22660,7 +21220,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-contractors",
     "cluster": "service",
-    "metaTitle": "Roofing Contractors NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Contractors NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing contractors in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Contractors Specialists",
     "h1": "Roofing Contractors in Northwest Arkansas",
@@ -22692,7 +21252,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "superior-roofing",
     "cluster": "service",
-    "metaTitle": "Superior Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Superior Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for superior roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Superior Roofing Specialists",
     "h1": "Superior Roofing in Northwest Arkansas",
@@ -22722,41 +21282,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "metal-roofers",
-    "cluster": "service",
-    "metaTitle": "Metal Roofers NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for metal roofers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Metal Roofers Specialists",
-    "h1": "Metal Roofers in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for metal roofers in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Metal Roofers in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for metal roofers throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Metal Roofers Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for metal roofers in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "company-roofing",
     "cluster": "service",
-    "metaTitle": "Company Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Company Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for company roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Company Roofing Specialists",
     "h1": "Company Roofing in Northwest Arkansas",
@@ -22788,7 +21316,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-firms-near-me",
     "cluster": "service",
-    "metaTitle": "Roofing Firms Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Firms Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing firms near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Firms Near Me Specialists",
     "h1": "Roofing Firms Near Me in Northwest Arkansas",
@@ -22818,41 +21346,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "roof-repair-near-me",
-    "cluster": "problem",
-    "metaTitle": "Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roof Repair Near Me Specialists",
-    "h1": "Roof Repair Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roof repair near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roof Repair Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roof repair near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roof Repair Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roof repair near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "roof-repair",
     "cluster": "problem",
-    "metaTitle": "Roof Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Repair Specialists",
     "h1": "Roof Repair in Northwest Arkansas",
@@ -22882,73 +21378,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "roofing-contractors-near-me",
-    "cluster": "service",
-    "metaTitle": "Roofing Contractors Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roofing contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roofing Contractors Near Me Specialists",
-    "h1": "Roofing Contractors Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roofing contractors near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roofing Contractors Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roofing contractors near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roofing Contractors Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roofing contractors near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "metal-roofing-near-me",
-    "cluster": "service",
-    "metaTitle": "Metal Roofing Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for metal roofing near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Metal Roofing Near Me Specialists",
-    "h1": "Metal Roofing Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for metal roofing near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Metal Roofing Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for metal roofing near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Metal Roofing Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for metal roofing near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "best-roofing-company-near-me",
     "cluster": "comparison",
-    "metaTitle": "Best Roofing Company Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Roofing Company Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best roofing company near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Roofing Company Near Me Specialists",
     "h1": "Best Roofing Company Near Me in Northwest Arkansas",
@@ -22980,7 +21412,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "erie-roofing",
     "cluster": "service",
-    "metaTitle": "Erie Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Erie Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for erie roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Erie Roofing Specialists",
     "h1": "Erie Roofing in Northwest Arkansas",
@@ -23010,41 +21442,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "roof-leak-repair",
-    "cluster": "problem",
-    "metaTitle": "Roof Leak Repair NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for roof leak repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Roof Leak Repair Specialists",
-    "h1": "Roof Leak Repair in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for roof leak repair in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Roof Leak Repair in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for roof leak repair throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Roof Leak Repair Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for roof leak repair in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "roofers-in-my-area",
     "cluster": "service",
-    "metaTitle": "Roofers In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofers In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofers in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofers In My Area Specialists",
     "h1": "Roofers In My Area in Northwest Arkansas",
@@ -23076,7 +21476,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "local-roofing-companies",
     "cluster": "service",
-    "metaTitle": "Local Roofing Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Local Roofing Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for local roofing companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Local Roofing Companies Specialists",
     "h1": "Local Roofing Companies in Northwest Arkansas",
@@ -23108,7 +21508,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flat-roof-repair",
     "cluster": "problem",
-    "metaTitle": "Flat Roof Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flat Roof Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flat roof repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flat Roof Repair Specialists",
     "h1": "Flat Roof Repair in Northwest Arkansas",
@@ -23138,41 +21538,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "new-roof-cost",
-    "cluster": "cost",
-    "metaTitle": "New Roof Cost NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for new roof cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "New Roof Cost Specialists",
-    "h1": "New Roof Cost in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for new roof cost in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for New Roof Cost in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for new roof cost throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "New Roof Cost Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for new roof cost in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "best-roofers-near-me",
     "cluster": "comparison",
-    "metaTitle": "Best Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Roofers Near Me Specialists",
     "h1": "Best Roofers Near Me in Northwest Arkansas",
@@ -23204,7 +21572,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "house-washing-near-me",
     "cluster": "service",
-    "metaTitle": "House Washing Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "House Washing Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for house washing near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "House Washing Near Me Specialists",
     "h1": "House Washing Near Me in Northwest Arkansas",
@@ -23236,7 +21604,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "affordable-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Affordable Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Affordable Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for affordable roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Affordable Roofers Near Me Specialists",
     "h1": "Affordable Roofers Near Me in Northwest Arkansas",
@@ -23266,41 +21634,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "ice-dam-removal",
-    "cluster": "service",
-    "metaTitle": "Ice Dam Removal NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for ice dam removal in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Ice Dam Removal Specialists",
-    "h1": "Ice Dam Removal in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for ice dam removal in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Ice Dam Removal in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for ice dam removal throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Ice Dam Removal Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for ice dam removal in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "metal-roofing-companies-near-me",
     "cluster": "service",
-    "metaTitle": "Metal Roofing Companies Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Roofing Companies Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal roofing companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Roofing Companies Near Me Specialists",
     "h1": "Metal Roofing Companies Near Me in Northwest Arkansas",
@@ -23332,7 +21668,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-leak-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Roof Leak Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Leak Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof leak repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Leak Repair Near Me Specialists",
     "h1": "Roof Leak Repair Near Me in Northwest Arkansas",
@@ -23364,7 +21700,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-roof-installers-near-me",
     "cluster": "service",
-    "metaTitle": "Metal Roof Installers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Roof Installers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal roof installers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Roof Installers Near Me Specialists",
     "h1": "Metal Roof Installers Near Me in Northwest Arkansas",
@@ -23396,7 +21732,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-inspection",
     "cluster": "service",
-    "metaTitle": "Roof Inspection NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Inspection NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof inspection in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Inspection Specialists",
     "h1": "Roof Inspection in Northwest Arkansas",
@@ -23428,7 +21764,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-estimate",
     "cluster": "cost",
-    "metaTitle": "Roof Estimate NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Estimate NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof estimate in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Estimate Specialists",
     "h1": "Roof Estimate in Northwest Arkansas",
@@ -23460,7 +21796,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-replacement",
     "cluster": "service",
-    "metaTitle": "Roof Replacement NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Replacement NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof replacement in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Replacement Specialists",
     "h1": "Roof Replacement in Northwest Arkansas",
@@ -23492,7 +21828,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-restoration",
     "cluster": "service",
-    "metaTitle": "Roof Restoration NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Restoration NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof restoration in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Restoration Specialists",
     "h1": "Roof Restoration in Northwest Arkansas",
@@ -23524,7 +21860,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "soffit-repair",
     "cluster": "problem",
-    "metaTitle": "Soffit Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Soffit Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for soffit repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Soffit Repair Specialists",
     "h1": "Soffit Repair in Northwest Arkansas",
@@ -23556,7 +21892,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-quotes",
     "cluster": "cost",
-    "metaTitle": "Roofing Quotes NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Quotes NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing quotes in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Quotes Specialists",
     "h1": "Roofing Quotes in Northwest Arkansas",
@@ -23588,7 +21924,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "erie-home-roofing",
     "cluster": "service",
-    "metaTitle": "Erie Home Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Erie Home Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for erie home roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Erie Home Roofing Specialists",
     "h1": "Erie Home Roofing in Northwest Arkansas",
@@ -23620,7 +21956,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-roof-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Metal Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Roof Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Roof Repair Near Me Specialists",
     "h1": "Metal Roof Repair Near Me in Northwest Arkansas",
@@ -23652,7 +21988,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "small-roof-repair-contractors",
     "cluster": "problem",
-    "metaTitle": "Small Roof Repair Contractors NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Small Roof Repair Contractors NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for small roof repair contractors in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Small Roof Repair Contractors Specialists",
     "h1": "Small Roof Repair Contractors in Northwest Arkansas",
@@ -23684,7 +22020,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "hansons-roofing",
     "cluster": "service",
-    "metaTitle": "Hansons Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Hansons Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for hansons roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Hansons Roofing Specialists",
     "h1": "Hansons Roofing in Northwest Arkansas",
@@ -23716,7 +22052,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "local-roofers",
     "cluster": "service",
-    "metaTitle": "Local Roofers NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Local Roofers NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for local roofers in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Local Roofers Specialists",
     "h1": "Local Roofers in Northwest Arkansas",
@@ -23748,7 +22084,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "metal-roofing-contractors-near-me",
     "cluster": "service",
-    "metaTitle": "Metal Roofing Contractors Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Metal Roofing Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for metal roofing contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Metal Roofing Contractors Near Me Specialists",
     "h1": "Metal Roofing Contractors Near Me in Northwest Arkansas",
@@ -23780,7 +22116,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "powell-and-sons-gutters",
     "cluster": "service",
-    "metaTitle": "Powell And Sons Gutters NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Powell And Sons Gutters NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for powell and sons gutters in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Powell And Sons Gutters Specialists",
     "h1": "Powell And Sons Gutters in Northwest Arkansas",
@@ -23810,73 +22146,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "ice-dam-removal-near-me",
-    "cluster": "service",
-    "metaTitle": "Ice Dam Removal Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for ice dam removal near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Ice Dam Removal Near Me Specialists",
-    "h1": "Ice Dam Removal Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for ice dam removal near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Ice Dam Removal Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for ice dam removal near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Ice Dam Removal Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for ice dam removal near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
-    "slug": "skylight-repair-near-me",
-    "cluster": "problem",
-    "metaTitle": "Skylight Repair Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for skylight repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Skylight Repair Near Me Specialists",
-    "h1": "Skylight Repair Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for skylight repair near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Skylight Repair Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for skylight repair near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Skylight Repair Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for skylight repair near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "affordable-roofing",
     "cluster": "service",
-    "metaTitle": "Affordable Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Affordable Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for affordable roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Affordable Roofing Specialists",
     "h1": "Affordable Roofing in Northwest Arkansas",
@@ -23908,7 +22180,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-restoration-near-me",
     "cluster": "service",
-    "metaTitle": "Roof Restoration Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Restoration Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof restoration near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Restoration Near Me Specialists",
     "h1": "Roof Restoration Near Me in Northwest Arkansas",
@@ -23940,7 +22212,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flat-roof-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Flat Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flat Roof Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flat roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flat Roof Repair Near Me Specialists",
     "h1": "Flat Roof Repair Near Me in Northwest Arkansas",
@@ -23970,41 +22242,9 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     }
   },
   {
-    "slug": "emergency-roof-repair-near-me",
-    "cluster": "problem",
-    "metaTitle": "Emergency Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
-    "metaDescription": "Looking for emergency roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
-    "badge": "Emergency Roof Repair Near Me Specialists",
-    "h1": "Emergency Roof Repair Near Me in Northwest Arkansas",
-    "subheadline": "Trusted local specialists for emergency roof repair near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
-    "painPointTitle": "Key Factors for Emergency Roof Repair Near Me in Northwest Arkansas",
-    "painPoints": [
-      {
-        "title": "Local NWA Operational Presence",
-        "description": "Our local technicians provide same-week inspection, service, and estimates for emergency roof repair near me throughout Benton and Washington Counties."
-      },
-      {
-        "title": "Engineered for Ozark Weather",
-        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
-      },
-      {
-        "title": "Direct Transparent Pricing",
-        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
-      }
-    ],
-    "localContext": {
-      "heading": "Emergency Roof Repair Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
-      "content": "When searching for emergency roof repair near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
-    },
-    "geoCoordinates": {
-      "latitude": 36.3729,
-      "longitude": -94.2088
-    }
-  },
-  {
     "slug": "elite-roofing",
     "cluster": "service",
-    "metaTitle": "Elite Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Elite Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for elite roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Elite Roofing Specialists",
     "h1": "Elite Roofing in Northwest Arkansas",
@@ -24036,7 +22276,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "skylight-replacement",
     "cluster": "service",
-    "metaTitle": "Skylight Replacement NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Skylight Replacement NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for skylight replacement in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Skylight Replacement Specialists",
     "h1": "Skylight Replacement in Northwest Arkansas",
@@ -24068,7 +22308,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roofing",
     "cluster": "service",
-    "metaTitle": "Commercial Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roofing Specialists",
     "h1": "Commercial Roofing in Northwest Arkansas",
@@ -24100,7 +22340,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "local-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Local Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Local Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for local roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Local Roofers Near Me Specialists",
     "h1": "Local Roofers Near Me in Northwest Arkansas",
@@ -24132,7 +22372,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "house-washing",
     "cluster": "service",
-    "metaTitle": "House Washing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "House Washing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for house washing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "House Washing Specialists",
     "h1": "House Washing in Northwest Arkansas",
@@ -24164,7 +22404,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "garage-roof-replacement",
     "cluster": "service",
-    "metaTitle": "Garage Roof Replacement NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Garage Roof Replacement NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for garage roof replacement in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Garage Roof Replacement Specialists",
     "h1": "Garage Roof Replacement in Northwest Arkansas",
@@ -24196,7 +22436,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flat-roof-replacement-cost",
     "cluster": "cost",
-    "metaTitle": "Flat Roof Replacement Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flat Roof Replacement Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flat roof replacement cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flat Roof Replacement Cost Specialists",
     "h1": "Flat Roof Replacement Cost in Northwest Arkansas",
@@ -24228,7 +22468,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "emergency-roof-leak-repair",
     "cluster": "problem",
-    "metaTitle": "Emergency Roof Leak Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Emergency Roof Leak Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for emergency roof leak repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Emergency Roof Leak Repair Specialists",
     "h1": "Emergency Roof Leak Repair in Northwest Arkansas",
@@ -24260,7 +22500,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "premier-roofing",
     "cluster": "service",
-    "metaTitle": "Premier Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Premier Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for premier roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Premier Roofing Specialists",
     "h1": "Premier Roofing in Northwest Arkansas",
@@ -24292,7 +22532,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "apex-roofing",
     "cluster": "service",
-    "metaTitle": "Apex Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Apex Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for apex roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Apex Roofing Specialists",
     "h1": "Apex Roofing in Northwest Arkansas",
@@ -24324,7 +22564,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "handyman-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Handyman Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Handyman Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for handyman roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Handyman Roofers Near Me Specialists",
     "h1": "Handyman Roofers Near Me in Northwest Arkansas",
@@ -24356,7 +22596,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roofing-contractors-near-me",
     "cluster": "service",
-    "metaTitle": "Commercial Roofing Contractors Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roofing Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roofing contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roofing Contractors Near Me Specialists",
     "h1": "Commercial Roofing Contractors Near Me in Northwest Arkansas",
@@ -24388,7 +22628,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "handyman-roof-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Handyman Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Handyman Roof Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for handyman roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Handyman Roof Repair Near Me Specialists",
     "h1": "Handyman Roof Repair Near Me in Northwest Arkansas",
@@ -24420,7 +22660,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-replacement-estimate",
     "cluster": "cost",
-    "metaTitle": "Roof Replacement Estimate NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Replacement Estimate NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof replacement estimate in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Replacement Estimate Specialists",
     "h1": "Roof Replacement Estimate in Northwest Arkansas",
@@ -24452,7 +22692,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "state-roofing",
     "cluster": "service",
-    "metaTitle": "State Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "State Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for state roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "State Roofing Specialists",
     "h1": "State Roofing in Northwest Arkansas",
@@ -24484,7 +22724,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "erie-roofing-company",
     "cluster": "service",
-    "metaTitle": "Erie Roofing Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Erie Roofing Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for erie roofing company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Erie Roofing Company Specialists",
     "h1": "Erie Roofing Company in Northwest Arkansas",
@@ -24516,7 +22756,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-inspection-cost",
     "cluster": "cost",
-    "metaTitle": "Roof Inspection Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Inspection Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof inspection cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Inspection Cost Specialists",
     "h1": "Roof Inspection Cost in Northwest Arkansas",
@@ -24548,7 +22788,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-moss-removal",
     "cluster": "service",
-    "metaTitle": "Roof Moss Removal NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Moss Removal NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof moss removal in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Moss Removal Specialists",
     "h1": "Roof Moss Removal in Northwest Arkansas",
@@ -24580,7 +22820,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "reliable-roofing",
     "cluster": "service",
-    "metaTitle": "Reliable Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Reliable Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for reliable roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Reliable Roofing Specialists",
     "h1": "Reliable Roofing in Northwest Arkansas",
@@ -24612,7 +22852,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-repair-cost",
     "cluster": "cost",
-    "metaTitle": "Roof Repair Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Repair Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof repair cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Repair Cost Specialists",
     "h1": "Roof Repair Cost in Northwest Arkansas",
@@ -24644,7 +22884,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "eagle-view-roofing",
     "cluster": "service",
-    "metaTitle": "Eagle View Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Eagle View Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for eagle view roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Eagle View Roofing Specialists",
     "h1": "Eagle View Roofing in Northwest Arkansas",
@@ -24676,7 +22916,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "slate-roof-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Slate Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Slate Roof Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for slate roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Slate Roof Repair Near Me Specialists",
     "h1": "Slate Roof Repair Near Me in Northwest Arkansas",
@@ -24708,7 +22948,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "skylight-replacement-near-me",
     "cluster": "service",
-    "metaTitle": "Skylight Replacement Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Skylight Replacement Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for skylight replacement near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Skylight Replacement Near Me Specialists",
     "h1": "Skylight Replacement Near Me in Northwest Arkansas",
@@ -24740,7 +22980,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-quotes-near-me",
     "cluster": "cost",
-    "metaTitle": "Roofing Quotes Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Quotes Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing quotes near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Quotes Near Me Specialists",
     "h1": "Roofing Quotes Near Me in Northwest Arkansas",
@@ -24772,7 +23012,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "small-roof-repair-near-me",
     "cluster": "problem",
-    "metaTitle": "Small Roof Repair Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Small Roof Repair Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for small roof repair near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Small Roof Repair Near Me Specialists",
     "h1": "Small Roof Repair Near Me in Northwest Arkansas",
@@ -24804,7 +23044,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "top-10-roofers-near-me",
     "cluster": "comparison",
-    "metaTitle": "Top 10 Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Top 10 Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for top 10 roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Top 10 Roofers Near Me Specialists",
     "h1": "Top 10 Roofers Near Me in Northwest Arkansas",
@@ -24836,7 +23076,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "advanced-roofing",
     "cluster": "service",
-    "metaTitle": "Advanced Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Advanced Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for advanced roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Advanced Roofing Specialists",
     "h1": "Advanced Roofing in Northwest Arkansas",
@@ -24868,7 +23108,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-estimates-near-me",
     "cluster": "cost",
-    "metaTitle": "Roof Estimates Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Estimates Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof estimates near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Estimates Near Me Specialists",
     "h1": "Roof Estimates Near Me in Northwest Arkansas",
@@ -24900,7 +23140,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "patriot-roofing",
     "cluster": "service",
-    "metaTitle": "Patriot Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Patriot Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for patriot roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Patriot Roofing Specialists",
     "h1": "Patriot Roofing in Northwest Arkansas",
@@ -24932,7 +23172,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "skylight-installation-near-me",
     "cluster": "service",
-    "metaTitle": "Skylight Installation Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Skylight Installation Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for skylight installation near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Skylight Installation Near Me Specialists",
     "h1": "Skylight Installation Near Me in Northwest Arkansas",
@@ -24964,7 +23204,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "reputable-roofing-contractors-near-me",
     "cluster": "service",
-    "metaTitle": "Reputable Roofing Contractors Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Reputable Roofing Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for reputable roofing contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Reputable Roofing Contractors Near Me Specialists",
     "h1": "Reputable Roofing Contractors Near Me in Northwest Arkansas",
@@ -24996,7 +23236,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-painting",
     "cluster": "service",
-    "metaTitle": "Roof Painting NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Painting NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof painting in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Painting Specialists",
     "h1": "Roof Painting in Northwest Arkansas",
@@ -25028,7 +23268,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-companies-in-my-area",
     "cluster": "service",
-    "metaTitle": "Roofing Companies In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Companies In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing companies in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Companies In My Area Specialists",
     "h1": "Roofing Companies In My Area in Northwest Arkansas",
@@ -25060,7 +23300,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "steel-roofing-near-me",
     "cluster": "service",
-    "metaTitle": "Steel Roofing Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Steel Roofing Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for steel roofing near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Steel Roofing Near Me Specialists",
     "h1": "Steel Roofing Near Me in Northwest Arkansas",
@@ -25092,7 +23332,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-and-siding-companies-near-me",
     "cluster": "service",
-    "metaTitle": "Roofing And Siding Companies Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing And Siding Companies Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing and siding companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing And Siding Companies Near Me Specialists",
     "h1": "Roofing And Siding Companies Near Me in Northwest Arkansas",
@@ -25124,7 +23364,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-leak-repair-cost",
     "cluster": "cost",
-    "metaTitle": "Roof Leak Repair Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Leak Repair Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof leak repair cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Leak Repair Cost Specialists",
     "h1": "Roof Leak Repair Cost in Northwest Arkansas",
@@ -25156,7 +23396,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "affordable-roofing-company",
     "cluster": "service",
-    "metaTitle": "Affordable Roofing Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Affordable Roofing Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for affordable roofing company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Affordable Roofing Company Specialists",
     "h1": "Affordable Roofing Company in Northwest Arkansas",
@@ -25188,7 +23428,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "summit-roofing",
     "cluster": "service",
-    "metaTitle": "Summit Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Summit Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for summit roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Summit Roofing Specialists",
     "h1": "Summit Roofing in Northwest Arkansas",
@@ -25220,7 +23460,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-repair-companies-near-me",
     "cluster": "problem",
-    "metaTitle": "Roof Repair Companies Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Repair Companies Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof repair companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Repair Companies Near Me Specialists",
     "h1": "Roof Repair Companies Near Me in Northwest Arkansas",
@@ -25252,7 +23492,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-and-siding",
     "cluster": "service",
-    "metaTitle": "Roofing And Siding NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing And Siding NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing and siding in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing And Siding Specialists",
     "h1": "Roofing And Siding in Northwest Arkansas",
@@ -25284,7 +23524,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "exterior-house-cleaning",
     "cluster": "service",
-    "metaTitle": "Exterior House Cleaning NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Exterior House Cleaning NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for exterior house cleaning in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Exterior House Cleaning Specialists",
     "h1": "Exterior House Cleaning in Northwest Arkansas",
@@ -25316,7 +23556,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "quality-roofing",
     "cluster": "service",
-    "metaTitle": "Quality Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Quality Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for quality roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Quality Roofing Specialists",
     "h1": "Quality Roofing in Northwest Arkansas",
@@ -25348,7 +23588,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roofing-company-near-me",
     "cluster": "service",
-    "metaTitle": "Commercial Roofing Company Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roofing Company Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roofing company near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roofing Company Near Me Specialists",
     "h1": "Commercial Roofing Company Near Me in Northwest Arkansas",
@@ -25380,7 +23620,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "top-roofing-companies-near-me",
     "cluster": "comparison",
-    "metaTitle": "Top Roofing Companies Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Top Roofing Companies Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for top roofing companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Top Roofing Companies Near Me Specialists",
     "h1": "Top Roofing Companies Near Me in Northwest Arkansas",
@@ -25412,7 +23652,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-contractors-in-my-area",
     "cluster": "service",
-    "metaTitle": "Roofing Contractors In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Contractors In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing contractors in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Contractors In My Area Specialists",
     "h1": "Roofing Contractors In My Area in Northwest Arkansas",
@@ -25444,7 +23684,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "recommended-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Recommended Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Recommended Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for recommended roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Recommended Roofers Near Me Specialists",
     "h1": "Recommended Roofers Near Me in Northwest Arkansas",
@@ -25476,7 +23716,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flat-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Flat Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flat Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flat roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flat Roofers Near Me Specialists",
     "h1": "Flat Roofers Near Me in Northwest Arkansas",
@@ -25508,7 +23748,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-and-siding-contractors-near-me",
     "cluster": "service",
-    "metaTitle": "Roofing And Siding Contractors Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing And Siding Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing and siding contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing And Siding Contractors Near Me Specialists",
     "h1": "Roofing And Siding Contractors Near Me in Northwest Arkansas",
@@ -25540,7 +23780,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "local-roofing-contractors",
     "cluster": "service",
-    "metaTitle": "Local Roofing Contractors NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Local Roofing Contractors NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for local roofing contractors in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Local Roofing Contractors Specialists",
     "h1": "Local Roofing Contractors in Northwest Arkansas",
@@ -25572,7 +23812,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "skylight-repair",
     "cluster": "problem",
-    "metaTitle": "Skylight Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Skylight Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for skylight repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Skylight Repair Specialists",
     "h1": "Skylight Repair in Northwest Arkansas",
@@ -25604,7 +23844,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "buffalo-roofing",
     "cluster": "service",
-    "metaTitle": "Buffalo Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Buffalo Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for buffalo roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Buffalo Roofing Specialists",
     "h1": "Buffalo Roofing in Northwest Arkansas",
@@ -25636,7 +23876,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "soffits-and-fascias",
     "cluster": "service",
-    "metaTitle": "Soffits And Fascias NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Soffits And Fascias NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for soffits and fascias in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Soffits And Fascias Specialists",
     "h1": "Soffits And Fascias in Northwest Arkansas",
@@ -25668,7 +23908,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roofing-contractors",
     "cluster": "service",
-    "metaTitle": "Commercial Roofing Contractors NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roofing Contractors NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roofing contractors in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roofing Contractors Specialists",
     "h1": "Commercial Roofing Contractors in Northwest Arkansas",
@@ -25700,7 +23940,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "angi-roofing",
     "cluster": "service",
-    "metaTitle": "Angi Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Angi Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for angi roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Angi Roofing Specialists",
     "h1": "Angi Roofing in Northwest Arkansas",
@@ -25732,7 +23972,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-tarping-near-me",
     "cluster": "service",
-    "metaTitle": "Roof Tarping Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Tarping Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof tarping near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Tarping Near Me Specialists",
     "h1": "Roof Tarping Near Me in Northwest Arkansas",
@@ -25764,7 +24004,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-painting-near-me",
     "cluster": "service",
-    "metaTitle": "Roof Painting Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Painting Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof painting near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Painting Near Me Specialists",
     "h1": "Roof Painting Near Me in Northwest Arkansas",
@@ -25796,7 +24036,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "lowes-roofing",
     "cluster": "service",
-    "metaTitle": "Lowes Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Lowes Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for lowes roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Lowes Roofing Specialists",
     "h1": "Lowes Roofing in Northwest Arkansas",
@@ -25828,7 +24068,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-waterproofing",
     "cluster": "service",
-    "metaTitle": "Roof Waterproofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Waterproofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof waterproofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Waterproofing Specialists",
     "h1": "Roof Waterproofing in Northwest Arkansas",
@@ -25860,7 +24100,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "licensed-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Licensed Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Licensed Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for licensed roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Licensed Roofers Near Me Specialists",
     "h1": "Licensed Roofers Near Me in Northwest Arkansas",
@@ -25892,7 +24132,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "valor-roofing",
     "cluster": "service",
-    "metaTitle": "Valor Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Valor Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for valor roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Valor Roofing Specialists",
     "h1": "Valor Roofing in Northwest Arkansas",
@@ -25924,7 +24164,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "new-roof-estimate",
     "cluster": "cost",
-    "metaTitle": "New Roof Estimate NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "New Roof Estimate NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for new roof estimate in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "New Roof Estimate Specialists",
     "h1": "New Roof Estimate in Northwest Arkansas",
@@ -25956,7 +24196,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-prices",
     "cluster": "cost",
-    "metaTitle": "Roofing Prices NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Prices NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing prices in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Prices Specialists",
     "h1": "Roofing Prices in Northwest Arkansas",
@@ -25988,7 +24228,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "american-roofing-company",
     "cluster": "service",
-    "metaTitle": "American Roofing Company NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "American Roofing Company NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for american roofing company in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "American Roofing Company Specialists",
     "h1": "American Roofing Company in Northwest Arkansas",
@@ -26020,7 +24260,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-installation-cost",
     "cluster": "cost",
-    "metaTitle": "Roof Installation Cost NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Installation Cost NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof installation cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Installation Cost Specialists",
     "h1": "Roof Installation Cost in Northwest Arkansas",
@@ -26052,7 +24292,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "flat-roofing-companies-near-me",
     "cluster": "service",
-    "metaTitle": "Flat Roofing Companies Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Flat Roofing Companies Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for flat roofing companies near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Flat Roofing Companies Near Me Specialists",
     "h1": "Flat Roofing Companies Near Me in Northwest Arkansas",
@@ -26084,7 +24324,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "handyman-roof-repair",
     "cluster": "problem",
-    "metaTitle": "Handyman Roof Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Handyman Roof Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for handyman roof repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Handyman Roof Repair Specialists",
     "h1": "Handyman Roof Repair in Northwest Arkansas",
@@ -26116,7 +24356,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roofers-near-me",
     "cluster": "service",
-    "metaTitle": "Commercial Roofers Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roofers Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roofers near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roofers Near Me Specialists",
     "h1": "Commercial Roofers Near Me in Northwest Arkansas",
@@ -26148,7 +24388,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "commercial-roof-repairs",
     "cluster": "problem",
-    "metaTitle": "Commercial Roof Repairs NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Commercial Roof Repairs NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for commercial roof repairs in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Commercial Roof Repairs Specialists",
     "h1": "Commercial Roof Repairs in Northwest Arkansas",
@@ -26180,7 +24420,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-and-gutter-repair",
     "cluster": "problem",
-    "metaTitle": "Roof And Gutter Repair NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof And Gutter Repair NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof and gutter repair in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof And Gutter Repair Specialists",
     "h1": "Roof And Gutter Repair in Northwest Arkansas",
@@ -26212,7 +24452,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roof-repairs-in-my-area",
     "cluster": "problem",
-    "metaTitle": "Roof Repairs In My Area NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roof Repairs In My Area NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roof repairs in my area in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roof Repairs In My Area Specialists",
     "h1": "Roof Repairs In My Area in Northwest Arkansas",
@@ -26244,7 +24484,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-repair-contractors-near-me",
     "cluster": "problem",
-    "metaTitle": "Roofing Repair Contractors Near Me NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Repair Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing repair contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Repair Contractors Near Me Specialists",
     "h1": "Roofing Repair Contractors Near Me in Northwest Arkansas",
@@ -26276,7 +24516,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-costs",
     "cluster": "cost",
-    "metaTitle": "Roofing Costs NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Costs NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing costs in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Costs Specialists",
     "h1": "Roofing Costs in Northwest Arkansas",
@@ -26308,7 +24548,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "top-ten-roofing-companies",
     "cluster": "comparison",
-    "metaTitle": "Top Ten Roofing Companies NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Top Ten Roofing Companies NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for top ten roofing companies in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Top Ten Roofing Companies Specialists",
     "h1": "Top Ten Roofing Companies in Northwest Arkansas",
@@ -26340,7 +24580,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "cornerstone-roofing",
     "cluster": "service",
-    "metaTitle": "Cornerstone Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Cornerstone Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for cornerstone roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Cornerstone Roofing Specialists",
     "h1": "Cornerstone Roofing in Northwest Arkansas",
@@ -26372,7 +24612,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "mhi-roofing",
     "cluster": "service",
-    "metaTitle": "Mhi Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Mhi Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for mhi roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Mhi Roofing Specialists",
     "h1": "Mhi Roofing in Northwest Arkansas",
@@ -26404,7 +24644,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "roofing-lead-generation",
     "cluster": "service",
-    "metaTitle": "Roofing Lead Generation NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Roofing Lead Generation NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for roofing lead generation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Roofing Lead Generation Specialists",
     "h1": "Roofing Lead Generation in Northwest Arkansas",
@@ -26436,7 +24676,7 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
   {
     "slug": "best-roofing",
     "cluster": "comparison",
-    "metaTitle": "Best Roofing NWA | Ozark Gutter Guard Co.",
+    "metaTitle": "Best Roofing NWA | Ozark Gutter Guard & Roofing",
     "metaDescription": "Looking for best roofing in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
     "badge": "Best Roofing Specialists",
     "h1": "Best Roofing in Northwest Arkansas",
@@ -26459,6 +24699,742 @@ export const SEARCH_MATRIX_PAGES: SeoPageData[] = [
     "localContext": {
       "heading": "Best Roofing Serving Bentonville, Rogers, Fayetteville & Springdale",
       "content": "When searching for best roofing in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain",
+    "cluster": "service",
+    "metaTitle": "French Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Specialists",
+    "h1": "French Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-installation",
+    "cluster": "service",
+    "metaTitle": "French Drain Installation NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain installation in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Installation Specialists",
+    "h1": "French Drain Installation in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain installation in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain Installation in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain installation throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Installation Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain installation in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-trench-drain",
+    "cluster": "service",
+    "metaTitle": "French Trench Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french trench drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Trench Drain Specialists",
+    "h1": "French Trench Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french trench drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Trench Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french trench drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Trench Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french trench drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "drainage-system",
+    "cluster": "service",
+    "metaTitle": "Drainage System NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for drainage system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Drainage System Specialists",
+    "h1": "Drainage System in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for drainage system in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Drainage System in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for drainage system throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Drainage System Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for drainage system in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-system",
+    "cluster": "service",
+    "metaTitle": "French Drain System NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain System Specialists",
+    "h1": "French Drain System in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain system in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain System in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain system throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain System Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain system in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "blocked-drains-near-me",
+    "cluster": "service",
+    "metaTitle": "Blocked Drains Near Me NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for blocked drains near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Blocked Drains Near Me Specialists",
+    "h1": "Blocked Drains Near Me in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for blocked drains near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Blocked Drains Near Me in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for blocked drains near me throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Blocked Drains Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for blocked drains near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "drain-company-near-me",
+    "cluster": "service",
+    "metaTitle": "Drain Company Near Me NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for drain company near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Drain Company Near Me Specialists",
+    "h1": "Drain Company Near Me in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for drain company near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Drain Company Near Me in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for drain company near me throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Drain Company Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for drain company near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "drain",
+    "cluster": "service",
+    "metaTitle": "Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Drain Specialists",
+    "h1": "Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "trench-drain",
+    "cluster": "service",
+    "metaTitle": "Trench Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for trench drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Trench Drain Specialists",
+    "h1": "Trench Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for trench drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Trench Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for trench drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Trench Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for trench drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "linear-shower-drain",
+    "cluster": "service",
+    "metaTitle": "Linear Shower Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for linear shower drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Linear Shower Drain Specialists",
+    "h1": "Linear Shower Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for linear shower drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Linear Shower Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for linear shower drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Linear Shower Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for linear shower drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-installation-near-me",
+    "cluster": "service",
+    "metaTitle": "French Drain Installation Near Me NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain installation near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Installation Near Me Specialists",
+    "h1": "French Drain Installation Near Me in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain installation near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain Installation Near Me in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain installation near me throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Installation Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain installation near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "drainage-contractors-near-me",
+    "cluster": "service",
+    "metaTitle": "Drainage Contractors Near Me NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for drainage contractors near me in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Drainage Contractors Near Me Specialists",
+    "h1": "Drainage Contractors Near Me in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for drainage contractors near me in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Drainage Contractors Near Me in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for drainage contractors near me throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Drainage Contractors Near Me Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for drainage contractors near me in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "aco-drain",
+    "cluster": "service",
+    "metaTitle": "Aco Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for aco drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Aco Drain Specialists",
+    "h1": "Aco Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for aco drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Aco Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for aco drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Aco Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for aco drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "under-deck-drainage-system",
+    "cluster": "service",
+    "metaTitle": "Under Deck Drainage System NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for under deck drainage system in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Under Deck Drainage System Specialists",
+    "h1": "Under Deck Drainage System in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for under deck drainage system in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Under Deck Drainage System in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for under deck drainage system throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Under Deck Drainage System Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for under deck drainage system in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "drainage-solutions",
+    "cluster": "service",
+    "metaTitle": "Drainage Solutions NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for drainage solutions in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Drainage Solutions Specialists",
+    "h1": "Drainage Solutions in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for drainage solutions in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Drainage Solutions in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for drainage solutions throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Drainage Solutions Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for drainage solutions in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "channel-drain",
+    "cluster": "service",
+    "metaTitle": "Channel Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for channel drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Channel Drain Specialists",
+    "h1": "Channel Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for channel drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Channel Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for channel drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Channel Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for channel drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "trex-rainescape",
+    "cluster": "service",
+    "metaTitle": "Trex Rainescape NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for trex rainescape in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Trex Rainescape Specialists",
+    "h1": "Trex Rainescape in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for trex rainescape in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Trex Rainescape in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for trex rainescape throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Trex Rainescape Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for trex rainescape in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "clogged-drain-pipe",
+    "cluster": "problem",
+    "metaTitle": "Clogged Drain Pipe NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for clogged drain pipe in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Clogged Drain Pipe Specialists",
+    "h1": "Clogged Drain Pipe in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for clogged drain pipe in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Clogged Drain Pipe in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for clogged drain pipe throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Clogged Drain Pipe Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for clogged drain pipe in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-basement",
+    "cluster": "service",
+    "metaTitle": "French Drain Basement NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain basement in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Basement Specialists",
+    "h1": "French Drain Basement in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain basement in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain Basement in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain basement throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Basement Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain basement in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-cost",
+    "cluster": "cost",
+    "metaTitle": "French Drain Cost NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain cost in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Cost Specialists",
+    "h1": "French Drain Cost in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain cost in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain Cost in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain cost throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Cost Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain cost in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "shower-drains",
+    "cluster": "service",
+    "metaTitle": "Shower Drains NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for shower drains in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Shower Drains Specialists",
+    "h1": "Shower Drains in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for shower drains in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Shower Drains in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for shower drains throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Shower Drains Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for shower drains in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "slot-drain",
+    "cluster": "service",
+    "metaTitle": "Slot Drain NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for slot drain in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "Slot Drain Specialists",
+    "h1": "Slot Drain in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for slot drain in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for Slot Drain in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for slot drain throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "Slot Drain Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for slot drain in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
+    },
+    "geoCoordinates": {
+      "latitude": 36.3729,
+      "longitude": -94.2088
+    }
+  },
+  {
+    "slug": "french-drain-pipe",
+    "cluster": "service",
+    "metaTitle": "French Drain Pipe NWA | Ozark Gutter Guard & Roofing",
+    "metaDescription": "Looking for french drain pipe in Northwest Arkansas? Direct local contractor pricing, instant 15-min satellite estimates & 5-star local craftsmanship. (479) 929-2516.",
+    "badge": "French Drain Pipe Specialists",
+    "h1": "French Drain Pipe in Northwest Arkansas",
+    "subheadline": "Trusted local specialists for french drain pipe in Bentonville, Rogers, Fayetteville, Springdale, and Bella Vista. Direct local pricing and 10-Year Guarantee.",
+    "painPointTitle": "Key Factors for French Drain Pipe in Northwest Arkansas",
+    "painPoints": [
+      {
+        "title": "Local NWA Operational Presence",
+        "description": "Our local technicians provide same-week inspection, service, and estimates for french drain pipe throughout Benton and Washington Counties."
+      },
+      {
+        "title": "Engineered for Ozark Weather",
+        "description": "Heavy rainfall, seasonal tree debris (oak tassels, pine needles), and clay soil demand durable, properly pitched systems."
+      },
+      {
+        "title": "Direct Transparent Pricing",
+        "description": "Skip high-pressure corporate sales reps. Get honest, fixed pricing and a written 10-Year Transferable Guarantee."
+      }
+    ],
+    "localContext": {
+      "heading": "French Drain Pipe Serving Bentonville, Rogers, Fayetteville & Springdale",
+      "content": "When searching for french drain pipe in Northwest Arkansas, you need an established local contractor who understands our unique climate — from expansive clay soils in Benton County to heavy oak and pine canopies. We combine surgical-grade materials with expert craftsmanship to protect your home from foundation to roofline. Call (479) 929-2516 for an instant satellite quote."
     },
     "geoCoordinates": {
       "latitude": 36.3729,
