@@ -1,0 +1,14 @@
+src/data/guides/
+  _types.ts          ← interface, vieną kartą
+  _index.ts          ← surenka visus postus
+  01-oak-catkins.ts
+  02-foundation-cracks.ts
+  03-ozark-rainfall.ts
+  04-loblolly-pine.ts
+  05-foundation-audit.ts
+  06-beaver-lake.ts
+
+src/app/guides/
+  page.tsx           ← sąrašas
+  [slug]/
+    page.tsx         ← atskiras postas
