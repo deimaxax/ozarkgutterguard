@@ -86,8 +86,13 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   const phoneHref = "tel:+14799292516";
   const phoneDisplay = "(479) 929-2516";
 
-  const otherLocations = SEO_PAGES_DATA.filter(
-    (p) => p.cluster === 'location' && p.slug !== page.slug
+  // Deduplicate location pages so each city appears only once in cross-links
+  const uniqueLocationCities = Array.from(
+    new Map(
+      SEO_PAGES_DATA
+        .filter((p) => p.cluster === 'location' && p.city && p.city !== page.city)
+        .map((p) => [p.city, p])
+    ).values()
   );
 
   const relatedArticles = SEO_PAGES_DATA.filter(
@@ -925,20 +930,20 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       )}
 
       {/* CITY CROSS-LINKING SILO FOOTER */}
-      {otherLocations.length > 0 && (
+      {uniqueLocationCities.length > 0 && (
         <section className="bg-white py-10 border-t border-slate-200">
           <div className="max-w-6xl mx-auto px-4">
             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 text-center">
               Licensed Gutter Guard Installation Across Northwest Arkansas:
             </h3>
-            <div className="flex flex-wrap justify-center gap-3">
-              {otherLocations.map((loc) => (
+            <div className="flex flex-wrap justify-center gap-2.5">
+              {uniqueLocationCities.map((loc) => (
                 <Link
                   key={loc.slug}
                   href={`/${loc.slug}`}
-                  className="px-4 py-2 rounded-lg bg-slate-50 border border-slate-200 text-xs font-bold text-slate-700 hover:border-orange-500 hover:text-orange-600 transition shadow-2xs"
+                  className="px-3.5 py-2 rounded-lg bg-slate-50 border border-slate-200 text-xs font-bold text-slate-700 hover:border-brand-green hover:text-brand-green transition shadow-2xs"
                 >
-                  Gutter Guards in {loc.city}, AR →
+                  {loc.city}, AR →
                 </Link>
               ))}
             </div>
