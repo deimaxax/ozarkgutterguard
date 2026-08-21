@@ -15,6 +15,7 @@ import { MISSING_PAGES } from './missing-pages';
 import { DEEP_AUTHORITY_PAGES } from './deep-authority';
 import { EXTENDED_QUERIES } from './extended-queries';
 import { HIGH_INTENT_KEYWORD_PAGES } from './high-intent-keywords';
+import { ROOFING_LEAD_GEN_PAGES } from './roofing-lead-gen';
 
 export type { SeoPageData };
 
@@ -50,6 +51,7 @@ const ZIP_CODE_PAGES: SeoPageData[] = NWA_ZIP_CODES.map((z) => ({
 }));
 
 export const SEO_PAGES_DATA: SeoPageData[] = [
+  ...ROOFING_LEAD_GEN_PAGES.map(p => ({ ...p, noindex: false })),
   ...HIGH_INTENT_KEYWORD_PAGES.map(p => ({ ...p, noindex: false })),
   ...MISSING_PAGES.map(p => ({ ...p, noindex: false })),
   ...DEEP_AUTHORITY_PAGES.map(p => ({ ...p, noindex: false })),
