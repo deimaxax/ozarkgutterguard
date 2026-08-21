@@ -130,9 +130,9 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           {/* City Chips */}
           <div>
             <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-              1. Select Municipality / City:
+              1. Select City:
             </label>
-            <div className="grid grid-cols-3 sm:grid-cols-6 gap-1.5">
+            <div className="grid grid-cols-3 gap-1.5">
               {quickCities.map((city) => {
                 const isActive = !isCustomCity && selectedCity === city;
                 return (
@@ -144,7 +144,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                       setSelectedCity(city);
                       setErrorMsg('');
                     }}
-                    className={`py-1.5 px-2 text-xs rounded font-semibold text-center transition cursor-pointer border truncate ${
+                    className={`py-2 px-2 text-xs rounded-lg font-bold text-center transition cursor-pointer border ${
                       isActive
                         ? 'bg-brand-green text-white border-brand-green shadow-xs'
                         : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border-slate-200'
@@ -162,13 +162,13 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                   setIsCustomCity(true);
                   setErrorMsg('');
                 }}
-                className={`py-1.5 px-2 text-xs rounded font-semibold text-center transition cursor-pointer border truncate ${
+                className={`py-2 px-2 text-xs rounded-lg font-bold text-center transition cursor-pointer border ${
                   isCustomCity
                     ? 'bg-brand-green text-white border-brand-green shadow-xs'
                     : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border-slate-200'
                 }`}
               >
-                + Other
+                + Other NWA
               </button>
             </div>
 
