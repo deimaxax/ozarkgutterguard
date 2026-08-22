@@ -139,7 +139,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <meta name="ICBM" content="36.3729, -94.2088" />
         <SchemaJsonLd type="business" />
       </head>
-      <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-white font-sans selection:bg-emerald-100 selection:text-emerald-900 overflow-x-clip">
+      <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-[#F8F9FA] font-sans selection:bg-amber-100 selection:text-amber-900 overflow-x-clip">
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe

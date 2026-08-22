@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,13 +7,13 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
   }
   
   body {
-    background-color: #F8FAFC;
+    background-color: #F8F9FA;
     color: #1E293B;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,9 +28,9 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #0F172A;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
   }
 }
 
@@ -43,68 +43,84 @@
   padding-top: max(10px, env(safe-area-inset-top, 12px));
 }
 
-/* Contractor Button Styles (Leafguard & GutterTex Style) */
+/* Luxury Residential Contractor Button Styles */
+.btn-contractor-primary,
+.btn-contractor-blue,
+.btn-contractor-amber,
 .btn-contractor-green {
-  background-color: #1E7E34;
+  background-color: #1D4ED8;
   color: #FFFFFF;
   font-weight: 700;
-  border-radius: 6px;
-  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #1E40AF;
+  transition: all 0.15s ease-in-out;
 }
 
+.btn-contractor-primary:hover,
+.btn-contractor-blue:hover,
+.btn-contractor-amber:hover,
 .btn-contractor-green:hover {
-  background-color: #155724;
-  box-shadow: 0 4px 12px rgba(30, 126, 52, 0.25);
+  background-color: #1E40AF;
+  border-color: #172554;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
 }
 
+.btn-contractor-primary:active,
+.btn-contractor-blue:active,
+.btn-contractor-amber:active,
 .btn-contractor-green:active {
   transform: scale(0.98);
 }
 
-.btn-contractor-navy {
-  background-color: #1B2A4A;
+.btn-contractor-navy,
+.btn-contractor-dark {
+  background-color: #0F172A;
   color: #FFFFFF;
   font-weight: 700;
-  border-radius: 6px;
-  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #1E293B;
+  transition: all 0.15s ease-in-out;
 }
 
-.btn-contractor-navy:hover {
-  background-color: #0F1A2E;
+.btn-contractor-navy:hover,
+.btn-contractor-dark:hover {
+  background-color: #1E293B;
+  border-color: #334155;
 }
 
-.btn-contractor-navy:active {
+.btn-contractor-navy:active,
+.btn-contractor-dark:active {
   transform: scale(0.98);
 }
 
 .btn-contractor-outline {
-  border: 2px solid #1B2A4A;
-  color: #1B2A4A;
+  border: 1px solid #CBD5E1;
+  color: #0F172A;
   font-weight: 700;
-  border-radius: 6px;
-  background-color: transparent;
-  transition: all 0.2s ease-in-out;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  transition: all 0.15s ease-in-out;
 }
 
 .btn-contractor-outline:hover {
-  background-color: #1B2A4A;
-  color: #FFFFFF;
+  background-color: #F8FAFC;
+  border-color: #94A3B8;
 }
 
 .btn-contractor-outline:active {
   transform: scale(0.98);
 }
 
-/* Card Styling */
+/* Clean Residential Card Styling */
 .contractor-card {
   background-color: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  transition: all 0.2s ease-in-out;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.15s ease-in-out;
 }
 
 .contractor-card:hover {
   border-color: #CBD5E1;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }

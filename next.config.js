@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  transpilePackages: ['lucide-react'],
+  reactStrictMode: false,
   poweredByHeader: false,
   compress: true,
+  transpilePackages: ['lucide-react'],
   async headers() {
     return [
       {

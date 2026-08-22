@@ -150,58 +150,57 @@ export default async function GuidePage({ params }: Props) {
 
       <main className="flex-1">
         {/* Breadcrumb */}
-        <nav aria-label="Breadcrumb" className="bg-slate-100 border-b border-slate-200 py-2.5">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-xs font-semibold text-slate-500 flex items-center gap-2 flex-wrap">
-            <Link href="/" className="hover:text-orange-600 transition-colors">Home</Link>
+        <nav aria-label="Breadcrumb" className="bg-slate-100 border-b-2 border-slate-300 py-2.5 font-mono">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-xs font-bold text-slate-600 flex items-center gap-2 flex-wrap">
+            <Link href="/" className="hover:text-amber-600 transition-colors uppercase">Home</Link>
             <span>/</span>
-            <Link href="/guides" className="hover:text-orange-600 transition-colors">Guides</Link>
+            <Link href="/guides" className="hover:text-amber-600 transition-colors uppercase">Guides</Link>
             <span>/</span>
-            <span className="text-slate-800 line-clamp-1">{guide.title}</span>
+            <span className="text-slate-900 line-clamp-1">{guide.title}</span>
           </div>
         </nav>
 
         {/* Hero */}
-        <section className="bg-slate-50 border-b border-slate-200 py-10 sm:py-14">
+        <section className="bg-slate-50 border-b-2 border-slate-300 py-10 sm:py-14">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link href="/guides" className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-orange-600 mb-6 transition-colors">
+            <Link href="/guides" className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-slate-600 hover:text-amber-600 mb-6 transition-colors uppercase">
               <ArrowLeft className="w-3.5 h-3.5" />
               Back to all guides
             </Link>
             <div className="space-y-4">
-              <div className="flex items-center gap-3 flex-wrap">
-                <span className="text-3xl">{guide.heroEmoji}</span>
-                <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-orange-50 text-orange-700 border border-orange-200">
+              <div className="flex items-center gap-3 flex-wrap font-mono">
+                <span className="text-xs font-bold px-2.5 py-1 bg-amber-50 text-amber-900 border border-amber-300 uppercase">
                   {categoryLabels[guide.category]}
                 </span>
-                <span className="flex items-center gap-1 text-xs text-slate-400 font-medium">
+                <span className="flex items-center gap-1 text-xs text-slate-500 font-bold">
                   <Clock className="w-3.5 h-3.5" />
                   {guide.readTime}
                 </span>
-                <span className="text-xs text-slate-400">{new Date(guide.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                <span className="text-xs text-slate-500">{new Date(guide.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
               </div>
 
-              <h1 className="speakable text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight">
+              <h1 className="speakable text-2xl sm:text-4xl font-black text-slate-950 tracking-tight leading-tight font-heading uppercase">
                 {guide.title}
               </h1>
 
               {/* Author & Local Trust Badge */}
-              <div className="flex items-center gap-3 pt-2 pb-1 border-y border-slate-200/80 my-3">
-                <div className="w-9 h-9 rounded-full bg-orange-600 text-white font-black text-sm flex items-center justify-center shadow-sm">
-                  OG
+              <div className="flex items-center gap-3 pt-2 pb-1 border-y-2 border-slate-200 my-3 font-mono">
+                <div className="w-9 h-9 bg-slate-900 text-amber-400 font-black text-xs flex items-center justify-center">
+                  OGG
                 </div>
                 <div className="text-xs">
-                  <div className="font-bold text-slate-900 flex items-center gap-1.5">
-                    <span>Ozark Gutter Guard Installation Team</span>
-                    <ShieldCheck className="w-4 h-4 text-emerald-600 inline" />
+                  <div className="font-bold text-slate-900 flex items-center gap-1.5 uppercase">
+                    <span>Ozark Gutter Guard Specialist</span>
+                    <span className="text-amber-600 font-bold">●</span>
                   </div>
-                  <div className="text-slate-500 flex items-center gap-1 mt-0.5">
-                    <MapPin className="w-3 h-3 text-orange-500" />
-                    <span>Serving Bentonville, Rogers, Fayetteville, Springdale & Bella Vista</span>
+                  <div className="text-slate-600 flex items-center gap-1 mt-0.5">
+                    <MapPin className="w-3 h-3 text-amber-600" />
+                    <span>Serving Bentonville, Rogers, Fayetteville, Springdale &amp; Bella Vista</span>
                   </div>
                 </div>
               </div>
 
-              <p className="speakable text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+              <p className="speakable text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
                 {guide.intro}
               </p>
             </div>
@@ -213,7 +212,7 @@ export default async function GuidePage({ params }: Props) {
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
             {guide.sections.map((section, i) => (
               <section key={i} className="space-y-4">
-                <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight border-l-4 border-orange-500 pl-4">
+                <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight border-l-4 border-amber-600 pl-4 font-heading uppercase">
                   {section.heading}
                 </h2>
                 <div>{renderBody(section.body)}</div>
@@ -226,22 +225,21 @@ export default async function GuidePage({ params }: Props) {
         </article>
 
         {/* Direct Local Phone & Free Satellite Estimate Banner */}
-        <section className="py-8 bg-orange-50 border-y border-orange-200">
+        <section className="py-8 bg-slate-900 text-white border-y-2 border-slate-900">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <div className="flex items-center gap-2 text-orange-800 font-black text-sm">
-                <CheckCircle2 className="w-4 h-4 text-orange-600" />
+              <div className="flex items-center gap-2 text-amber-400 font-mono font-bold text-sm uppercase">
                 <span>Got Questions About Your NWA Roofline?</span>
               </div>
-              <p className="text-xs text-slate-700 mt-0.5">
-                Talk directly with our local crew. No high-pressure sales rep, just honest local pricing.
+              <p className="text-xs text-slate-300 mt-0.5 font-normal">
+                Talk directly with our local crew. No high-pressure sales reps, just honest contractor pricing.
               </p>
             </div>
             <a
               href="tel:+14799292516"
-              className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-5 py-2.5 rounded-xl font-black text-sm whitespace-nowrap shadow-sm transition-transform active:scale-95"
+              className="btn-contractor-amber px-5 py-2.5 text-xs font-black shrink-0 flex items-center gap-2"
             >
-              <Phone className="w-4 h-4" />
+              <Phone className="w-3.5 h-3.5" />
               <span>(479) 929-2516</span>
             </a>
           </div>

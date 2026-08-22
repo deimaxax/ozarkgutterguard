@@ -68,35 +68,33 @@ export default function TreeCanopyClogCalculator({
         return {
           name: 'Mixed Ozark Hardwood & Hard Pine Canopy',
           riskLevel: 'Year-Round Multi-Species Threat',
-          riskScore: 89,
-          annualSludgeLbs: Math.round(160 * (canopyDensity / 100)),
+          riskScore: 88,
+          annualSludgeLbs: Math.round(155 * (canopyDensity / 100)),
           clogFrequencyDays: 40,
-          failureMode: 'Alternating spring catkin paste, summer seed pods, and fall pine needle penetration guarantee continuous clogging.',
-          recommendedArmor: 'Full 5-Stage Restoration + 316 Surgical Steel Micro-Mesh Armor',
+          failureMode: 'Alternating cycles of spring pollen catkins, summer seed pods, and autumn leaf blanket over open gutters.',
+          recommendedArmor: 'Multi-Season 316 Stainless Micro-Mesh Armor on T6 Extruded Chassis',
         };
     }
   };
 
   const profile = getDebrisProfile();
-  const pitchMultiplier = roofPitch === 'extreme' ? 1.4 : roofPitch === 'steep' ? 1.2 : 1.0;
-  const estimatedGallonsPerStorm = Math.round(1250 * pitchMultiplier);
 
   return (
-    <div className="bg-slate-900 border-2 border-slate-700/80 rounded-2xl p-6 sm:p-8 text-white shadow-xl space-y-6">
+    <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 text-slate-900 shadow-sm space-y-6">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-4">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 pb-4">
         <div>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500/20 border border-orange-500/30 text-orange-400 text-xs font-bold mb-1.5">
-            <TreePine className="w-3.5 h-3.5" />
-            NWA Tree Canopy Bio-Load Diagnostic
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-slate-100 text-slate-800 text-xs font-bold uppercase tracking-wider">
+            <TreePine className="w-3.5 h-3.5 text-emerald-700" />
+            Northwest Arkansas Canopy Bio-Load Simulator
           </span>
-          <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-            {initialCity} Tree Debris &amp; Gutter Clog Risk Matrix
+          <h3 className="text-xl sm:text-2xl font-black text-slate-950 mt-2">
+            Calculate Tree Sludge Weight on {initialCity} Rooflines
           </h3>
         </div>
-        <div className="flex items-center gap-2 bg-slate-800/90 border border-slate-700 px-3 py-1.5 rounded-lg text-xs font-mono text-slate-300">
-          <Droplets className="w-3.5 h-3.5 text-blue-400" />
-          <span>47.5&quot; Annual Rainfall Zone</span>
+        <div className="text-right">
+          <span className="text-xs text-slate-500 block">Regional Botanical Data</span>
+          <span className="text-xs font-bold text-slate-700">Ozark Hardwood Spec</span>
         </div>
       </div>
 
@@ -104,14 +102,14 @@ export default function TreeCanopyClogCalculator({
       <div className="grid sm:grid-cols-3 gap-4">
         {/* Tree Selector */}
         <div className="space-y-1.5">
-          <label htmlFor={treeSelectId} className="text-xs font-bold uppercase tracking-wider text-slate-400">
+          <label htmlFor={treeSelectId} className="text-xs font-bold uppercase tracking-wider text-slate-700">
             Dominant Tree Canopy
           </label>
           <select
             id={treeSelectId}
             value={treeType}
             onChange={(e) => setTreeType(e.target.value as any)}
-            className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-sm font-semibold text-white focus:ring-2 focus:ring-orange-500 focus:outline-none"
+            className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-900 focus:ring-2 focus:ring-blue-600 focus:outline-none"
           >
             <option value="pine">Pine Needles (Shortleaf / Loblolly)</option>
             <option value="oak">Oak Catkins &amp; Acorns (Post / White)</option>
@@ -124,10 +122,10 @@ export default function TreeCanopyClogCalculator({
         {/* Canopy Density Slider */}
         <div className="space-y-1.5">
           <div className="flex justify-between items-center">
-            <label htmlFor={canopyDensityId} className="text-xs font-bold uppercase tracking-wider text-slate-400">
+            <label htmlFor={canopyDensityId} className="text-xs font-bold uppercase tracking-wider text-slate-700">
               Canopy Overhang
             </label>
-            <span className="text-xs font-mono font-bold text-orange-400">{canopyDensity}% Density</span>
+            <span className="text-xs font-mono font-bold text-blue-700">{canopyDensity}% Density</span>
           </div>
           <input
             id={canopyDensityId}
@@ -137,7 +135,7 @@ export default function TreeCanopyClogCalculator({
             step="5"
             value={canopyDensity}
             onChange={(e) => setCanopyDensity(Number(e.target.value))}
-            className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-orange-500"
+            className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
           />
           <div className="flex justify-between text-[10px] text-slate-500">
             <span>Light (20%)</span>
@@ -148,14 +146,14 @@ export default function TreeCanopyClogCalculator({
 
         {/* Roof Pitch */}
         <div className="space-y-1.5">
-          <label htmlFor={roofPitchId} className="text-xs font-bold uppercase tracking-wider text-slate-400">
+          <label htmlFor={roofPitchId} className="text-xs font-bold uppercase tracking-wider text-slate-700">
             Roof Pitch &amp; Velocity
           </label>
           <select
             id={roofPitchId}
             value={roofPitch}
             onChange={(e) => setRoofPitch(e.target.value as any)}
-            className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-sm font-semibold text-white focus:ring-2 focus:ring-orange-500 focus:outline-none"
+            className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-900 focus:ring-2 focus:ring-blue-600 focus:outline-none"
           >
             <option value="standard">Standard Pitch (4/12 to 6/12)</option>
             <option value="steep">Steep Architectural (7/12 to 9/12)</option>
@@ -167,71 +165,64 @@ export default function TreeCanopyClogCalculator({
       {/* Dynamic Results Grid */}
       <div className="grid md:grid-cols-3 gap-4 pt-2">
         {/* Risk Score */}
-        <div className="bg-slate-800/90 border border-slate-700/80 rounded-xl p-4 space-y-2">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">
             Clog Vulnerability Index
           </span>
           <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-black text-orange-400">{profile.riskScore}/100</span>
-            <span className="text-xs font-bold text-red-400 uppercase">Critical</span>
+            <span className="text-3xl font-black text-slate-950">{profile.riskScore}/100</span>
+            <span className="text-xs font-bold text-amber-700 uppercase">Severe Bio-Load</span>
           </div>
-          <p className="text-xs text-slate-300 leading-snug">
+          <p className="text-xs text-slate-600 leading-snug">
             Without surgical micro-mesh, gutters will clog approximately every{' '}
-            <strong className="text-white">{profile.clogFrequencyDays} days</strong> during active dropping cycles.
+            <strong className="text-slate-900">{profile.clogFrequencyDays} days</strong> during active dropping cycles.
           </p>
         </div>
 
-        {/* Annual Bio-Load */}
-        <div className="bg-slate-800/90 border border-slate-700/80 rounded-xl p-4 space-y-2">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
-            Estimated Annual Bio-Load
+        {/* Annual Weight */}
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-500 block">
+            Annual Trough Bio-Weight
           </span>
           <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-black text-white">~{profile.annualSludgeLbs} lbs</span>
-            <span className="text-xs text-slate-400 font-mono">wet sludge/yr</span>
+            <span className="text-3xl font-black text-slate-950">{profile.annualSludgeLbs} lbs</span>
+            <span className="text-xs font-bold text-slate-500">/ 150 LF roofline</span>
           </div>
-          <p className="text-xs text-slate-300 leading-snug">
-            Trapped weight stresses gutter fascia brackets, causing sagging and water pooling against the foundation.
+          <p className="text-xs text-slate-600 leading-snug">
+            Saturated wet sludge weight pulling on cedar fascia boards, causing bracket pull-out and rot.
           </p>
         </div>
 
-        {/* Runoff Volume per Torrential Rain */}
-        <div className="bg-slate-800/90 border border-slate-700/80 rounded-xl p-4 space-y-2">
-          <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block">
-            1-Inch Storm Water Volume
-          </span>
-          <div className="flex items-baseline gap-2">
-            <span className="text-3xl font-black text-blue-400">{estimatedGallonsPerStorm.toLocaleString()}</span>
-            <span className="text-xs text-slate-400 font-mono">gallons</span>
+        {/* Failure Mode Warning */}
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2">
+          <div className="flex items-center gap-1.5 text-amber-800 text-[11px] font-bold uppercase tracking-wider">
+            <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
+            <span>Observed Failure Mode</span>
           </div>
-          <p className="text-xs text-slate-300 leading-snug">
-            Concentrated storm runoff generated by a 2,000 sq. ft. roof during a typical Ozark thunderstorm.
+          <p className="text-xs text-slate-700 leading-relaxed font-medium">
+            {profile.failureMode}
           </p>
         </div>
       </div>
 
-      {/* Engineering Diagnostic Callout */}
-      <div className="bg-slate-950 border border-orange-500/40 rounded-xl p-4 sm:p-5 space-y-2">
-        <div className="flex items-center gap-2 text-xs font-bold text-orange-400 uppercase tracking-wider">
-          <AlertTriangle className="w-4 h-4 text-orange-500 shrink-0" />
-          <span>Physical Failure Mode Detected: {profile.name}</span>
-        </div>
-        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-          {profile.failureMode}
-        </p>
-        <div className="pt-2 border-t border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-1.5 text-emerald-400 font-semibold">
-            <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-            <span>Recommended Defense: {profile.recommendedArmor}</span>
+      {/* Recommended Solution Banner */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="space-y-1">
+          <div className="flex items-center gap-1.5 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+            <ShieldCheck className="w-4 h-4 text-emerald-700" />
+            <span>Prescribed Engineering Armor</span>
           </div>
-          <a
-            href="#estimate-form"
-            className="inline-flex items-center gap-1 font-bold text-orange-400 hover:text-orange-300 transition"
-          >
-            <span>Lock In Free Local Sizing Quote</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </a>
+          <p className="text-sm font-bold text-slate-900">
+            {profile.recommendedArmor}
+          </p>
         </div>
+        <a
+          href="/satellite-quote"
+          className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl transition shadow-sm shrink-0 flex items-center gap-1.5"
+        >
+          <span>Calculate Remote Quote</span>
+          <ArrowRight className="w-3.5 h-3.5" />
+        </a>
       </div>
     </div>
   );

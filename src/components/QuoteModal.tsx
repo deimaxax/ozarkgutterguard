@@ -14,23 +14,23 @@ export default function QuoteModal({ isOpen, onClose, cityName }: QuoteModalProp
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-950/70 backdrop-blur-sm">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-950/80">
       <div
-        className="relative w-full max-w-xl bg-white rounded-2xl shadow-2xl overflow-hidden"
+        className="relative w-full max-w-xl bg-white border-2 border-slate-900 shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-4 right-4 z-20 w-9 h-9 bg-slate-800 hover:bg-slate-700 text-white rounded-full flex items-center justify-center transition-colors"
+          className="absolute top-4 right-4 z-20 w-8 h-8 bg-slate-900 hover:bg-slate-800 text-white flex items-center justify-center transition-colors border border-slate-700 font-bold"
           aria-label="Close quote modal"
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4" />
         </button>
 
         {/* Modal Body */}
-        <div className="p-1">
+        <div>
           <SatelliteEstimator initialCity={cityName} />
         </div>
       </div>

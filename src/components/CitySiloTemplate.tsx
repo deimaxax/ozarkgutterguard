@@ -92,15 +92,14 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
                 </p>
 
                 {/* Local Neighborhoods Served Bar */}
-                <div className="bg-white border-2 border-slate-200 rounded-2xl p-5 space-y-2.5 shadow-2xs">
-                  <div className="text-xs font-black uppercase tracking-wider text-amber-800 flex items-center gap-1.5">
-                    <Sparkles className="w-4 h-4 text-amber-600" />
+                <div className="bg-white border-2 border-slate-300 p-5 space-y-2.5">
+                  <div className="text-xs font-mono font-bold uppercase tracking-wider text-amber-700 flex items-center gap-1.5">
                     <span>Serving Key {city.cityName} Neighborhoods:</span>
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-bold text-slate-700">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-bold text-slate-800 font-mono">
                     {city.landmarks.map((lm, i) => (
                       <div key={i} className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-brand-green shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-amber-600 shrink-0"></span>
                         <span>{lm}</span>
                       </div>
                     ))}
@@ -111,17 +110,17 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
                 <div className="pt-2 flex flex-col sm:flex-row items-center gap-3">
                   <a
                     href="#estimate-section"
-                    className="w-full sm:w-auto btn-cta-pulse bg-brand-green hover:bg-brand-greenHover text-white px-8 py-4 rounded-xl font-black text-sm shadow-sm flex items-center justify-center gap-2 cursor-pointer active:scale-95"
+                    className="w-full sm:w-auto btn-contractor-amber px-8 py-4 text-xs sm:text-sm font-black flex items-center justify-center gap-2 cursor-pointer transition"
                   >
-                    <Satellite className="w-4 h-4" />
                     <span>Get {city.cityName} Satellite Quote</span>
+                    <ArrowRight className="w-4 h-4" />
                   </a>
 
                   <a
                     href="tel:+14799292516"
-                    className="btn-industrial-outline px-5 py-3 text-xs uppercase tracking-wider font-bold shrink-0"
+                    className="w-full sm:w-auto bg-white hover:bg-slate-100 text-slate-900 border-2 border-slate-900 px-6 py-4 text-xs font-mono font-bold uppercase tracking-wider shrink-0 flex items-center justify-center gap-2 transition"
                   >
-                    <Phone className="w-4 h-4 text-brand-green" />
+                    <Phone className="w-4 h-4 text-amber-600" />
                     <span>Call (479) 929-2516</span>
                   </a>
                 </div>
@@ -136,16 +135,16 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
         </section>
 
         {/* LOCAL PROBLEM SECTION: H2 Rule #1 */}
-        <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
+        <section className="py-12 sm:py-16 bg-white border-b-2 border-slate-300">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mb-14">
-              <span className="text-xs font-black uppercase tracking-wider text-red-700 bg-red-50 px-3 py-1 rounded-full border border-red-200 inline-block mb-3">
+            <div className="max-w-3xl mb-10 space-y-1">
+              <span className="text-xs font-mono font-bold text-amber-600 uppercase tracking-wider block">
                 Localized Canopy &amp; Weather Analysis
               </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-brand-navy tracking-tight">
+              <h2 className="text-2xl sm:text-4xl font-black uppercase tracking-tight text-slate-900 font-heading">
                 {city.h2Problem}
               </h2>
-              <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal">
+              <p className="text-sm sm:text-base text-slate-700 mt-2 font-normal">
                 Local tree canopy profile in {city.cityName}: <strong className="text-slate-900 font-bold">{city.treeProfile}</strong>
               </p>
             </div>
@@ -154,21 +153,19 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
               {city.painPoints.map((point, idx) => (
                 <div
                   key={idx}
-                  className="bg-slate-50 hover:bg-white rounded-2xl p-6 sm:p-7 border-2 border-slate-200 shadow-2xs hover:shadow-contractor transition-all flex flex-col justify-between"
+                  className="bg-slate-50 p-6 sm:p-7 border-2 border-slate-300 flex flex-col justify-between space-y-4"
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-xl bg-orange-100 text-brand-green flex items-center justify-center font-bold mb-4">
-                      <AlertTriangle className="w-6 h-6" />
-                    </div>
-                    <h3 className="text-lg font-black text-slate-900 mb-2">
+                    <span className="text-xs font-mono font-bold text-amber-600 uppercase block mb-2">Issue 0{idx + 1}</span>
+                    <h3 className="text-lg font-black uppercase text-slate-950 mb-2 font-heading">
                       {point.title}
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
                       {point.description}
                     </p>
                   </div>
-                  <div className="mt-5 pt-3.5 border-t border-slate-200 text-xs font-bold text-brand-green flex items-center gap-1.5">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <div className="mt-4 pt-3 border-t border-slate-200 text-xs font-mono font-bold text-slate-900 flex items-center gap-1.5 uppercase">
+                    <span className="text-amber-600 font-bold">✓</span>
                     <span>Solved by 50-micron 316 surgical mesh</span>
                   </div>
                 </div>
@@ -178,16 +175,16 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
         </section>
 
         {/* 15-MIN SATELLITE SIZING SECTION: H2 Rule #2 & H3 Rule #3 */}
-        <section className="py-16 sm:py-24 bg-slate-50 border-b border-slate-200">
+        <section className="py-12 sm:py-16 bg-slate-50 border-b-2 border-slate-300">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               <div className="lg:col-span-7 space-y-5">
-                <span className="text-xs font-black uppercase tracking-wider text-brand-green bg-orange-50 px-3 py-1 rounded-full border border-orange-200 inline-block">
+                <span className="text-xs font-mono font-bold text-amber-600 uppercase tracking-wider block">
                   Zero In-Home Pressure
                 </span>
                 
                 {/* H2 Satellite Sizing */}
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-brand-navy tracking-tight">
+                <h2 className="text-2xl sm:text-4xl font-black uppercase tracking-tight text-slate-900 font-heading">
                   {city.h2Satellite}
                 </h2>
 
@@ -196,42 +193,41 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
                 </p>
 
                 {/* H3 Guarantee Hierarchy */}
-                <div className="bg-white rounded-2xl p-6 sm:p-7 border-2 border-emerald-500 shadow-sm space-y-3">
-                  <div className="flex items-center gap-2 text-emerald-800 font-extrabold">
-                    <ShieldCheck className="w-6 h-6 text-emerald-600 shrink-0" />
-                    <h3 className="text-xl font-black text-slate-900">
+                <div className="bg-white p-6 sm:p-7 border-2 border-slate-900 space-y-3">
+                  <div className="flex items-center gap-2 text-slate-950 font-extrabold">
+                    <h3 className="text-xl font-black text-slate-950 font-heading uppercase">
                       {city.h3Guarantee}
                     </h3>
                   </div>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
+                  <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
                     If your gutters ever clog while protected by our micro-mesh system on your {city.cityName} residence, our local crew will clean and service it 100% free of charge. The warranty transfers seamlessly if you sell your property.
                   </p>
                 </div>
               </div>
 
               {/* Local Customer Review Card */}
-              <div className="lg:col-span-5 bg-white rounded-2xl p-6 sm:p-8 border-2 border-slate-200 shadow-contractor relative">
+              <div className="lg:col-span-5 bg-white p-6 sm:p-8 border-2 border-slate-300 relative">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-xs font-black uppercase tracking-wider text-slate-400">
+                  <span className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">
                     Verified {city.cityName} Review
                   </span>
-                  <div className="flex text-amber-400">
+                  <div className="flex text-amber-500">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
+                      <Star key={i} className="w-4 h-4 fill-amber-500 text-amber-500" />
                     ))}
                   </div>
                 </div>
 
-                <p className="text-xs sm:text-sm text-slate-700 leading-relaxed italic mb-6">
+                <p className="text-xs sm:text-sm text-slate-800 leading-relaxed italic mb-6">
                   &quot;{city.localReview.review}&quot;
                 </p>
 
-                <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+                <div className="pt-4 border-t border-slate-200 flex items-center justify-between text-xs font-mono">
                   <div>
-                    <div className="font-black text-slate-900">{city.localReview.author}</div>
+                    <div className="font-black text-slate-950 uppercase font-heading">{city.localReview.author}</div>
                     <div className="text-slate-500 font-medium">{city.localReview.neighborhood}</div>
                   </div>
-                  <span className="text-emerald-800 font-bold bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200">
+                  <span className="text-amber-800 font-bold bg-amber-50 px-2.5 py-1 border border-amber-300">
                     5.0 Verified
                   </span>
                 </div>

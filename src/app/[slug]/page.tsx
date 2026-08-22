@@ -248,36 +248,36 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           ========================================================================= */}
       {archetype === 'pine_mountain' && (
         <>
-          {/* Hero Section Variant A: Heavy Topographic & Bio-load Focus */}
-          <section className="bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 text-white py-10 sm:py-14 border-b border-slate-800">
+          {/* Hero Section Variant A: Clean Topographic & Pine Armor */}
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
             <div className="max-w-6xl mx-auto px-4">
               <div className="grid lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-5">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-xs font-semibold">
-                    <MapPin className="w-3.5 h-3.5" />
-                    <span>{page.badge} · Loblolly &amp; Shortleaf Pine Armor</span>
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                    <MapPin className="w-3.5 h-3.5 text-emerald-700" />
+                    <span>{page.badge} · Loblolly &amp; Shortleaf Pine Defense</span>
                   </div>
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
                     {page.h1}
                   </h1>
-                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
                     {page.subheadline}
                   </p>
                   <div className="grid sm:grid-cols-3 gap-3 pt-2">
-                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
-                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Aperture Size</span>
-                      <span className="text-lg font-black text-orange-400">50 Microns</span>
-                      <span className="text-[11px] text-slate-400 block">0% needle pierce</span>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Aperture Size</span>
+                      <span className="text-lg font-black text-slate-900">50 Microns</span>
+                      <span className="text-[11px] text-slate-600 block">0% needle pierce</span>
                     </div>
-                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
-                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Snow &amp; Ice Load</span>
-                      <span className="text-lg font-black text-blue-400">45 lbs/linear ft</span>
-                      <span className="text-[11px] text-slate-400 block">Hillside freeze safe</span>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Snow &amp; Ice Load</span>
+                      <span className="text-lg font-black text-slate-900">45 lbs/linear ft</span>
+                      <span className="text-[11px] text-slate-600 block">Hillside freeze safe</span>
                     </div>
-                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
-                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Roof Pitch Tested</span>
-                      <span className="text-lg font-black text-emerald-400">Up to 12/12</span>
-                      <span className="text-[11px] text-slate-400 block">Bella Vista slopes</span>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Roof Pitch Tested</span>
+                      <span className="text-lg font-black text-slate-900">Up to 12/12</span>
+                      <span className="text-[11px] text-slate-600 block">Bella Vista slopes</span>
                     </div>
                   </div>
                 </div>
@@ -289,7 +289,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </section>
 
           {/* PRIMARY INTERACTIVE TOOL: Pine & Canopy Risk Calculator */}
-          <section className="py-12 bg-slate-950 border-b border-slate-800">
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
             <div className="max-w-4xl mx-auto px-4">
               <TreeCanopyClogCalculator initialCity={page.city || 'Bella Vista'} initialTreeType="pine" />
             </div>
@@ -299,7 +299,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           <section className="py-12 bg-white border-b border-slate-200">
             <div className="max-w-6xl mx-auto px-4 space-y-6">
               <div className="text-center max-w-2xl mx-auto">
-                <span className="text-xs font-bold uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
                   Topographical Rigging &amp; Lake Moisture Matrix
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
@@ -328,12 +328,12 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       {archetype === 'historic_oak' && (
         <>
           {/* Hero Section Variant B: Historic Architecture & Shingle Warranty Safe */}
-          <section className="bg-white border-b border-slate-200 py-10 sm:py-14">
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
             <div className="max-w-6xl mx-auto px-4">
               <div className="grid lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-5">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
-                    <MapPin className="w-3.5 h-3.5 text-orange-600" />
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-50 border border-amber-200 text-amber-900 text-xs font-bold uppercase tracking-wider">
+                    <MapPin className="w-3.5 h-3.5 text-amber-700" />
                     <span>{page.badge} · Heritage Tree &amp; Catkin Defense</span>
                   </div>
                   <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
@@ -371,7 +371,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               <div className="grid md:grid-cols-3 gap-5">
                 {page.painPoints.map((point, index) => (
                   <div key={index} className="bg-white p-6 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
-                    <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 text-[10px] font-mono font-bold uppercase">
+                    <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-[10px] font-mono font-bold uppercase">
                       Hardwood Diagnostic 0{index + 1}
                     </span>
                     <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
@@ -383,7 +383,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </section>
 
           {/* PRIMARY INTERACTIVE TOOL: Oak & Mixed Hardwood Bio-Load Calculator */}
-          <section className="py-12 bg-slate-950 border-b border-slate-800">
+          <section className="py-12 bg-white border-b border-slate-200">
             <div className="max-w-4xl mx-auto px-4">
               <TreeCanopyClogCalculator initialCity={page.city || 'Bentonville'} initialTreeType="oak" />
             </div>
@@ -397,28 +397,28 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       {archetype === 'hoa_subdivision' && (
         <>
           {/* Hero Section Variant C: Low Profile Aesthetic & HOA Compliance Focus */}
-          <section className="bg-slate-900 text-white border-b border-slate-800 py-10 sm:py-14">
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
             <div className="max-w-6xl mx-auto px-4">
               <div className="grid lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-5">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-950 border border-blue-500/40 text-blue-400 text-xs font-semibold">
-                    <MapPin className="w-3.5 h-3.5" />
-                    <span>{page.badge} · Master-Planned Subdivision Defense</span>
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-50 border border-blue-200 text-blue-900 text-xs font-bold uppercase tracking-wider">
+                    <MapPin className="w-3.5 h-3.5 text-blue-700" />
+                    <span>{page.badge} · Master-Planned Subdivision Armor</span>
                   </div>
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
                     {page.h1}
                   </h1>
-                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
                     {page.subheadline}
                   </p>
                   <div className="flex flex-wrap gap-2 pt-1">
-                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                    <span className="px-3 py-1 rounded-lg bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-700">
                       ✓ Pre-Approved ARC HOA Colors
                     </span>
-                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                    <span className="px-3 py-1 rounded-lg bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-700">
                       ✓ Multi-Tier Valley Splash Diverters
                     </span>
-                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                    <span className="px-3 py-1 rounded-lg bg-slate-50 border border-slate-200 text-xs font-semibold text-slate-700">
                       ✓ Expansive Clay Soil Protection
                     </span>
                   </div>
@@ -431,7 +431,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </section>
 
           {/* PRIMARY INTERACTIVE TOOL: HOA Compliance & Color Match Engine */}
-          <section className="py-12 bg-slate-100 border-b border-slate-200">
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
             <div className="max-w-4xl mx-auto px-4">
               <HOAComplianceCheck initialCity={page.city || 'Rogers'} />
             </div>
@@ -441,7 +441,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           <section className="py-12 bg-white border-b border-slate-200">
             <div className="max-w-6xl mx-auto px-4 space-y-6">
               <div className="text-center max-w-2xl mx-auto">
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
                   Architectural Drainage Specs
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
@@ -470,32 +470,32 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       {archetype === 'flash_storm' && (
         <>
           {/* Hero Section Variant D: High-Throughput Hydrology */}
-          <section className="bg-slate-950 text-white border-b border-slate-800 py-10 sm:py-14">
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
             <div className="max-w-6xl mx-auto px-4">
               <div className="grid lg:grid-cols-12 gap-8 items-center">
                 <div className="lg:col-span-7 space-y-5">
-                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-orange-950/80 border border-orange-500/40 text-orange-400 text-xs font-semibold">
-                    <Zap className="w-3.5 h-3.5" />
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
+                    <Zap className="w-3.5 h-3.5 text-blue-600" />
                     <span>{page.badge} · 150 in/hr Hydrological Intake</span>
                   </div>
-                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
                     {page.h1}
                   </h1>
-                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
                     {page.subheadline}
                   </p>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
-                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase block">Water Intake</span>
-                      <span className="text-xl font-black text-orange-400">150 in/hr</span>
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                      <span className="text-[10px] font-bold text-slate-500 uppercase block">Water Intake</span>
+                      <span className="text-xl font-black text-slate-900">150 in/hr</span>
                     </div>
-                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase block">Shingle Grit</span>
-                      <span className="text-xl font-black text-emerald-400">100% Shed</span>
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                      <span className="text-[10px] font-bold text-slate-500 uppercase block">Shingle Grit</span>
+                      <span className="text-xl font-black text-slate-900">100% Shed</span>
                     </div>
-                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
-                      <span className="text-[10px] font-bold text-slate-400 uppercase block">K-Style Fit</span>
-                      <span className="text-xl font-black text-blue-400">5&quot; &amp; 6&quot; Fit</span>
+                    <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 col-span-2 sm:col-span-1">
+                      <span className="text-[10px] font-bold text-slate-500 uppercase block">K-Style Fit</span>
+                      <span className="text-xl font-black text-slate-900">5&quot; &amp; 6&quot; Fit</span>
                     </div>
                   </div>
                 </div>
@@ -507,7 +507,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </section>
 
           {/* PRIMARY INTERACTIVE TOOL: Flash Storm Hydrology Simulator */}
-          <section className="py-12 bg-slate-950 border-b border-slate-800">
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
             <div className="max-w-4xl mx-auto px-4">
               <HydraulicGutterThroughput initialCity={page.city || 'Springdale'} />
             </div>
@@ -519,14 +519,14 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               <div className="text-center max-w-2xl mx-auto mb-8">
                 <h2 className="text-2xl font-black text-slate-950">{page.painPointTitle}</h2>
                 <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                  Field analysis of torrential rainfall surges and downspout back-pressure.
+                  How high-velocity Ozark thunderstorm deluges overwhelm standard gutters.
                 </p>
               </div>
               <div className="grid md:grid-cols-3 gap-5">
                 {page.painPoints.map((point, index) => (
                   <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
-                    <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-mono font-bold uppercase">
-                      Hydraulic Diagnostic 0{index + 1}
+                    <span className="px-2 py-0.5 rounded bg-slate-200 text-slate-800 text-[10px] font-mono font-bold uppercase">
+                      Flash Storm Metric 0{index + 1}
                     </span>
                     <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
