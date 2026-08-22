@@ -7,6 +7,7 @@ import { FAQS_DATA } from '@/data/faqs';
 import { CITIES_DATA } from '@/data/cities';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';
 import SatelliteEstimator from '@/components/SatelliteEstimator';
+import CommercialQuoteForm from '@/components/CommercialQuoteForm';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
 import CitySiloTemplate from '@/components/CitySiloTemplate';
 import LocalCaseStudyCard from '@/components/LocalCaseStudyCard';
@@ -130,13 +131,22 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   };
   const seasonalEvent = SEASONAL_EVENTS[page.slug];
 
+  const isCommercial = 
+    page.slug.includes('commercial') || 
+    page.slug.includes('property-management') || 
+    page.slug.includes('multi-family') ||
+    page.badge.toLowerCase().includes('commercial');
+
   // =========================================================================
   // AUTOMATED DOM ENTROPY & ARCHETYPE ROTATION ENGINE (ALL 1,100+ PAGES)
   // Deterministic FNV-1a hash mapping ensuring wide structural diversity across all routes
   // =========================================================================
-  type LayoutArchetype = 'pine_mountain' | 'historic_oak' | 'hoa_subdivision' | 'flash_storm';
+  type LayoutArchetype = 'pine_mountain' | 'historic_oak' | 'hoa_subdivision' | 'flash_storm' | 'commercial';
 
   const determineArchetype = (): LayoutArchetype => {
+    if (isCommercial) {
+      return 'commercial';
+    }
     const s = (page.slug + ' ' + (page.city || '')).toLowerCase();
     if (s.includes('bella-vista') || s.includes('72714') || s.includes('72715') || s.includes('loch-lomond') || s.includes('scotsdale') || s.includes('pine') || s.includes('lake') || s.includes('beaver')) {
       return 'pine_mountain';
@@ -538,6 +548,78 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         </>
       )}
 
+      {/* =========================================================================
+          ARCHETYPE E: COMMERCIAL, PROPERTY MANAGEMENT & MULTI-FAMILY B2B HUB
+          ========================================================================= */}
+      {archetype === 'commercial' && (
+        <>
+          {/* Commercial Hero Section */}
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-start">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#0F1E36] text-white text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>Commercial &amp; HOA Exterior Services</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Insurance &amp; Safety</span>
+                      <span className="text-base font-black text-[#0F1E36] block">$2,000,000</span>
+                      <span className="text-[11px] text-slate-600 block">General Liability &amp; Comp</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Invoicing</span>
+                      <span className="text-base font-black text-[#0F1E36] block">NET-30 Terms</span>
+                      <span className="text-[11px] text-slate-600 block">W-9 &amp; Vendor Packets</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Property Types</span>
+                      <span className="text-base font-black text-[#0F1E36] block">Multi-Building</span>
+                      <span className="text-[11px] text-slate-600 block">HOA, Condos &amp; Office</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <CommercialQuoteForm initialCity={page.city || 'Northwest Arkansas'} />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Commercial Capabilities Section */}
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-white px-3 py-1 rounded-full border border-slate-200">
+                  Commercial Capabilities
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  {page.painPointTitle}
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-800 text-[10px] font-mono font-bold uppercase">
+                      Commercial Standard 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
       {/* LOCAL CONTEXT CONTENT (SEO Authority Body) */}
       <section className="py-14 max-w-4xl mx-auto px-4 space-y-8">
         <article className="bg-white p-8 sm:p-10 rounded-2xl border border-slate-200 shadow-sm space-y-6">
@@ -800,138 +882,203 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* THE GUTTER CLEANING MONEY PIT ROI MATRIX (Conversion Psychology) */}
-        <div className="bg-white rounded-2xl border-2 border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
-          <div className="space-y-2 text-center max-w-2xl mx-auto">
-            <span className="text-xs font-bold uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
-              Financial Analysis & Risk Audit
-            </span>
-            <h3 className="text-2xl sm:text-3xl font-black text-slate-950">
-              The Gutter Cleaning Money Pit vs. Permanent 316 Armor
-            </h3>
-            <p className="text-sm text-slate-600">
-              Why renting seasonal franchise cleanings costs 70% more than installing lifetime surgical micro-mesh.
-            </p>
-          </div>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse text-sm">
-              <thead>
-                <tr className="border-b-2 border-slate-200 bg-slate-50">
-                  <th className="py-3.5 px-4 font-bold text-slate-900 w-1/3">Comparison Parameter</th>
-                  <th className="py-3.5 px-4 font-bold text-red-700 w-1/3 bg-red-50/50">Recurring Cleanings (Franchises / Handymen)</th>
-                  <th className="py-3.5 px-4 font-bold text-emerald-800 w-1/3 bg-emerald-50">Ozark Gutter Guard (Permanent Armor)</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-200">
-                <tr>
-                  <td className="py-3.5 px-4 font-bold text-slate-800">5-Year Out-of-Pocket Cost</td>
-                  <td className="py-3.5 px-4 text-red-600 font-semibold bg-red-50/30">
-                    <span className="font-mono text-base font-bold">$2,500 – $3,200+</span>
-                    <span className="block text-xs text-slate-500 font-normal mt-0.5">($250 × 2 visits/yr + seasonal inflation)</span>
-                  </td>
-                  <td className="py-3.5 px-4 text-emerald-700 font-bold bg-emerald-50/50">
-                    <span className="font-mono text-base">$1,250 – $1,450 Flat</span>
-                    <span className="block text-xs text-emerald-800 font-normal mt-0.5">(One-time investment or $48/mo at 0% APR)</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td className="py-3.5 px-4 font-bold text-slate-800">Ladder Damage to Roof & Fascia</td>
-                  <td className="py-3.5 px-4 text-slate-700 bg-red-50/30">
-                    <span className="font-bold text-red-600">10+ Ladder Visits:</span> Dents aluminum gutter lips, crushes delicate shingle drip edges, and scrapes fascia paint.
-                  </td>
-                  <td className="py-3.5 px-4 text-slate-800 bg-emerald-50/50 font-medium">
-                    <span className="font-bold text-emerald-700">0 Future Visits:</span> Installed once. Zero shingle contact, preserving 100% of your roof warranty.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="py-3.5 px-4 font-bold text-slate-800">Systemic Drainage Restoration</td>
-                  <td className="py-3.5 px-4 text-slate-700 bg-red-50/30">
-                    <span className="font-bold text-red-600">None:</span> They only scoop surface sludge. Sagging gutters, loose spikes, and leaky corners remain broken.
-                  </td>
-                  <td className="py-3.5 px-4 text-slate-800 bg-emerald-50/50">
-                    <span className="font-bold text-emerald-700">Full 5-Stage Restoration:</span> Laser slope realignment, heavy-duty hidden zinc brackets, and polyurethane corner seals.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="py-3.5 px-4 font-bold text-slate-800">Written Warranty & Guarantees</td>
-                  <td className="py-3.5 px-4 text-slate-600 bg-red-50/30">
-                    Expires the moment the next rainstorm or autumn leaf falls.
-                  </td>
-                  <td className="py-3.5 px-4 text-emerald-700 font-bold bg-emerald-50/50">
-                    10-Year Transferable No-Clog Guarantee. If it ever clogs, we clean it free.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 text-white p-4 rounded-xl text-xs font-semibold">
-            <span className="flex items-center gap-2 text-emerald-400">
-              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>Zero Shingle Contact Guarantee: 100% GAF, CertainTeed & Owens Corning Warranty Safe</span>
-            </span>
-            <span className="text-slate-300">
-              Stop renting seasonal cleanings • Lock in lifetime defense
-            </span>
-          </div>
-        </div>
-
-        {/* Transparent Local Pricing Table with Micro-Payment Anchors */}
-        <div className="bg-slate-950 text-white p-6 sm:p-8 rounded-2xl shadow-xl space-y-5">
-          <div className="flex justify-between items-start flex-wrap gap-4 border-b border-slate-800 pb-4">
-            <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-orange-400 block">Transparent Local Rates</span>
-              <h3 className="text-xl sm:text-2xl font-black text-white">
-                {page.city ? `${page.city}, AR Gutter Guard Pricing Guide` : 'Arkansas Gutter Guard Investment Guide'}
+        {/* COMMERCIAL PROPERTY MANAGEMENT SCOPE & PRICING TIERS */}
+        {isCommercial ? (
+          <div className="bg-white rounded-2xl border-2 border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+            <div className="space-y-2 text-center max-w-2xl mx-auto">
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
+                Commercial Capabilities &amp; Vendor Services
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-black text-slate-950">
+                Commercial Scope of Work &amp; HOA Management Standards
               </h3>
+              <p className="text-sm text-slate-600">
+                Turnkey exterior roofline drainage, high-volume downspout jetting, and permanent micro-mesh retrofit solutions.
+              </p>
             </div>
-            <div className="flex flex-col sm:items-end">
-              <span className="px-3 py-1 bg-emerald-950 border border-emerald-500/40 text-emerald-400 text-xs font-bold rounded-full">
-                Financing: Starting at $48/Month (0% APR)
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2">
+              <div className="bg-[#F8F9FA] p-5 rounded-xl border border-slate-200 space-y-3">
+                <span className="text-xs font-black uppercase tracking-wider text-[#0F1E36] block">
+                  1. Multi-Building Cleanouts
+                </span>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
+                  Hand clearing of all trough debris, high-flow downspout water flushing, underground drain inspection, and full parking lot / landscaping cleanup with magnetic sweeps.
+                </p>
+                <div className="text-xs font-bold text-emerald-700 pt-1">✓ Tiered Volume Rates Available</div>
+              </div>
+
+              <div className="bg-[#F8F9FA] p-5 rounded-xl border border-slate-200 space-y-3">
+                <span className="text-xs font-black uppercase tracking-wider text-[#0F1E36] block">
+                  2. Photo Audit &amp; Board Sign-Off
+                </span>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
+                  Timestamped before and after photo documentation sent directly to property managers and HOA board directors for compliance verification.
+                </p>
+                <div className="text-xs font-bold text-emerald-700 pt-1">✓ Board-Ready Reports</div>
+              </div>
+
+              <div className="bg-[#F8F9FA] p-5 rounded-xl border border-slate-200 space-y-3">
+                <span className="text-xs font-black uppercase tracking-wider text-[#0F1E36] block">
+                  3. Vendor Compliance &amp; NET-30
+                </span>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
+                  Direct vendor packet completion, W-9 submission, $2,000,000 Certificate of Insurance issuance, and NET-30 invoicing terms.
+                </p>
+                <div className="text-xs font-bold text-emerald-700 pt-1">✓ Fully Licensed &amp; Insured</div>
+              </div>
+            </div>
+
+            <div className="p-4 bg-[#0F1E36] text-white rounded-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div>
+                <span className="text-xs font-bold text-red-400 uppercase tracking-wider block">Direct Commercial Dispatch</span>
+                <h4 className="font-bold text-sm text-white">Need an on-site property walkthrough or RFP review?</h4>
+              </div>
+              <a
+                href={phoneHref}
+                className="btn-contractor-primary px-5 py-2.5 text-xs font-bold shrink-0 flex items-center gap-2"
+              >
+                <Phone className="w-3.5 h-3.5" />
+                <span>Call Commercial Desk: {phoneDisplay}</span>
+              </a>
+            </div>
+          </div>
+        ) : (
+          /* THE GUTTER CLEANING MONEY PIT ROI MATRIX (Conversion Psychology) */
+          <div className="bg-white rounded-2xl border-2 border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+            <div className="space-y-2 text-center max-w-2xl mx-auto">
+              <span className="text-xs font-bold uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
+                Financial Analysis &amp; Risk Audit
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-black text-slate-950">
+                The Gutter Cleaning Money Pit vs. Permanent 316 Armor
+              </h3>
+              <p className="text-sm text-slate-600">
+                Why renting seasonal franchise cleanings costs 70% more than installing lifetime marine-grade micro-mesh.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse text-sm">
+                <thead>
+                  <tr className="border-b-2 border-slate-200 bg-slate-50">
+                    <th className="py-3.5 px-4 font-bold text-slate-900 w-1/3">Comparison Parameter</th>
+                    <th className="py-3.5 px-4 font-bold text-red-700 w-1/3 bg-red-50/50">Recurring Cleanings (Franchises / Handymen)</th>
+                    <th className="py-3.5 px-4 font-bold text-emerald-800 w-1/3 bg-emerald-50">Ozark Gutter Guard (Permanent Armor)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-200">
+                  <tr>
+                    <td className="py-3.5 px-4 font-bold text-slate-800">5-Year Out-of-Pocket Cost</td>
+                    <td className="py-3.5 px-4 text-red-600 font-semibold bg-red-50/30">
+                      <span className="font-mono text-base font-bold">$2,500 – $3,200+</span>
+                      <span className="block text-xs text-slate-500 font-normal mt-0.5">($250 × 2 visits/yr + seasonal inflation)</span>
+                    </td>
+                    <td className="py-3.5 px-4 text-emerald-700 font-bold bg-emerald-50/50">
+                      <span className="font-mono text-base">$1,250 – $1,450 Flat</span>
+                      <span className="block text-xs text-emerald-800 font-normal mt-0.5">(One-time investment or $48/mo at 0% APR)</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 px-4 font-bold text-slate-800">Ladder Damage to Roof &amp; Fascia</td>
+                    <td className="py-3.5 px-4 text-slate-700 bg-red-50/30">
+                      <span className="font-bold text-red-600">10+ Ladder Visits:</span> Dents aluminum gutter lips, crushes delicate shingle drip edges, and scrapes fascia paint.
+                    </td>
+                    <td className="py-3.5 px-4 text-slate-800 bg-emerald-50/50 font-medium">
+                      <span className="font-bold text-emerald-700">0 Future Visits:</span> Installed once. Zero shingle contact, preserving 100% of your roof warranty.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 px-4 font-bold text-slate-800">Systemic Drainage Restoration</td>
+                    <td className="py-3.5 px-4 text-slate-700 bg-red-50/30">
+                      <span className="font-bold text-red-600">None:</span> They only scoop surface sludge. Sagging gutters, loose spikes, and leaky corners remain broken.
+                    </td>
+                    <td className="py-3.5 px-4 text-slate-800 bg-emerald-50/50">
+                      <span className="font-bold text-emerald-700">Full 5-Stage Restoration:</span> Slope realignment, heavy-duty hidden brackets, and corner miter seals.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-3.5 px-4 font-bold text-slate-800">Written Warranty &amp; Guarantees</td>
+                    <td className="py-3.5 px-4 text-slate-600 bg-red-50/30">
+                      Expires the moment the next rainstorm or autumn leaf falls.
+                    </td>
+                    <td className="py-3.5 px-4 text-emerald-700 font-bold bg-emerald-50/50">
+                      10-Year Transferable No-Clog Guarantee. If it ever clogs, we clean it free.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 text-white p-4 rounded-xl text-xs font-semibold">
+              <span className="flex items-center gap-2 text-emerald-400">
+                <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+                <span>Zero Shingle Contact Guarantee: 100% Roof Warranty Safe</span>
+              </span>
+              <span className="text-slate-300">
+                Stop renting seasonal cleanings • Lock in lifetime defense
               </span>
             </div>
           </div>
+        )}
 
-          <div className="grid sm:grid-cols-3 gap-4">
-            <div className="bg-slate-900/90 border border-slate-800 p-4 rounded-xl space-y-2">
-              <span className="text-xs text-slate-400 font-semibold block">1-Story Home (120-150 LF)</span>
-              <div className="text-2xl font-black text-white">$1,250 – $1,450</div>
-              <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $48/mo for 12 mos</div>
-              <p className="text-xs text-slate-400 leading-normal pt-1">
-                Includes full gutter cleaning, laser slope realignment, and 316 surgical stainless micro-mesh.
-              </p>
+        {/* Transparent Local Pricing Table with Micro-Payment Anchors (Single-Family Residential Only) */}
+        {!isCommercial && (
+          <div className="bg-slate-950 text-white p-6 sm:p-8 rounded-2xl shadow-xl space-y-5">
+            <div className="flex justify-between items-start flex-wrap gap-4 border-b border-slate-800 pb-4">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-orange-400 block">Transparent Local Rates</span>
+                <h3 className="text-xl sm:text-2xl font-black text-white">
+                  {page.city ? `${page.city}, AR Gutter Guard Pricing Guide` : 'Arkansas Gutter Guard Investment Guide'}
+                </h3>
+              </div>
+              <div className="flex flex-col sm:items-end">
+                <span className="px-3 py-1 bg-emerald-950 border border-emerald-500/40 text-emerald-400 text-xs font-bold rounded-full">
+                  Financing: Starting at $48/Month (0% APR)
+                </span>
+              </div>
             </div>
-            <div className="bg-slate-900/90 border border-orange-500/50 p-4 rounded-xl space-y-2 relative">
-              <span className="absolute -top-2.5 right-3 bg-orange-600 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-full">Most Common</span>
-              <span className="text-xs text-slate-400 font-semibold block">2-Story / Complex (180-220 LF)</span>
-              <div className="text-2xl font-black text-orange-400">$1,550 – $1,850</div>
-              <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $58/mo for 12 mos</div>
-              <p className="text-xs text-slate-400 leading-normal pt-1">
-                Includes corner miter sealing, zinc screw reinforcement every 24", and valley splash diverters.
-              </p>
+
+            <div className="grid sm:grid-cols-3 gap-4">
+              <div className="bg-slate-900/90 border border-slate-800 p-4 rounded-xl space-y-2">
+                <span className="text-xs text-slate-400 font-semibold block">1-Story Home (120-150 LF)</span>
+                <div className="text-2xl font-black text-white">$1,250 – $1,450</div>
+                <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $48/mo for 12 mos</div>
+                <p className="text-xs text-slate-400 leading-normal pt-1">
+                  Includes full gutter cleaning, slope realignment, and 316 marine-grade stainless micro-mesh.
+                </p>
+              </div>
+              <div className="bg-slate-900/90 border border-orange-500/50 p-4 rounded-xl space-y-2 relative">
+                <span className="absolute -top-2.5 right-3 bg-orange-600 text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-full">Most Common</span>
+                <span className="text-xs text-slate-400 font-semibold block">2-Story / Complex (180-220 LF)</span>
+                <div className="text-2xl font-black text-orange-400">$1,550 – $1,850</div>
+                <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $58/mo for 12 mos</div>
+                <p className="text-xs text-slate-400 leading-normal pt-1">
+                  Includes corner miter sealing, zinc screw reinforcement every 24", and valley splash diverters.
+                </p>
+              </div>
+              <div className="bg-slate-900/90 border border-slate-800 p-4 rounded-xl space-y-2">
+                <span className="text-xs text-slate-400 font-semibold block">Large Estate (250+ LF)</span>
+                <div className="text-2xl font-black text-white">$1,950 – $2,350</div>
+                <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $75/mo for 12 mos</div>
+                <p className="text-xs text-slate-400 leading-normal pt-1">
+                  Complete multi-level roofline protection. Save over $4,500 compared to corporate franchise quotes.
+                </p>
+              </div>
             </div>
-            <div className="bg-slate-900/90 border border-slate-800 p-4 rounded-xl space-y-2">
-              <span className="text-xs text-slate-400 font-semibold block">Large Estate (250+ LF)</span>
-              <div className="text-2xl font-black text-white">$1,950 – $2,350</div>
-              <div className="text-[11px] font-mono text-emerald-400 font-bold">Or $75/mo for 12 mos</div>
-              <p className="text-xs text-slate-400 leading-normal pt-1">
-                Complete multi-level roofline armor. Save over $4,500 compared to corporate franchise quotes.
-              </p>
+
+            <div className="pt-2 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+              <span>📞 Prefer to talk directly with a technician? Call for immediate advice.</span>
+              <a 
+                href={phoneHref} 
+                className="inline-flex items-center gap-2 font-black text-orange-400 hover:text-orange-300 text-sm"
+              >
+                <Phone className="w-4 h-4" />
+                <span>{phoneDisplay}</span>
+              </a>
             </div>
           </div>
-
-          <div className="pt-2 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-            <span>📞 Prefer to talk directly with a technician? Call for immediate advice.</span>
-            <a 
-              href={phoneHref} 
-              className="inline-flex items-center gap-2 font-black text-orange-400 hover:text-orange-300 text-sm"
-            >
-              <Phone className="w-4 h-4" />
-              <span>{phoneDisplay}</span>
-            </a>
-          </div>
-        </div>
+        )}
       </section>
 
       {/* OZARK HYDROLOGICAL ENGINEERING SPECIFICATION MATRIX */}
