@@ -40,14 +40,16 @@ export default function GutterCleaningPage() {
 
           {/* Quick Header */}
           <div className="space-y-2 max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-300 text-slate-800 text-xs font-bold uppercase tracking-wider">
-              <span>$149 Flat Rate • 100% Credited Toward Guards</span>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-300 text-slate-800 text-xs font-semibold">
+              <span className="text-red-600 font-bold">✓ Same-Week Service</span>
+              <span className="text-slate-400">•</span>
+              <span>Benton &amp; Washington County</span>
             </div>
-            <h1 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight">
+            <h1 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight leading-tight">
               Book Your $149 Gutter Cleanout &amp; Inspection
             </h1>
-            <p className="text-sm sm:text-base text-slate-600 font-normal">
-              Enter your address below to lock in your $149 flat-rate cleanout. 100% of this fee is credited toward gutter guards if you upgrade within 12 months.
+            <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+              Hand sludge extraction, downspout jetting, and full condition report. 100% credited toward gutter guards if you decide to upgrade within 12 months.
             </p>
           </div>
 

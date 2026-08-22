@@ -167,11 +167,11 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
-                  Your Name
+                  3. Your Name
                 </label>
                 <input
                   type="text"
-                  placeholder="John Miller"
+                  placeholder="e.g. John Miller"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 outline-none focus:border-[#0F1E36] bg-white font-medium"
@@ -180,7 +180,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
-                  Phone Number
+                  4. Phone Number
                 </label>
                 <input
                   type="tel"

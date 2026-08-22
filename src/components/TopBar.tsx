@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Phone, Star } from 'lucide-react';
+import { Phone, MapPin } from 'lucide-react';
 
 export default function TopBar() {
   const phoneHref = "tel:+14799292516";
@@ -10,10 +10,10 @@ export default function TopBar() {
     <div className="bg-[#0F1E36] text-slate-300 text-xs py-1.5 px-4 border-b border-[#183059]">
       <div className="max-w-7xl mx-auto flex justify-between items-center text-[11px] sm:text-xs">
         
-        {/* Left: Local Owner & Star Rating */}
+        {/* Left: Local Location & License */}
         <div className="flex items-center gap-2">
           <span className="font-bold text-white flex items-center gap-1 text-[11px]">
-            <span>🇺🇸</span>
+            <MapPin className="w-3 h-3 text-red-400 shrink-0" />
             <span>Bentonville, AR</span>
           </span>
           <span className="text-slate-500">•</span>
