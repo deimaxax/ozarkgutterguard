@@ -13,12 +13,12 @@ export default function GutterCleaningPage() {
   const phoneDisplay = "(479) 929-2516";
 
   const auditPoints = [
-    { title: "Complete Hand Sludge Extraction", desc: "Bagged and hauled away with zero lawn or flowerbed mess." },
-    { title: "High-Velocity Downspout Power-Flush", desc: "All downspouts cleared to ensure free water discharge." },
-    { title: "Laser Slope & Sagging Inspection", desc: "Every gutter pitch checked so standing water is eliminated." },
-    { title: "Hidden Hanger & Bracket Pull-Test", desc: "Loose spikes and brackets secured or flagged for repair." },
-    { title: "Corner Miter & Seam Leak Check", desc: "Detects hidden water infiltration behind your fascia boards." },
-    { title: "Photo Report Sent to Your Phone", desc: "Clear before & after photos delivered directly to your phone." },
+    { title: "Hand Clean Every Gutter Run", desc: "All leaves and debris bagged up and taken away. Zero mess left in your yard or flowerbeds." },
+    { title: "Flush All Downspouts", desc: "Rinsed clean with water to make sure rain drains freely away from your foundation." },
+    { title: "Check Gutter Slope", desc: "We make sure water isn't pooling or standing anywhere along your roofline." },
+    { title: "Tighten Loose Brackets", desc: "Loose screws and sagging hangers secured so your gutters hold up in heavy storms." },
+    { title: "Inspect Seams for Leaks", desc: "We check corners and end caps for drips that could rot your fascia boards." },
+    { title: "Before & After Photos", desc: "We text you clear photos of your clean gutters when the job is done." },
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function GutterCleaningPage() {
           {/* Back link */}
           <Link
             href="/"
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-blue-600 transition"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-red-600 transition"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span>Back to Home</span>
@@ -43,13 +43,13 @@ export default function GutterCleaningPage() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-300 text-slate-800 text-xs font-semibold">
               <span className="text-red-600 font-bold">✓ Same-Week Service</span>
               <span className="text-slate-400">•</span>
-              <span>Benton &amp; Washington County</span>
+              <span>Benton &amp; Washington Counties</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight leading-tight">
-              Book Your $149 Gutter Cleanout &amp; Inspection
+              Northwest Arkansas Gutter Cleaning
             </h1>
             <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
-              Hand sludge extraction, downspout jetting, and full condition report. 100% credited toward gutter guards if you decide to upgrade within 12 months.
+              We clear out every gutter by hand, flush your downspouts, and make sure your drainage is working properly. If you ever decide to get our permanent gutter guards later, we credit 100% of this cleanout toward them.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function GutterCleaningPage() {
               {/* 6 Audit Points Card */}
               <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-4">
                 <h3 className="font-bold text-base text-slate-900">
-                  What&apos;s Included in Your $149 Cleanout:
+                  What&apos;s Included with Every Cleanout:
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
                   {auditPoints.map((item, idx) => (
@@ -87,8 +87,8 @@ export default function GutterCleaningPage() {
               {/* Direct Dispatch Phone Box */}
               <div className="bg-[#0F1E36] text-white rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
                 <div>
-                  <strong className="block font-bold text-sm">Need Same-Day Emergency Service?</strong>
-                  <span className="text-xs text-slate-300">Call our Bentonville shop directly for immediate scheduling.</span>
+                  <strong className="block font-bold text-sm">Need Help Right Away?</strong>
+                  <span className="text-xs text-slate-300">Call our Bentonville crew directly to grab the next open slot.</span>
                 </div>
                 <a
                   href={phoneHref}

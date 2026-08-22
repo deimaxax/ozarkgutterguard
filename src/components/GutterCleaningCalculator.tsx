@@ -64,7 +64,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
           <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300 shrink-0 shadow-xs">
             <Image
               src="/images/david_vance.jpg"
-              alt="David Vance - Owner & Bentonville Resident"
+              alt="David Vance - Owner & Lead Installer"
               width={48}
               height={48}
               className="w-full h-full object-cover"
@@ -75,7 +75,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
             <div className="flex items-center gap-2">
               <span className="font-black text-slate-900 text-sm sm:text-base">David Vance</span>
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
-                Local Dispatch
+                Owner &amp; Lead Installer
               </span>
             </div>
             <p className="text-xs text-slate-600 font-medium mt-0.5">
@@ -84,8 +84,8 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
           </div>
         </div>
 
-        <p className="text-xs text-slate-700 mt-3 italic bg-white p-2.5 rounded-lg border border-slate-200/80 leading-relaxed font-normal">
-          &quot;Select your home size below. We&apos;ll lock in your flat rate with zero hidden fees — 100% credited toward guards if you ever upgrade.&quot;
+        <p className="text-xs text-slate-700 mt-3 bg-white p-2.5 rounded-lg border border-slate-200/80 leading-relaxed font-normal">
+          &quot;Select your home size and address below. We&apos;ll give you a call or text today to set up a time that works for you.&quot;
         </p>
       </div>
 
@@ -95,14 +95,14 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
             <div className="w-12 h-12 rounded-full bg-[#0F1E36] text-white flex items-center justify-center mx-auto">
               <CheckCircle2 className="w-6 h-6 text-red-400" />
             </div>
-            <h4 className="text-lg font-bold text-slate-900">Appointment Request Received!</h4>
+            <h4 className="text-lg font-bold text-slate-900">Request Received!</h4>
             <p className="text-xs text-slate-600 max-w-sm mx-auto leading-relaxed">
-              We received your cleanout request for <strong className="text-slate-900">{address}</strong>. Our Bentonville team will text/call you shortly to confirm your exact arrival window.
+              We received your cleanout request for <strong className="text-slate-900">{address}</strong>. We will text or call you shortly to confirm the arrival time.
             </p>
             <div className="bg-white border border-slate-200 rounded-xl p-3.5 text-xs space-y-1 max-w-xs mx-auto">
               <div className="text-slate-500 font-semibold">Flat Rate Cleanout:</div>
               <div className="text-2xl font-black text-slate-900">${cleanPrice}</div>
-              <div className="text-[11px] text-red-600 font-bold">100% Credited Toward Guards</div>
+              <div className="text-[11px] text-slate-600">Pay after completion • 100% credited toward guards</div>
             </div>
             <a
               href="tel:+14799292516"
@@ -122,8 +122,8 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
               </label>
               <div className="grid grid-cols-3 gap-2">
                 {[
-                  { id: '1-story', label: '1-Story', price: '$149' },
-                  { id: '2-story', label: '2-Story', price: '$189' },
+                  { id: '1-story', label: '1-Story Ranch', price: '$149' },
+                  { id: '2-story', label: '2-Story Family', price: '$189' },
                   { id: '3-story', label: '3+ / Steep', price: '$249' },
                 ].map((s) => (
                   <button
@@ -138,7 +138,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
                   >
                     <div className="flex items-center gap-1 mb-0.5">
                       <Home className={`w-3.5 h-3.5 ${stories === s.id ? 'text-white' : 'text-slate-400'}`} />
-                      <span className="text-xs font-bold">{s.label}</span>
+                      <span className="text-xs font-bold truncate">{s.label}</span>
                     </div>
                     <span className={`text-xs font-bold block ${stories === s.id ? 'text-red-300' : 'text-red-600'}`}>
                       {s.price} Flat
@@ -180,7 +180,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
 
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
-                  4. Phone Number
+                  4. Mobile Phone
                 </label>
                 <input
                   type="tel"
@@ -205,12 +205,12 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
               disabled={isSubmitting}
               className="w-full btn-contractor-primary min-h-[50px] py-3 text-sm font-bold flex items-center justify-center gap-2 shadow-xs cursor-pointer transition active:scale-[0.98] rounded-xl"
             >
-              <span>{isSubmitting ? 'Booking...' : `Lock In My $${cleanPrice} Cleanout →`}</span>
+              <span>{isSubmitting ? 'Sending Request...' : 'Schedule My Cleanout →'}</span>
             </button>
 
             {/* Reassurance Footer */}
             <div className="pt-2 border-t border-slate-100 space-y-1 text-center text-xs text-slate-500">
-              <p>✓ 100% Credited Toward Guards • Zero Sales Pressure</p>
+              <p>✓ Pay after completion • 100% credited toward guards</p>
               <p>Prefer to call? <a href="tel:+14799292516" className="text-slate-900 font-bold hover:underline">(479) 929-2516</a></p>
             </div>
 
