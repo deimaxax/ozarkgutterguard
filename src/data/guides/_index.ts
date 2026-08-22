@@ -56,6 +56,11 @@ import post42 from './42-leaffilter-alternatives-nwa';
 import post43 from './43-gutter-guard-cost-per-linear-foot';
 import post44 from './44-why-gutter-guards-overflow';
 import post45 from './45-shadow-valley-hoa-guidelines';
+import post46 from './46-how-to-cancel-gutter-contract-arkansas';
+import post47 from './47-mosquitoes-clogged-gutters-bentonville';
+import post48 from './48-squirrels-rats-attic-rotted-fascia';
+import post49 from './49-ice-dams-gutter-collapse-bella-vista';
+import post50 from './50-fight-denied-gutter-hail-claim';
 
 export const GUIDES_DATA = [
   post01, // oak-catkins-clogging-gutters-nwa
@@ -107,6 +112,11 @@ export const GUIDES_DATA = [
   post43,
   post44,
   post45,
+  post46,
+  post47,
+  post48,
+  post49,
+  post50,
 ];
 
 export function getGuide(slug: string) {
