@@ -201,7 +201,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
             href={phoneHref} 
             className="flex items-center gap-1.5 font-bold text-orange-400 hover:text-orange-300 transition-colors"
           >
-            <Phone className="w-3.5 h-3.5 animate-pulse" />
+            <Phone className="w-3.5 h-3.5" />
             <span>{phoneDisplay}</span>
           </a>
         </div>
@@ -1152,8 +1152,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           {/* Mobile Emergency Dispatch Action Strip (Anti-Pogo-Sticking) */}
           <div className="bg-orange-600 text-white rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-md">
             <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-center sm:text-left">
-              <span className="w-2.5 h-2.5 rounded-full bg-amber-300 animate-ping shrink-0" />
-              <span>Severe Weather Alert: Active NWA Hail &amp; Flash Storm Drainage Response</span>
+              <span>Severe Weather Advisory: Active NWA Hail &amp; Flash Storm Drainage Response</span>
             </div>
             <a
               href={phoneHref}

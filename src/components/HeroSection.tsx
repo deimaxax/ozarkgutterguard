@@ -35,10 +35,9 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                 {customSub || `Permanent stainless steel micro-mesh guards engineered to keep out Ozark pine needles, oak tassels, and leaves for good.`}
               </p>
 
-              <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 pt-0.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0"></span>
-                <span>Get your exact price online in 90 seconds — no high-pressure home visits.</span>
-              </div>
+              <p className="text-xs sm:text-sm font-semibold text-slate-700 pt-0.5">
+                Get your exact price online in 90 seconds — no high-pressure home visits.
+              </p>
             </div>
 
             {/* 3 Human Trust Points */}

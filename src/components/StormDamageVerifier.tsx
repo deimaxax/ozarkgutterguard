@@ -66,9 +66,8 @@ export default function StormDamageVerifier({
             {initialCity} ({initialZip}) Roofline Impact Analysis
           </h3>
         </div>
-        <span className="px-3 py-1 bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold rounded-lg flex items-center gap-1.5">
-          <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
-          Live NWA Radar Verified
+        <span className="px-3 py-1 bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold rounded-lg flex items-center gap-1.5">
+          NOAA Radar Verified
         </span>
       </div>
 

@@ -103,7 +103,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold">
-              <CloudRain className="w-5 h-5 animate-pulse" />
+              <CloudRain className="w-5 h-5" />
             </div>
             <div>
               <h3 className="font-black text-lg text-white leading-tight">
