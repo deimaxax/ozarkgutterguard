@@ -25,62 +25,54 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
           {/* Left Column: Fast Value Proposition */}
           <div className="lg:col-span-7 space-y-4 sm:space-y-6">
             
-            {/* Single Concise Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold">
-              <span className="text-emerald-700 font-bold">✓ Lic. #039182</span>
-              <span className="text-slate-400">•</span>
-              <span>Bentonville, AR</span>
-              <span className="text-slate-400">•</span>
-              <span className="text-slate-600">Benton &amp; Washington Co.</span>
-            </div>
-
             {/* Main Headline */}
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-tight">
-              {customH1 || `Northwest Arkansas Gutter Protection & Cleanouts.`}
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
+              {customH1 || `Northwest Arkansas Gutter Protection — Direct From The Installer.`}
             </h1>
 
-            {/* Concise Subhead */}
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-              {customSub || `Permanent 316 stainless micro-mesh & $149 seasonal cleanouts. Direct owner pricing from our local Bentonville crew — zero salesmen games.`}
+            {/* Clear Subhead */}
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+              {customSub || `Eliminate gutter cleaning permanently with 316 marine-grade stainless micro-mesh. No high-pressure sales reps, no corporate markup.`}
             </p>
 
             {/* 3 Quick Value Badges */}
             <div className="grid grid-cols-3 gap-2 py-1 text-center">
               <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
-                <span className="text-[11px] font-bold text-slate-900 block">Direct Pricing</span>
-                <span className="text-[10px] text-slate-500">No Salesmen</span>
-              </div>
-              <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
                 <span className="text-[11px] font-bold text-slate-900 block">316 Stainless</span>
-                <span className="text-[10px] text-slate-500">Zero Clog</span>
+                <span className="text-[10px] text-slate-500">Zero Clog Guarantee</span>
               </div>
               <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
-                <span className="text-[11px] font-bold text-slate-900 block">Lifetime</span>
-                <span className="text-[10px] text-slate-500">Warranty</span>
+                <span className="text-[11px] font-bold text-slate-900 block">Direct Owner Rate</span>
+                <span className="text-[10px] text-slate-500">Save 50%+ vs Franchise</span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-200">
+                <span className="text-[11px] font-bold text-slate-900 block">Lifetime Warranty</span>
+                <span className="text-[10px] text-slate-500">100% Transferable</span>
               </div>
             </div>
 
-            {/* Direct Phone Call Button & Cleanout Link */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
+            {/* Single Unified Primary CTA (Zero-Friction Funnel) */}
+            <div className="space-y-2 pt-1">
               <a
-                href={phoneHref}
-                className="btn-contractor-primary min-h-[48px] px-5 py-3 text-sm sm:text-base font-bold flex items-center justify-center gap-2 shadow-xs transition"
+                href="#estimate-form"
+                className="w-full sm:w-auto btn-contractor-primary min-h-[52px] px-8 py-3.5 text-base font-bold inline-flex items-center justify-center gap-2 shadow-sm transition"
               >
-                <Phone className="w-4 h-4 text-white" />
-                <span>Call Local Office: {phoneDisplay}</span>
+                <span>Calculate My Exact Price Range ↓</span>
               </a>
-
-              <Link
-                href="/gutter-cleaning"
-                className="btn-contractor-navy min-h-[48px] px-5 py-3 rounded-lg text-white text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition shadow-xs"
-              >
-                <span>Book $149 Cleanout &rarr;</span>
-              </Link>
+              
+              <div className="flex items-center gap-2 text-xs text-slate-500 font-medium pt-1">
+                <span className="text-amber-500 font-bold">★★★★★</span>
+                <span className="font-bold text-slate-700">4.9/5</span>
+                <span>•</span>
+                <span>180+ Local NWA Homeowners</span>
+                <span>•</span>
+                <span>Zero Pressure</span>
+              </div>
             </div>
 
             {/* Local Crew Image Card (Desktop / Tablet) */}
             <div className="hidden sm:block rounded-xl overflow-hidden border border-slate-200 bg-white shadow-2xs">
-              <div className="relative h-32 sm:h-40 w-full bg-slate-100">
+              <div className="relative h-32 sm:h-36 w-full bg-slate-100">
                 <Image
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"
