@@ -16,22 +16,19 @@ export default function Footer() {
           
           {/* Col 1: Brand & Contact Info (5 cols) */}
           <div className="lg:col-span-5 space-y-3.5">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-white rounded-lg p-1.5 flex items-center justify-center shrink-0">
+            <div>
+              <Link href="/" className="inline-flex items-center bg-white px-3 py-1.5 rounded-xl shadow-xs hover:opacity-95 transition">
                 <Image
                   src="/logo.png"
                   alt="Ozark Gutter Guard Co."
-                  width={32}
-                  height={32}
-                  className="object-contain"
+                  width={220}
+                  height={70}
+                  className="h-9 w-auto object-contain"
                 />
-              </div>
-              <div>
-                <span className="text-sm font-black text-white tracking-tight uppercase block">
-                  OZARK <span className="text-red-400">GUTTER GUARD CO.</span>
-                </span>
-                <span className="text-[11px] text-slate-400">Northwest Arkansas Local Gutter Specialists</span>
-              </div>
+              </Link>
+              <p className="text-[11px] text-slate-400 mt-2">
+                Northwest Arkansas Local Gutter &amp; Protection Specialists
+              </p>
             </div>
 
             <div className="space-y-1.5 text-slate-300 text-xs pt-1">
@@ -44,8 +41,10 @@ export default function Footer() {
                 <span>Call Us: <a href={phoneHref} className="text-white hover:text-red-400 font-bold">{phoneDisplay}</a></span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-slate-500 shrink-0" />
-                <span>contact@ozarkgutterguard.com</span>
+                <Mail className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                <a href="mailto:info@ozarkgutterguard.com" className="text-slate-300 hover:text-white transition">
+                  info@ozarkgutterguard.com
+                </a>
               </div>
               <div className="flex items-center gap-2 text-slate-400 text-[11px] pt-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-slate-400 shrink-0" />

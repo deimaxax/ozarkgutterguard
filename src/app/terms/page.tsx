@@ -84,7 +84,7 @@ export default function TermsPage() {
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2 text-xs">
                 <p><strong>Ozark Gutter Guard Co.</strong></p>
                 <p>Bentonville, AR 72712</p>
-                <p>Email: <a href="mailto:estimates@ozarkgutterguard.com" className="text-orange-600 hover:underline">estimates@ozarkgutterguard.com</a></p>
+                <p>Email: <a href="mailto:info@ozarkgutterguard.com" className="text-[#D92626] hover:underline">info@ozarkgutterguard.com</a></p>
                 <p>Phone: <a href="tel:+14799292516" className="text-orange-600 hover:underline">(479) 929-2516</a></p>
               </div>
             </section>

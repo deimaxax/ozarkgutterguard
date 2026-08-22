@@ -74,7 +74,7 @@ export default function SchemaJsonLd({
     "logo": `${siteUrl}/logo.png`,
     "image": `${siteUrl}/images/contractor_truck.jpg`,
     "telephone": primaryPhone,
-    "email": "estimates@ozarkgutterguard.com",
+    "email": "info@ozarkgutterguard.com",
     "priceRange": "$$",
     "currenciesAccepted": "USD",
     "paymentAccepted": "Cash, Credit Card, Check, Financing",

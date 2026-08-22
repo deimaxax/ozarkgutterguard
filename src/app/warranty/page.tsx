@@ -119,7 +119,7 @@ export default function WarrantyPage() {
             <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 space-y-3">
               <h3 className="text-base font-black text-slate-900">How to Transfer the Warranty to a New Buyer</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                When selling your property in Benton or Washington County, simply provide your original installation invoice number to the buyer. They can notify our dispatch office at <a href="mailto:dispatch@ozarkgutterguard.com" className="text-orange-600 font-semibold underline">dispatch@ozarkgutterguard.com</a> to register the new property owner record for free.
+                When selling your property in Benton or Washington County, simply provide your original installation invoice number to the buyer. They can notify our local team at <a href="mailto:info@ozarkgutterguard.com" className="text-[#D92626] font-semibold underline">info@ozarkgutterguard.com</a> to register the new property owner record for free.
               </p>
             </div>
           </div>
