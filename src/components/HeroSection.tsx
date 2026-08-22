@@ -85,7 +85,7 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                 className="btn-contractor-primary min-h-[50px] px-6 py-3.5 text-base font-bold flex items-center justify-center gap-2.5 shadow-sm transition"
               >
                 <Phone className="w-4 h-4 text-white" />
-                <span>Call Dispatch: {phoneDisplay}</span>
+                <span>Call Local Office: {phoneDisplay}</span>
               </a>
 
               <Link
@@ -98,7 +98,7 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
 
             {/* Crew Image Card */}
             <div className="rounded-xl overflow-hidden border border-slate-200 bg-white shadow-2xs">
-              <div className="relative h-40 sm:h-48 w-full bg-slate-100">
+              <div className="relative h-36 sm:h-44 w-full bg-slate-100">
                 <Image
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo -p 3000",
-    "dev:webpack": "next dev",
+    "dev": "next dev --turbo -p 3001",
+    "dev:webpack": "next dev -p 3001",
     "clean": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "prebuild": "npm run clean",
     "build": "next build",

@@ -12,23 +12,22 @@ export default function FounderTrustSection() {
           {/* Left Column: Founder Accountability Card */}
           <div className="lg:col-span-6 bg-[#F8F9FA] rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
             <div className="flex items-center gap-4 border-b border-slate-200 pb-5">
-              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[#183059] shrink-0 bg-slate-200">
-                <Image
-                  src="/images/contractor_truck.jpg"
-                  alt="David Vance - Ozark Gutter Guard Co. Founder"
-                  fill
-                  className="object-cover"
-                />
+              <div className="w-14 h-14 rounded-full bg-[#0F1E36] text-white font-black text-xl flex items-center justify-center border-2 border-[#183059] shrink-0 shadow-xs">
+                DV
               </div>
               <div>
-                <h3 className="text-lg font-bold text-[#0F1E36] tracking-tight">
-                  David Vance
+                <h3 className="text-lg font-bold text-[#0F1E36] tracking-tight flex items-center gap-2">
+                  <span>David Vance</span>
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 text-[10px] font-bold uppercase tracking-wider border border-emerald-200">
+                    <ShieldCheck className="w-3 h-3" />
+                    Local Owner
+                  </span>
                 </h3>
-                <span className="text-xs font-semibold text-[#D92626] block">
-                  Founder &amp; Lead Field Specialist • Bentonville Resident
+                <span className="text-xs font-semibold text-[#D92626] block mt-0.5">
+                  Founder &amp; Lead Installer • Bentonville Resident
                 </span>
                 <span className="text-[11px] text-slate-500 font-medium">
-                  Benton &amp; Washington County Local Operations
+                  Benton &amp; Washington County Operations
                 </span>
               </div>
             </div>
@@ -38,7 +37,7 @@ export default function FounderTrustSection() {
             </blockquote>
 
             <div className="pt-2 flex items-center justify-between text-xs text-slate-600 font-medium border-t border-slate-200">
-              <span className="font-semibold text-[#0F1E36]">Direct Local Dispatch:</span>
+              <span className="font-semibold text-[#0F1E36]">Call Local Office:</span>
               <a href="tel:+14799292516" className="text-[#D92626] font-bold hover:underline">
                 (479) 929-2516
               </a>

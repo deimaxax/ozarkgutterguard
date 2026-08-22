@@ -17,21 +17,21 @@ export const REVIEWS_DATA: ReviewItem[] = [
     location: "Downtown Bentonville, AR",
     city: "Bentonville",
     rating: 5,
-    text: "Saved over $3,800 compared to the LeafFilter corporate quote I was given. The satellite measurement was done within 15 minutes of my request, and installation took exactly 3.5 hours. Not a single oak tassel got through this spring!",
+    text: "Got tired of the high-pressure sales pitch from the national franchise company. David's team sent us an estimate from aerial measurements within an hour, showed up two days later, and finished the entire house in an afternoon. No mess left behind and great local service.",
     date: "3 weeks ago",
     verified: true,
-    savings: "Saved $3,800+"
+    savings: "Honest local pricing"
   },
   {
     id: "rev-2",
     name: "Robert & Linda Keller",
-    location: "Lake Loch Lomond, Bella Vista, AR",
+    location: "Bella Vista, AR",
     city: "Bella Vista",
     rating: 5,
-    text: "We live on a steep hillside surrounded by 50-foot Loblolly pines. I was paying $250 every 3 months for dangerous gutter cleaning. Ozark Gutter Guard installed surgical stainless steel mesh in one afternoon. Two torrential storms later, gutters run crystal clear!",
+    text: "Living on a steep wooded lot in Bella Vista, our gutters were constantly jammed with pine needles. We had Ozark Gutter Guard put guards on all sides. After three heavy rainstorms, water flows directly into the downspouts with zero overflow.",
     date: "1 month ago",
     verified: true,
-    savings: "Eliminated $1,000/yr cleaning costs"
+    savings: "No more ladder climbs"
   },
   {
     id: "rev-3",
@@ -39,21 +39,21 @@ export const REVIEWS_DATA: ReviewItem[] = [
     location: "Shadow Valley, Rogers, AR",
     city: "Rogers",
     rating: 5,
-    text: "LeafFilter quoted me $6,400 for our two-story house. Ozark Gutter Guard came in at $1,520 with higher quality 316 surgical stainless steel mesh. Clean crew, zero pressure, done in 4 hours.",
+    text: "Clean, polite crew who took the time to realign our front gutters and flush downspouts before installing the micro-mesh. Price was less than half of what the big corporate brand quoted us for the same stainless steel mesh.",
     date: "2 months ago",
     verified: true,
-    savings: "Saved $4,880"
+    savings: "Saved over 50%"
   },
   {
     id: "rev-4",
-    name: "Sarah Jenkins & Mark W.",
+    name: "Sarah & Mark W.",
     location: "Mount Sequoyah, Fayetteville, AR",
     city: "Fayetteville",
     rating: 5,
-    text: "Our house under Mount Sequoyah oaks used to clog literally every 2 weeks in October and November. This stainless micro-mesh has been 100% clog free through all fall storms. Outstanding local NWA company!",
+    text: "Under the heavy oak trees on Mt. Sequoyah, we used to clean our gutters 4 times a year. The micro-mesh guards have held up perfectly through fall leaves and spring oak tassels. Highly recommend them to anyone in NWA.",
     date: "1 month ago",
     verified: true,
-    savings: "Saved $3,200"
+    savings: "Zero fall clogs"
   },
   {
     id: "rev-5",
@@ -61,9 +61,10 @@ export const REVIEWS_DATA: ReviewItem[] = [
     location: "Har-Ber Meadows, Springdale, AR",
     city: "Springdale",
     rating: 5,
-    text: "After our foundation started showing hairline cracks from overflowing gutters, we knew we needed permanent guards. Ozark Gutter Guard gave us an honest quote over text with roof measurements and finished the job in 4 hours. No mess left behind!",
+    text: "We booked the $149 cleanout first and decided to upgrade to guards when they showed us the condition of our upper gutters. They credited the full cleaning fee toward the install. Extremely fair and professional.",
     date: "3 weeks ago",
     verified: true,
-    savings: "Protected foundation"
+    savings: "Cleaning fee credited"
   }
 ];
+

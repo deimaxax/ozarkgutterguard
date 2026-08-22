@@ -5,20 +5,20 @@ export default function SystemicScopeSection() {
   const steps = [
     {
       number: "1",
-      title: "Full Cleanout & Laser Slope Tune-Up",
-      detail: "We never install guards over dirty gutters. We hand-clean every foot of sludge, flush downspouts, and correct sagging low spots so rainwater drains perfectly.",
-      highlight: "Pre-Installation Standard"
+      title: "Hand Cleanout & Slope Re-pitching",
+      detail: "We never install guards over dirty or misaligned gutters. We hand-clear all sludge, flush downspouts, and correct sagging low spots so water flows freely.",
+      highlight: "Pre-Installation Cleanout Included"
     },
     {
       number: "2",
-      title: "Surgical Stainless Steel Armor",
-      detail: "We fit medical-grade 316 stainless micro-mesh that stops fine pine needles and oak tassels dead in their tracks — while handling torrential Arkansas storms.",
-      highlight: "Zero Debris Infiltration"
+      title: "Marine-Grade 316 Micro-Mesh",
+      detail: "We secure heavy-duty 316 stainless steel micro-mesh in an aluminum frame that blocks 100% of pine needles and oak catkins without overshooting in storms.",
+      highlight: "Pine Needle & Catkin Proof"
     },
     {
       number: "3",
       title: "100% Shingle-Safe Fascia Fastening",
-      detail: "We screw directly into your gutter lip and fascia board. Zero brackets slide under your shingles, keeping your manufacturer roof warranty 100% intact.",
+      detail: "We fasten securely into your gutter lip and fascia board. Zero brackets slide under your shingles, keeping your manufacturer roof warranty 100% intact.",
       highlight: "Roof Warranty Protected"
     }
   ];

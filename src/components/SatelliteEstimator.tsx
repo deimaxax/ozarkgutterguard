@@ -109,10 +109,10 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
       {/* Clean Form Header */}
       <div className="p-5 sm:p-6 pb-3 border-b border-slate-100 bg-white">
         <h3 className="font-bold text-lg sm:text-xl text-[#0F1E36] tracking-tight">
-          Instant Satellite Roofline Estimate
+          Instant Price Estimate &amp; Satellite Measurement
         </h3>
         <p className="text-xs text-slate-500 mt-1 font-normal">
-          Calculates linear footage &amp; price in 90 seconds without an in-home visit.
+          Get your estimated price range in 30 seconds. No high-pressure in-home sales visits.
         </p>
       </div>
 
@@ -295,7 +295,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             </div>
 
             <div className="text-xs text-slate-700 pt-1 border-t border-slate-200">
-              <span className="font-bold text-[#0F1E36]">Included Scope:</span> Full hand cleanout, laser slope realignment, heavy zinc brackets &amp; 316 surgical micro-mesh.
+              <span className="font-bold text-[#0F1E36]">Included Scope:</span> Full hand cleanout, slope tune-up, heavy-duty hidden hangers &amp; 316 marine-grade micro-mesh.
             </div>
           </div>
 
