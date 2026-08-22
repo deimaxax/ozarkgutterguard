@@ -45,11 +45,22 @@ export default function SchemaJsonLd({
   const pageUrl = slug ? `${siteUrl}/${slug}` : siteUrl;
 
   const sameAsProfiles = [
-    "https://facebook.com/OzarkGutterGuard",
-    // Verified Google Maps CID, BBB, Yelp profiles can be appended dynamically
+    "https://nextdoor.com/page/ozark-gutter-guard-fayetteville-ar",
+    "https://www.youtube.com/@OzarkGutterGuard",
+    "https://www.facebook.com/OzarkGutterGuard",
+    "https://x.com/OzarkGutterGuar",
+    "https://www.linkedin.com/company/ozark-gutter-guard/",
+    "https://www.merchantcircle.com/ozark-gutter-guard-fayetteville-ar",
+    "https://www.manta.com/c/m1hft21/ozark-gutter-guard",
+    "https://www.pinterest.com/ozarkgutterguard/",
+    "https://ezlocal.com/ar/bentonville/gutter-cleaning-service/0919817979",
+    "https://www.instagram.com/ozarkgutterguard/",
+    "https://www.thumbtack.com/ar/bentonville/pro/ozark-gutter-guards/service/588283928151015428",
+    "https://yelp.com/biz/ozark-gutter-guard-fayetteville",
+    "https://www.houzz.com/professionals/roofing-and-gutters/ozark-gutter-guard-pfvwus-pf~2052376562"
   ];
 
-  if (googleMapsCidUrl) {
+  if (googleMapsCidUrl && !sameAsProfiles.includes(googleMapsCidUrl)) {
     sameAsProfiles.push(googleMapsCidUrl);
   }
 
@@ -71,7 +82,6 @@ export default function SchemaJsonLd({
     ...(googleMapsCidUrl ? { "hasMap": googleMapsCidUrl } : {}),
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1102 S Walton Blvd",
       "addressLocality": "Bentonville",
       "addressRegion": "AR",
       "postalCode": "72712",
