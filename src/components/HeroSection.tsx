@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Check, MapPin, Phone } from 'lucide-react';
-import SatelliteEstimator from './SatelliteEstimator';
+import Link from 'next/link';
+import { Phone, Star, ShieldCheck, ArrowRight, CheckCircle2, MapPin } from 'lucide-react';
 
 interface HeroSectionProps {
   cityName?: string;
@@ -12,104 +12,123 @@ interface HeroSectionProps {
 }
 
 export default function HeroSection({ cityName = 'Northwest Arkansas', customH1, customSub }: HeroSectionProps) {
+  const phoneHref = "tel:+14799292516";
+  const phoneDisplay = "(479) 929-2516";
+
   return (
-    <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
+    <section className="bg-white border-b border-slate-200 py-12 sm:py-16 text-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           
-          {/* Left Column: Authentic Local Contractor Message */}
+          {/* Left Column: Home Services Contractor Proposition */}
           <div className="lg:col-span-7 space-y-6">
             
-            <div className="space-y-3">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
-                <MapPin className="w-3.5 h-3.5 text-blue-600" />
-                <span>Locally Owned &amp; Operated in {cityName}</span>
-              </div>
-
-              <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
-                {customH1 || `Stop Cleaning Your Gutters by Hand.`}
-              </h1>
-
-              <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-                {customSub || `We install heavy-duty stainless steel gutter guards that keep out pine needles, oak tassels, and leaves for good. Save thousands compared to national sales companies with our direct local pricing.`}
-              </p>
+            {/* Top Local Contractor Badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-bold">
+              <MapPin className="w-3.5 h-3.5 text-blue-600" />
+              <span>Locally Owned &amp; Operated in {cityName}</span>
             </div>
 
-            {/* 4 Straightforward Contractor Points */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                <div className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
-                  <Check className="w-3.5 h-3.5 stroke-[3]" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Save Up to 65%</h3>
-                  <p className="text-xs text-slate-600 mt-0.5 leading-snug">
-                    Direct local contractor pricing with zero sales commissions.
-                  </p>
-                </div>
-              </div>
+            {/* Main Headline */}
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.1]">
+              {customH1 || `Never Clean Your Gutters Again.`}
+            </h1>
 
-              <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                <div className="w-6 h-6 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
-                  <Check className="w-3.5 h-3.5 stroke-[3]" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Protects Roof Warranty</h3>
-                  <p className="text-xs text-slate-600 mt-0.5 leading-snug">
-                    Fascia-mounted so we never lift or nail into your shingles.
-                  </p>
-                </div>
-              </div>
+            {/* Straightforward Subtitle */}
+            <p className="text-base sm:text-xl text-slate-600 leading-relaxed font-normal">
+              {customSub || `We install heavy-duty stainless steel gutter guards that keep out pine needles, oak tassels, and leaves for good. Save thousands compared to national sales companies with our direct local pricing.`}
+            </p>
 
-              <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                <div className="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
-                  <Check className="w-3.5 h-3.5 stroke-[3]" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-sm">Handles Heavy Downpours</h3>
-                  <p className="text-xs text-slate-600 mt-0.5 leading-snug">
-                    Water flows straight through without overshooting your gutters.
-                  </p>
-                </div>
-              </div>
+            {/* 3 Clear Homeowner Benefits */}
+            <ul className="space-y-2.5 text-sm sm:text-base text-slate-800 font-medium pt-1">
+              <li className="flex items-center gap-3">
+                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                <span><strong>Save Up to 65%</strong> — Direct contractor rates with zero sales commissions</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                <span><strong>100% Roof Warranty Safe</strong> — Mounted to fascia, zero shingle contact</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                <span><strong>10-Year Written Guarantee</strong> — If they ever clog, we clean them for free</span>
+              </li>
+            </ul>
 
-              <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                <div className="w-6 h-6 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 mt-0.5">
-                  <Check className="w-3.5 h-3.5 stroke-[3]" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-sm">10-Year Guarantee</h3>
-                  <p className="text-xs text-slate-600 mt-0.5 leading-snug">
-                    If they ever clog, we come out and clear them for free.
-                  </p>
-                </div>
+            {/* Call To Action Buttons for Home Services */}
+            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
+              <Link
+                href="/satellite-quote"
+                className="btn-contractor-primary min-h-[52px] px-7 py-3.5 text-base font-bold flex items-center justify-center gap-2 shadow-sm hover:bg-blue-700 transition"
+              >
+                <span>Get a Free Online Quote</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              
+              <a
+                href={phoneHref}
+                className="min-h-[52px] px-6 py-3.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-base font-bold flex items-center justify-center gap-2.5 transition shadow-sm"
+              >
+                <Phone className="w-4 h-4 text-emerald-400" />
+                <span>Call: {phoneDisplay}</span>
+              </a>
+            </div>
+
+            {/* Trust Badges */}
+            <div className="pt-4 border-t border-slate-200 flex items-center gap-6 text-xs text-slate-600 flex-wrap">
+              <div className="flex items-center gap-1.5 font-bold text-slate-900">
+                <span className="flex text-amber-500">★★★★★</span>
+                <span>5.0 Star Rating (180+ Reviews)</span>
+              </div>
+              <div className="flex items-center gap-1.5 font-medium">
+                <ShieldCheck className="w-4 h-4 text-blue-600" />
+                <span>AR Lic. #039182</span>
+              </div>
+              <div className="flex items-center gap-1.5 font-medium text-slate-500">
+                <span>$2,000,000 Insured</span>
               </div>
             </div>
 
-            {/* Authentic Crew Photo */}
-            <div className="rounded-xl overflow-hidden border border-slate-200 bg-white shadow-sm">
-              <div className="relative h-48 sm:h-60 w-full">
+          </div>
+
+          {/* Right Column: Real Contractor Truck & Workmanship Image */}
+          <div className="lg:col-span-5 space-y-4">
+            <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-lg relative">
+              <div className="relative h-72 sm:h-96 w-full bg-slate-100">
                 <Image
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"
                   fill
                   priority
                   className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
                 />
               </div>
-              <div className="p-3 bg-slate-900 text-white flex items-center justify-between text-xs">
-                <span className="font-bold">In-House Local Crew • Fully Licensed &amp; Insured</span>
-                <span className="text-slate-400">1102 S Walton Blvd, Bentonville</span>
+              <div className="p-4 bg-slate-950 text-white space-y-1">
+                <div className="font-bold text-sm flex items-center justify-between">
+                  <span>Ozark Gutter Guard Co.</span>
+                  <span className="text-emerald-400 text-xs font-semibold">● Local In-House Crew</span>
+                </div>
+                <p className="text-xs text-slate-400">
+                  Shop: 1102 S Walton Blvd, Bentonville, AR • Serving All NWA
+                </p>
               </div>
             </div>
 
-          </div>
-
-          {/* Right Column: Instant Satellite Quote Form */}
-          <div id="estimate-form" className="lg:col-span-5 lg:sticky lg:top-24">
-            <SatelliteEstimator initialCity={cityName} />
+            {/* Simple Quick Quote Link Box */}
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex items-center justify-between gap-3 text-xs">
+              <div>
+                <strong className="text-slate-900 block font-bold text-sm">Need a Quick Ballpark Cost?</strong>
+                <span className="text-slate-600">Takes 90 seconds online with satellite measuring.</span>
+              </div>
+              <Link
+                href="/satellite-quote"
+                className="px-4 py-2 bg-white border border-slate-300 text-slate-900 font-bold rounded-lg hover:border-slate-400 shrink-0 shadow-2xs"
+              >
+                Estimate →
+              </Link>
+            </div>
           </div>
 
         </div>
