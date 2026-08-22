@@ -45,7 +45,17 @@ To eliminate **Template Fingerprinting** (where Google detects 95%+ identical DO
 ### C. Hierarchical Parent-Child Silo Mesh
 * **Pillar Hubs (Tier 1)**: `/gutter-guards-bentonville-ar`, `/gutter-guards-rogers-ar`, `/gutter-guards-fayetteville-ar`, `/gutter-guards-springdale-ar`, `/gutter-guards-bella-vista-ar`.
 * **Sub-Hubs & ZIP Nodes (Tier 2)**: 20+ NWA postal codes (`gutter-guards-72712-bentonville-ar`, etc.) with child breadcrumbs linking to parents.
-* **Technical Guides & E-E-A-T Studies (Tier 3)**: 41+ in-depth buyer guides (`/guides/[slug]`) and press releases (`/press/[slug]`).
+* **Technical Guides & E-E-A-T Studies (Tier 3)**: **50+ in-depth buyer & competitor-intercept guides** (`/guides/[slug]`) and press releases (`/press/[slug]`) generating massive Information Gain and funneling topical PageRank directly to Core City Pillars.
+
+### D. Competitor Intercept & Aggressive Buyer Capture Playbook (`/guides/*`)
+The `/guides` authority hub hosts high-intent, problem-solving guides designed to siphon traffic from national franchises and local competitors:
+1. **Competitor Intercepts**: `leaffilter-alternatives-northwest-arkansas`, `is-leaffilter-overpriced`, `leafguard-vs-ozark-gutter-guard-nwa-comparison`, `gutter-helmet-vs-ozark-comparison`.
+2. **Cost & Pricing Transparency**: `gutter-guard-cost-per-foot-arkansas`, `what-is-the-average-cost-to-have-gutter-guards-installed`.
+3. **Problem & Flaw Diagnostics**: `why-are-my-gutter-guards-overflowing-in-heavy-rain`, `why-is-my-foundation-cracking-bentonville-ar`.
+4. **Legal & Consumer Protection**: `how-to-cancel-high-pressure-gutter-guard-contract-arkansas` (3-day cooling off statutory rule).
+5. **Health & Wildlife Defense**: `mosquitoes-breeding-in-clogged-gutters-bentonville-ar`, `squirrels-and-rats-entering-attic-through-rotted-fascia-nwa`.
+6. **Storm & Insurance Strategy**: `how-to-fight-denied-gutter-hail-claim-state-farm-arkansas`, `why-ice-dams-tear-gutters-off-houses-in-bella-vista`.
+7. **HOA & Luxury Subdivisions**: `shadow-valley-hoa-gutter-guard-guidelines-rogers-ar`.
 
 ---
 
