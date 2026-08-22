@@ -36,29 +36,29 @@ export default function PineNeedlePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
               <div className="lg:col-span-7 space-y-5">
-                <div className="border border-slate-300 bg-slate-100 px-3 py-1 text-[11px] font-mono font-bold text-slate-900 inline-block uppercase">
-                  Engineered For Loblolly &amp; Shortleaf Pine Needles (Bella Vista Focus)
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                  <span>Bella Vista &amp; Ozark Pine Needle Protection</span>
                 </div>
 
-                <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.08] font-heading uppercase">
+                <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
                   Best Gutter Guards for Pine Needles in Arkansas
                 </h1>
 
-                <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
-                  Standard slotted screens and reverse-curve hoods fail completely against pine needles. Our 50-micron medical-grade surgical stainless micro-mesh creates an impenetrable barrier that pine needles cannot penetrate.
+                <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed">
+                  Standard slotted screens and reverse-curve hoods fail completely against fine needles. Our 316 surgical stainless micro-mesh stops 100% of pine needles while letting torrential Arkansas downpours flow freely.
                 </p>
 
-                <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-mono font-bold pt-1">
+                <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-semibold pt-1">
                   <div className="flex items-center gap-2">
-                    <span className="text-amber-600 font-bold">✓</span>
-                    <span>Blocks 100% of fine needles, oak tassels, and seed pods</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                    <span>Blocks 100% of fine pine needles, oak tassels, and seed pods</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="text-amber-600 font-bold">✓</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                     <span>Self-shedding breeze design eliminates dangerous ladder climbs</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className="text-amber-600 font-bold">✓</span>
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                     <span>Backed by our written 10-Year No-Clog Guarantee</span>
                   </div>
                 </div>
@@ -66,9 +66,9 @@ export default function PineNeedlePage() {
                 <div className="pt-2">
                   <a
                     href="tel:+14799292516"
-                    className="btn-contractor-amber px-6 py-3.5 text-xs sm:text-sm font-black inline-flex items-center gap-2"
+                    className="btn-contractor-primary px-6 py-3.5 text-xs sm:text-sm font-bold inline-flex items-center gap-2"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4 text-emerald-400" />
                     <span>Speak with Pine Specialist: (479) 929-2516</span>
                   </a>
                 </div>
