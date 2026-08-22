@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     default: 'Best Gutter Guards Northwest Arkansas | Micro Mesh Installers Near Me | Ozark Gutter Guard Co.',
     template: '%s | Ozark Gutter Guard Co.'
   },
-  description: 'Best gutter guards in Northwest Arkansas. Surgical 316 stainless micro mesh installers near you in Bentonville, Bella Vista, Rogers, Fayetteville & Springdale. Save $3,000+ vs LeafFilter.',
+  description: 'Northwest Arkansas gutter protection specialists. Marine-grade 316 stainless steel micro-mesh installers serving Bentonville, Bella Vista, Rogers, Fayetteville & Springdale. 10-Year No-Clog Guarantee.',
   keywords: [
     'gutter guards northwest arkansas',
     'bentonville gutter guards',
@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     'springdale gutter guards',
     'pine needle gutter guard',
     'micro mesh gutter guard NWA',
-    'leaffilter alternative arkansas',
     'gutter cleaning bentonville'
   ],
   authors: [{ name: 'Ozark Gutter Guard Co.', url: 'https://ozarkgutterguard.com' }],
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Ozark Gutter Guard Co. | Northwest Arkansas Gutter Protection',
-    description: 'Get an accurate instant satellite quote in 90 seconds. 10-Year No-Clog Guarantee with surgical 316 stainless steel micro-mesh.',
+    description: 'Get an accurate instant price range in 30 seconds. 10-Year No-Clog Guarantee with marine-grade 316 stainless steel micro-mesh.',
     url: 'https://ozarkgutterguard.com',
     siteName: 'Ozark Gutter Guard Co.',
     locale: 'en_US',

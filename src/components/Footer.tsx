@@ -144,9 +144,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-slate-400">
-                  Sitemap
-                </a>
+                <Link href="/site-directory" className="hover:text-white transition">
+                  Site Directory
+                </Link>
               </li>
             </ul>
           </div>
