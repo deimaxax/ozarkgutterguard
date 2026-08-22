@@ -108,26 +108,29 @@ export default function GutterCleaningPage() {
               <div className="lg:col-span-7 space-y-6">
                 
                 <div className="space-y-3">
-                  <div className="border border-slate-300 bg-slate-100 px-3 py-1 text-[11px] font-mono font-bold text-slate-900 inline-block uppercase">
-                    Licensed &amp; Insured Northwest Arkansas Contractor (#OGG-479-NWA)
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
+                    <span>Arkansas Contractor Lic. #039182</span>
                   </div>
 
-                  <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.08] font-heading uppercase">
-                    $149 Diagnostic Cleanout &amp; 21-Point Audit
+                  <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
+                    $149 Complete Cleanout &amp; 21-Point Audit
                   </h1>
 
-                  <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
+                  <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed">
                     Complete interior sludge removal, downspout power-flush, laser slope pitch realignment, and photo leak audit across Bentonville, Bella Vista, Rogers, Fayetteville, and Springdale.
                   </p>
                 </div>
 
-                {/* 21-Point Audit scope with Sharp Contractor 2px Borders */}
-                <div className="border-2 border-slate-300 bg-white divide-y-2 divide-slate-200">
+                {/* 21-Point Audit scope with clean styling */}
+                <div className="border border-slate-200 rounded-2xl bg-white divide-y divide-slate-100 overflow-hidden shadow-sm">
                   {auditPoints.map((item, idx) => (
                     <div key={idx} className="p-3.5 sm:p-4 flex items-start gap-3">
-                      <span className="text-amber-600 font-bold text-base leading-none mt-0.5">✓</span>
+                      <div className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5">
+                        <Check className="w-3 h-3 stroke-[3]" />
+                      </div>
                       <div>
-                        <strong className="text-slate-950 text-sm block font-heading uppercase font-bold">{item.title}</strong>
+                        <strong className="text-slate-900 text-sm block font-bold">{item.title}</strong>
                         <span className="text-slate-600 text-xs">{item.desc}</span>
                       </div>
                     </div>
@@ -135,8 +138,8 @@ export default function GutterCleaningPage() {
                 </div>
 
                 {/* City-specific cleaning page links */}
-                <div className="border-2 border-slate-300 bg-slate-50 p-4 space-y-2">
-                  <div className="text-xs font-mono font-bold uppercase tracking-wider text-slate-500">Serving All NWA Municipalities:</div>
+                <div className="border border-slate-200 rounded-2xl bg-slate-50 p-5 space-y-2.5">
+                  <div className="text-xs font-bold uppercase tracking-wider text-slate-700">Serving All NWA Municipalities:</div>
                   <div className="flex flex-wrap gap-2">
                     {cityLinks.map((c) => (
                       <Link key={c.slug} href={`/${c.slug}`} className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-300 text-xs font-mono font-bold text-slate-900 hover:border-slate-900 transition-colors">

@@ -30,16 +30,16 @@ export default function PressRoomPage() {
 
       <main className="flex-1">
         {/* Newsroom Hero */}
-        <section className="bg-slate-950 text-white py-14 border-b border-slate-800">
+        <section className="bg-white border-b border-slate-200 py-12 sm:py-16">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900 border border-slate-700 text-orange-400 text-xs font-bold">
-              <Newspaper className="w-3.5 h-3.5" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
+              <Newspaper className="w-3.5 h-3.5 text-blue-600" />
               <span>Official Press &amp; Media Room</span>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-              Ozark Gutter Guard Newsroom &amp; Digital PR
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-tight">
+              Ozark Gutter Guard Newsroom &amp; Press Releases
             </h1>
-            <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
+            <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto font-normal">
               Official press announcements, meteorological research reports, technology launches, and severe storm defense initiatives across Benton and Washington Counties.
             </p>
           </div>

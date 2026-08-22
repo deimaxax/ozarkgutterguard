@@ -80,22 +80,22 @@ export default function BeforeAfterPhotosPage() {
       <Header />
 
       <main className="flex-1">
-        <section className="bg-slate-950 text-white py-14 border-b border-slate-800">
+        <section className="bg-white border-b border-slate-200 py-12 sm:py-16">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-            <span className="text-xs font-black uppercase tracking-wider text-orange-400 block">
-              E-E-A-T Field Documentation &amp; Image Verification
-            </span>
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
+              <Camera className="w-3.5 h-3.5 text-blue-600" />
+              <span>Verified Field Proof &amp; Workmanship Logs</span>
+            </div>
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight">
               Real NWA Installation Photos &amp; Field Reports
             </h1>
-            <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
-              Every job we complete is documented with roof profile data, problem diagnosis, execution notes, flow rate testing, and high-resolution photo proof. No stock photos. No generic before/afters.
+            <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto font-normal">
+              Every job completed across Benton &amp; Washington counties is documented with problem diagnostics, flow rate testing, and high-resolution photo proof.
             </p>
-            <div className="pt-2 flex flex-wrap justify-center gap-2 text-xs font-bold text-slate-300">
-              <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{TAGGED_PROJECT_PHOTOS.length} Geocoded Project Photos</span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{allLogs.length} Documented Jobs</span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{Object.keys(INSTALLATION_LOGS).length} NWA Cities</span>
-              <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">150 in/hr Flow Tested</span>
+            <div className="pt-2 flex flex-wrap justify-center gap-2 text-xs font-semibold text-slate-700">
+              <span className="px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200">{TAGGED_PROJECT_PHOTOS.length} Geocoded Project Photos</span>
+              <span className="px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200">{allLogs.length} Documented Jobs</span>
+              <span className="px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200">150 in/hr Flow Tested</span>
             </div>
           </div>
         </section>

@@ -66,23 +66,23 @@ export default function ReviewsPage() {
 
       <main className="flex-1">
         {/* Hero */}
-        <section className="bg-slate-950 text-white py-14 border-b border-slate-800">
+        <section className="bg-white border-b border-slate-200 py-12 sm:py-16">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-            <div className="flex justify-center gap-1">
+            <div className="flex justify-center gap-1 text-amber-500">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-7 h-7 fill-amber-400 text-amber-400" />
+                <Star key={i} className="w-6 h-6 fill-current" />
               ))}
             </div>
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
-              {totalReviews}+ Verified 5-Star Reviews
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight">
+              {totalReviews}+ Verified 5-Star Homeowner Reviews
             </h1>
-            <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
-              Real Northwest Arkansas homeowners. Real neighborhoods. Real savings documented.
+            <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto font-normal">
+              Real Northwest Arkansas homeowners across Benton &amp; Washington counties documenting real contractor savings and zero clogs.
             </p>
-            <div className="pt-2 flex flex-wrap justify-center gap-3 text-xs font-bold">
+            <div className="pt-2 flex flex-wrap justify-center gap-2 text-xs font-semibold">
               {cityStats.map((c) => (
-                <span key={c.city} className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700 text-slate-200">
-                  {c.city} — {c.reviews} reviews
+                <span key={c.city} className="px-3 py-1.5 rounded-lg bg-slate-50 border border-slate-200 text-slate-700">
+                  {c.city} ({c.reviews} reviews)
                 </span>
               ))}
             </div>
