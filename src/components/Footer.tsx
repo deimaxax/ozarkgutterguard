@@ -181,6 +181,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/press" className="hover:text-emerald-400 font-semibold text-orange-400">
+                  📰 Press Room &amp; PR
+                </Link>
+              </li>
+              <li>
                 <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white text-[11px] font-mono block pt-1">
                   [XML Sitemap]
                 </a>

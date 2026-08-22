@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { SEO_PAGES_DATA } from '@/data/seoPages/_index';
 import { GUIDES_DATA } from '@/data/guides/_index';
+import { PRESS_RELEASES_DATA } from '@/data/pressReleases';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://ozarkgutterguard.com';
@@ -18,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/press`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/quote`,
@@ -116,5 +123,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...dynamicRoutes, ...guideRoutes];
+  const pressRoutes: MetadataRoute.Sitemap = PRESS_RELEASES_DATA.map((pr) => ({
+    url: `${baseUrl}/press/${pr.slug}`,
+    lastModified: new Date(pr.publishDate),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...dynamicRoutes, ...guideRoutes, ...pressRoutes];
 }

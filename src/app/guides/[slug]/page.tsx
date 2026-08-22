@@ -114,8 +114,9 @@ export default async function GuidePage({ params }: Props) {
     publisher: {
       '@type': 'Organization',
       name: 'Ozark Gutter Guard Co.',
-      logo: { '@type': 'ImageObject', url: 'https://ozarkgutterguard.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://ozarkgutterguard.com/logo.svg' },
     },
+    image: 'https://ozarkgutterguard.com/hero-roof.svg',
     mainEntityOfPage: `https://ozarkgutterguard.com/guides/${guide.slug}`,
   };
 

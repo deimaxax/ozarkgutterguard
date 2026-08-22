@@ -85,6 +85,7 @@ export default function SiteDirectoryPage() {
   const mainServicesList = [
     { title: 'Home Page & Overview', href: '/', desc: 'Medical-grade 316 surgical stainless micro-mesh gutter guards.' },
     { title: 'Instant 90-Sec Satellite Quote', href: '/satellite-quote', desc: 'GIS aerial measurements delivered via text in 15 minutes.' },
+    { title: 'Press Room & Newsroom', href: '/press', desc: 'Official digital PR, severe storm announcements, and engineering releases.' },
     { title: 'Diagnostic Cleanout & 21-Pt Audit ($149)', href: '/gutter-cleaning', desc: 'Full interior sludge extraction, downspout flush, and slope audit.' },
     { title: 'Verified Customer Reviews (5.0 Stars)', href: '/reviews', desc: '180+ verified 5-star reviews across Benton & Washington Counties.' },
     { title: 'Before & After Field Photos & Job Logs', href: '/before-after-photos', desc: 'Real job site documentation, flow rate testing, and roof profiles.' },

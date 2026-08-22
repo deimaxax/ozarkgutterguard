@@ -9,6 +9,13 @@ import { INSTALLATION_LOGS } from '@/data/installationLogs';
 import SatelliteEstimator from '@/components/SatelliteEstimator';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
 import CitySiloTemplate from '@/components/CitySiloTemplate';
+import LocalCaseStudyCard from '@/components/LocalCaseStudyCard';
+import MunicipalPermitSection from '@/components/MunicipalPermitSection';
+import NwaStormLookup from '@/components/NwaStormLookup';
+import TreeCanopyClogCalculator from '@/components/TreeCanopyClogCalculator';
+import HydraulicGutterThroughput from '@/components/HydraulicGutterThroughput';
+import HOAComplianceCheck from '@/components/HOAComplianceCheck';
+import { getCaseStudiesForCity } from '@/data/caseStudies';
 import { 
   ShieldCheck, 
   Phone, 
@@ -103,6 +110,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   const cityData = CITIES_DATA[cityKey.replace(/-/g, '')] || CITIES_DATA[cityKey];
   const postalCodes = cityData?.postalCodes;
   const installationLogs = INSTALLATION_LOGS[cityKey] ?? [];
+  const cityCaseStudies = page.city ? getCaseStudiesForCity(page.city) : [];
 
   // Serve the full rich CitySiloTemplate ONLY for the main city guard hub slugs
   if (cityData && page.slug === cityData.slug) {
@@ -116,6 +124,28 @@ export default async function DynamicSeoPage({ params }: PageProps) {
     'spring-gutter-cleaning': { name: 'NWA Spring Gutter Cleaning Season', startDate: '2026-02-15', endDate: '2026-05-31', description: 'Spring catkin season gutter cleaning across Benton and Washington County.' },
   };
   const seasonalEvent = SEASONAL_EVENTS[page.slug];
+
+  // =========================================================================
+  // DOM ENTROPY & ARCHETYPE ROTATION ENGINE
+  // Eliminates Template Fingerprinting by mapping each slug/city to 1 of 4 distinct DOM architectures
+  // =========================================================================
+  type LayoutArchetype = 'pine_mountain' | 'historic_oak' | 'hoa_subdivision' | 'flash_storm';
+
+  const determineArchetype = (): LayoutArchetype => {
+    const s = (page.slug + ' ' + (page.city || '')).toLowerCase();
+    if (s.includes('bella-vista') || s.includes('72714') || s.includes('72715') || s.includes('loch-lomond') || s.includes('scotsdale') || s.includes('pine') || s.includes('lake') || s.includes('beaver')) {
+      return 'pine_mountain';
+    }
+    if (s.includes('72712') || s.includes('coler') || s.includes('wilson-park') || s.includes('sequoyah') || s.includes('historic') || s.includes('oak') || s.includes('downtown') || s.includes('fayetteville')) {
+      return 'historic_oak';
+    }
+    if (s.includes('pinnacle') || s.includes('shadow-valley') || s.includes('72713') || s.includes('centerton') || s.includes('72719') || s.includes('har-ber') || s.includes('cave-springs') || s.includes('hoa') || s.includes('subdivision')) {
+      return 'hoa_subdivision';
+    }
+    return 'flash_storm';
+  };
+
+  const archetype = determineArchetype();
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
@@ -140,7 +170,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
                 <Star key={i} className="w-3.5 h-3.5 fill-current" />
               ))}
             </span>
-            <span className="font-semibold text-white">5.0 Star Rated Local Northwest Arkansas Crew</span>
+            <span className="font-semibold text-white">5.0 Star Rated Northwest Arkansas Gutter Armor Crew</span>
           </div>
           <a 
             href={phoneHref} 
@@ -188,114 +218,300 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         <span className="text-slate-900 font-bold capitalize">{page.slug.replace(/-/g, ' ')}</span>
       </nav>
 
-      {/* HERO SECTION - Unified Architectural Container */}
-      <section className="bg-slate-50 border-b border-slate-200/80 py-8 sm:py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-            
-            {/* Left Column: Core Engineering Proposition */}
-            <div className="lg:col-span-7 space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white border border-slate-200 text-slate-800 text-xs font-semibold shadow-2xs">
-                <MapPin className="w-3.5 h-3.5 text-orange-600" />
-                <span>{page.badge}</span>
+      {/* =========================================================================
+          ARCHETYPE A: MOUNTAIN & LAKE PINE NEEDLE FORTRESS (DOM Structure Variant 1)
+          ========================================================================= */}
+      {archetype === 'pine_mountain' && (
+        <>
+          {/* Hero Section Variant A: Heavy Topographic & Bio-load Focus */}
+          <section className="bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 text-white py-10 sm:py-14 border-b border-slate-800">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-xs font-semibold">
+                    <MapPin className="w-3.5 h-3.5" />
+                    <span>{page.badge} · Loblolly &amp; Shortleaf Pine Armor</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid sm:grid-cols-3 gap-3 pt-2">
+                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Aperture Size</span>
+                      <span className="text-lg font-black text-orange-400">50 Microns</span>
+                      <span className="text-[11px] text-slate-400 block">0% needle pierce</span>
+                    </div>
+                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Snow &amp; Ice Load</span>
+                      <span className="text-lg font-black text-blue-400">45 lbs/linear ft</span>
+                      <span className="text-[11px] text-slate-400 block">Hillside freeze safe</span>
+                    </div>
+                    <div className="bg-slate-900/90 border border-slate-800 p-3 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-400 block">Roof Pitch Tested</span>
+                      <span className="text-lg font-black text-emerald-400">Up to 12/12</span>
+                      <span className="text-[11px] text-slate-400 block">Bella Vista slopes</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || page.badge} />
+                </div>
               </div>
+            </div>
+          </section>
 
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-950 tracking-tight leading-[1.2]">
-                {page.h1}
-              </h1>
+          {/* PRIMARY INTERACTIVE TOOL: Pine & Canopy Risk Calculator */}
+          <section className="py-12 bg-slate-950 border-b border-slate-800">
+            <div className="max-w-4xl mx-auto px-4">
+              <TreeCanopyClogCalculator initialCity={page.city || 'Bella Vista'} initialTreeType="pine" />
+            </div>
+          </section>
 
-              <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                {page.subheadline}
-              </p>
+          {/* Topographical Steep Slope & Ice Load Matrix */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
+                  Topographical Rigging &amp; Lake Moisture Matrix
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  Why Hillside &amp; Lake Properties Require 316 Surgical Steel
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-mono font-bold uppercase">
+                      Topographical Threat 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
 
-              {/* Executive Spec Bar */}
-              <div className="flex flex-wrap items-center gap-2 pt-1">
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs font-medium text-slate-800 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-600"></span>
-                  <span>316 Marine Grade</span>
+      {/* =========================================================================
+          ARCHETYPE B: HISTORIC URBAN & HARDWOOD OAK CATKIN ZONE (DOM Structure Variant 2)
+          ========================================================================= */}
+      {archetype === 'historic_oak' && (
+        <>
+          {/* Hero Section Variant B: Historic Architecture & Shingle Warranty Safe */}
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-50 border border-amber-200 text-amber-900 text-xs font-semibold">
+                    <MapPin className="w-3.5 h-3.5 text-orange-600" />
+                    <span>{page.badge} · Heritage Tree &amp; Catkin Defense</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-600 leading-relaxed">
+                    {page.subheadline}
+                  </p>
+                  <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-4 text-xs text-amber-950 space-y-1.5">
+                    <div className="flex items-center gap-2 font-bold uppercase tracking-wider text-amber-900 text-[11px]">
+                      <ShieldCheck className="w-4 h-4 text-amber-700" />
+                      <span>Zero Shingle Penetration Guarantee</span>
+                    </div>
+                    <p>
+                      Mounted exclusively to the gutter lip and fascia. Preserves 100% of GAF, CertainTeed, and Owens Corning roofing manufacturer warranties across historic {page.city || 'NWA'} rooflines.
+                    </p>
+                  </div>
                 </div>
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs font-medium text-slate-800 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-600"></span>
-                  <span>50-Micron Aperture</span>
-                </div>
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs font-medium text-slate-800 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-600"></span>
-                  <span>150 in/hr Flow Tested</span>
-                </div>
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-white border border-slate-200 text-xs font-medium text-slate-800 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-orange-600"></span>
-                  <span>Zero Roof Penetration</span>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || page.badge} />
                 </div>
               </div>
+            </div>
+          </section>
 
-              {/* Compact Executive Summary Card */}
-              <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-2xs text-xs sm:text-sm text-slate-700 space-y-1">
-                <div className="flex items-center gap-1.5 font-bold uppercase tracking-wider text-slate-900 text-[11px]">
-                  <span className="text-orange-600 font-black">⚡</span>
-                  <span>Executive Engineering Summary</span>
-                </div>
-                <p className="leading-relaxed">
-                  Ozark Gutter Guard Co. installs medical-grade 316 stainless steel micro-mesh directly to the gutter lip and fascia. Saves 60% compared to corporate franchise quotes while preserving 100% of your roof warranty.
+          {/* Hardwood Oak Catkin Field Audit */}
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="text-center max-w-2xl mx-auto mb-8">
+                <h2 className="text-2xl font-black text-slate-950">{page.painPointTitle}</h2>
+                <p className="text-xs sm:text-sm text-slate-500 mt-1">
+                  How spring Post Oak and White Oak catkins create cement-like downspout sludge.
                 </p>
               </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-white p-6 rounded-2xl border border-slate-200 shadow-2xs space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 text-[10px] font-mono font-bold uppercase">
+                      Hardwood Diagnostic 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
 
-              <div className="grid sm:grid-cols-2 gap-2.5 pt-1 text-xs font-semibold text-slate-700">
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-orange-600 shrink-0" />
-                  <span>10-Year Transferable Guarantee</span>
+          {/* PRIMARY INTERACTIVE TOOL: Oak & Mixed Hardwood Bio-Load Calculator */}
+          <section className="py-12 bg-slate-950 border-b border-slate-800">
+            <div className="max-w-4xl mx-auto px-4">
+              <TreeCanopyClogCalculator initialCity={page.city || 'Bentonville'} initialTreeType="oak" />
+            </div>
+          </section>
+        </>
+      )}
+
+      {/* =========================================================================
+          ARCHETYPE C: MASTER-PLANNED SUBDIVISION & HOA HUB (DOM Structure Variant 3)
+          ========================================================================= */}
+      {archetype === 'hoa_subdivision' && (
+        <>
+          {/* Hero Section Variant C: Low Profile Aesthetic & HOA Compliance Focus */}
+          <section className="bg-slate-900 text-white border-b border-slate-800 py-10 sm:py-14">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-950 border border-blue-500/40 text-blue-400 text-xs font-semibold">
+                    <MapPin className="w-3.5 h-3.5" />
+                    <span>{page.badge} · Master-Planned Subdivision Defense</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="flex flex-wrap gap-2 pt-1">
+                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                      ✓ Pre-Approved ARC HOA Colors
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                      ✓ Multi-Tier Valley Splash Diverters
+                    </span>
+                    <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-xs font-semibold">
+                      ✓ Expansive Clay Soil Protection
+                    </span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-orange-600 shrink-0" />
-                  <span>Laser Slope Pitch Leveling</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-orange-600 shrink-0" />
-                  <span>No In-Home Sales Reps</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-orange-600 shrink-0" />
-                  <span>Direct Contractor Rates ($1,250–$1,450)</span>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || page.badge} />
                 </div>
               </div>
             </div>
+          </section>
 
-            {/* Right Column: Interactive Direct-Response Form */}
-            <div id="estimate-form" className="lg:col-span-5">
-              <SatelliteEstimator initialCity={page.city || page.badge} />
+          {/* PRIMARY INTERACTIVE TOOL: HOA Compliance & Color Match Engine */}
+          <section className="py-12 bg-slate-100 border-b border-slate-200">
+            <div className="max-w-4xl mx-auto px-4">
+              <HOAComplianceCheck initialCity={page.city || 'Rogers'} />
             </div>
+          </section>
 
-          </div>
-        </div>
-      </section>
-
-      {/* LOCAL DIAGNOSTIC & FIELD SPEC SECTION */}
-      <section className="bg-white py-12 border-b border-slate-200">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center max-w-2xl mx-auto mb-8">
-            <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight mb-1.5">
-              {page.painPointTitle}
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-500">
-              Field analysis of common drainage failure points under Northwest Arkansas weather conditions.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-5">
-            {page.painPoints.map((point, index) => (
-              <div key={index} className="bg-slate-50/60 p-5 sm:p-6 rounded-xl border border-slate-200 hover:border-slate-300 transition space-y-2.5">
-                <div className="flex items-center justify-between">
-                  <span className="px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700 text-[10px] font-mono font-bold uppercase tracking-wider">
-                    Diagnostic 0{index + 1}
-                  </span>
-                  <span className="text-orange-600 font-mono text-[11px] font-bold">Field Spec</span>
-                </div>
-                <h3 className="text-sm sm:text-base font-bold text-slate-950">{point.title}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">{point.description}</p>
+          {/* Subdivision Valley & Clay Soil Diagnostics */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                  Architectural Drainage Specs
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  Foundation Soil &amp; Multi-Tier Roofline Drainage
+                </h2>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-mono font-bold uppercase">
+                      Subdivision Spec 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
+      {/* =========================================================================
+          ARCHETYPE D: HIGH-VOLUME FLASH STORM & INDUSTRIAL MATRIX (DOM Structure Variant 4)
+          ========================================================================= */}
+      {archetype === 'flash_storm' && (
+        <>
+          {/* Hero Section Variant D: High-Throughput Hydrology */}
+          <section className="bg-slate-950 text-white border-b border-slate-800 py-10 sm:py-14">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-orange-950/80 border border-orange-500/40 text-orange-400 text-xs font-semibold">
+                    <Zap className="w-3.5 h-3.5" />
+                    <span>{page.badge} · 150 in/hr Hydrological Intake</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-300 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
+                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase block">Water Intake</span>
+                      <span className="text-xl font-black text-orange-400">150 in/hr</span>
+                    </div>
+                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase block">Shingle Grit</span>
+                      <span className="text-xl font-black text-emerald-400">100% Shed</span>
+                    </div>
+                    <div className="bg-slate-900 p-3 rounded-xl border border-slate-800 col-span-2 sm:col-span-1">
+                      <span className="text-[10px] font-bold text-slate-400 uppercase block">K-Style Fit</span>
+                      <span className="text-xl font-black text-blue-400">5&quot; &amp; 6&quot; Fit</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || page.badge} />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* PRIMARY INTERACTIVE TOOL: Flash Storm Hydrology Simulator */}
+          <section className="py-12 bg-slate-950 border-b border-slate-800">
+            <div className="max-w-4xl mx-auto px-4">
+              <HydraulicGutterThroughput initialCity={page.city || 'Springdale'} />
+            </div>
+          </section>
+
+          {/* Storm Diagnostics */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="text-center max-w-2xl mx-auto mb-8">
+                <h2 className="text-2xl font-black text-slate-950">{page.painPointTitle}</h2>
+                <p className="text-xs sm:text-sm text-slate-500 mt-1">
+                  Field analysis of torrential rainfall surges and downspout back-pressure.
+                </p>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-mono font-bold uppercase">
+                      Hydraulic Diagnostic 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
 
       {/* LOCAL CONTEXT CONTENT (SEO Authority Body) */}
       <section className="py-14 max-w-4xl mx-auto px-4 space-y-8">
@@ -866,6 +1082,44 @@ export default async function DynamicSeoPage({ params }: PageProps) {
             </div>
           </div>
         </section>
+      )}
+
+      {/* VERIFIED LOCAL CASE STUDIES ENGINE */}
+      {cityCaseStudies.length > 0 && (
+        <section className="py-14 bg-slate-50 border-t border-slate-200">
+          <div className="max-w-5xl mx-auto px-4 space-y-8">
+            <div className="text-center max-w-2xl mx-auto">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-100 text-orange-800 text-xs font-bold mb-3">
+                <ShieldCheck className="w-3.5 h-3.5" />
+                Documented Field Case Studies
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight mb-2">
+                Real {page.city} Gutter Guard Case Studies &amp; Audits
+              </h2>
+              <p className="text-sm text-slate-600">
+                Detailed field documentation from residential installations across {page.city} neighborhoods — proving material specs, pitch leveling, and permanent tree debris defense.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {cityCaseStudies.map((cs) => (
+                <LocalCaseStudyCard key={cs.id} caseStudy={cs} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* INTERACTIVE NWA STORM LOOKUP & RUNOFF CALCULATOR */}
+      <section className="py-14 bg-white border-t border-slate-200">
+        <div className="max-w-4xl mx-auto px-4">
+          <NwaStormLookup initialCity={page.city || 'Bentonville'} />
+        </div>
+      </section>
+
+      {/* MUNICIPAL BUILDING & DRAINAGE CODE COMPLIANCE */}
+      {page.city && (
+        <MunicipalPermitSection cityName={page.city} />
       )}
 
       {/* FREQUENTLY ASKED QUESTIONS ACCORDION (Max SEO Rich Snippets) */}

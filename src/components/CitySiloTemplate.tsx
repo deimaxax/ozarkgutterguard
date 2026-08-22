@@ -27,8 +27,12 @@ import ComparisonMatrix from './ComparisonMatrix';
 import FaqSection from './FaqSection';
 import SchemaJsonLd from './SchemaJsonLd';
 import SatelliteEstimator from './SatelliteEstimator';
+import LocalCaseStudyCard from './LocalCaseStudyCard';
+import MunicipalPermitSection from './MunicipalPermitSection';
+import NwaStormLookup from './NwaStormLookup';
 import { CityData } from '@/data/cities';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';
+import { getCaseStudiesForCity } from '@/data/caseStudies';
 import { FAQS_DATA } from '@/data/faqs';
 
 interface CitySiloTemplateProps {
@@ -39,6 +43,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
   const [quoteModalOpen, setQuoteModalOpen] = useState(false);
   const cityKey = city.cityName.toLowerCase().replace(/\s+/g, '-');
   const installationLogs = INSTALLATION_LOGS[cityKey] ?? INSTALLATION_LOGS[city.cityName.toLowerCase()] ?? [];
+  const caseStudies = getCaseStudiesForCity(city.cityName);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
@@ -337,6 +342,41 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
             </div>
           </section>
         )}
+
+        {/* REAL FIELD CASE STUDIES — E-E-A-T ground-truth proof */}
+        {caseStudies.length > 0 && (
+          <section className="py-14 bg-slate-100 border-t border-slate-200">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+              <div className="max-w-3xl">
+                <span className="text-xs font-black uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full border border-orange-200 inline-block mb-3">
+                  Verified Local Engineering Case Studies
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-brand-navy tracking-tight">
+                  Recent {city.cityName} Gutter Guard Installations &amp; Performance Audits
+                </h2>
+                <p className="text-sm text-slate-600 mt-2">
+                  Real residential case studies across {city.cityName} neighborhoods — documenting actual square footage, pitch, tree species threats, drainage failures, and permanent 50-micron micro-mesh executions.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {caseStudies.map((cs) => (
+                  <LocalCaseStudyCard key={cs.id} caseStudy={cs} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* NWA STORM LOOKUP & RUNOFF CALCULATOR TOOL */}
+        <section className="py-14 bg-white border-t border-slate-200">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <NwaStormLookup initialCity={city.cityName} />
+          </div>
+        </section>
+
+        {/* MUNICIPAL PERMIT & CODE COMPLIANCE SECTION */}
+        <MunicipalPermitSection cityName={city.cityName} />
 
         {/* COMPARISON MATRIX */}
         <ComparisonMatrix />

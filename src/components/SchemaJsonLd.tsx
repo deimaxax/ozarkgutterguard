@@ -42,8 +42,8 @@ export default function SchemaJsonLd({
       "name": "Ozark Gutter Guard Co.",
       "alternateName": "Ozark Gutter Protection Northwest Arkansas",
       "url": siteUrl,
-      "logo": `${siteUrl}/logo.png`,
-      "image": `${siteUrl}/logo.png`,
+      "logo": `${siteUrl}/logo.svg`,
+      "image": `${siteUrl}/hero-roof.svg`,
       "telephone": primaryPhone,
       "email": "estimates@ozarkgutterguard.com",
       "sameAs": [

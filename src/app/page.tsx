@@ -11,6 +11,8 @@ import CitySilosSection from '@/components/CitySilosSection';
 import FaqSection from '@/components/FaqSection';
 import Footer from '@/components/Footer';
 import StickyMobileBar from '@/components/StickyMobileBar';
+import NwaStormLookup from '@/components/NwaStormLookup';
+import MunicipalPermitSection from '@/components/MunicipalPermitSection';
 
 export default function HomePage() {
   return (
@@ -31,26 +33,36 @@ export default function HomePage() {
         {/* 5. 3 Core System Pillars + 0% Financing */}
         <SystemicScopeSection />
 
-        {/* 5. Clean Specifications Comparison Table */}
+        {/* 6. Clean Specifications Comparison Table */}
         <ComparisonMatrix />
 
-        {/* 6. Field Case Studies & Physical Workmanship Proof */}
+        {/* 7. Field Case Studies & Physical Workmanship Proof */}
         <BeforeAfterGallery />
 
-        {/* 7. Verified NWA Homeowner Reviews */}
+        {/* 8. Interactive NWA Storm Runoff & Soil Risk Calculator */}
+        <section className="py-14 bg-slate-50 border-b border-slate-200">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <NwaStormLookup initialCity="Bentonville" />
+          </div>
+        </section>
+
+        {/* 9. Verified NWA Homeowner Reviews */}
         <TestimonialsSection />
 
-        {/* 8. Regional Coverage Strip */}
+        {/* 10. Regional Coverage Strip */}
         <CitySilosSection />
 
-        {/* 9. FAQ Accordion */}
+        {/* 11. Municipal Building Department & Stormwater Drainage Compliance */}
+        <MunicipalPermitSection cityName="Bentonville" />
+
+        {/* 12. FAQ Accordion */}
         <FaqSection />
       </main>
 
-      {/* 10. Local Contractor Footer */}
+      {/* 13. Local Contractor Footer */}
       <Footer />
 
-      {/* 11. Sticky Mobile Utility Bar */}
+      {/* 14. Sticky Mobile Utility Bar */}
       <StickyMobileBar />
     </div>
   );
