@@ -79,7 +79,7 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
               </span>
             </div>
             <p className="text-xs text-slate-600 font-medium mt-0.5">
-              Bentonville, AR • Same-Week Scheduling
+              Bentonville Resident • Serving All NWA
             </p>
           </div>
         </div>

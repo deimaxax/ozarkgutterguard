@@ -40,16 +40,11 @@ export default function GutterCleaningPage() {
 
           {/* Quick Header */}
           <div className="space-y-2 max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-300 text-slate-800 text-xs font-semibold">
-              <span className="text-red-600 font-bold">✓ Same-Week Service</span>
-              <span className="text-slate-400">•</span>
-              <span>Benton &amp; Washington Counties</span>
-            </div>
             <h1 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight leading-tight">
               Northwest Arkansas Gutter Cleaning
             </h1>
             <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
-              We clear out every gutter by hand, flush your downspouts, and make sure your drainage is working properly. If you ever decide to get our permanent gutter guards later, we credit 100% of this cleanout toward them.
+              We clear every gutter run by hand, flush your downspouts, and inspect your brackets so rain flows cleanly away from your foundation.
             </p>
           </div>
 
