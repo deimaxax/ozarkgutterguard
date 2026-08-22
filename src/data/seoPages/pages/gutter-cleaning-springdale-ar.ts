@@ -7,8 +7,8 @@ export const page: SeoPageData = {
   "metaTitle": "Gutter Cleaning Springdale AR | $149 Pro Cleanout + Audit",
   "metaDescription": "Affordable gutter cleaning in Springdale, AR. Har-Ber Meadows & Shiloh District specialists. 21-Point Audit. $149 credited toward permanent micro-mesh guards.",
   "badge": "Springdale $149 Gutter Cleaning",
-  "h1": "Gutter Cleaning in Springdale, AR â€” Har-Ber Meadows to Lake Springdale",
-  "subheadline": "$149 professional gutter cleaning across Springdale â€” clearing agricultural pollen sludge, Pin Oak debris, and pecan hull blockages before they crack your foundation.",
+  "h1": "Gutter Cleaning in Springdale, AR  —  Har-Ber Meadows to Lake Springdale",
+  "subheadline": "$149 professional gutter cleaning across Springdale  —  clearing agricultural pollen sludge, Pin Oak debris, and pecan hull blockages before they crack your foundation.",
   "painPointTitle": "Springdale Gutter Cleaning: Agricultural Dust & Clay Soil Risks",
   "painPoints": [
     {
@@ -17,11 +17,11 @@ export const page: SeoPageData = {
     },
     {
       "title": "Expansive Clay Soil Foundation Risk",
-      "description": "Any overflow from clogged Springdale gutters pools in Vertisol clay soils, triggering slab expansion cycles that crack foundations within 2â€“3 seasons."
+      "description": "Any overflow from clogged Springdale gutters pools in Vertisol clay soils, triggering slab expansion cycles that crack foundations within 2–3 seasons."
     },
     {
       "title": "Pecan & Pin Oak Dual Drop Season",
-      "description": "Springdale's unique Pecan and Pin Oak combination creates two distinct debris events â€” spring catkins and autumn nut/hull drop â€” requiring minimum two cleanings per year."
+      "description": "Springdale's unique Pecan and Pin Oak combination creates two distinct debris events  —  spring catkins and autumn nut/hull drop  —  requiring minimum two cleanings per year."
     }
   ],
   "localContext": {

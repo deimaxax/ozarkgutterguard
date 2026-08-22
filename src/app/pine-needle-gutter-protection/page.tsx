@@ -11,6 +11,9 @@ import { TreePine, CheckCircle2, AlertOctagon, Phone } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Best Gutter Guards for Pine Needles | 50-Micron Mesh | Ozark Gutter Guard Co.',
   description: 'Stop Loblolly pine needles from clogging your gutters. 50-micron surgical stainless steel micro-mesh engineered for Bella Vista & Ozark pine canopies.',
+  alternates: {
+    canonical: 'https://ozarkgutterguard.com/pine-needle-gutter-protection',
+  },
   keywords: [
     'best gutter guards for pine needles',
     'how to stop pine needles in gutters',

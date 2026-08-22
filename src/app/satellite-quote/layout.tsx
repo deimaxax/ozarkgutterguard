@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'Instant Satellite Gutter Quote (90 Seconds) | Ozark Gutter Guard Co.',
   description: 'Get an accurate instant satellite quote for your Northwest Arkansas home. Medical-grade 316 surgical stainless micro-mesh with 10-Year Transferable No-Clog Guarantee.',
   alternates: {
-    canonical: '/satellite-quote',
+    canonical: 'https://ozarkgutterguard.com/satellite-quote',
   },
   openGraph: {
     title: 'Instant Satellite Gutter Quote | Ozark Gutter Guard Co.',

@@ -12,6 +12,7 @@ import CitySiloTemplate from '@/components/CitySiloTemplate';
 import LocalCaseStudyCard from '@/components/LocalCaseStudyCard';
 import MunicipalPermitSection from '@/components/MunicipalPermitSection';
 import NwaStormLookup from '@/components/NwaStormLookup';
+import StormDamageVerifier from '@/components/StormDamageVerifier';
 import TreeCanopyClogCalculator from '@/components/TreeCanopyClogCalculator';
 import HydraulicGutterThroughput from '@/components/HydraulicGutterThroughput';
 import HOAComplianceCheck from '@/components/HOAComplianceCheck';
@@ -109,8 +110,9 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   const cityKey = page.city?.toLowerCase().replace(/\s+/g, '-') ?? '';
   const cityData = CITIES_DATA[cityKey.replace(/-/g, '')] || CITIES_DATA[cityKey];
   const postalCodes = cityData?.postalCodes;
-  const installationLogs = INSTALLATION_LOGS[cityKey] ?? [];
-  const cityCaseStudies = page.city ? getCaseStudiesForCity(page.city) : [];
+  const installationLogs = INSTALLATION_LOGS[cityKey] ?? INSTALLATION_LOGS['bentonville'] ?? [];
+  const rawCaseStudies = page.city ? getCaseStudiesForCity(page.city) : [];
+  const cityCaseStudies = rawCaseStudies.length > 0 ? rawCaseStudies : getCaseStudiesForCity('Bentonville');
 
   // Serve the full rich CitySiloTemplate ONLY for the main city guard hub slugs
   if (cityData && page.slug === cityData.slug) {
@@ -1110,10 +1112,10 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         </section>
       )}
 
-      {/* INTERACTIVE NWA STORM LOOKUP & RUNOFF CALCULATOR */}
+      {/* INTERACTIVE NWA NOAA STORM DAMAGE & DRAINAGE VERIFIER */}
       <section className="py-14 bg-white border-t border-slate-200">
         <div className="max-w-4xl mx-auto px-4">
-          <NwaStormLookup initialCity={page.city || 'Bentonville'} />
+          <StormDamageVerifier initialCity={page.city || 'Bentonville'} />
         </div>
       </section>
 

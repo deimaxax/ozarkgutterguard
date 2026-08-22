@@ -7,7 +7,7 @@ export const page: SeoPageData = {
   "metaTitle": "Fascia & Soffit Repair Bentonville AR | Rotted Wood Replacement",
   "metaDescription": "Rotted fascia board repair in Bentonville, AR. Fix water damage behind gutters before re-hanging. PVC composite replacement. Same-week service. (479) 929-2516.",
   "badge": "Bentonville Fascia Repair",
-  "h1": "Fascia & Soffit Repair in Bentonville, AR â€” Rotted Board Replacement",
+  "h1": "Fascia & Soffit Repair in Bentonville, AR  —  Rotted Board Replacement",
   "subheadline": "Overflowing Bentonville gutters rot fascia boards silently for years. We replace damaged wood with PVC composite that never rots, then rehang your gutters level and tight.",
   "painPointTitle": "How Clogged Gutters Rot Bentonville Fascia Boards",
   "painPoints": [
@@ -21,12 +21,12 @@ export const page: SeoPageData = {
     },
     {
       "title": "Loose Gutters Are a Symptom, Not the Cause",
-      "description": "Most Bentonville homeowners who call about loose gutters actually have rotted fascia â€” the real fix requires board replacement before new hangers can hold securely."
+      "description": "Most Bentonville homeowners who call about loose gutters actually have rotted fascia  —  the real fix requires board replacement before new hangers can hold securely."
     }
   ],
   "localContext": {
     "heading": "Bentonville Fascia Board Repair: PVC Composite Replacement That Never Rots Again",
-    "content": "We have replaced fascia boards on homes across every Bentonville ZIP code (72712, 72713, 72716) â€” from Downtown Historic District craftsmans near the Bentonville Square to Coler Mountain modern homes and Slaughter Pen subdivisions. Our process: remove the failing gutter section, strip rotted fascia board, treat rafter tails with borate preservative, install primed PVC composite trim board that will never rot, rehang gutters with 1.5\" zinc hidden screw hangers into solid framing, reseal all miters, then install 50-micron surgical micro-mesh to prevent the overflow that caused the rot in the first place. Fascia replacement pricing starts at $8â€“$14 per linear foot. Most Bentonville fascia repair jobs run $350â€“$900 and save homeowners $2,000â€“$5,000 in deferred structural repairs."
+    "content": "We have replaced fascia boards on homes across every Bentonville ZIP code (72712, 72713, 72716)  —  from Downtown Historic District craftsmans near the Bentonville Square to Coler Mountain modern homes and Slaughter Pen subdivisions. Our process: remove the failing gutter section, strip rotted fascia board, treat rafter tails with borate preservative, install primed PVC composite trim board that will never rot, rehang gutters with 1.5\" zinc hidden screw hangers into solid framing, reseal all miters, then install 50-micron surgical micro-mesh to prevent the overflow that caused the rot in the first place. Fascia replacement pricing starts at $8–$14 per linear foot. Most Bentonville fascia repair jobs run $350–$900 and save homeowners $2,000–$5,000 in deferred structural repairs."
   },
   "geoCoordinates": {
     "latitude": 36.3729,

@@ -9,6 +9,9 @@ import { ShieldAlert, CheckCircle2, ShieldCheck } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Prevent Foundation Damage Overflowing Gutters | Ozark Gutter Guard Co.',
   description: 'Protect your Northwest Arkansas home foundation from $20,000 erosion and structural shifting caused by overflowing clogged gutters. 10-Yr Guarantee.',
+  alternates: {
+    canonical: 'https://ozarkgutterguard.com/foundation-water-damage-prevention',
+  },
   keywords: [
     'prevent foundation damage overflowing gutters',
     'how to protect house foundation from rain',

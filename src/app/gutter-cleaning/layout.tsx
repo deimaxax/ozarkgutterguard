@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: '$149 Diagnostic Cleanout & 21-Point Audit | Ozark Gutter Guard Co.',
   description: 'Professional gutter cleaning, downspout jetting, and 21-point roof-to-foundation audit in Northwest Arkansas. 100% credited toward permanent micro-mesh guards.',
   alternates: {
-    canonical: '/gutter-cleaning',
+    canonical: 'https://ozarkgutterguard.com/gutter-cleaning',
   },
   openGraph: {
     title: '$149 Diagnostic Cleanout & 21-Point Audit | Northwest Arkansas',

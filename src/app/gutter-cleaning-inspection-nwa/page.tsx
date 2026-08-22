@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     'gutter cleaning and inspection nwa'
   ],
   alternates: {
-    canonical: '/gutter-cleaning-inspection-nwa',
+    canonical: 'https://ozarkgutterguard.com/gutter-cleaning-inspection-nwa',
   },
 };
 

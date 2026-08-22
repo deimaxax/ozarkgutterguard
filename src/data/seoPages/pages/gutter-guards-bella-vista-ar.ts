@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "Permanent pine needle gutter guards in Bella Vista, AR (72714, 72715). Stop cleaning Loblolly pines on steep hillside roofs. 10-Year No-Clog Guarantee.",
   "badge": "Bella Vista Pine Needle Specialist",
   "h1": "Bella Vista Pine Needle Gutter Protection",
-  "subheadline": "Engineered specifically for Bella Vistaâ€™s dense Loblolly pine canopies and steep hillside rooflines. 50-micron surgical stainless mesh eliminates ladder climbing forever.",
+  "subheadline": "Engineered specifically for Bella Vista's dense Loblolly pine canopies and steep hillside rooflines. 50-micron surgical stainless mesh eliminates ladder climbing forever.",
   "painPointTitle": "Why Standard Gutters Fail on Bella Vista Ridges",
   "painPoints": [
     {

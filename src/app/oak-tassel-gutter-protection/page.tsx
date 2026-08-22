@@ -9,6 +9,9 @@ import { TreeDeciduous, CheckCircle2, Phone } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Gutter Guards for Oak Tree Tassels | Spring Catkin Armor | Ozark Gutter Guard Co.',
   description: 'Stop spring oak tassels (catkins) from turning your gutters into concrete sludge in Bentonville, Fayetteville & Coler Preserve. 10-Yr Guarantee.',
+  alternates: {
+    canonical: 'https://ozarkgutterguard.com/oak-tassel-gutter-protection',
+  },
   keywords: [
     'gutter guards for oak tree tassels',
     'oak tassels clogging gutters',

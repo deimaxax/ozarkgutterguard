@@ -7,8 +7,8 @@ export const page: SeoPageData = {
   "metaTitle": "Micro-Mesh Gutter Guards Rogers AR | 316 Marine Stainless",
   "metaDescription": "Best micro-mesh gutter guards in Rogers, AR. 50-micron 316 marine stainless for Pinnacle Hills & Beaver Lake properties. Free satellite quote.",
   "badge": "Rogers Micro-Mesh",
-  "h1": "Micro-Mesh Gutter Guards in Rogers, AR â€” Beaver Lake Grade Steel",
-  "subheadline": "316 marine-grade 50-micron micro-mesh â€” the only gutter guard specification rated for Beaver Lake humidity, Silver Maple helicopter season, and heavy autumn oak debris in Rogers.",
+  "h1": "Micro-Mesh Gutter Guards in Rogers, AR  —  Beaver Lake Grade Steel",
+  "subheadline": "316 marine-grade 50-micron micro-mesh  —  the only gutter guard specification rated for Beaver Lake humidity, Silver Maple helicopter season, and heavy autumn oak debris in Rogers.",
   "painPointTitle": "Why Rogers Needs Marine-Grade Micro-Mesh",
   "painPoints": [
     {
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Rogers Micro-Mesh Installation: Pinnacle Hills to Beaver Lake Shorelines",
-    "content": "Rogers micro-mesh gutter guard selection should be driven by the Beaver Lake humidity factor. Homes within 3 miles of Beaver Lake (ZIP 72756, 72757) experience consistent elevated moisture that corrodes standard 304 stainless brackets and frames within 5â€“7 years. Our 316 marine-grade stainless specification was originally engineered for saltwater marine environments â€” it handles Beaver Lake humidity effortlessly for 20+ years. Pinnacle Hills estate homes (72758) additionally require the 50-micron aperture to block Silver Maple helicopter seeds that standard national brand mesh allows through. Satellite quote across all Rogers ZIPs within 15 minutes."
+    "content": "Rogers micro-mesh gutter guard selection should be driven by the Beaver Lake humidity factor. Homes within 3 miles of Beaver Lake (ZIP 72756, 72757) experience consistent elevated moisture that corrodes standard 304 stainless brackets and frames within 5–7 years. Our 316 marine-grade stainless specification was originally engineered for saltwater marine environments  —  it handles Beaver Lake humidity effortlessly for 20+ years. Pinnacle Hills estate homes (72758) additionally require the 50-micron aperture to block Silver Maple helicopter seeds that standard national brand mesh allows through. Satellite quote across all Rogers ZIPs within 15 minutes."
   },
   "geoCoordinates": {
     "latitude": 36.332,

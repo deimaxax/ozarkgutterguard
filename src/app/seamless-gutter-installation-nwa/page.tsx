@@ -9,6 +9,9 @@ import { Hammer, CheckCircle2, Phone } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Seamless Gutters Northwest Arkansas | Custom 6-Inch | Ozark Gutter Guard Co.',
   description: 'Seamless gutters in Northwest Arkansas. Custom 6-inch aluminum extruded on-site in Bentonville, Rogers, Fayetteville, Bella Vista & Springdale. 10-Yr Guarantee.',
+  alternates: {
+    canonical: 'https://ozarkgutterguard.com/seamless-gutter-installation-nwa',
+  },
   keywords: [
     'seamless gutters northwest arkansas',
     '6 inch seamless gutter replacement rogers ar',

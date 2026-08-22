@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Protecting Springdale Properties From Har-Ber Meadows to Lake Springdale",
-    "content": "Large residential footprints in Springdale require high-capacity water evacuation. Clogged gutters do not just look unkempt â€” they undermine concrete slabs, wash away expensive landscaping, and rot structural fascia boards. We install full-chassis aluminum and surgical steel micro-mesh systems that keep water moving continuously."
+    "content": "Large residential footprints in Springdale require high-capacity water evacuation. Clogged gutters do not just look unkempt  —  they undermine concrete slabs, wash away expensive landscaping, and rot structural fascia boards. We install full-chassis aluminum and surgical steel micro-mesh systems that keep water moving continuously."
   },
   "geoCoordinates": {
     "latitude": 36.1867,

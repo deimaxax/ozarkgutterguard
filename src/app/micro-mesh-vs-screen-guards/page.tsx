@@ -9,6 +9,9 @@ import { Layers, CheckCircle2, XCircle } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'LeafGuard vs LeafFilter vs Micro Mesh | 2026 Comparison | Ozark Gutter Guard Co.',
   description: 'Technical comparison between LeafGuard curved hoods, LeafFilter plastic micro-mesh, and Ozark Gutter Guard 316 surgical stainless mesh. Save $3,000+ in NWA.',
+  alternates: {
+    canonical: 'https://ozarkgutterguard.com/micro-mesh-vs-screen-guards',
+  },
   keywords: [
     'leafguard vs leaffilter vs micro mesh',
     'micro mesh vs screen gutter guards',

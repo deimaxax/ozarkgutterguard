@@ -46,7 +46,7 @@ export default function CitySilosSection() {
 
           {/* Specialty Foliage Card: Pine Needle Protection */}
           <Link
-            href="/pine-needle-gutter-guards"
+            href="/pine-needle-gutter-protection"
             className="bg-brand-navy text-white p-3.5 rounded-xl hover:bg-brand-navyDark active:scale-95 transition text-center group flex flex-col justify-between shadow-2xs"
           >
             <div>

@@ -50,7 +50,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.2541,
     metaTitle: "72713 Gutter Guards | West Bentonville AR Installation",
     metaDescription: "Permanent gutter protection for 72713 West Bentonville homes. Direct contractor pricing, 0% financing, and 10-Year No-Clog Guarantee. Fast satellite quotes.",
-    h1: "72713 Gutter Guard Installation â€” West Bentonville, AR",
+    h1: "72713 Gutter Guard Installation  —  West Bentonville, AR",
     subheadline: "Engineered for newer subdivisions and multi-tier architectural rooflines in 72713. High-intake micro-mesh prevents foundation pooling and fascia rot.",
     localDetails: "ZIP code 72713 features rapidly expanding residential subdivisions with steep multi-tier rooflines. During heavy thunderstorms, concentrated runoff in valleys overshoots standard plastic covers. Our surgical steel mesh handles up to 150 inches of rain per hour with zero overflow."
   },
@@ -86,7 +86,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.2710,
     metaTitle: "72715 Gutter Guards | Bella Vista Highlands & Scotsdale AR",
     metaDescription: "Extreme-slope micro-mesh gutter guards for 72715 Bella Vista Highlands. 100% pine needle filtration and lifetime ladder safety. 10-Yr Guarantee.",
-    h1: "72715 Gutter Guard Installation â€” Bella Vista Highlands",
+    h1: "72715 Gutter Guard Installation  —  Bella Vista Highlands",
     subheadline: "Built for extreme 10/12 and 12/12 hillside roof pitches in 72715. Never climb a ladder on dangerous high mountain eaves again.",
     localDetails: "ZIP code 72715 encompasses the high elevations of Bella Vista, including Scotsdale and the Highlands. High-altitude ridge winds and intense slope runoff demand heavy-gauge aluminum chassis and micro-mesh that never warps or lifts under severe mountain weather."
   },
@@ -122,7 +122,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.2858,
     metaTitle: "72719 Gutter Guards | Centerton AR Direct Contractor Rates",
     metaDescription: "Affordable surgical micro-mesh gutter guards in 72719 Centerton, AR. Protect your home slab foundation from $15,000 settling repairs. 10-Yr Guarantee.",
-    h1: "72719 Gutter Guard Installation â€” Centerton, AR",
+    h1: "72719 Gutter Guard Installation  —  Centerton, AR",
     subheadline: "Protect your slab foundation from water saturation in 72719 Centerton. Direct local pricing with zero corporate markup.",
     localDetails: "In 72719 Centerton, expansive clay soils swell when saturated and shrink in dry periods. Gutter overflows dump water directly along foundation perimeters, leading to costly drywall cracking. Our permanent micro-mesh keeps water channeling smoothly through downspouts during every storm."
   },
@@ -158,7 +158,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.1850,
     metaTitle: "72758 Gutter Guards | Pinnacle Hills & Shadow Valley Rogers",
     metaDescription: "Premier 316 surgical micro-mesh gutter protection for 72758 West Rogers, Pinnacle Hills & Shadow Valley estates. Zero roof penetration. 10-Yr Guarantee.",
-    h1: "72758 Gutter Guard Installation â€” Pinnacle Hills & Shadow Valley",
+    h1: "72758 Gutter Guard Installation  —  Pinnacle Hills & Shadow Valley",
     subheadline: "Architectural-grade surgical micro-mesh custom fitted for 72758 luxury homes in Pinnacle Hills and Shadow Valley.",
     localDetails: "ZIP code 72758 encompasses premier residential communities with multi-tier roofs and strict HOA standards. Our fascia-mounted micro-mesh maintains pristine rooflines without touching roofing shingles, preserving 100% of your shingle manufacturer warranty."
   },
@@ -212,7 +212,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.1574,
     metaTitle: "72701 Gutter Guards | Mount Sequoyah & Downtown Fayetteville",
     metaDescription: "Surgical stainless micro-mesh gutter guards for 72701 Fayetteville historic homes & Mount Sequoyah estates. 100% shingle-safe. 10-Yr Guarantee.",
-    h1: "72701 Gutter Guard Installation â€” Mount Sequoyah & Downtown",
+    h1: "72701 Gutter Guard Installation  —  Mount Sequoyah & Downtown",
     subheadline: "Preserving historic architecture and conquering heavy hardwood leaf falls across 72701 Fayetteville.",
     localDetails: "ZIP code 72701 includes historic Fayetteville and Mount Sequoyah where majestic 70-year-old hardwoods create the highest organic debris volume in Northwest Arkansas. Our low-profile surgical mesh is mounted 100% to the gutter lip and fascia, keeping historic rooflines rot-free and fully protected."
   },
@@ -248,7 +248,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.2150,
     metaTitle: "72704 Gutter Guards | West Fayetteville & Wedington Corridor",
     metaDescription: "Prevent foundation water damage with surgical micro-mesh gutter guards in 72704 West Fayetteville, AR. 10-Year No-Clog Guarantee.",
-    h1: "72704 Gutter Guard Installation â€” West Fayetteville",
+    h1: "72704 Gutter Guard Installation  —  West Fayetteville",
     subheadline: "Protect your slab foundation and landscape from storm runoff in 72704 West Fayetteville.",
     localDetails: "The Wedington Corridor in 72704 features high residential growth on expansive clay soils. Our permanent gutter armor prevents water pooling at foundation corners, eliminating risks of cracked slabs and uneven settling."
   },
@@ -266,7 +266,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     longitude: -94.1950,
     metaTitle: "72762 Gutter Guards | Har-Ber Meadows & West Springdale",
     metaDescription: "Heavy-duty 316 surgical micro-mesh gutter guards for 72762 Springdale, AR. Prevent clay soil slab damage. 10-Yr Guarantee.",
-    h1: "72762 Gutter Guard Installation â€” Har-Ber Meadows & West Springdale",
+    h1: "72762 Gutter Guard Installation  —  Har-Ber Meadows & West Springdale",
     subheadline: "Engineered for large multi-story homes and expansive clay soils in 72762 Springdale.",
     localDetails: "In 72762 West Springdale and Har-Ber Meadows, large roof surface areas produce massive water flow during storms. Our 50-micron surgical steel mesh handles maximum throughput while keeping out 100% of fine agricultural dust and pollen."
   },
