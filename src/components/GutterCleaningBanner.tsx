@@ -1,84 +1,86 @@
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, Phone } from 'lucide-react';
+import { ArrowRight, Phone, CheckCircle2 } from 'lucide-react';
 
 export default function GutterCleaningBanner() {
   const phoneHref = "tel:+14799292516";
   const phoneDisplay = "(479) 929-2516";
 
   return (
-    <section className="bg-white border-b border-slate-200 py-12 sm:py-16 text-slate-900">
+    <section className="bg-slate-50 border-b border-slate-200 py-10 sm:py-16 text-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-          
-          {/* Left Col: Info & 4 Simple Steps */}
-          <div className="lg:col-span-8 space-y-6">
-            <div className="space-y-2">
-              <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
-                Seasonal Gutter Maintenance
-              </span>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-                $149 Complete Gutter Cleaning &amp; Inspection
-              </h2>
-              <p className="text-base text-slate-600 leading-relaxed font-normal">
-                Not ready for permanent gutter guards yet? We provide complete hand debris removal, downspout flushing, and a roofline condition check. <strong className="text-slate-900 font-bold">100% of your $149 fee is credited</strong> toward guards if you decide to install within 12 months.
-              </p>
+        <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 shadow-sm">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            
+            {/* Left Col: Offer details */}
+            <div className="lg:col-span-8 space-y-4">
+              <div className="space-y-2">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                  <span>Fast Seasonal Service</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-950 tracking-tight">
+                  Not Ready for Guards? Get a $149 Full Cleanout
+                </h2>
+                <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
+                  We'll hand-clean all debris, flush your downspouts, and send before/after photos straight to your phone. <strong className="text-slate-900 font-bold">100% of your $149 fee is credited toward gutter guards</strong> if you decide to install within 12 months.
+                </p>
+              </div>
+
+              {/* 4 Simple Checkpoints */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-800 pt-2">
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <span>Hand debris removal (no lawn mess)</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <span>High-flow downspout water flush</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <span>Gutter slope &amp; bracket inspection</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <span>Condition report sent to your phone</span>
+                </div>
+              </div>
             </div>
 
-            {/* 4 Simple Items */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-700 border-t border-slate-200 pt-6">
-              <div className="space-y-1">
-                <strong className="text-slate-900 font-semibold block">1. Hand Debris Removal</strong>
-                <p className="text-xs text-slate-500">All sludge and leaves bagged and hauled away with zero lawn mess.</p>
+            {/* Right Col: Price Card */}
+            <div className="lg:col-span-4 rounded-xl border border-slate-200 bg-slate-50 p-6 space-y-4 text-center">
+              <div className="space-y-0.5">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block">
+                  Flat Rate Special
+                </span>
+                <div className="text-4xl sm:text-5xl font-black text-slate-950 tracking-tight">
+                  $149
+                </div>
+                <span className="text-xs font-bold text-emerald-700 block pt-0.5">
+                  100% Credited Toward Guards
+                </span>
               </div>
-              <div className="space-y-1">
-                <strong className="text-slate-900 font-semibold block">2. Downspout Water Flush</strong>
-                <p className="text-xs text-slate-500">High-flow water clearing to make sure downspouts drain freely.</p>
-              </div>
-              <div className="space-y-1">
-                <strong className="text-slate-900 font-semibold block">3. Pitch &amp; Hanger Check</strong>
-                <p className="text-xs text-slate-500">We check for low spots, loose brackets, and sagging corners.</p>
-              </div>
-              <div className="space-y-1">
-                <strong className="text-slate-900 font-semibold block">4. Photo Report to Your Phone</strong>
-                <p className="text-xs text-slate-500">Clear photos of your gutters and roofline sent directly to your phone.</p>
+
+              <div className="space-y-2 pt-1">
+                <Link
+                  href="/gutter-cleaning"
+                  className="w-full btn-contractor-primary min-h-[46px] py-3 px-4 text-sm font-bold flex items-center justify-center gap-2 shadow-xs transition"
+                >
+                  <span>Book $149 Cleanout</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                
+                <a
+                  href={phoneHref}
+                  className="block text-xs font-bold text-slate-600 hover:text-slate-900 transition py-1"
+                >
+                  Or Call: {phoneDisplay}
+                </a>
               </div>
             </div>
+
           </div>
-
-          {/* Right Col: Price Card */}
-          <div className="lg:col-span-4 rounded-2xl border border-slate-200 bg-[#F8F9FA] p-8 space-y-6 text-center shadow-xs">
-            <div className="space-y-1">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block">
-                Flat Rate Cleanout
-              </span>
-              <div className="text-4xl sm:text-5xl font-extrabold text-[#0F172A] tracking-tight">
-                $149
-              </div>
-              <span className="text-xs font-semibold text-emerald-700 block">
-                100% Fee Credited Toward Guards
-              </span>
-            </div>
-
-            <div className="space-y-3">
-              <Link
-                href="/gutter-cleaning"
-                className="w-full btn-contractor-primary py-3.5 px-4 text-sm font-bold flex items-center justify-center gap-2 shadow-xs transition"
-              >
-                <span>Book $149 Cleanout</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              
-              <a
-                href={phoneHref}
-                className="block text-xs font-bold text-slate-600 hover:text-slate-900 transition"
-              >
-                Or Call Dispatch: {phoneDisplay}
-              </a>
-            </div>
-          </div>
-
         </div>
 
       </div>
