@@ -116,15 +116,21 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
   }[stories];
 
   return (
-    <div className="bg-white border border-slate-200 shadow-sm overflow-hidden">
+    <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
       
-      {/* Clean Form Header */}
-      <div className="p-5 sm:p-6 pb-3 border-b border-slate-100 bg-white">
+      {/* Warm Local Header */}
+      <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-slate-50/70">
+        <div className="flex items-center gap-2 mb-1">
+          <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+          <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-800">
+            Local NWA Upfront Pricing
+          </span>
+        </div>
         <h3 className="font-bold text-lg sm:text-xl text-[#0F1E36] tracking-tight">
-          Instant Price Estimate &amp; Satellite Measurement
+          Get Your Instant Local Estimate
         </h3>
-        <p className="text-xs text-slate-500 mt-1 font-normal">
-          Get your estimated price range in 30 seconds. No high-pressure in-home sales visits.
+        <p className="text-xs text-slate-600 mt-1 font-normal leading-relaxed">
+          See your exact price range in 30 seconds. No commissioned salesmen, no 3-hour living room pitches.
         </p>
       </div>
 
@@ -256,18 +262,18 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           {/* Primary CTA Button */}
           <button
             type="submit"
-            className="w-full btn-contractor-primary min-h-[50px] py-3.5 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98]"
+            className="w-full btn-contractor-primary min-h-[52px] py-3.5 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98] rounded-xl shadow-xs"
           >
-            <span>Calculate My Exact Gutter Guard Cost →</span>
+            <span>See My Upfront Price Range →</span>
           </button>
 
           {/* Reassurance Footnote */}
           <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-slate-500 pt-1 font-medium text-center">
-            <span>100% Free Satellite Estimate</span>
+            <span>✓ 100% Free Local Estimate</span>
             <span className="text-slate-300">•</span>
-            <span>Zero High-Pressure Salesmen</span>
+            <span>✓ Zero Pressure</span>
             <span className="text-slate-300">•</span>
-            <span>Written 10-Yr Guarantee</span>
+            <span>✓ Written Guarantee</span>
           </div>
         </form>
       )}

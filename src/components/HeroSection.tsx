@@ -134,15 +134,8 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
 
           </div>
 
-          {/* Right Column: INSTANT QUOTE FORM */}
+          {/* Right Column: WARM LOCAL ESTIMATOR FORM */}
           <div id="estimate-form" className="lg:col-span-5 lg:sticky lg:top-24 scroll-mt-20">
-            <div className="bg-slate-900 text-white text-xs py-2 px-4 rounded-t-xl font-semibold flex items-center justify-between border-t border-x border-slate-800">
-              <span className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Fast Satellite Estimating</span>
-              </span>
-              <span className="text-slate-400">Zero Pressure Guarantee</span>
-            </div>
             <SatelliteEstimator initialCity={cityName} />
           </div>
 
