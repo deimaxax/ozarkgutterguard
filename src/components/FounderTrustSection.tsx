@@ -12,8 +12,15 @@ export default function FounderTrustSection() {
           {/* Left Column: Founder Accountability Card */}
           <div className="lg:col-span-6 bg-[#F8F9FA] rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
             <div className="flex items-center gap-4 border-b border-slate-200 pb-5">
-              <div className="w-14 h-14 rounded-full bg-[#0F1E36] text-white font-black text-xl flex items-center justify-center border-2 border-[#183059] shrink-0 shadow-xs">
-                DV
+              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-slate-300 shrink-0 shadow-xs">
+                <Image
+                  src="/images/david_vance.jpg"
+                  alt="David Vance - Local Owner & Lead Installer at Ozark Gutter Guard"
+                  width={64}
+                  height={64}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
               <div>
                 <h3 className="text-lg font-bold text-[#0F1E36] tracking-tight flex items-center gap-2">
