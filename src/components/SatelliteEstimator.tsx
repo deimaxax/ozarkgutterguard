@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { CheckCircle2, ArrowRight, MapPin, Phone } from 'lucide-react';
+import Image from 'next/image';
+import { CheckCircle2, ArrowRight, MapPin, Phone, Home, ShieldCheck, HeartHandshake } from 'lucide-react';
 
 interface SatelliteEstimatorProps {
   initialCity?: string;
@@ -93,21 +94,21 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
   const priceDetails = {
     '1-story': {
-      label: '1-Story Home',
+      label: '1-Story Ranch Home',
       footage: '~130–150 Linear Ft',
       price: '$1,250 – $1,450',
       monthly: '$48/mo',
       corporateAvg: '$3,800'
     },
     '2-story': {
-      label: '2-Story Home',
+      label: '2-Story Family Home',
       footage: '~180–220 Linear Ft',
       price: '$1,550 – $1,750',
       monthly: '$58/mo',
       corporateAvg: '$4,900'
     },
     'large': {
-      label: 'Custom / 3-Story',
+      label: 'Custom / Multi-Story',
       footage: '~250–320 Linear Ft',
       price: '$1,950 – $2,350',
       monthly: '$75/mo',
@@ -116,15 +117,36 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
   }[stories];
 
   return (
-    <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
+    <div className="bg-white border-2 border-slate-200/90 rounded-2xl shadow-sm overflow-hidden">
       
-      {/* Warm Local Header */}
-      <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-slate-50/70">
-        <h3 className="font-bold text-lg sm:text-xl text-[#0F1E36] tracking-tight">
-          Get Your Instant Local Estimate
-        </h3>
-        <p className="text-xs text-slate-600 mt-1 font-normal leading-relaxed">
-          See your exact price range in 30 seconds. No commissioned salesmen, no 3-hour living room pitches.
+      {/* Warm Personal Founder Header */}
+      <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-[#FAF9F6]">
+        <div className="flex items-center gap-3.5">
+          <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300 shrink-0 shadow-xs">
+            <Image
+              src="/images/david_vance.jpg"
+              alt="David Vance - Owner & Bentonville Resident"
+              width={48}
+              height={48}
+              className="w-full h-full object-cover"
+              priority
+            />
+          </div>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-black text-slate-900 text-sm sm:text-base">David Vance</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                Owner &amp; Local Installer
+              </span>
+            </div>
+            <p className="text-xs text-slate-600 font-medium mt-0.5">
+              Bentonville, AR • Direct Owner Pricing
+            </p>
+          </div>
+        </div>
+
+        <p className="text-xs text-slate-700 mt-3 italic bg-white p-2.5 rounded-lg border border-slate-200/80 leading-relaxed font-normal">
+          &quot;Pick your town and home size below. I&apos;ll give you our exact installed price range right on your screen — zero salesmen visits, no games.&quot;
         </p>
       </div>
 
@@ -134,8 +156,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           
           {/* Step 1: City Selection */}
           <div>
-            <label className="block text-xs font-bold text-[#0F1E36] uppercase tracking-wider mb-2">
-              1. Select City:
+            <label className="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2">
+              1. Your Town / Neighborhood:
             </label>
             <div className="grid grid-cols-3 gap-2">
               {quickCities.map((city) => {
@@ -149,10 +171,10 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                       setSelectedCity(city);
                       setErrorMsg('');
                     }}
-                    className={`py-2.5 px-2 text-xs font-bold text-center transition cursor-pointer border ${
+                    className={`py-2.5 px-2 text-xs font-bold text-center transition cursor-pointer rounded-lg border ${
                       isActive
-                        ? 'bg-[#0F1E36] text-white border-[#0A1424]'
-                        : 'bg-[#F8F9FA] hover:bg-slate-100 text-[#0F1E36] border-slate-200'
+                        ? 'bg-[#0F1E36] text-white border-[#0F1E36] shadow-xs'
+                        : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-200'
                     }`}
                   >
                     {city}
@@ -167,13 +189,13 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                   setIsCustomCity(true);
                   setErrorMsg('');
                 }}
-                className={`py-2.5 px-2 text-xs font-bold text-center transition cursor-pointer border ${
+                className={`py-2.5 px-2 text-xs font-bold text-center transition cursor-pointer rounded-lg border ${
                   isCustomCity
-                    ? 'bg-[#0F1E36] text-white border-[#0A1424]'
-                    : 'bg-[#F8F9FA] hover:bg-slate-100 text-[#0F1E36] border-slate-200'
+                    ? 'bg-[#0F1E36] text-white border-[#0F1E36] shadow-xs'
+                    : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-200'
                 }`}
               >
-                + Other
+                + Other NWA
               </button>
             </div>
 
@@ -188,8 +210,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                     setCustomCityInput(e.target.value);
                     if (errorMsg) setErrorMsg('');
                   }}
-                  placeholder="Enter your NWA town (e.g. Centerton, Lowell, Pea Ridge, Farmington)"
-                  className="w-full px-3.5 py-2.5 border border-slate-300 bg-white text-xs text-[#0F1E36] outline-none focus:ring-1 focus:ring-[#0F1E36] font-medium"
+                  placeholder="Enter your town (e.g. Centerton, Cave Springs, Pea Ridge)"
+                  className="w-full px-3.5 py-2.5 border border-slate-300 rounded-lg bg-white text-xs text-slate-900 outline-none focus:border-[#0F1E36] font-medium"
                   autoFocus
                 />
               </div>
@@ -198,8 +220,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
           {/* Step 2: Street Address */}
           <div>
-            <label htmlFor="street-address-field" className="block text-xs font-bold text-[#0F1E36] uppercase tracking-wider mb-1.5">
-              2. Property Street Address:
+            <label htmlFor="street-address-field" className="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-1.5">
+              2. Street Address (for roofline footage):
             </label>
             <div className="relative">
               <input
@@ -214,41 +236,44 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                   if (errorMsg) setErrorMsg('');
                 }}
                 placeholder={`e.g., 1404 SW A St, ${currentCity}`}
-                className="w-full px-3.5 py-3 border border-slate-300 focus:border-[#0F1E36] text-base sm:text-sm text-slate-900 bg-white outline-none font-medium placeholder:text-slate-400"
+                className="w-full px-3.5 py-3 border border-slate-300 rounded-lg focus:border-[#0F1E36] text-base sm:text-sm text-slate-900 bg-white outline-none font-medium placeholder:text-slate-400"
               />
             </div>
           </div>
 
           {/* Step 3: House Stories / Footage Sizing */}
           <div>
-            <label className="block text-xs font-bold text-[#0F1E36] uppercase tracking-wider mb-2">
-              3. Home Size / Stories:
+            <label className="block text-xs font-bold text-slate-900 uppercase tracking-wider mb-2">
+              3. Home Size:
             </label>
             <div className="grid grid-cols-3 gap-2">
               {[
-                { id: '1-story', label: '1-Story', sub: 'Up to 150 LF' },
-                { id: '2-story', label: '2-Story', sub: 'Up to 220 LF' },
-                { id: 'large', label: 'Custom', sub: '250+ LF' }
+                { id: '1-story', label: '1-Story', sub: 'Ranch (~140 ft)' },
+                { id: '2-story', label: '2-Story', sub: 'Family (~200 ft)' },
+                { id: 'large', label: 'Custom', sub: 'Multi-Level' }
               ].map((type) => (
                 <button
                   key={type.id}
                   type="button"
                   onClick={() => setStories(type.id as any)}
-                  className={`min-h-[54px] p-2.5 border text-left transition cursor-pointer active:scale-95 ${
+                  className={`min-h-[58px] p-2.5 border rounded-lg text-left transition cursor-pointer active:scale-95 ${
                     stories === type.id
-                      ? 'border-[#0F1E36] bg-slate-100 text-[#0F1E36] font-bold ring-1 ring-[#0F1E36]'
-                      : 'border-slate-200 bg-[#F8F9FA] hover:bg-slate-100 text-slate-700'
+                      ? 'border-[#0F1E36] bg-slate-100 text-[#0F1E36] font-bold ring-2 ring-[#0F1E36]/80'
+                      : 'border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700'
                   }`}
                 >
-                  <span className="block text-xs font-bold text-[#0F1E36]">{type.label}</span>
-                  <span className="text-[11px] text-slate-500 block mt-0.5">{type.sub}</span>
+                  <div className="flex items-center gap-1 mb-0.5">
+                    <Home className={`w-3.5 h-3.5 ${stories === type.id ? 'text-[#0F1E36]' : 'text-slate-400'}`} />
+                    <span className="text-xs font-bold">{type.label}</span>
+                  </div>
+                  <span className="text-[10px] text-slate-500 block leading-tight">{type.sub}</span>
                 </button>
               ))}
             </div>
           </div>
 
           {errorMsg && (
-            <p className="text-xs text-red-700 font-semibold bg-red-50 p-2.5 border border-red-200">
+            <p className="text-xs text-red-700 font-semibold bg-red-50 p-2.5 rounded-lg border border-red-200">
               {errorMsg}
             </p>
           )}
@@ -261,13 +286,19 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             <span>See My Upfront Price Range →</span>
           </button>
 
-          {/* Reassurance Footnote */}
-          <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-slate-500 pt-1 font-medium text-center">
-            <span>✓ 100% Free Local Estimate</span>
-            <span className="text-slate-300">•</span>
-            <span>✓ Zero Pressure</span>
-            <span className="text-slate-300">•</span>
-            <span>✓ Written Guarantee</span>
+          {/* Warm Reassurance & Direct Phone Option */}
+          <div className="pt-2 border-t border-slate-100 space-y-2 text-center">
+            <div className="flex flex-wrap items-center justify-center gap-2 text-xs text-slate-500 font-medium">
+              <span>✓ 100% Free Local Estimate</span>
+              <span className="text-slate-300">•</span>
+              <span>✓ Zero Pressure</span>
+              <span className="text-slate-300">•</span>
+              <span>✓ Written Guarantee</span>
+            </div>
+
+            <p className="text-xs text-slate-600">
+              Prefer to talk right now? <a href="tel:+14799292516" className="text-[#0F1E36] font-bold hover:underline">Call David: (479) 929-2516</a>
+            </p>
           </div>
         </form>
       )}
@@ -277,15 +308,15 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
         <form onSubmit={handleFinalSubmit} className="p-6 sm:p-7 space-y-4 bg-white">
           
           {/* Price Card */}
-          <div className="p-4 bg-[#F8F9FA] border border-slate-200 space-y-2">
+          <div className="p-4 bg-[#FAF9F6] border border-slate-200 rounded-xl space-y-2">
             <div className="flex justify-between text-xs text-slate-700 border-b border-slate-200 pb-2">
-              <span className="truncate max-w-[200px] font-bold text-[#0F1E36]">{fullDisplayAddress}</span>
-              <span className="font-bold text-[#0F1E36]">{priceDetails.footage}</span>
+              <span className="truncate max-w-[200px] font-bold text-slate-900">{fullDisplayAddress}</span>
+              <span className="font-bold text-slate-900">{priceDetails.footage}</span>
             </div>
 
             <div className="flex items-baseline justify-between pt-1">
               <div>
-                <span className="text-[10px] uppercase font-bold text-slate-500 block">Direct Contractor Estimate</span>
+                <span className="text-[10px] uppercase font-bold text-emerald-800 block">Direct Local Owner Estimate</span>
                 <div className="text-2xl sm:text-3xl font-extrabold text-[#0F1E36]">
                   {priceDetails.price}
                 </div>
@@ -302,14 +333,14 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             </div>
 
             <div className="text-xs text-slate-700 pt-1 border-t border-slate-200">
-              <span className="font-bold text-[#0F1E36]">Included Scope:</span> Full hand cleanout, slope tune-up, heavy-duty hidden hangers &amp; 316 marine-grade micro-mesh.
+              <strong className="text-slate-900">Included on Every Job:</strong> Full hand cleanout, slope tune-up, heavy-duty hidden hangers &amp; 316 marine-grade micro-mesh.
             </div>
           </div>
 
           <div className="space-y-3">
             <div>
-              <label htmlFor="contact-name-field" className="block text-xs font-bold text-[#0F1E36] uppercase mb-1">
-                Your Full Name:
+              <label htmlFor="contact-name-field" className="block text-xs font-bold text-slate-900 uppercase mb-1">
+                Your Name:
               </label>
               <input
                 id="contact-name-field"
@@ -320,13 +351,13 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="e.g. John Miller"
-                className="w-full px-3.5 py-3 border border-slate-300 text-base sm:text-sm text-slate-900 outline-none focus:border-[#0F1E36]"
+                className="w-full px-3.5 py-3 border border-slate-300 rounded-lg text-base sm:text-sm text-slate-900 outline-none focus:border-[#0F1E36]"
               />
             </div>
 
             <div>
-              <label htmlFor="contact-phone-field" className="block text-xs font-bold text-[#0F1E36] uppercase mb-1">
-                Phone Number (For Written Quote Confirmation):
+              <label htmlFor="contact-phone-field" className="block text-xs font-bold text-slate-900 uppercase mb-1">
+                Phone Number (where to text/send your written quote):
               </label>
               <input
                 id="contact-phone-field"
@@ -337,13 +368,13 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 placeholder="(479) 929-2516"
-                className="w-full px-3.5 py-3 border border-slate-300 text-base sm:text-sm text-slate-900 outline-none focus:border-[#0F1E36]"
+                className="w-full px-3.5 py-3 border border-slate-300 rounded-lg text-base sm:text-sm text-slate-900 outline-none focus:border-[#0F1E36]"
               />
             </div>
           </div>
 
           {errorMsg && (
-            <p className="text-xs text-red-700 font-semibold bg-red-50 p-2.5 border border-red-200">
+            <p className="text-xs text-red-700 font-semibold bg-red-50 p-2.5 rounded-lg border border-red-200">
               {errorMsg}
             </p>
           )}
@@ -352,16 +383,16 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             <button
               type="button"
               onClick={() => setStep(1)}
-              className="py-3 px-4 border border-slate-300 text-xs font-bold text-[#0F1E36] hover:bg-slate-50 cursor-pointer min-h-[48px] active:scale-95 transition"
+              className="py-3 px-4 border border-slate-300 rounded-lg text-xs font-bold text-slate-900 hover:bg-slate-50 cursor-pointer min-h-[48px] active:scale-95 transition"
             >
               Back
             </button>
             <button
               type="submit"
               disabled={isSubmitting}
-              className="flex-1 btn-contractor-primary min-h-[48px] py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98]"
+              className="flex-1 btn-contractor-primary min-h-[48px] py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98] rounded-lg shadow-xs"
             >
-              {isSubmitting ? 'Sending Quote...' : 'Send Written Estimate'}
+              {isSubmitting ? 'Sending Quote...' : 'Send Me the Written Estimate'}
             </button>
           </div>
         </form>
@@ -369,26 +400,26 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
       {/* STEP 3: Submission Confirmation */}
       {submitted && (
-        <div className="p-6 text-center space-y-4 bg-slate-50">
-          <div className="w-12 h-12 bg-[#0F1E36] text-white rounded-full flex items-center justify-center mx-auto">
-            <CheckCircle2 className="w-6 h-6 text-emerald-400" />
+        <div className="p-6 text-center space-y-4 bg-[#FAF9F6]">
+          <div className="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto">
+            <CheckCircle2 className="w-6 h-6 text-emerald-600" />
           </div>
           <div className="space-y-1">
-            <h4 className="text-lg font-bold text-[#0F1E36]">
-              Estimate Sent Successfully
+            <h4 className="text-lg font-bold text-slate-900">
+              Estimate Sent Successfully!
             </h4>
             <p className="text-xs text-slate-700 max-w-sm mx-auto leading-relaxed">
-              Your itemized linear footage estimate of <strong className="text-[#0F1E36] font-bold">{priceDetails.price}</strong> for <span className="font-semibold">{fullDisplayAddress}</span> has been dispatched.
+              Your itemized estimate of <strong className="text-slate-900 font-bold">{priceDetails.price}</strong> for <span className="font-semibold">{fullDisplayAddress}</span> has been dispatched.
             </p>
           </div>
 
-          <div className="p-3.5 bg-white border border-slate-200 text-xs text-slate-700 text-left">
-            <div className="font-bold text-[#0F1E36] flex items-center gap-1.5 mb-0.5">
+          <div className="p-3.5 bg-white border border-slate-200 rounded-xl text-xs text-slate-700 text-left space-y-1">
+            <div className="font-bold text-slate-900 flex items-center gap-1.5">
               <Phone className="w-3.5 h-3.5 text-[#D92626]" />
-              <span>Questions? Call Local Shop:</span>
+              <span>Questions for David?</span>
             </div>
             <p className="text-slate-600">
-              Call our Bentonville crew directly at <a href="tel:+14799292516" className="text-[#0F1E36] font-bold underline">(479) 929-2516</a>.
+              Call our Bentonville shop directly at <a href="tel:+14799292516" className="text-slate-900 font-bold underline">(479) 929-2516</a>.
             </p>
           </div>
         </div>
@@ -397,3 +428,4 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
     </div>
   );
 }
+
