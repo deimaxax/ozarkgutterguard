@@ -39,124 +39,85 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
+    <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-11 h-11 bg-white border border-slate-200 rounded-lg p-1.5 flex items-center justify-center shadow-xs">
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 bg-slate-50 border border-slate-200 rounded-lg p-1.5 flex items-center justify-center">
               <Image
                 src="/logo.png"
                 alt="Ozark Gutter Guard Co."
-                width={36}
-                height={36}
+                width={32}
+                height={32}
                 className="object-contain"
                 priority
               />
             </div>
             <div>
-              <span className="text-lg sm:text-xl font-black text-brand-navy tracking-tight block leading-tight">
-                OZARK <span className="text-brand-green">GUTTER GUARD</span>
+              <span className="text-lg sm:text-xl font-black text-slate-900 tracking-tight block leading-tight">
+                OZARK <span className="text-emerald-700">GUTTER GUARD</span>
               </span>
               <span className="text-[11px] text-slate-500 font-medium block">
-                Bentonville, AR • Licensed &amp; Insured
+                Local NWA Contractor • Bentonville, AR
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-6 text-sm font-bold text-slate-700">
-            <Link href="/#specs" className="hover:text-brand-green transition-colors">
+          <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+            <Link href="/#specs" className="hover:text-emerald-700 transition-colors">
               Gutter Guards
             </Link>
-            <Link 
-              href="/gutter-cleaning" 
-              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-emerald-50 text-brand-green border border-emerald-200 hover:bg-emerald-100 transition-colors"
-            >
-              <span>$149 Gutter Cleaning</span>
-              <span className="text-[10px] bg-brand-green text-white px-1.5 py-0.2 rounded font-black uppercase tracking-wider">Audit</span>
+            <Link href="/gutter-cleaning" className="hover:text-emerald-700 transition-colors">
+              Gutter Cleaning ($149)
             </Link>
-            <Link href="/#process" className="hover:text-brand-green transition-colors">
+            <Link href="/#process" className="hover:text-emerald-700 transition-colors">
               How It Works
             </Link>
-            <Link href="/#evidence" className="hover:text-brand-green transition-colors">
+            <Link href="/#evidence" className="hover:text-emerald-700 transition-colors">
               Before &amp; After
             </Link>
-            <Link href="/#reviews" className="hover:text-brand-green transition-colors">
+            <Link href="/#reviews" className="hover:text-emerald-700 transition-colors">
               Reviews
             </Link>
 
-            {/* Service Areas Mega Dropdown */}
+            {/* Service Areas Dropdown */}
             <div className="relative" onMouseLeave={() => setLocationsOpen(false)}>
               <button
                 type="button"
                 onClick={() => setLocationsOpen(!locationsOpen)}
                 onMouseEnter={() => setLocationsOpen(true)}
-                className="flex items-center gap-1 hover:text-brand-green transition-colors py-2 cursor-pointer"
+                className="flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 cursor-pointer font-semibold"
               >
                 <span>Service Areas</span>
-                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${locationsOpen ? 'rotate-180 text-brand-green' : ''}`} />
+                <ChevronDown className={`w-4 h-4 text-slate-500 transition-transform duration-200 ${locationsOpen ? 'rotate-180 text-emerald-700' : ''}`} />
               </button>
 
               {locationsOpen && (
-                <div className="absolute top-full -left-20 w-[540px] bg-white rounded-2xl shadow-2xl border border-slate-200 p-5 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                  <div className="grid grid-cols-2 gap-6">
-                    {/* Gutter Guards Column */}
-                    <div>
-                      <div className="flex items-center gap-1.5 pb-2.5 mb-2 border-b border-slate-100">
-                        <span className="text-xs font-black text-brand-navy uppercase tracking-wider">
-                          🛡️ Gutter Guards by City
-                        </span>
-                      </div>
-                      <div className="space-y-1">
-                        {guardCities.map((item) => (
-                          <Link
-                            key={item.slug}
-                            href={item.slug}
-                            onClick={() => setLocationsOpen(false)}
-                            className="block px-2.5 py-1.5 rounded text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-brand-green transition-colors"
-                          >
-                            {item.name} Gutter Guards →
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* Gutter Cleaning Column */}
-                    <div>
-                      <div className="flex items-center gap-1.5 pb-2.5 mb-2 border-b border-slate-100">
-                        <span className="text-xs font-black text-brand-green uppercase tracking-wider">
-                          🧹 $149 Cleanout &amp; Audit
-                        </span>
-                      </div>
-                      <div className="space-y-1">
-                        {cleaningCities.map((item) => (
-                          <Link
-                            key={item.slug}
-                            href={item.slug}
-                            onClick={() => setLocationsOpen(false)}
-                            className="block px-2.5 py-1.5 rounded text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-brand-green transition-colors"
-                          >
-                            {item.name} Gutter Cleaning →
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
+                <div className="absolute top-full -left-10 w-80 bg-white rounded-xl shadow-xl border border-slate-200 p-4 z-50">
+                  <div className="text-xs font-bold text-slate-400 uppercase tracking-wider pb-2 mb-2 border-b border-slate-100">
+                    Cities Served in NWA
                   </div>
-
-                  {/* Specialty Footer */}
-                  <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-slate-500">
-                    <Link href="/pine-needle-gutter-protection" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
-                      🌲 Pine Needle Armor
+                  <div className="grid grid-cols-2 gap-1 text-xs">
+                    {guardCities.map((item) => (
+                      <Link
+                        key={item.slug}
+                        href={item.slug}
+                        onClick={() => setLocationsOpen(false)}
+                        className="px-2.5 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50 hover:text-emerald-700 transition-colors"
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                  <div className="mt-3 pt-2.5 border-t border-slate-100 text-xs text-slate-500 flex justify-between">
+                    <Link href="/pine-needle-gutter-protection" onClick={() => setLocationsOpen(false)} className="hover:text-emerald-700 font-medium">
+                      Pine Needle Protection
                     </Link>
-                    <span>•</span>
-                    <Link href="/oak-tassel-gutter-protection" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
-                      🍂 Oak Tassel Armor
-                    </Link>
-                    <span>•</span>
-                    <Link href="/seamless-gutter-installation-nwa" onClick={() => setLocationsOpen(false)} className="hover:text-brand-green">
-                      🏠 Seamless Gutters
+                    <Link href="/seamless-gutter-installation-nwa" onClick={() => setLocationsOpen(false)} className="hover:text-emerald-700 font-medium">
+                      Seamless Gutters
                     </Link>
                   </div>
                 </div>
@@ -165,12 +126,12 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
           </nav>
 
           {/* Right Phone Call + CTA Button */}
-          <div className="hidden sm:flex items-center gap-4">
+          <div className="hidden sm:flex items-center gap-5">
             <a
               href={phoneHref}
-              className="flex items-center gap-2 text-brand-navy hover:text-brand-green transition-colors font-bold text-sm"
+              className="flex items-center gap-2 text-slate-800 hover:text-emerald-700 transition-colors font-bold text-sm"
             >
-              <div className="w-8 h-8 rounded-full bg-emerald-50 text-brand-green flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full bg-slate-100 text-slate-700 flex items-center justify-center">
                 <Phone className="w-4 h-4" />
               </div>
               <span>{phoneDisplay}</span>
@@ -178,7 +139,7 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
 
             <a
               href="/quote"
-              className="btn-contractor-green px-5 py-2.5 text-xs sm:text-sm font-bold shadow-xs"
+              className="bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-xs transition-colors"
             >
               Get Free Quote
             </a>
@@ -188,7 +149,7 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
           <div className="flex items-center gap-2 lg:hidden">
             <a
               href={phoneHref}
-              className="p-2 text-brand-green bg-emerald-50 rounded-lg sm:hidden font-bold"
+              className="p-2 text-emerald-700 bg-emerald-50 rounded-lg sm:hidden font-bold"
               aria-label={`Call directly at ${phoneDisplay}`}
             >
               <Phone className="w-5 h-5" />

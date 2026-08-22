@@ -56,47 +56,48 @@ export default function ComparisonMatrix() {
   ];
 
   return (
-    <section id="specs" className="py-12 sm:py-16 bg-slate-50 border-b border-slate-200">
+    <section id="specs" className="py-14 sm:py-18 bg-slate-50 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-brand-navy tracking-tight">
-            Ozark Hydrological Specification Matrix
+          <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider block mb-1">Specification Matrix</span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            How Ozark Micro-Mesh Compares
           </h2>
-          <p className="text-sm text-slate-600 mt-1 font-normal">
-            Hard engineering specs — 50-micron aperture, 150 in/hr throughput, 45 lbs/LF ice load:
+          <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal leading-relaxed">
+            See how our surgical micro-mesh guards compare to high-pressure national sales franchises and basic hardware store DIY covers:
           </p>
         </div>
 
         {/* Mobile Swipe Hint */}
-        <div className="sm:hidden flex items-center justify-center gap-1.5 text-xs text-slate-500 font-semibold mb-2 bg-slate-100 py-1.5 px-3 rounded-lg border border-slate-200">
-          <span>👈 Swipe horizontally to compare all specs 👉</span>
+        <div className="sm:hidden flex items-center justify-center gap-1.5 text-xs text-slate-500 font-medium mb-3 bg-white py-2 px-3 rounded-lg border border-slate-200 shadow-2xs">
+          <span>👈 Swipe horizontally to see full comparison 👉</span>
         </div>
 
         <div className="border border-slate-200 rounded-xl overflow-x-auto bg-white shadow-xs" style={{ WebkitOverflowScrolling: 'touch' }}>
           <table className="w-full min-w-[640px] text-left border-collapse text-xs sm:text-sm">
             <thead>
-              <tr className="bg-brand-navy text-white text-xs font-bold uppercase tracking-wider">
-                <th className="py-3.5 px-4 w-1/4">Engineering Metric</th>
-                <th className="py-3.5 px-4 bg-brand-navyDark text-emerald-400 border-x border-slate-800 w-1/3">
-                  Ozark Gutter Guard — 316 Surgical Mesh
+              <tr className="bg-slate-900 text-white text-xs font-semibold uppercase tracking-wider">
+                <th className="py-3.5 px-4 w-1/4">Specification</th>
+                <th className="py-3.5 px-4 bg-emerald-900/90 text-emerald-300 border-x border-emerald-800 w-1/3">
+                  Ozark Gutter Guard (316 Mesh)
                 </th>
                 <th className="py-3.5 px-4 text-slate-300 w-1/4">
                   National Franchise
-                  <span className="block text-[10px] font-normal normal-case tracking-normal text-slate-400">(Plastic / Reverse Curve)</span>
+                  <span className="block text-[10px] font-normal normal-case tracking-normal text-slate-400">(Reverse Curve / Vinyl)</span>
                 </th>
                 <th className="py-3.5 px-4 text-slate-400 w-1/6">
                   Hardware Store DIY
-                  <span className="block text-[10px] font-normal normal-case tracking-normal text-slate-500">(Vinyl / Slotted Metal)</span>
+                  <span className="block text-[10px] font-normal normal-case tracking-normal text-slate-500">(Slotted Plastic/Alum)</span>
                 </th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 text-slate-800 font-medium">
+            <tbody className="divide-y divide-slate-100 text-slate-700">
               {specs.map((spec, i) => (
-                <tr key={i} className={i % 2 === 0 ? "bg-slate-50/40" : "bg-white"}>
+                <tr key={i} className={i % 2 === 0 ? "bg-slate-50/50" : "bg-white"}>
                   <td className="py-3 px-4 font-bold text-slate-900">{spec.feature}</td>
-                  <td className="py-3 px-4 bg-emerald-50/40 border-x border-emerald-200 font-bold text-brand-navy">
+                  <td className="py-3 px-4 bg-emerald-50/50 border-x border-emerald-100 font-semibold text-emerald-950">
                     <div className="flex items-center gap-1.5">
-                      <Check className="w-4 h-4 text-brand-green shrink-0" />
+                      <Check className="w-4 h-4 text-emerald-700 shrink-0" />
                       <span>{spec.ozark}</span>
                     </div>
                   </td>
@@ -108,20 +109,15 @@ export default function ComparisonMatrix() {
           </table>
         </div>
 
-        <div className="mt-8 bg-white border border-slate-200 rounded-lg p-5 sm:p-7 space-y-2">
-          <span className="text-xs font-bold uppercase tracking-wider text-brand-green bg-emerald-50 px-2.5 py-1 rounded inline-block">
-            50-Micron Surgical Hydrodynamic Weave
+        <div className="mt-6 bg-white border border-slate-200 rounded-xl p-5 sm:p-6 space-y-2">
+          <span className="text-xs font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md inline-block">
+            Why 50-Micron Surgical Stainless Steel?
           </span>
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
-            Unlike solid curved hoods that fail surface tension during Ozark flash downpours, or slotted vinyl that traps
-            Bella Vista pine needles like a comb, our 50-micron surgical mesh blocks 100% of shingle grit and oak pollen
-            while processing 150 in/hr of storm water — zero roof shingle contact, 45 lbs/linear ft ice load rating.
+            Unlike solid curved hoods where water can sheet off during severe storms, or slotted vinyl that easily clogs with pine needles, our 50-micron surgical mesh blocks pine needles and oak tassels while allowing maximum water throughput into the trough.
           </p>
-          <div className="flex items-center gap-2 text-xs font-bold text-slate-800 pt-1">
-            <ShieldCheck className="w-4 h-4 text-brand-green" />
-            <span>Zero Roof Shingle Contact — Preserves 100% of GAF, CertainTeed & Owens Corning Warranty</span>
-          </div>
         </div>
+
       </div>
     </section>
   );

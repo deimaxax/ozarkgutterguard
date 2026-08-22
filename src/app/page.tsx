@@ -27,10 +27,10 @@ export default function HomePage() {
         {/* 3. Hero & Instant Sizing / Quote Estimator */}
         <HeroSection />
 
-        {/* 4. $149 Diagnostic Cleanout & 21-Point Roofline Audit Banner */}
+        {/* 4. Complete Cleanout Banner */}
         <GutterCleaningBanner />
 
-        {/* 5. 3 Core System Pillars + 0% Financing */}
+        {/* 5. 3 Core System Pillars */}
         <SystemicScopeSection />
 
         {/* 6. Clean Specifications Comparison Table */}
@@ -39,23 +39,16 @@ export default function HomePage() {
         {/* 7. Field Case Studies & Physical Workmanship Proof */}
         <BeforeAfterGallery />
 
-        {/* 8. Interactive NWA Storm Runoff & Soil Risk Calculator */}
-        <section className="py-14 bg-slate-50 border-b border-slate-200">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <NwaStormLookup initialCity="Bentonville" />
-          </div>
-        </section>
-
-        {/* 9. Verified NWA Homeowner Reviews */}
+        {/* 8. Verified NWA Homeowner Reviews */}
         <TestimonialsSection />
 
-        {/* 10. Regional Coverage Strip */}
+        {/* 9. Regional Coverage Strip */}
         <CitySilosSection />
 
-        {/* 11. Municipal Building Department & Stormwater Drainage Compliance */}
+        {/* 10. Municipal Building Department & Stormwater Drainage Compliance */}
         <MunicipalPermitSection cityName="Bentonville" />
 
-        {/* 12. FAQ Accordion */}
+        {/* 11. FAQ Accordion */}
         <FaqSection />
       </main>
 

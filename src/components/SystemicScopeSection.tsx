@@ -1,36 +1,37 @@
 import React from 'react';
-import { ShieldCheck, Ruler, Layers, ArrowRight, Check } from 'lucide-react';
+import { ShieldCheck, Ruler, Layers, Check } from 'lucide-react';
 
 export default function SystemicScopeSection() {
   const pillars = [
     {
       icon: Ruler,
-      title: "Laser Slope Pitch & Rafter Fastening",
-      detail: "We correct sagging low spots with laser levels and replace loose spike nails with heavy-duty zinc rafter screws to handle heavy Ozark snow and ice loads."
+      title: "1. Pitch Correction & Realignment",
+      detail: "We check and fix low spots, re-align slope for proper drainage, and reinforce gutters to the fascia with heavy-duty screws to handle heavy Ozark rain and winter ice."
     },
     {
       icon: Layers,
-      title: "316 Surgical Marine Micro-Mesh",
-      detail: "440-micron surgical stainless steel mesh blocks 100% of pine needles, shingle grit, and oak tassels while siphoning up to 150 inches of rainfall per hour."
+      title: "2. 316 Surgical Stainless Micro-Mesh",
+      detail: "Ultra-fine surgical stainless steel mesh keeps out pine needles, oak tassels, and roof shingle granules while easily handling heavy Northwest Arkansas downpours."
     },
     {
       icon: ShieldCheck,
-      title: "100% Shingle-Safe Fascia Mounting",
-      detail: "Secured directly to the gutter lip and fascia board. We never slide guards under roof shingles or risk voiding manufacturer roof warranties."
+      title: "3. Fascia Mounting (Protects Shingles)",
+      detail: "Mounted directly to the gutter lip and fascia board. We never slide guards under shingles, protecting your roof manufacturer warranty 100%."
     }
   ];
 
   return (
-    <section id="process" className="py-12 sm:py-16 bg-white border-b border-slate-200">
+    <section id="process" className="py-14 sm:py-18 bg-white border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-8">
-          <h2 className="text-2xl sm:text-3xl font-black text-brand-navy tracking-tight">
+        <div className="max-w-3xl mb-10">
+          <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider block mb-1">Our Process</span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
             How The Ozark Micro-Mesh System Works
           </h2>
-          <p className="text-sm text-slate-600 mt-1 font-normal">
-            Most gutter guards fail because they are installed over unpitched, sagging troughs. Every installation includes full drainage re-engineering:
+          <p className="text-sm sm:text-base text-slate-600 mt-2 font-normal leading-relaxed">
+            Most gutter guards fail because they are installed over dirty, unpitched, sagging gutters. Every installation includes full realignment and cleaning standard:
           </p>
         </div>
 
@@ -41,23 +42,23 @@ export default function SystemicScopeSection() {
             return (
               <div
                 key={idx}
-                className="bg-slate-50 border border-slate-200 p-5 rounded-lg flex flex-col justify-between space-y-3"
+                className="bg-slate-50 border border-slate-200 p-6 rounded-xl flex flex-col justify-between space-y-4 shadow-xs"
               >
                 <div>
-                  <div className="w-9 h-9 rounded-lg bg-emerald-50 text-brand-green border border-emerald-200 flex items-center justify-center mb-3">
+                  <div className="w-10 h-10 rounded-lg bg-white text-emerald-700 border border-slate-200 flex items-center justify-center mb-4 shadow-2xs">
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="font-bold text-base text-slate-900 leading-snug">
+                  <h3 className="font-bold text-base sm:text-lg text-slate-900 leading-snug">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed mt-2 font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mt-2.5 font-normal">
                     {item.detail}
                   </p>
                 </div>
 
-                <div className="pt-2 border-t border-slate-200 text-xs text-brand-green font-bold flex items-center gap-1">
-                  <Check className="w-3.5 h-3.5 stroke-[3]" />
-                  <span>Included Standard on Every Job</span>
+                <div className="pt-3 border-t border-slate-200/80 text-xs text-emerald-700 font-semibold flex items-center gap-1.5">
+                  <Check className="w-4 h-4" />
+                  <span>Included on Every Job</span>
                 </div>
               </div>
             );
@@ -65,21 +66,21 @@ export default function SystemicScopeSection() {
         </div>
 
         {/* Financing Banner */}
-        <div className="mt-8 p-5 sm:p-6 rounded-lg bg-brand-navy text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
-          <div className="space-y-0.5 text-center sm:text-left">
-            <h3 className="text-lg sm:text-xl font-bold">
-              Financing Starting at <span className="text-emerald-400 font-black">$48/Month</span> (0% APR for 12 Months)
+        <div className="mt-10 p-6 rounded-xl bg-slate-900 text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+          <div className="space-y-1 text-center sm:text-left">
+            <h3 className="text-base sm:text-lg font-bold">
+              Affordable Monthly Financing Available
             </h3>
-            <p className="text-xs text-slate-300 font-normal">
-              No money down. Instant 60-second digital pre-approval with zero credit score impact.
+            <p className="text-xs sm:text-sm text-slate-300 font-normal">
+              Plans starting around $48/month with 0% APR options. Easy pre-qualification with no credit score impact.
             </p>
           </div>
 
           <a
             href="#estimate-section"
-            className="btn-contractor-green px-5 py-2.5 text-xs font-bold shrink-0"
+            className="bg-emerald-700 hover:bg-emerald-800 text-white px-5 py-2.5 rounded-lg text-xs sm:text-sm font-bold shrink-0 transition-colors"
           >
-            Check Your Rate
+            Get Free Estimate
           </a>
         </div>
 
