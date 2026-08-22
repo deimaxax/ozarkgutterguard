@@ -51,16 +51,27 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
               </div>
             </div>
 
-            {/* Single Unified Primary CTA (Zero-Friction Funnel) */}
-            <div className="space-y-2 pt-1">
-              <a
-                href="#estimate-form"
-                className="w-full sm:w-auto btn-contractor-primary min-h-[52px] px-8 py-3.5 text-base font-bold inline-flex items-center justify-center gap-2 shadow-sm transition"
-              >
-                <span>Calculate My Exact Price Range ↓</span>
-              </a>
+            {/* Action Bar & Trust */}
+            <div className="space-y-2.5 pt-1">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
+                <a
+                  href={phoneHref}
+                  className="btn-contractor-primary min-h-[48px] px-6 py-3 text-sm sm:text-base font-bold inline-flex items-center justify-center gap-2 shadow-xs transition"
+                >
+                  <Phone className="w-4 h-4 text-white" />
+                  <span>Call Direct: {phoneDisplay}</span>
+                </a>
+
+                {/* Mobile shortcut to form below */}
+                <a
+                  href="#estimate-form"
+                  className="lg:hidden text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 py-3 px-4 rounded-xl text-center transition border border-slate-200"
+                >
+                  Or Estimate Price Below ↓
+                </a>
+              </div>
               
-              <div className="flex items-center gap-2 text-xs text-slate-500 font-medium pt-1">
+              <div className="flex items-center gap-2 text-xs text-slate-500 font-medium pt-0.5">
                 <span className="text-amber-500 font-bold">★★★★★</span>
                 <span className="font-bold text-slate-700">4.9/5</span>
                 <span>•</span>

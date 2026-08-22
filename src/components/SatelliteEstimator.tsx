@@ -265,7 +265,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             type="submit"
             className="w-full btn-contractor-primary min-h-[50px] py-3 px-4 text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98] rounded-xl shadow-xs"
           >
-            <span>Calculate My Exact Price Range →</span>
+            <span>See My Instant Price Range →</span>
           </button>
 
           {/* Reassurance */}
