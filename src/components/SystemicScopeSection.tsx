@@ -1,21 +1,25 @@
 import React from 'react';
+import { Sparkles, ShieldCheck, Wrench } from 'lucide-react';
 
 export default function SystemicScopeSection() {
   const steps = [
     {
       number: "1",
-      title: "Clean & Re-Slope Your Gutters",
-      detail: "Before installing guards, we hand-clean all debris, flush your downspouts, and fix any sagging spots with heavy-duty hidden hangers so water drains properly."
+      title: "Full Cleanout & Laser Slope Tune-Up",
+      detail: "We never install guards over dirty gutters. We hand-clean every foot of sludge, flush downspouts, and correct sagging low spots so rainwater drains perfectly.",
+      highlight: "Pre-Installation Standard"
     },
     {
       number: "2",
-      title: "Fit Stainless Steel Micro-Mesh",
-      detail: "We install heavy-duty stainless steel mesh that blocks tiny oak tassels, pine needles, and roof grit while letting torrential rain flow straight into the trough."
+      title: "Surgical Stainless Steel Armor",
+      detail: "We fit medical-grade 316 stainless micro-mesh that stops fine pine needles and oak tassels dead in their tracks — while handling torrential Arkansas storms.",
+      highlight: "Zero Debris Infiltration"
     },
     {
       number: "3",
-      title: "Secure Fascia Mount (Zero Shingle Contact)",
-      detail: "We screw directly to the gutter lip and fascia board. We never slide brackets under your shingles, keeping your roof manufacturer warranty 100% safe."
+      title: "100% Shingle-Safe Fascia Fastening",
+      detail: "We screw directly into your gutter lip and fascia board. Zero brackets slide under your shingles, keeping your manufacturer roof warranty 100% intact.",
+      highlight: "Roof Warranty Protected"
     }
   ];
 
@@ -26,28 +30,28 @@ export default function SystemicScopeSection() {
         {/* Section Header */}
         <div className="max-w-3xl mb-12 space-y-2">
           <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
-            Our Installation Process
+            Craftsmanship Standard
           </span>
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-            How We Protect Your Home
+          <h2 className="text-2xl sm:text-4xl font-black text-[#0F172A] tracking-tight">
+            The 3-Step Installation Done Right
           </h2>
-          <p className="text-base text-slate-600 leading-relaxed font-normal">
-            Most gutter guards fail because they are installed over dirty, sagging gutters. Every Ozark installation includes complete gutter tune-up and cleaning standard:
+          <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+            Most gutter guards fail because they’re slapped over dirty, sagging gutters. Here’s how our local crew prepares and protects every single roofline:
           </p>
         </div>
 
-        {/* 3 Clean Steps Grid */}
+        {/* 3 Steps Grid with Varied, Authentic Highlights */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {steps.map((item, idx) => (
             <div
               key={idx}
-              className="bg-[#F8F9FA] rounded-2xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-between space-y-5 shadow-xs"
+              className="bg-[#F8F9FA] rounded-2xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-between space-y-6 shadow-xs hover:border-slate-300 transition"
             >
-              <div className="space-y-3">
-                <div className="w-8 h-8 rounded-full bg-slate-900 text-white font-bold text-sm flex items-center justify-center">
+              <div className="space-y-3.5">
+                <div className="w-9 h-9 rounded-xl bg-slate-950 text-white font-black text-sm flex items-center justify-center shadow-xs">
                   {item.number}
                 </div>
-                <h3 className="font-bold text-lg text-[#0F172A] tracking-tight leading-snug">
+                <h3 className="font-bold text-lg sm:text-xl text-[#0F172A] tracking-tight leading-snug">
                   {item.title}
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed font-normal">
@@ -55,8 +59,9 @@ export default function SystemicScopeSection() {
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-slate-200 text-xs font-semibold text-[#1D4ED8]">
-                Included on Every Job
+              <div className="pt-4 border-t border-slate-200 flex items-center gap-2 text-xs font-bold text-[#1D4ED8]">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#1D4ED8]"></span>
+                <span>{item.highlight}</span>
               </div>
             </div>
           ))}
