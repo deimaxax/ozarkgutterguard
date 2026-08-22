@@ -8,6 +8,7 @@ import { CITIES_DATA } from '@/data/cities';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';
 import SatelliteEstimator from '@/components/SatelliteEstimator';
 import CommercialQuoteForm from '@/components/CommercialQuoteForm';
+import Header from '@/components/Header';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
 import CitySiloTemplate from '@/components/CitySiloTemplate';
 import LocalCaseStudyCard from '@/components/LocalCaseStudyCard';
@@ -131,6 +132,25 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   };
   const seasonalEvent = SEASONAL_EVENTS[page.slug];
 
+  const isFasciaOrRepair = 
+    page.slug.includes('fascia') || 
+    page.slug.includes('soffit') || 
+    page.slug.includes('repair') || 
+    page.slug.includes('rot') || 
+    page.slug.includes('leak') ||
+    page.slug.includes('sagging');
+
+  const isCleaning = 
+    page.slug.includes('clean') || 
+    page.slug.includes('drain') || 
+    page.slug.includes('jetting') || 
+    page.slug.includes('unclog');
+
+  const isInstallation = 
+    page.slug.includes('install') || 
+    page.slug.includes('seamless') || 
+    page.slug.includes('replacement');
+
   const isCommercial = 
     page.slug.includes('commercial') || 
     page.slug.includes('property-management') || 
@@ -141,12 +161,21 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   // AUTOMATED DOM ENTROPY & ARCHETYPE ROTATION ENGINE (ALL 1,100+ PAGES)
   // Deterministic FNV-1a hash mapping ensuring wide structural diversity across all routes
   // =========================================================================
-  type LayoutArchetype = 'pine_mountain' | 'historic_oak' | 'hoa_subdivision' | 'flash_storm' | 'commercial';
+  type LayoutArchetype = 
+    | 'fascia_repair' 
+    | 'gutter_cleaning' 
+    | 'gutter_installation' 
+    | 'commercial' 
+    | 'pine_mountain' 
+    | 'historic_oak' 
+    | 'hoa_subdivision' 
+    | 'flash_storm';
 
   const determineArchetype = (): LayoutArchetype => {
-    if (isCommercial) {
-      return 'commercial';
-    }
+    if (isCommercial) return 'commercial';
+    if (isFasciaOrRepair) return 'fascia_repair';
+    if (isCleaning) return 'gutter_cleaning';
+    if (isInstallation) return 'gutter_installation';
     const s = (page.slug + ' ' + (page.city || '')).toLowerCase();
     if (s.includes('bella-vista') || s.includes('72714') || s.includes('72715') || s.includes('loch-lomond') || s.includes('scotsdale') || s.includes('pine') || s.includes('lake') || s.includes('beaver')) {
       return 'pine_mountain';
@@ -196,51 +225,8 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         }}
       />
 
-      {/* Top Notification Bar with Local Click-to-Call */}
-      <div className="bg-slate-950 text-slate-200 py-2.5 px-4 text-xs sm:text-sm border-b border-slate-800">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="flex items-center gap-2">
-            <span className="flex text-amber-400">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3.5 h-3.5 fill-current" />
-              ))}
-            </span>
-            <span className="font-semibold text-white">5.0 Star Rated Northwest Arkansas Gutter Armor Crew</span>
-          </div>
-          <a 
-            href={phoneHref} 
-            className="flex items-center gap-1.5 font-bold text-orange-400 hover:text-orange-300 transition-colors"
-          >
-            <Phone className="w-3.5 h-3.5" />
-            <span>{phoneDisplay}</span>
-          </a>
-        </div>
-      </div>
-
-      {/* Header */}
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <Link href="/" className="font-black text-xl tracking-tight text-slate-900 flex items-center gap-2">
-            <ShieldCheck className="w-7 h-7 text-orange-600" />
-            <span>OZARK <span className="text-slate-500 font-light text-base">GUTTER GUARD CO.</span></span>
-          </Link>
-          <div className="flex items-center gap-4">
-            <a
-              href={phoneHref}
-              className="hidden md:flex items-center gap-2 font-bold text-slate-800 hover:text-orange-600 transition"
-            >
-              <Phone className="w-4 h-4 text-orange-600" />
-              <span>{phoneDisplay}</span>
-            </a>
-            <a
-              href="#estimate-form"
-              className="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition shadow-md hover:shadow-lg"
-            >
-              Instant 90-Sec Quote
-            </a>
-          </div>
-        </div>
-      </header>
+      {/* Official Site Header with Logo, Navigation & Call Button */}
+      <Header />
 
       {/* Breadcrumb Rich Navigation */}
       <nav aria-label="Breadcrumb" className="max-w-6xl mx-auto px-4 pt-4 text-xs text-slate-500 flex items-center gap-1.5">
@@ -252,6 +238,240 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         <ChevronRight className="w-3 h-3" />
         <span className="text-slate-900 font-bold capitalize">{page.slug.replace(/-/g, ' ')}</span>
       </nav>
+
+      {/* =========================================================================
+          ARCHETYPE: FASCIA, SOFFIT & STRUCTURAL WOOD REPAIR
+          ========================================================================= */}
+      {archetype === 'fascia_repair' && (
+        <>
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#0F1E36] text-white text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>{page.badge || 'NWA Fascia & Soffit Repair'} · Carpentry &amp; Alignment</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Board Material</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Rot-Proof PVC Trim</span>
+                      <span className="text-[11px] text-slate-600 block">Never rots or decays</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Fastening Standard</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">1.5" Zinc Screws</span>
+                      <span className="text-[11px] text-slate-600 block">Solid rafter tail hold</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Slope Realignment</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Laser Pitch Tuning</span>
+                      <span className="text-[11px] text-slate-600 block">Zero pooling or overflow</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || 'Bentonville'} />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Fascia & Wood Rot Damage Inspection Tool */}
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
+            <div className="max-w-4xl mx-auto px-4">
+              <StormDamageVerifier initialCity={page.city || 'Bentonville'} />
+            </div>
+          </section>
+
+          {/* Fascia Diagnostic Breakdown */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
+                  Carpentry &amp; Drainage Diagnostics
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  {page.painPointTitle}
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-900 text-[10px] font-mono font-bold uppercase">
+                      Fascia Diagnostic 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
+      {/* =========================================================================
+          ARCHETYPE: GUTTER CLEANING & DOWNSPOUT FLUSHING
+          ========================================================================= */}
+      {archetype === 'gutter_cleaning' && (
+        <>
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#0F1E36] text-white text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>{page.badge || 'NWA Gutter Cleaning & Flushing'} · Complete Cleanout</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Cleanout Standard</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Hand Extraction</span>
+                      <span className="text-[11px] text-slate-600 block">All sludge & debris bagged</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Downspout Service</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Hydro-Jet Flush</span>
+                      <span className="text-[11px] text-slate-600 block">Underground line snaking</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Cleanup Standard</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Magnetic Sweep</span>
+                      <span className="text-[11px] text-slate-600 block">100% spotless yard</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || 'Bentonville'} />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Storm Lookup & Runoff Tool */}
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
+            <div className="max-w-4xl mx-auto px-4">
+              <NwaStormLookup initialCity={page.city || 'Bentonville'} />
+            </div>
+          </section>
+
+          {/* Cleanout Diagnostic Breakdown */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
+                  Drainage Failure Analysis
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  {page.painPointTitle}
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-blue-100 text-blue-900 text-[10px] font-mono font-bold uppercase">
+                      Drainage Factor 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
+      {/* =========================================================================
+          ARCHETYPE: SEAMLESS GUTTER INSTALLATION & REPLACEMENT
+          ========================================================================= */}
+      {archetype === 'gutter_installation' && (
+        <>
+          <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid lg:grid-cols-12 gap-8 items-center">
+                <div className="lg:col-span-7 space-y-5">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-[#0F1E36] text-white text-xs font-bold uppercase tracking-wider">
+                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>{page.badge || 'NWA Seamless Gutter Installation'} · Custom Fabrication</span>
+                  </div>
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
+                    {page.h1}
+                  </h1>
+                  <p className="text-base text-slate-600 leading-relaxed font-normal">
+                    {page.subheadline}
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Fabrication</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Custom Roll-Formed</span>
+                      <span className="text-[11px] text-slate-600 block">Seamless single-run aluminum</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Mounting Standard</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">Hidden Hangers / 24"</span>
+                      <span className="text-[11px] text-slate-600 block">Heavy snow & wind rated</span>
+                    </div>
+                    <div className="bg-slate-50 border border-slate-200 p-3.5 rounded-xl">
+                      <span className="text-[10px] uppercase font-bold text-slate-500 block">Sizing Profiles</span>
+                      <span className="text-sm font-black text-[#0F1E36] block">5" &amp; 6" High-Flow</span>
+                      <span className="text-[11px] text-slate-600 block">Handles 2"+ per hr storms</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="estimate-form" className="lg:col-span-5">
+                  <SatelliteEstimator initialCity={page.city || 'Bentonville'} />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Hydraulic Throughput Engine Tool */}
+          <section className="py-12 bg-slate-50 border-b border-slate-200">
+            <div className="max-w-4xl mx-auto px-4">
+              <HydraulicGutterThroughput initialCity={page.city || 'Bentonville'} />
+            </div>
+          </section>
+
+          {/* Installation Diagnostic Breakdown */}
+          <section className="py-12 bg-white border-b border-slate-200">
+            <div className="max-w-6xl mx-auto px-4 space-y-6">
+              <div className="text-center max-w-2xl mx-auto">
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
+                  Seamless Engineering Specs
+                </span>
+                <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
+                  {page.painPointTitle}
+                </h2>
+              </div>
+              <div className="grid md:grid-cols-3 gap-5">
+                {page.painPoints.map((point, index) => (
+                  <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
+                    <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-900 text-[10px] font-mono font-bold uppercase">
+                      Installation Spec 0{index + 1}
+                    </span>
+                    <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">{point.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
 
       {/* =========================================================================
           ARCHETYPE A: MOUNTAIN & LAKE PINE NEEDLE FORTRESS (DOM Structure Variant 1)
