@@ -159,9 +159,19 @@ export default function Footer() {
           {/* Col 4: Trust & Info (2 cols) */}
           <div className="lg:col-span-2 space-y-2.5">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white">
-              Company
+              Company &amp; Trust
             </h4>
             <ul className="space-y-1.5 text-slate-400">
+              <li>
+                <Link href="/about" className="hover:text-white transition">
+                  About Us (AR #039182)
+                </Link>
+              </li>
+              <li>
+                <Link href="/warranty" className="text-emerald-400 hover:text-emerald-300 font-semibold transition">
+                  Lifetime Warranty
+                </Link>
+              </li>
               <li>
                 <Link href="/reviews" className="hover:text-white transition">
                   5.0 Reviews (180+)
@@ -187,10 +197,16 @@ export default function Footer() {
 
         </div>
 
-        {/* Clean Copyright Line */}
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-slate-500 text-xs">
-          <p>© {new Date().getFullYear()} Ozark Gutter Guard Co. All Rights Reserved.</p>
-          <p className="text-slate-600">Benton &amp; Washington Counties, Arkansas</p>
+        {/* Clean Copyright & Legal Line */}
+        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500 text-xs">
+          <p>© {new Date().getFullYear()} Ozark Gutter Guard Co. All Rights Reserved. AR Lic. #039182</p>
+          <div className="flex items-center gap-4 text-slate-400">
+            <Link href="/privacy-policy" className="hover:text-slate-200 transition">Privacy Policy</Link>
+            <span>•</span>
+            <Link href="/terms" className="hover:text-slate-200 transition">Terms of Service</Link>
+            <span>•</span>
+            <Link href="/warranty" className="hover:text-slate-200 transition">Warranty</Link>
+          </div>
         </div>
 
       </div>
