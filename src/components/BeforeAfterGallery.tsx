@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { MapPin, ArrowRight, Check } from 'lucide-react';
+import { MapPin, ArrowRight } from 'lucide-react';
 import { TAGGED_PROJECT_PHOTOS } from '@/data/taggedProjectPhotos';
 
 export default function BeforeAfterGallery() {
@@ -14,18 +14,20 @@ export default function BeforeAfterGallery() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div className="max-w-3xl space-y-2">
-            <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">Field Documentation</span>
+            <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
+              Recent Work
+            </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-              Real Northwest Arkansas Installations
+              Real Installations in Northwest Arkansas
             </h2>
             <p className="text-base text-slate-600 font-normal leading-relaxed">
-              Before and after photographic evidence from recent installations and cleanouts across Benton and Washington counties:
+              Photos from recent gutter guard installations and cleanouts across Benton and Washington counties:
             </p>
           </div>
 
           <Link
             href="/before-after-photos"
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs rounded-lg transition self-start md:self-auto shadow-sm"
+            className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs rounded-lg transition self-start md:self-auto shadow-xs"
           >
             <span>View All Photos</span>
             <ArrowRight className="w-4 h-4" />
@@ -33,11 +35,11 @@ export default function BeforeAfterGallery() {
         </div>
 
         {/* Split Screen Image Banner */}
-        <div className="border border-slate-200 rounded-2xl bg-white overflow-hidden shadow-sm">
+        <div className="border border-slate-200 rounded-2xl bg-white overflow-hidden shadow-xs">
           <div className="relative h-64 sm:h-96 w-full bg-slate-100">
             <Image
               src="/images/gutter_before_after.jpg"
-              alt="Split screen comparison: Clogged pine needles vs 316 surgical micro-mesh in Bella Vista, AR"
+              alt="Clogged gutters vs stainless steel micro-mesh in Bella Vista, AR"
               fill
               className="object-cover"
             />
@@ -45,57 +47,46 @@ export default function BeforeAfterGallery() {
           <div className="p-4 bg-slate-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs font-medium">
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-[#1D4ED8]" />
-              <span>Bella Vista Job: Loblolly Pine Needle Heavy Canopy</span>
+              <span>Bella Vista Job: Heavy Pine Needle Protection</span>
             </div>
             <div className="flex gap-4 text-xs font-semibold">
-              <span className="text-rose-400">BEFORE: Clogged Sagging Gutter</span>
-              <span className="text-blue-400">AFTER: 50-Micron 316 Mesh</span>
+              <span className="text-rose-400">BEFORE: Clogged &amp; Sagging</span>
+              <span className="text-blue-400">AFTER: Clean &amp; Guarded</span>
             </div>
           </div>
         </div>
 
-        {/* Project Case Studies 4-Grid with Editorial Styling */}
+        {/* 4 Job Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {featuredPhotos.map((photo) => (
             <div
               key={photo.id}
-              className="border border-slate-200 bg-white p-4 rounded-xl space-y-3 flex flex-col justify-between shadow-xs hover:border-slate-300 transition"
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden flex flex-col justify-between shadow-xs"
             >
-              <div className="space-y-2">
-                <div className="relative h-36 w-full border border-slate-100 rounded-lg overflow-hidden bg-slate-100">
-                  <Image
-                    src={photo.src}
-                    alt={photo.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <span className="absolute top-2 left-2 bg-slate-900 text-white text-[10px] font-semibold uppercase px-2 py-0.5 rounded">
-                    {photo.city}
-                  </span>
-                </div>
-
-                <div className="flex justify-between items-baseline pt-1">
-                  <h3 className="font-bold text-slate-900 text-xs line-clamp-1">{photo.title}</h3>
-                </div>
-
-                <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
-                  {photo.caption}
-                </p>
-
-                <div className="flex flex-wrap gap-1 pt-1">
-                  {photo.tags.slice(0, 3).map((tag) => (
-                    <span key={tag} className="px-1.5 py-0.5 bg-[#F8F9FA] border border-slate-200 text-slate-600 text-[10px] font-medium rounded">
-                      #{tag}
-                    </span>
-                  ))}
+              <div className="relative h-44 w-full bg-slate-100">
+                <Image
+                  src={photo.src}
+                  alt={photo.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
+                <div className="absolute top-2.5 left-2.5 bg-slate-900/90 backdrop-blur-xs text-white text-[10px] font-bold px-2.5 py-1 rounded-md">
+                  {photo.city}, AR
                 </div>
               </div>
 
-              <div className="pt-2.5 border-t border-slate-100 flex items-center justify-between text-xs font-medium">
-                <span className="text-[#1D4ED8] flex items-center gap-1 font-semibold">
-                  <span>✓ Verified Install</span>
-                </span>
-                <span className="text-slate-500">{photo.specs.flowRateTested || '150 in/hr'}</span>
+              <div className="p-4 space-y-2">
+                <h3 className="font-bold text-slate-900 text-sm leading-snug line-clamp-2">
+                  {photo.title}
+                </h3>
+                <p className="text-xs text-slate-500 line-clamp-2 font-normal">
+                  {photo.caption}
+                </p>
+              </div>
+
+              <div className="px-4 pb-3.5 pt-1 text-[11px] font-semibold text-emerald-700">
+                ✓ Verified Local Installation
               </div>
             </div>
           ))}

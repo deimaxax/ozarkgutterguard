@@ -90,15 +90,3 @@ export default function FaqSection({ onOpenQuote }: FaqSectionProps) {
     </section>
   );
 }
-          <a
-            href={phoneHref}
-            className="btn-contractor-amber px-5 py-3 text-xs sm:text-sm font-black shrink-0 flex items-center gap-2"
-          >
-            <Phone className="w-4 h-4" />
-            <span>Call: {phoneDisplay}</span>
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-}
