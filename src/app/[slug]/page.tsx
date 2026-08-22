@@ -17,6 +17,7 @@ import TreeCanopyClogCalculator from '@/components/TreeCanopyClogCalculator';
 import HydraulicGutterThroughput from '@/components/HydraulicGutterThroughput';
 import HOAComplianceCheck from '@/components/HOAComplianceCheck';
 import { getCaseStudiesForCity } from '@/data/caseStudies';
+import { resolveProgrammaticAuthority } from '@/lib/programmaticEngine';
 import { 
   ShieldCheck, 
   Phone, 
@@ -107,12 +108,12 @@ export default async function DynamicSeoPage({ params }: PageProps) {
     (p) => p.cluster !== 'location' && p.slug !== page.slug
   ).slice(0, 4);
 
-  const cityKey = page.city?.toLowerCase().replace(/\s+/g, '-') ?? '';
+  const authVector = resolveProgrammaticAuthority(page.slug, page.city);
+  const cityKey = (page.city || authVector.resolvedCity).toLowerCase().replace(/\s+/g, '-') ?? '';
   const cityData = CITIES_DATA[cityKey.replace(/-/g, '')] || CITIES_DATA[cityKey];
-  const postalCodes = cityData?.postalCodes;
-  const installationLogs = INSTALLATION_LOGS[cityKey] ?? INSTALLATION_LOGS['bentonville'] ?? [];
-  const rawCaseStudies = page.city ? getCaseStudiesForCity(page.city) : [];
-  const cityCaseStudies = rawCaseStudies.length > 0 ? rawCaseStudies : getCaseStudiesForCity('Bentonville');
+  const postalCodes = cityData?.postalCodes || [authVector.postalCode];
+  const installationLogs = authVector.installationLogs;
+  const cityCaseStudies = [authVector.caseStudy];
 
   // Serve the full rich CitySiloTemplate ONLY for the main city guard hub slugs
   if (cityData && page.slug === cityData.slug) {
@@ -128,8 +129,8 @@ export default async function DynamicSeoPage({ params }: PageProps) {
   const seasonalEvent = SEASONAL_EVENTS[page.slug];
 
   // =========================================================================
-  // DOM ENTROPY & ARCHETYPE ROTATION ENGINE
-  // Eliminates Template Fingerprinting by mapping each slug/city to 1 of 4 distinct DOM architectures
+  // AUTOMATED DOM ENTROPY & ARCHETYPE ROTATION ENGINE (ALL 1,100+ PAGES)
+  // Deterministic FNV-1a hash mapping ensuring wide structural diversity across all routes
   // =========================================================================
   type LayoutArchetype = 'pine_mountain' | 'historic_oak' | 'hoa_subdivision' | 'flash_storm';
 
@@ -144,7 +145,12 @@ export default async function DynamicSeoPage({ params }: PageProps) {
     if (s.includes('pinnacle') || s.includes('shadow-valley') || s.includes('72713') || s.includes('centerton') || s.includes('72719') || s.includes('har-ber') || s.includes('cave-springs') || s.includes('hoa') || s.includes('subdivision')) {
       return 'hoa_subdivision';
     }
-    return 'flash_storm';
+    if (s.includes('springdale') || s.includes('lowell') || s.includes('siloam') || s.includes('72761') || s.includes('72762') || s.includes('72764')) {
+      return 'flash_storm';
+    }
+    // Morph rotation based on hash pattern for any remaining generic/long-tail query
+    const patterns: LayoutArchetype[] = ['pine_mountain', 'historic_oak', 'hoa_subdivision', 'flash_storm'];
+    return patterns[authVector.morphPattern];
   };
 
   const archetype = determineArchetype();
@@ -1115,7 +1121,11 @@ export default async function DynamicSeoPage({ params }: PageProps) {
       {/* INTERACTIVE NWA NOAA STORM DAMAGE & DRAINAGE VERIFIER */}
       <section className="py-14 bg-white border-t border-slate-200">
         <div className="max-w-4xl mx-auto px-4">
-          <StormDamageVerifier initialCity={page.city || 'Bentonville'} />
+          <StormDamageVerifier 
+            initialCity={authVector.resolvedCity} 
+            initialZip={authVector.postalCode} 
+            stormData={authVector.stormData} 
+          />
         </div>
       </section>
 
