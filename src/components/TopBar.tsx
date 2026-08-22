@@ -11,32 +11,23 @@ export default function TopBar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center text-[11px] sm:text-xs">
         
         {/* Left: Local Owner & Star Rating */}
-        <div className="flex items-center gap-2 sm:gap-3">
-          <span className="inline-flex items-center gap-1 font-bold text-slate-200">
+        <div className="flex items-center gap-2">
+          <span className="font-bold text-white flex items-center gap-1 text-[11px]">
             <span>🇺🇸</span>
-            <span className="text-white font-semibold">100% NWA Locally Owned</span>
+            <span>Bentonville, AR</span>
           </span>
-          <span className="text-slate-600 hidden sm:inline">•</span>
-          <div className="hidden sm:flex items-center gap-1 text-slate-300 font-medium">
-            <span className="flex text-amber-400">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-3 h-3 fill-amber-400 text-amber-400" />
-              ))}
-            </span>
-            <span>5.0 (180+ Local Reviews)</span>
-          </div>
+          <span className="text-slate-500">•</span>
+          <span className="text-slate-300 text-[11px]">Lic. #039182</span>
         </div>
 
-        {/* Right: Phone & License */}
-        <div className="flex items-center gap-3">
-          <span className="text-slate-400 hidden md:inline">AR Lic. #039182</span>
-          <span className="text-slate-600 hidden md:inline">•</span>
+        {/* Right: Phone */}
+        <div className="flex items-center gap-2">
           <a
             href={phoneHref}
-            className="text-red-400 hover:text-red-300 font-bold transition-colors inline-flex items-center gap-1"
+            className="text-red-400 hover:text-red-300 font-bold transition-colors inline-flex items-center gap-1 text-xs"
           >
             <Phone className="w-3 h-3" />
-            <span>Call Local Dispatch: {phoneDisplay}</span>
+            <span>{phoneDisplay}</span>
           </a>
         </div>
 
