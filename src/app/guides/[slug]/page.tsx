@@ -7,6 +7,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StickyMobileBar from '@/components/StickyMobileBar';
 import { GUIDES_DATA, getGuide } from '@/data/guides/_index';
+import { generateGuideSchema } from '@/lib/generateGuideSchema';
+import GuideConversionBlock from '@/components/GuideConversionBlock';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -130,19 +132,17 @@ export default async function GuidePage({ params }: Props) {
     ],
   };
 
+  const fullGraphSchema = generateGuideSchema(guide);
+
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(fullGraphSchema) }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <TopBar />
@@ -219,6 +219,9 @@ export default async function GuidePage({ params }: Props) {
                 <div>{renderBody(section.body)}</div>
               </section>
             ))}
+
+            {/* Homeowner Translation Bridge & Dual Conversion Block */}
+            <GuideConversionBlock guideTitle={guide.title} ctaText={guide.ctaText} />
           </div>
         </article>
 
