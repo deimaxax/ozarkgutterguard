@@ -679,54 +679,53 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </p>
         </article>
 
-        {/* NWA LOCAL AUTHORITY BLOCK — E-E-A-T ground-truth proof, renders on every seoPages page */}
-        <div className="bg-slate-950 text-white rounded-2xl p-6 sm:p-10 space-y-6">
+        {/* NWA LOCAL AUTHORITY BLOCK — High Contrast, Clean Readable Design */}
+        <div className="bg-[#0F1E36] text-white rounded-2xl p-6 sm:p-10 space-y-6 shadow-md border border-[#183059]">
           <div className="space-y-2">
-            <span className="text-xs font-black uppercase tracking-wider text-emerald-400 block">
-              Ozark Ground-Truth Operations — Benton &amp; Washington Counties
+            <span className="text-xs font-bold uppercase tracking-wider text-red-400 block">
+              Northwest Arkansas Weather &amp; Tree Foliage Factors
             </span>
-            <h3 className="text-xl sm:text-2xl font-black tracking-tight">
-              Why Northwest Arkansas Rooflines Demand Surgical-Grade Protection
+            <h3 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
+              Why Northwest Arkansas Rooflines Need Heavy-Duty Micro-Mesh
             </h3>
           </div>
-          <p className="text-sm text-slate-300 leading-relaxed">
-            Benton County and Washington County average <strong className="text-white">47.5 inches of rainfall per year</strong> — 25% above the U.S. national average. Peak storm intensity hits March through May during Ozark tornado season and again in October–November, with flash events routinely exceeding 2 inches per hour on the Ozark Plateau. Standard 5-inch gutters fitted with cheap $2/ft retail plastic guards overflow within minutes under these conditions, dumping thousands of gallons directly against foundation footings built on Arkansas&apos;s expansive Vertisol clay soils. One inch of rain on a 2,000 sq. ft. roof generates over 1,200 gallons. That water has to go somewhere — and without surgical-grade 50-micron micro-mesh, it goes into your foundation.
+          <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-normal">
+            Benton and Washington Counties average <strong className="text-white font-bold">47.5 inches of rainfall per year</strong> — well above the national average. Peak storm volume hits during spring thunderstorms and fall rains, with torrential downpours frequently dumping inches of rain in under an hour. Standard gutters fitted with cheap plastic screens clog quickly with pine needles and oak catkins, causing overflowing water to pool around foundation footings. A single heavy storm on a 2,000 sq. ft. roof produces over 1,200 gallons of runoff. Our marine-grade 316 stainless micro-mesh keeps water flowing freely while blocking 100% of organic debris.
           </p>
 
-          {/* Tree species threat grid by city */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 text-xs">
+          {/* Tree species threat grid by city — High Contrast Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 pt-2">
             {([
-              { city: 'Bentonville', threat: 'Post Oak & Sweetgum Catkins — concrete-like spring sludge', zip: '72712–72716' },
-              { city: 'Bella Vista', threat: 'Loblolly & Shortleaf Pine Needles — pierce all slotted screens', zip: '72714–72715' },
-              { city: 'Rogers', threat: 'Silver Maple Helicopters + Beaver Lake humidity & mold', zip: '72756–72758' },
-              { city: 'Fayetteville', threat: 'Old-Growth Sugar Maple & Heritage White Oak heavy debris', zip: '72701–72704' },
-              { city: 'Springdale', threat: 'Pin Oak, River Birch & abrasive asphalt shingle grit', zip: '72762–72766' },
+              { city: 'Bentonville', threat: 'Post Oak & Sweetgum Catkins causing heavy spring sludge', zip: '72712, 72713' },
+              { city: 'Bella Vista', threat: 'Loblolly & Shortleaf Pine Needles piercing slotted screens', zip: '72714, 72715' },
+              { city: 'Rogers', threat: 'Silver Maple seed helicopters & heavy lake humidity', zip: '72756, 72758' },
+              { city: 'Fayetteville', threat: 'Old-Growth White Oak & Sugar Maple leaf drop', zip: '72701, 72703' },
+              { city: 'Springdale', threat: 'Pin Oak, River Birch & shingle grit washouts', zip: '72762, 72764' },
             ] as const).map((z) => (
-              <div key={z.city} className="bg-slate-800/70 border border-slate-700 rounded-xl p-3 space-y-1">
-                <span className="font-black text-white block">{z.city}</span>
-                <span className="text-slate-400 block leading-tight">{z.threat}</span>
-                <span className="text-orange-400 font-mono text-[10px] block">{z.zip}</span>
+              <div key={z.city} className="bg-[#183059] border border-[#243B53] rounded-xl p-3.5 space-y-1.5 shadow-xs">
+                <span className="font-bold text-white text-sm block">{z.city}</span>
+                <p className="text-slate-200 text-xs leading-relaxed font-normal">{z.threat}</p>
+                <span className="text-red-300 font-mono text-[11px] font-semibold block pt-1">{z.zip}</span>
               </div>
             ))}
           </div>
 
-          {/* Operational territory + rainfall data */}
-          <div className="border-t border-slate-800 pt-5 grid sm:grid-cols-3 gap-5 text-xs">
-            <div className="space-y-1">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block">Benton County Coverage</span>
-              <span className="text-white font-bold block">Primary Service Area</span>
-              <span className="text-slate-400 leading-relaxed block">Bentonville · Bella Vista · Rogers · Centerton · Cave Springs · Pea Ridge · Gravette · Lowell</span>
+          {/* Operational territory + rainfall data — High Contrast Specs */}
+          <div className="border-t border-[#183059] pt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-xs">
+            <div className="space-y-1 bg-[#183059]/60 p-4 rounded-xl border border-[#243B53]">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-red-300 block">Benton County Coverage</span>
+              <span className="text-white font-bold text-sm block">Primary Service Hub</span>
+              <p className="text-slate-200 leading-relaxed font-normal">Bentonville, Bella Vista, Rogers, Centerton, Cave Springs, Pea Ridge, Gravette &amp; Lowell</p>
             </div>
-            <div className="space-y-1">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block">Washington County Coverage</span>
-              <span className="text-white font-bold block">Secondary Service Area</span>
-              <span className="text-slate-400 leading-relaxed block">Fayetteville · Springdale · Farmington · Prairie Grove · Tontitown · Elkins · Siloam Springs</span>
+            <div className="space-y-1 bg-[#183059]/60 p-4 rounded-xl border border-[#243B53]">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-red-300 block">Washington County Coverage</span>
+              <span className="text-white font-bold text-sm block">Secondary Service Hub</span>
+              <p className="text-slate-200 leading-relaxed font-normal">Fayetteville, Springdale, Farmington, Prairie Grove, Tontitown, Elkins &amp; Siloam Springs</p>
             </div>
-            <div className="space-y-1">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 block">NOAA Annual Rainfall (NWA)</span>
+            <div className="space-y-1 bg-[#183059]/60 p-4 rounded-xl border border-[#243B53]">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-red-300 block">NOAA Annual Rainfall</span>
               <span className="text-white font-black text-3xl block">47.5&quot;</span>
-              <span className="text-slate-400 block">Per Year · Peak March–May · Flash Storms 2+ in/hr</span>
-              <span className="text-orange-400 font-bold block mt-1">Our mesh: 150 in/hr rated</span>
+              <p className="text-slate-200 font-normal">Per year in NWA • High-capacity water intake with zero overflow</p>
             </div>
           </div>
         </div>

@@ -166,7 +166,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
                   </div>
                   <div className="mt-4 pt-3 border-t border-slate-200 text-xs font-mono font-bold text-slate-900 flex items-center gap-1.5 uppercase">
                     <span className="text-amber-600 font-bold">✓</span>
-                    <span>Solved by 50-micron 316 surgical mesh</span>
+                    <span>Protected by 316 stainless micro-mesh</span>
                   </div>
                 </div>
               ))}
