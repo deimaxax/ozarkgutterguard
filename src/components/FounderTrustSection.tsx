@@ -25,8 +25,8 @@ export default function FounderTrustSection() {
               <div>
                 <h3 className="text-lg font-bold text-[#0F1E36] tracking-tight flex items-center gap-2">
                   <span>David Vance</span>
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 text-[10px] font-bold uppercase tracking-wider border border-emerald-200">
-                    <ShieldCheck className="w-3 h-3" />
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-slate-100 text-slate-800 text-[10px] font-bold uppercase tracking-wider border border-slate-300">
+                    <ShieldCheck className="w-3 h-3 text-[#D92626]" />
                     Local Owner
                   </span>
                 </h3>
@@ -83,7 +83,7 @@ export default function FounderTrustSection() {
 
               <div className="bg-[#F8F9FA] rounded-xl border border-slate-200 p-4 flex items-start gap-3.5">
                 <div className="w-8 h-8 rounded-lg bg-white border border-slate-200 text-[#0F1E36] flex items-center justify-center shrink-0 mt-0.5 shadow-xs">
-                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                  <ShieldCheck className="w-4 h-4 text-[#0F1E36]" />
                 </div>
                 <div>
                   <h4 className="font-bold text-[#0F1E36] text-sm">

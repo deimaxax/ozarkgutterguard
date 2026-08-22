@@ -135,7 +135,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           <div>
             <div className="flex items-center gap-2">
               <span className="font-black text-slate-900 text-sm sm:text-base">David Vance</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
                 Owner &amp; Local Installer
               </span>
             </div>
@@ -316,7 +316,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
             <div className="flex items-baseline justify-between pt-1">
               <div>
-                <span className="text-[10px] uppercase font-bold text-emerald-800 block">Direct Local Owner Estimate</span>
+                <span className="text-[10px] uppercase font-bold text-slate-500 block">Direct Local Owner Estimate</span>
                 <div className="text-2xl sm:text-3xl font-extrabold text-[#0F1E36]">
                   {priceDetails.price}
                 </div>
@@ -401,8 +401,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
       {/* STEP 3: Submission Confirmation */}
       {submitted && (
         <div className="p-6 text-center space-y-4 bg-[#FAF9F6]">
-          <div className="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto">
-            <CheckCircle2 className="w-6 h-6 text-emerald-600" />
+          <div className="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center mx-auto">
+            <CheckCircle2 className="w-6 h-6 text-red-400" />
           </div>
           <div className="space-y-1">
             <h4 className="text-lg font-bold text-slate-900">

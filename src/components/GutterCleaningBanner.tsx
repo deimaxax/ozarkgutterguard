@@ -30,19 +30,19 @@ export default function GutterCleaningBanner() {
               {/* 4 Simple Checkpoints */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-[#0F1E36] pt-2">
                 <div className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
                   <span>Hand debris removal (no lawn mess)</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
                   <span>High-flow downspout water flush</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
                   <span>Gutter slope &amp; bracket inspection</span>
                 </div>
                 <div className="flex items-center gap-2.5">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
                   <span>Condition report sent to your phone</span>
                 </div>
               </div>

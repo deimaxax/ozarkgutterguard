@@ -48,7 +48,7 @@ export default function Footer() {
                 <span>dispatch@ozarkgutterguard.com</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400 text-[11px] pt-1">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <ShieldCheck className="w-3.5 h-3.5 text-slate-400 shrink-0" />
                 <span>AR Lic. #039182 • Fully Insured</span>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function Footer() {
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-2 py-0.5 rounded bg-[#183059] hover:bg-red-600/80 text-[10px] text-slate-300 hover:text-white transition font-medium border border-slate-700/50"
+                    className="inline-flex items-center px-2 py-0.5 rounded bg-[#183059] hover:bg-red-600 text-[10px] text-slate-300 hover:text-white transition font-medium border border-slate-700/50"
                   >
                     {item.name}
                   </a>
@@ -149,7 +149,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="pt-0.5">
-                <Link href="/site-directory" className="text-amber-400 hover:text-amber-300 font-semibold">
+                <Link href="/site-directory" className="text-slate-300 hover:text-white font-semibold">
                   All Locations Directory &rarr;
                 </Link>
               </li>
@@ -168,7 +168,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/warranty" className="text-emerald-400 hover:text-emerald-300 font-semibold transition">
+                <Link href="/warranty" className="text-slate-200 hover:text-white font-semibold transition">
                   Lifetime Warranty
                 </Link>
               </li>
