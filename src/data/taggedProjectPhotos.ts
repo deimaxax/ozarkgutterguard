@@ -93,8 +93,8 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   },
   {
     id: "photo-04",
-    title: "316 marine-grade 316 micro-mesh Technical Anatomy & Fascia Mount",
-    caption: "Cross-sectional schematic showing 100% shingle-safe fascia mounting, 50-micron stainless filter weave, and 150 in/hr capillary water intake.",
+    title: "Marine-Grade 316 Micro-Mesh Anatomy & Roofline Fit",
+    caption: "Handles up to 150 inches of rainfall per hour — zero overshoot even during heavy Ozark spring downpours.",
     src: "/images/diagram_micro_mesh_anatomy.svg",
     category: "technical",
     city: "Bentonville",

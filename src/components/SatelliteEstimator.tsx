@@ -149,7 +149,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
               <span>★★★★★</span>
               <span className="text-slate-900 font-bold text-xs ml-0.5">4.9</span>
             </div>
-            <span className="text-[10px] text-slate-500 font-medium block">180+ Local Reviews</span>
+            <span className="text-[10px] text-slate-500 font-medium block">187 Google Reviews</span>
           </div>
         </div>
       </div>
@@ -306,7 +306,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             </div>
 
             <div className="text-xs text-slate-700 pt-1 border-t border-slate-200">
-              <strong className="text-slate-900">Included:</strong> Hand cleanout, bracket tune-up, 316 marine stainless micro-mesh &amp; lifetime warranty.
+              <strong className="text-slate-900">Included:</strong> Hand cleanout, slope tune-up, 316 marine stainless micro-mesh &amp; Lifetime Material Warranty + 10-Yr No-Clog Guarantee.
             </div>
           </div>
 
@@ -374,21 +374,27 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             </p>
           )}
 
-          <div className="flex gap-2 pt-1">
-            <button
-              type="button"
-              onClick={() => setStep(1)}
-              className="py-3 px-4 border border-slate-300 rounded-lg text-xs font-bold text-slate-900 hover:bg-slate-50 cursor-pointer min-h-[48px] active:scale-95 transition"
-            >
-              Back
-            </button>
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="flex-1 btn-contractor-primary min-h-[48px] py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98] rounded-lg shadow-xs"
-            >
-              {isSubmitting ? 'Sending Quote...' : 'Send Me the Written Estimate'}
-            </button>
+          <div className="space-y-2 pt-1">
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => setStep(1)}
+                className="py-3 px-4 border border-slate-300 rounded-lg text-xs font-bold text-slate-900 hover:bg-slate-50 cursor-pointer min-h-[48px] active:scale-95 transition"
+              >
+                Back
+              </button>
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="flex-1 btn-contractor-primary min-h-[48px] py-3 px-4 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 cursor-pointer transition active:scale-[0.98] rounded-lg shadow-xs text-center"
+              >
+                {isSubmitting ? 'Sending Quote...' : 'Lock in estimate & get aerial measurement via SMS →'}
+              </button>
+            </div>
+
+            <p className="text-[11px] text-slate-500 text-center font-medium">
+              ✓ No sales calls. David will text your exact aerial roofline measurement and locked estimate.
+            </p>
           </div>
         </form>
       )}

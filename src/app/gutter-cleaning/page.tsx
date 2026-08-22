@@ -79,7 +79,15 @@ export default function GutterCleaningPage() {
                 </div>
               </div>
 
-              {/* Direct Dispatch Phone Box */}
+              {/* 100% Credit Toward Guards Guarantee */}
+              <div className="p-4 sm:p-5 bg-white rounded-2xl border border-slate-200 text-xs text-slate-700 space-y-1.5 shadow-xs">
+                <span className="font-bold text-slate-900 block text-sm">💰 100% Credited Toward Permanent Guards</span>
+                <p className="text-slate-600 leading-relaxed font-normal">
+                  Every cleanout includes a full roofline measurement and guard feasibility audit. If you decide to install 316 stainless micro-mesh guards within 12 months, 100% of your cleanout fee is credited directly toward your installation.
+                </p>
+              </div>
+
+              {/* Direct Phone Box */}
               <div className="bg-[#0F1E36] text-white rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
                 <div>
                   <strong className="block font-bold text-sm">Need Help Right Away?</strong>

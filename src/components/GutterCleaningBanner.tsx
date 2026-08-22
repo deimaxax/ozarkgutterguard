@@ -20,10 +20,10 @@ export default function GutterCleaningBanner() {
                   <span>Fast Seasonal Service</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0F1E36] tracking-tight">
-                  Not Ready for Guards? Get a $149 Full Cleanout
+                  Not Ready for Guards? Get a $149 Cleanout &amp; Roofline Audit
                 </h2>
                 <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                  We'll hand-clean all debris, flush your downspouts, and send before/after photos straight to your phone. <strong className="text-[#0F1E36] font-bold">100% of your $149 fee is credited toward gutter guards</strong> if you decide to install within 12 months.
+                  We&apos;ll hand-clean all debris, flush your downspouts, and perform a complete roofline measurement and guard feasibility audit. <strong className="text-[#0F1E36] font-bold">100% of your $149 fee is credited toward gutter guards</strong> if you decide to install within 12 months.
                 </p>
               </div>
 
@@ -39,11 +39,11 @@ export default function GutterCleaningBanner() {
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
-                  <span>Gutter slope &amp; bracket inspection</span>
+                  <span>Roofline measurement &amp; pitch check</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-[#D92626] shrink-0" />
-                  <span>Condition report sent to your phone</span>
+                  <span>Guard feasibility report sent to phone</span>
                 </div>
               </div>
             </div>

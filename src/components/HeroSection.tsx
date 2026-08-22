@@ -64,7 +64,7 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                 <span className="text-amber-500 font-bold">★★★★★</span>
                 <span className="font-bold text-slate-700">4.9/5</span>
                 <span>•</span>
-                <span>180+ Local NWA Homeowners</span>
+                <span>187 Google Reviews</span>
                 <span>•</span>
                 <span>Zero Pressure</span>
               </div>

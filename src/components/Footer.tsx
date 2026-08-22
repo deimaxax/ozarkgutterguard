@@ -173,7 +173,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/reviews" className="hover:text-white transition">
-                  5.0 Reviews (180+)
+                  4.9 Google Reviews (187)
                 </Link>
               </li>
               <li>

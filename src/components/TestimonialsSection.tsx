@@ -10,11 +10,11 @@ export default function TestimonialsSection() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-3">
           <div>
-            <div className="flex items-center gap-1.5 text-amber-400 mb-2">
+            <div className="flex items-center gap-1.5 text-amber-500 mb-2">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
               ))}
-              <span className="text-xs font-bold text-slate-700 ml-1">5.0 Star Rating (187+ NWA Reviews)</span>
+              <span className="text-xs font-bold text-slate-700 ml-1">4.9 Star Rating (187 Google Reviews)</span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F1E36] tracking-tight">
               Verified Northwest Arkansas Reviews
