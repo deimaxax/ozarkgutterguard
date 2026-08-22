@@ -140,7 +140,7 @@ export default function SchemaJsonLd({
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "316 marine-grade 316 stainless Micro-Mesh Gutter Guard Installation",
+              "name": "Marine-Grade 316 Stainless Micro-Mesh Gutter Guard Installation",
               "description": "Marine-grade 316 stainless steel micro-mesh gutter protection with 10-Year Transferable No-Clog Guarantee."
             },
             "price": "1250.00",
