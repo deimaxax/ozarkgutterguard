@@ -8,7 +8,7 @@ export interface GuidePost {
   title: string;
   metaTitle: string;
   metaDescription: string;
-  category: 'foundation' | 'trees' | 'weather' | 'diy-warning' | 'homeowner';
+  category: 'foundation' | 'trees' | 'weather' | 'diy-warning' | 'homeowner' | 'comparison' | 'cost' | 'maintenance';
   readTime: string;
   publishDate: string; // YYYY-MM-DD
   heroEmoji: string;

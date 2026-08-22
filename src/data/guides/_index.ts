@@ -52,6 +52,10 @@ import post38 from './38-gutter-helmet-vs-ozark-comparison';
 import post39 from './39-home-depot-lowes-vs-pro-guards';
 import post40 from './40-kguard-vs-ozark-comparison';
 import post41 from './41-gutterglove-leafblaster-vs-ozark';
+import post42 from './42-leaffilter-alternatives-nwa';
+import post43 from './43-gutter-guard-cost-per-linear-foot';
+import post44 from './44-why-gutter-guards-overflow';
+import post45 from './45-shadow-valley-hoa-guidelines';
 
 export const GUIDES_DATA = [
   post01, // oak-catkins-clogging-gutters-nwa
@@ -99,6 +103,10 @@ export const GUIDES_DATA = [
   post39,
   post40,
   post41,
+  post42,
+  post43,
+  post44,
+  post45,
 ];
 
 export function getGuide(slug: string) {
