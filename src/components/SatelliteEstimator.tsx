@@ -246,7 +246,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                     <Home className={`w-3.5 h-3.5 shrink-0 ${stories === type.id ? 'text-[#0F1E36]' : 'text-slate-500'}`} />
                     <span className="text-xs font-bold whitespace-nowrap">{type.title}</span>
                   </div>
-                  <span className="text-[10px] text-slate-500 block leading-tight mt-0.5 whitespace-nowrap">
+                  <span className="text-[10px] text-slate-700 font-semibold block leading-tight mt-0.5 whitespace-nowrap">
                     {type.desc}
                   </span>
                 </button>
@@ -270,7 +270,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
           {/* Reassurance */}
           <div className="pt-0.5 text-center">
-            <span className="text-[11px] text-slate-500 font-medium">
+            <span className="text-[11px] text-slate-600 font-medium">
               ✓ 100% Free Instant Price • Zero Salesmen Visits
             </span>
           </div>
@@ -283,14 +283,14 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
           
           {/* Price Card */}
           <div className="p-3.5 sm:p-4 bg-[#FAF9F6] border border-slate-200 rounded-xl space-y-2">
-            <div className="flex justify-between text-xs text-slate-700 border-b border-slate-200 pb-2">
+            <div className="flex justify-between text-xs text-slate-800 border-b border-slate-200 pb-2">
               <span className="truncate max-w-[200px] font-bold text-slate-900">{currentCity}, AR</span>
               <span className="font-bold text-slate-900">{priceDetails.footage}</span>
             </div>
 
             <div className="flex items-baseline justify-between pt-1">
               <div>
-                <span className="text-[10px] uppercase font-bold text-slate-500 block">Direct Local Owner Estimate</span>
+                <span className="text-[10px] uppercase font-bold text-slate-700 block">Direct Local Owner Estimate</span>
                 <div className="text-2xl sm:text-3xl font-extrabold text-[#0F1E36]">
                   {priceDetails.price}
                 </div>
@@ -299,8 +299,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                 </div>
               </div>
               <div className="text-right">
-                <span className="text-[10px] uppercase font-bold text-slate-400 block line-through">Franchise Quotes</span>
-                <div className="text-sm font-bold text-slate-400 line-through">
+                <span className="text-[10px] uppercase font-bold text-slate-600 block line-through">Franchise Quotes</span>
+                <div className="text-sm font-bold text-slate-600 line-through">
                   {priceDetails.corporateAvg}
                 </div>
               </div>

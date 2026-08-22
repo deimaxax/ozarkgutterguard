@@ -198,14 +198,14 @@ export default function Footer() {
         </div>
 
         {/* Clean Copyright & Legal Line */}
-        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-500 text-xs">
+        <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-300 text-xs">
           <p>© {new Date().getFullYear()} Ozark Gutter Guard Co. All Rights Reserved. AR Lic. #039182</p>
-          <div className="flex items-center gap-4 text-slate-400">
-            <Link href="/privacy-policy" className="hover:text-slate-200 transition">Privacy Policy</Link>
+          <div className="flex items-center gap-4 text-slate-300">
+            <Link href="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link>
             <span>•</span>
-            <Link href="/terms" className="hover:text-slate-200 transition">Terms of Service</Link>
+            <Link href="/terms" className="hover:text-white transition">Terms of Service</Link>
             <span>•</span>
-            <Link href="/warranty" className="hover:text-slate-200 transition">Warranty</Link>
+            <Link href="/warranty" className="hover:text-white transition">Warranty</Link>
           </div>
         </div>
 

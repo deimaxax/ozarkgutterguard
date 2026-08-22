@@ -66,7 +66,7 @@ export default function ComparisonMatrix() {
         <div className="md:hidden space-y-4">
           {specs.map((spec, i) => (
             <div key={i} className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs space-y-3">
-              <div className="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-100 pb-2">
+              <div className="text-xs font-bold uppercase tracking-wider text-slate-700 border-b border-slate-100 pb-2">
                 {spec.feature}
               </div>
               <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-1">
@@ -77,14 +77,14 @@ export default function ComparisonMatrix() {
                   {spec.ozark}
                 </p>
               </div>
-              <div className="grid grid-cols-2 gap-2 text-xs text-slate-600">
-                <div className="p-2 bg-slate-50/50 rounded border border-slate-100">
-                  <span className="text-[10px] font-bold text-slate-400 block uppercase">Franchises</span>
-                  <span className="text-[11px] text-slate-600">{spec.franchise}</span>
+              <div className="grid grid-cols-2 gap-2 text-xs">
+                <div className="p-2 bg-slate-50 rounded border border-slate-200">
+                  <span className="text-[10px] font-bold text-slate-700 block uppercase">Franchises</span>
+                  <span className="text-[11px] text-slate-800 font-medium">{spec.franchise}</span>
                 </div>
-                <div className="p-2 bg-slate-50/50 rounded border border-slate-100">
-                  <span className="text-[10px] font-bold text-slate-400 block uppercase">Hardware DIY</span>
-                  <span className="text-[11px] text-slate-500">{spec.diy}</span>
+                <div className="p-2 bg-slate-50 rounded border border-slate-200">
+                  <span className="text-[10px] font-bold text-slate-700 block uppercase">Hardware DIY</span>
+                  <span className="text-[11px] text-slate-800 font-medium">{spec.diy}</span>
                 </div>
               </div>
             </div>
@@ -100,23 +100,23 @@ export default function ComparisonMatrix() {
                 <th className="py-4 px-5 bg-[#183059] text-white border-x border-[#243B53] w-1/3">
                   Ozark Gutter Guard
                 </th>
-                <th className="py-4 px-5 text-slate-300 w-1/4">
+                <th className="py-4 px-5 text-slate-200 w-1/4">
                   National Brand Franchises
                 </th>
-                <th className="py-4 px-5 text-slate-400 w-1/6">
+                <th className="py-4 px-5 text-slate-200 w-1/6">
                   Hardware Store DIY
                 </th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 text-slate-800">
+            <tbody className="divide-y divide-slate-100 text-slate-900">
               {specs.map((spec, i) => (
                 <tr key={i} className={i % 2 === 0 ? "bg-[#F8F9FA]/60" : "bg-white"}>
                   <td className="py-3.5 px-5 font-bold text-[#0F1E36] text-xs">{spec.feature}</td>
                   <td className="py-3.5 px-5 bg-slate-100/70 border-x border-slate-200 font-bold text-[#0F1E36]">
                     {spec.ozark}
                   </td>
-                  <td className="py-3.5 px-5 text-slate-600">{spec.franchise}</td>
-                  <td className="py-3.5 px-5 text-slate-500">{spec.diy}</td>
+                  <td className="py-3.5 px-5 text-slate-800 font-medium">{spec.franchise}</td>
+                  <td className="py-3.5 px-5 text-slate-700 font-medium">{spec.diy}</td>
                 </tr>
               ))}
             </tbody>
