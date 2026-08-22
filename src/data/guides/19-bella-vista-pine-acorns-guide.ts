@@ -24,7 +24,7 @@ const post: GuidePost = {
     },
     {
       heading: 'The 3-Story Multi-Level Ladder Hazard in Bella Vista',
-      body: `Many Bella Vista homes are built on steep Ozark rock ledges with 30-foot drops on the downhill side. Routine gutter cleaning requires precarious ladder placement on jagged limestone slopes. Professional surgical micro-mesh installation eliminates the need for dangerous high-elevation ladder climbs permanently.`,
+      body: `Many Bella Vista homes are built on steep Ozark rock ledges with 30-foot drops on the downhill side. Routine gutter cleaning requires precarious ladder placement on jagged limestone slopes. Professional marine-grade 316 micro-mesh installation eliminates the need for dangerous high-elevation ladder climbs permanently.`,
     },
     {
       heading: 'Preventing Ravine Erosion and Sump Pump Overload',

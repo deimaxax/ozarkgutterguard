@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Engineered for Fayetteville Wooded Lots, Wilson Park & Historic Homes",
-    "content": "Fayetteville features some of the heaviest mature tree coverage in Northwest Arkansas. When severe storm weather hits Mount Sequoyah, Wilson Park, or the University district, gutters fill with twigs, oak catkins, and leaves within hours. Our 316 surgical micro-mesh handles up to 150 inches of rainfall per hour while blocking 100% of organic solids."
+    "content": "Fayetteville features some of the heaviest mature tree coverage in Northwest Arkansas. When severe storm weather hits Mount Sequoyah, Wilson Park, or the University district, gutters fill with twigs, oak catkins, and leaves within hours. Our 316 marine-grade 316 micro-mesh handles up to 150 inches of rainfall per hour while blocking 100% of organic solids."
   },
   "geoCoordinates": {
     "latitude": 36.0626,

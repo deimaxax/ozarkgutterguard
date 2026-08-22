@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving All NWA Communities With $149 Cleanout Package",
-    "content": "Every $149 cleanout includes our 21-Point Audit and 100% fee credit toward permanent 316 surgical micro-mesh guards. Call (479) 929-2516."
+    "content": "Every $149 cleanout includes our 21-Point Audit and 100% fee credit toward permanent 316 marine-grade 316 micro-mesh guards. Call (479) 929-2516."
   }
 };
 

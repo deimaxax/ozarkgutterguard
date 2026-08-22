@@ -5,7 +5,7 @@ const post: GuidePost = {
   title: 'Home Depot & Lowe’s Gutter Guards vs Professional Micro-Mesh in Northwest Arkansas',
   metaTitle: 'Home Depot Gutter Guards vs Pro Micro-Mesh | NWA 2026 Test',
   metaDescription:
-    'Comparing DIY Raptor, Amerimax & Frost King guards from Home Depot/Lowe’s vs custom surgical micro-mesh. Real costs, failure modes, and NWA tree performance.',
+    'Comparing DIY Raptor, Amerimax & Frost King guards from Home Depot/Lowe’s vs custom marine-grade 316 micro-mesh. Real costs, failure modes, and NWA tree performance.',
   category: 'diy-warning',
   readTime: '6 min read',
   publishDate: '2026-06-20',
@@ -28,7 +28,7 @@ const post: GuidePost = {
 **3. Boxed Retail Micro-Mesh Kits (Raptor / Gutterglove, $3.50–$5.50/ft):**
 - *The Flaw:* The mesh itself is decent, but standard 4-foot boxed sections come with short plastic joiners that create seams every 48 inches where debris snags. Without commercial heavy-duty screw hangers and pitch realignment, clogs persist at low spots.
 
-**4. Ozark Gutter Guard Commercial 50-Micron Surgical Mesh:**
+**4. Ozark Gutter Guard Commercial 50-Micron 316 stainless mesh:**
 - Heavy-gauge extruded T6 anodized aluminum chassis with 316 marine-grade stainless mesh. No seams, no plastic, no warping, custom-fitted with laser slope pitch realignment.`,
     },
     {
@@ -39,7 +39,7 @@ const post: GuidePost = {
 - **Weekend Labor (16–24 hours on dangerous ladders):** High risk on 2-story NWA slopes.
 - **Subsequent Cleanouts:** Paying a cleaner $175 twice a year to remove jammed DIY guards costs $1,750 over 5 years.
 
-Hiring Ozark Gutter Guard includes full system re-pitching, gutter sealing, 50-micron surgical mesh, and a 10-Year Written Guarantee for roughly the cost of 5 years of cleaning alone.`,
+Hiring Ozark Gutter Guard includes full system re-pitching, gutter sealing, 50-micron 316 stainless mesh, and a 10-Year Written Guarantee for roughly the cost of 5 years of cleaning alone.`,
     },
   ],
 

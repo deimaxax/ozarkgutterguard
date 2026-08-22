@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Bella Vista Gutter Installation: Loch Lomond, Highlands, Scotsdale & Lake Norwood",
-    "content": "We install custom seamless 6-inch aluminum gutters across all Bella Vista communities in ZIP codes 72714 and 72715. Every installation includes on-site aluminum extrusion matched to your exact roofline measurements, steep-pitch slope engineering for optimal drainage velocity, 50-micron 316 surgical stainless micro-mesh installed simultaneously, and specialized safety rigging for high hillside eave access. Our Bella Vista installations also include fascia moisture inspection — identifying any existing rot before new gutters are hung. Turnkey pricing from $1,350 including micro-mesh. Call (479) 929-2516 for a 15-minute satellite quote."
+    "content": "We install custom seamless 6-inch aluminum gutters across all Bella Vista communities in ZIP codes 72714 and 72715. Every installation includes on-site aluminum extrusion matched to your exact roofline measurements, steep-pitch slope engineering for optimal drainage velocity, 50-micron 316 marine-grade 316 stainless micro-mesh installed simultaneously, and specialized safety rigging for high hillside eave access. Our Bella Vista installations also include fascia moisture inspection — identifying any existing rot before new gutters are hung. Turnkey pricing from $1,350 including micro-mesh. Call (479) 929-2516 for a 15-minute satellite quote."
   },
   "geoCoordinates": {
     "latitude": 36.4295,

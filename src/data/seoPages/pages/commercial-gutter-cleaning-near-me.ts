@@ -20,7 +20,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "100% Credit Toward Commercial Micro-Mesh",
-      "description": "Every dollar spent on commercial cleaning can be credited directly toward permanent surgical stainless steel micro-mesh."
+      "description": "Every dollar spent on commercial cleaning can be credited directly toward permanent marine-grade 316 stainless steel micro-mesh."
     }
   ],
   "localContext": {

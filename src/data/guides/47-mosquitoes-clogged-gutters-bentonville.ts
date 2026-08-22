@@ -24,10 +24,10 @@ Female mosquitoes (including *Culex pipiens* and the invasive Asian Tiger mosqui
 Lawn fogging and perimeter pest sprays treat ground-level turf and low shrubs. They do not penetrate elevated gutters, leaving roofline breeding colonies completely undisturbed to repopulate your yard within days.`,
     },
     {
-      heading: 'How 50-Micron Surgical Micro-Mesh Permanently Eliminates Standing Water',
+      heading: 'How 50-Micron marine-grade 316 micro-mesh Permanently Eliminates Standing Water',
       body: `Traditional perforated gutter screens and foam sponges allow fine organic sediment to settle inside the trough, trapping moisture and creating dark breeding pools.
 
-**The Ozark Surgical Mesh Solution:**
+**The Ozark 316 stainless mesh Solution:**
 - **Zero Sediment Penetration:** The 50-micron aperture blocks 100% of organic dust, flower blossoms, and tree sap from entering the gutter.
 - **Continuous Gravitational Flow:** Our installers laser-level every trough section to guarantee 100% water drainage toward downspouts with zero stagnant puddles.
 - **Dry Troughs = Zero Mosquito Larvae:** Eliminating roofline moisture completely breaks the mosquito reproductive cycle.`,

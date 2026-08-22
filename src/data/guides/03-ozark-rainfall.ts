@@ -39,14 +39,14 @@ The upgrade recommendation is 6-inch K-style gutters — which carry 40% more wa
     },
     {
       heading: 'What 150 Inches Per Hour Means (And Why Your Guard Specification Matters)',
-      body: `When we say our 50-micron surgical mesh handles 150 inches per hour, this number comes from laboratory flow testing under controlled conditions simulating extreme rainfall over a mesh sample.
+      body: `When we say our 50-micron 316 stainless mesh handles 150 inches per hour, this number comes from laboratory flow testing under controlled conditions simulating extreme rainfall over a mesh sample.
 
 For comparison:
 - Standard NWA thunderstorm peak: 2–2.5 in/hr
 - Worst recorded NWA event: 4.2 in/hr
 - Our mesh rated capacity: 150 in/hr
 
-The 150 in/hr rating provides a 60× safety margin over the worst storm ever recorded in Northwest Arkansas. The surgical mesh's hydrodynamic capillary design means water is actively pulled through via surface tension, rather than relying on gravity alone. This is why debris on the surface doesn't immediately cause overflow — water routes around debris and continues entering the trough.`,
+The 150 in/hr rating provides a 60× safety margin over the worst storm ever recorded in Northwest Arkansas. The 316 stainless mesh's hydrodynamic capillary design means water is actively pulled through via surface tension, rather than relying on gravity alone. This is why debris on the surface doesn't immediately cause overflow — water routes around debris and continues entering the trough.`,
     },
     {
       heading: 'The Tornado Season Window: March–May Is Your Highest-Risk Period',
@@ -58,7 +58,7 @@ The 150 in/hr rating provides a 60× safety margin over the worst storm ever rec
 
 This is not coincidence — it's the Ozark natural calendar. Your gutters are most vulnerable during the most dangerous storm windows.
 
-The only solution that doesn't require you to clean before every storm season is permanent 50-micron surgical mesh that prevents debris accumulation entirely.`,
+The only solution that doesn't require you to clean before every storm season is permanent 50-micron 316 stainless mesh that prevents debris accumulation entirely.`,
     },
   ],
 

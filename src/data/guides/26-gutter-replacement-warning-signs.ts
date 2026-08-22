@@ -33,7 +33,7 @@ const post: GuidePost = {
     },
     {
       heading: 'When Existing Gutters Can Be Saved',
-      body: `If the aluminum troughs are straight, rust-free, and firmly attached, a professional cleanout, pitch correction, downspout flush, and surgical micro-mesh installation can extend the system\'s useful life for decades. We evaluate the substrate before recommending replacement.`,
+      body: `If the aluminum troughs are straight, rust-free, and firmly attached, a professional cleanout, pitch correction, downspout flush, and marine-grade 316 micro-mesh installation can extend the system\'s useful life for decades. We evaluate the substrate before recommending replacement.`,
     },
   ],
 

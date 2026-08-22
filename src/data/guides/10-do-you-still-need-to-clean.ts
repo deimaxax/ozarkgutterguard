@@ -5,7 +5,7 @@ const post: GuidePost = {
   title: 'Do You Still Have to Clean Gutters With Gutter Guards? (Honest Answer)',
   metaTitle: 'Do You Still Have to Clean Gutters with Gutter Guards? | 2026 Honest Guide',
   metaDescription:
-    'The honest answer: with 50-micron surgical mesh, no inside cleaning ever. Cheap screens still require dismantling to clean under them. Here\'s what maintenance actually looks like.',
+    'The honest answer: with 50-micron 316 stainless mesh, no inside cleaning ever. Cheap screens still require dismantling to clean under them. Here\'s what maintenance actually looks like.',
   category: 'homeowner',
   readTime: '5 min read',
   publishDate: '2026-08-12',
@@ -34,7 +34,7 @@ Catkin fragments, shingle grit, and fine organic matter accumulate in the curved
 Homeowners with curved hood systems in Rogers, Bentonville, and Fayetteville report using a garden hose to flush the intake slot 1–2 times per year during peak catkin and fall leaf seasons. This is safer than ladder work but still requires attention.`,
     },
     {
-      heading: 'With 50-Micron Surgical Stainless Mesh: What Maintenance Actually Looks Like',
+      heading: 'With 50-Micron marine-grade 316 stainless Mesh: What Maintenance Actually Looks Like',
       body: `**Inside the gutter:** Nothing. The 50-micron aperture physically prevents any NWA debris from entering the trough. There is no internal accumulation to clean.
 
 **On the mesh surface:** Seasonal debris (catkins in April, leaves in October) lands on the mesh. In dry weather, it dries and blows off within 24–72 hours. In sustained wet weather, it stays on the surface until the next dry period.
@@ -49,7 +49,7 @@ Homeowners with curved hood systems in Rogers, Bentonville, and Fayetteville rep
 
 **Cheap plastic screens:** 2–3 guard removal + cleaning sessions per year (more labor than open gutters). Guard replacement every 2–3 years. Total cost over 10 years: similar to open gutters but more complex. Total ladder visits: 20–30+.
 
-**50-micron surgical mesh:** Zero cleanouts. Zero internal accumulation. Zero ladder visits after installation day. Guaranteed for 10 years with free service if anything ever goes wrong. Total ongoing cost: $0. Total ladder visits: 0.
+**50-micron 316 stainless mesh:** Zero cleanouts. Zero internal accumulation. Zero ladder visits after installation day. Guaranteed for 10 years with free service if anything ever goes wrong. Total ongoing cost: $0. Total ladder visits: 0.
 
 The math is not close.`,
     },

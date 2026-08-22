@@ -7,7 +7,7 @@ export const page: SeoPageData = {
   "metaDescription": "Commercial gutter installation, repair, and micro-mesh protection for businesses, churches, warehouses, and HOAs in Northwest Arkansas.",
   "badge": "Commercial Gutter Contractors",
   "h1": "Commercial Gutter Installation & Service in Northwest Arkansas",
-  "subheadline": "Heavy-duty 6-inch and 7-inch industrial box gutters, heavy-gauge downspouts, and surgical micro-mesh for commercial properties along the I-49 corridor.",
+  "subheadline": "Heavy-duty 6-inch and 7-inch industrial box gutters, heavy-gauge downspouts, and marine-grade 316 micro-mesh for commercial properties along the I-49 corridor.",
   "painPointTitle": "Commercial Building Drainage Demands in Benton & Washington County",
   "painPoints": [
     {

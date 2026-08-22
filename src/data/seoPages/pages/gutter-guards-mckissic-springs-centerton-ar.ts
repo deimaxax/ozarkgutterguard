@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving McKissic Springs Rd, Centerton Blvd & Kimmel Rd Communities",
-    "content": "Centerton is one of Northwest Arkansas’s fastest-growing residential communities. Modern two-story homes feature sprawling roof footprints that concentrate massive water volumes during spring Ozark downpours. Our technicians correct builder pitch mistakes with digital laser levels, replace weak spikes with zinc screw hangers, and lock surgical 316 stainless micro-mesh over troughs."
+    "content": "Centerton is one of Northwest Arkansas’s fastest-growing residential communities. Modern two-story homes feature sprawling roof footprints that concentrate massive water volumes during spring Ozark downpours. Our technicians correct builder pitch mistakes with digital laser levels, replace weak spikes with zinc screw hangers, and lock 316 stainless 316 stainless micro-mesh over troughs."
   },
   "geoCoordinates": {
     "latitude": 36.3609,

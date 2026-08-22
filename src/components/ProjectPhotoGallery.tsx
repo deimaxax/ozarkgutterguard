@@ -292,7 +292,7 @@ export default function ProjectGalleryWithTags({
             {/* Modal Footer CTA */}
             <div className="p-4 sm:p-6 bg-slate-950 text-white rounded-b-2xl flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
               <span className="text-slate-300">
-                Want this exact 316 surgical stainless specification on your property?
+                Want this exact 316 marine-grade 316 stainless specification on your property?
               </span>
               <a
                 href="#estimate-form"

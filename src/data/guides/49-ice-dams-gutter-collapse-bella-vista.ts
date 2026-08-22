@@ -32,7 +32,7 @@ When gutters are filled with dense Shortleaf pine needles, the needles absorb wa
 We eliminate failing spike nails completely, installing heavy-gauge concealed zinc brackets secured with 1.5" hardened screws directly into structural roof trusses. This increases load capacity to over 150 lbs per linear foot.
 
 **2. Capillary Siphon Action Prevents Eave Ponding:**
-Our 50-micron surgical stainless steel mesh breaks the surface tension of meltwater, immediately drawing it into the trough where it flows continuously before it can refreeze into destructive roofline ice ridges.`,
+Our 50-micron marine-grade 316 stainless steel mesh breaks the surface tension of meltwater, immediately drawing it into the trough where it flows continuously before it can refreeze into destructive roofline ice ridges.`,
     },
   ],
 

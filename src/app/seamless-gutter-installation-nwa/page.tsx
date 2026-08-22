@@ -61,7 +61,7 @@ export default function SeamlessGuttersPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-brand-green shrink-0" />
-                    <span>Compatible with 316 surgical stainless micro-mesh armor</span>
+                    <span>Compatible with 316 marine-grade 316 stainless micro-mesh armor</span>
                   </div>
                 </div>
 

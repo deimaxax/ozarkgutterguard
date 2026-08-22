@@ -20,7 +20,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "Micro-Mesh Protection Package Savings",
-      "description": "Bundling new seamless gutters with surgical micro-mesh saves 20–30% compared to purchasing guards separately down the road."
+      "description": "Bundling new seamless gutters with marine-grade 316 micro-mesh saves 20–30% compared to purchasing guards separately down the road."
     }
   ],
   "localContext": {

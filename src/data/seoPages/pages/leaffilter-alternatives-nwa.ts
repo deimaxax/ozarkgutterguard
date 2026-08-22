@@ -6,7 +6,7 @@ export const page: SeoPageData = {
   "metaTitle": "LeafFilter Alternatives Arkansas | Save $3,000+ | Ozark Gutter Guard Co.",
   "metaDescription": "Looking for LeafFilter alternatives in Arkansas? Compare 316 marine-grade stainless micro-mesh on extruded aluminum ($8.50–$10.50/ft) vs $35–$45/ft corporate markups.",
   "badge": "LeafFilter Alternative Specialist",
-  "h1": "LeafFilter Alternatives in Arkansas — 316 Surgical Steel vs Franchise Overhead",
+  "h1": "LeafFilter Alternatives in Arkansas — 316 316 stainless Steel vs Franchise Overhead",
   "subheadline": "Why NWA homeowners save $3,000 to $5,000 on medical-grade stainless micro-mesh gutter guards by choosing local direct contractor installation over national franchise markups.",
   "painPointTitle": "LeafFilter Cost Per Foot NWA Comparison & Performance Matrix",
   "painPoints": [

@@ -33,7 +33,7 @@ Because the screen covers the gutter, you now have clogged gutters that are impo
 
 - **Galvanized Wire Rust:** The humid Ozark climate rapidly corrodes zinc coatings on cheap hardware store screens within 24–36 months.
 - **Ice Load Sag:** A 10-foot span of wet snow or ice weighs up to 40 lbs. Lightweight clip-on screens collapse inward into the gutter trough under ice load.
-- **Heavy-Gauge Aluminum Advantage:** Our surgical micro-mesh is secured on a rigid, extruded 0.027" aluminum frame fastened directly with stainless screws, supporting up to 50 lbs of packed snow without bending.`,
+- **Heavy-Gauge Aluminum Advantage:** Our marine-grade 316 micro-mesh is secured on a rigid, extruded 0.027" aluminum frame fastened directly with stainless screws, supporting up to 50 lbs of packed snow without bending.`,
     },
     {
       heading: 'The 5-Year Cost Comparison: DIY Screens vs Professional Micro-Mesh',
@@ -51,7 +51,7 @@ Because the screen covers the gutter, you now have clogged gutters that are impo
     },
   ],
 
-  ctaText: 'Replace Failing Gutter Screens with True Surgical Micro-Mesh',
+  ctaText: 'Replace Failing Gutter Screens with True marine-grade 316 micro-mesh',
   relatedSlugs: [
     'micro-mesh-vs-screen-guards',
     'what-are-the-worst-gutter-guards-according-to-consumer-reports',

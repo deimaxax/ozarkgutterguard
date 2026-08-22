@@ -4,10 +4,10 @@ export const page: SeoPageData = {
   "slug": "best-gutter-company-near-me",
   "cluster": "service",
   "metaTitle": "Best Gutter Company Near Me | 5-Star Rated NWA Contractor",
-  "metaDescription": "Why Ozark Gutter Guard is rated the best gutter company in Northwest Arkansas. Surgical stainless steel micro-mesh, 15-min satellite quotes, 10-Yr Guarantee.",
+  "metaDescription": "Why Ozark Gutter Guard is rated the best gutter company in Northwest Arkansas. marine-grade 316 stainless steel micro-mesh, 15-min satellite quotes, 10-Yr Guarantee.",
   "badge": "#1 Rated Local Service",
   "h1": "The Best Gutter Company Near You in Northwest Arkansas",
-  "subheadline": "5-star rated local gutter craftsmanship: on-site seamless extrusion, medical-grade 316 surgical micro-mesh, and a 10-Year No-Clog Guarantee.",
+  "subheadline": "5-star rated local gutter craftsmanship: on-site seamless extrusion, medical-grade 316 marine-grade 316 micro-mesh, and a 10-Year No-Clog Guarantee.",
   "painPointTitle": "Why Homeowners Rate Us #1 Across Benton & Washington County",
   "painPoints": [
     {

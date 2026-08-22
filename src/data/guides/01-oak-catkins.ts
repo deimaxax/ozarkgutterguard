@@ -45,7 +45,7 @@ Unlike oak leaves, which are too large to penetrate most gutter guards, catkins 
 
 **National brand micro-mesh (LeafFilter at 150–250 microns):** Better, but catkin fragments — the small broken pieces — pass through the larger apertures and accumulate inside. Customers in Benton County report needing cleaning 1–2 times per year even with LeafFilter installed.
 
-**50-micron surgical stainless steel mesh:** An individual catkin strand cannot penetrate 50-micron openings. Catkins and fragments land on the surface, dry in the sun, and blow off in the daily breeze. Inside of gutter stays clean.`,
+**50-micron marine-grade 316 stainless steel mesh:** An individual catkin strand cannot penetrate 50-micron openings. Catkins and fragments land on the surface, dry in the sun, and blow off in the daily breeze. Inside of gutter stays clean.`,
     },
     {
       heading: 'The April Emergency: What Happens If You Don\'t Act',

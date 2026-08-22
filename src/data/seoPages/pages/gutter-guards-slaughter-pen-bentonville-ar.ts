@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving N Walton Blvd, NW A St, Slaughter Pen & NE J St",
-    "content": "North Bentonville homes near Slaughter Pen trailheads experience heavy foliage exposure and flash Ozark downpours. When gutters fill with oak catkins and shingle sand, overflow damages designer flowerbeds and causes foundation clay swelling. Our 50-micron surgical steel micro-mesh mounts flush to the gutter lip with zero shingle contact, preserving roof warranties while pulling up to 150 inches of rain per hour straight into downspouts."
+    "content": "North Bentonville homes near Slaughter Pen trailheads experience heavy foliage exposure and flash Ozark downpours. When gutters fill with oak catkins and shingle sand, overflow damages designer flowerbeds and causes foundation clay swelling. Our 50-micron 316 stainless steel micro-mesh mounts flush to the gutter lip with zero shingle contact, preserving roof warranties while pulling up to 150 inches of rain per hour straight into downspouts."
   },
   "geoCoordinates": {
     "latitude": 36.391,

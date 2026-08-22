@@ -140,7 +140,7 @@ export default function SchemaJsonLd({
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "316 Surgical Stainless Micro-Mesh Gutter Guard Installation",
+              "name": "316 marine-grade 316 stainless Micro-Mesh Gutter Guard Installation",
               "description": "Marine-grade 316 stainless steel micro-mesh gutter protection with 10-Year Transferable No-Clog Guarantee."
             },
             "price": "1250.00",
@@ -329,7 +329,7 @@ export default function SchemaJsonLd({
       graphNodes.push({
         "@type": "Service",
         "@id": `${pageUrl}/#service`,
-        "name": `Surgical 316 Micro-Mesh Gutter Guard Installation in ${cityName}, AR`,
+        "name": `316 stainless 316 Micro-Mesh Gutter Guard Installation in ${cityName}, AR`,
         "serviceType": "Gutter Protection & Cleanout",
         "provider": {
           "@id": `${siteUrl}/#organization`

@@ -23,7 +23,7 @@ const post: GuidePost = {
 | **Aluminum Perforated Screens** | $3.00 – $6.00 | $8.00 – $14.00 | $1,600 – $2,800 |
 | **Reverse Curve / Hoods (LeafGuard)** | Proprietary Only | $30.00 – $48.00+ | $6,000 – $9,600 |
 | **National Micro-Mesh (LeafFilter)** | Proprietary Only | $28.00 – $42.00 | $5,600 – $8,400 |
-| **Ozark Surgical 316 Micro-Mesh** | Direct Local Spec | **$16.00 – $22.00** | **$2,800 – $3,800** |`,
+| **Ozark 316 stainless 316 Micro-Mesh** | Direct Local Spec | **$16.00 – $22.00** | **$2,800 – $3,800** |`,
     },
     {
       heading: 'Factors Influencing Linear Foot Pricing in Northwest Arkansas',

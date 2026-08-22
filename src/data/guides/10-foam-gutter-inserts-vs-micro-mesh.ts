@@ -27,7 +27,7 @@ const post: GuidePost = {
       heading: 'Fire Risk During Dry Late-Summer Drought Periods',
       body: `Northwest Arkansas frequently experiences dry spells in late August and September. When pine needles, oak pollen, and dried organic matter embed deeply into porous foam cells, the entire gutter line becomes a continuous line of dry, combustible tinder right along your cedar shingles or roof underlayment.
 
-Surgical stainless steel mesh is 100% non-combustible and will not harbor embers or dry flammable compost.`,
+marine-grade 316 stainless steel mesh is 100% non-combustible and will not harbor embers or dry flammable compost.`,
     },
     {
       heading: 'Water Flow Failure During Torrential Downpours',

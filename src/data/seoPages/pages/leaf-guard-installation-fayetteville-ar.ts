@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "Leaf guard installation in Fayetteville, AR. 50-micron 316 stainless mesh for Mount Sequoyah hardwoods, historic homes & UA campus neighborhoods.",
   "badge": "Fayetteville Leaf Guard Install",
   "h1": "Leaf Guard Installation in Fayetteville, AR  —  Mount Sequoyah Defense",
-  "subheadline": "Surgical 50-micron micro-mesh leaf guards engineered for Fayetteville's old-growth Sugar Maple, Centennial White Oak, and Sycamore canopies.",
+  "subheadline": "marine-grade 316 micro-mesh leaf guards engineered for Fayetteville's old-growth Sugar Maple, Centennial White Oak, and Sycamore canopies.",
   "painPointTitle": "Why Fayetteville Needs Heavy-Duty Leaf Guards",
   "painPoints": [
     {
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Fayetteville Leaf Guard Installation: Wilson Park to Mount Sequoyah",
-    "content": "Fayetteville's old-growth hardwood canopy creates some of the highest annual debris volumes in all of Northwest Arkansas. Our 50-micron 316 surgical stainless leaf guards are installed across all Fayetteville ZIP codes (72701, 72702, 72703, 72704)  —  from historic Washington-Willow district homes to Gulley Park family neighborhoods, Root Elementary area subdivisions, and Mount Sequoyah overlook properties. Every installation is fascia-and-gutter-lip only, preserving 100% of your roof shingle manufacturer warranty. 15-minute satellite quote delivered via SMS. Turnkey pricing from $1,350."
+    "content": "Fayetteville's old-growth hardwood canopy creates some of the highest annual debris volumes in all of Northwest Arkansas. Our 50-micron 316 marine-grade 316 stainless leaf guards are installed across all Fayetteville ZIP codes (72701, 72702, 72703, 72704)  —  from historic Washington-Willow district homes to Gulley Park family neighborhoods, Root Elementary area subdivisions, and Mount Sequoyah overlook properties. Every installation is fascia-and-gutter-lip only, preserving 100% of your roof shingle manufacturer warranty. 15-minute satellite quote delivered via SMS. Turnkey pricing from $1,350."
   },
   "geoCoordinates": {
     "latitude": 36.0626,

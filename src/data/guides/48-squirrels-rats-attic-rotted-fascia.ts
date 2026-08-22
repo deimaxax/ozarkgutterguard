@@ -27,13 +27,13 @@ Within 12 to 24 months of persistent moisture saturation, wood-decay fungi compr
 Eastern gray squirrels and roof rats detect the soft, decaying wood. With powerful incisors, a squirrel can chew a 2-inch entry hole through soft rotted fascia in under 20 minutes, gaining direct access to warm attic insulation and electrical wiring.`,
     },
     {
-      heading: 'The Surgical Defense: Fascia Reinforcement & 316 Stainless Mesh',
+      heading: 'The 316 stainless Defense: Fascia Reinforcement & 316 Stainless Mesh',
       body: `Traditional pest control companies charge $1,500+ for one-way exclusion doors, but as long as gutters continue to overflow, new wood rot will invite new rodent colonies.
 
 **The Permanent Solution:**
 1. **Fascia Inspection & Composite Replacement:** During gutter guard installation, our crews inspect all fascia boards and replace rotted wood with rot-proof composite or primed cedar.
 2. **Hidden Bracket Anchor System:** We drive 1.5" zinc-coated screws through the gutter chassis directly into solid roof rafters every 24 inches.
-3. **Zero-Gap Surgical Mesh Barrier:** Our 50-micron 316 stainless steel armor forms an impenetrable metal shield that squirrels, mice, and rats cannot chew through or dislodge.`,
+3. **Zero-Gap 316 stainless mesh Barrier:** Our 50-micron 316 stainless steel armor forms an impenetrable metal shield that squirrels, mice, and rats cannot chew through or dislodge.`,
     },
   ],
 

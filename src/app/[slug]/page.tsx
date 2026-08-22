@@ -971,7 +971,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               />
               <div className="bg-slate-50 px-4 py-2.5 text-xs text-slate-600 font-medium border-t border-slate-200 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-brand-green"></span>
-                <span>Jobsite Record: Foundation drainage defense and surgical micro-mesh installation in Har-Ber Meadows, Springdale.</span>
+                <span>Jobsite Record: Foundation drainage defense and marine-grade 316 micro-mesh installation in Har-Ber Meadows, Springdale.</span>
               </div>
             </div>
           )}
@@ -1040,7 +1040,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               <h3>Neighborhood, Subdivision & Postal Code Coverage in {page.city}, AR</h3>
             </div>
             <p className="text-sm text-slate-600 font-normal leading-relaxed">
-              Our mobile installation crews provide same-week satellite sizing and full surgical micro-mesh installation across all neighborhoods, postal codes, and subdivisions in {page.city}:
+              Our mobile installation crews provide same-week satellite sizing and full marine-grade 316 micro-mesh installation across all neighborhoods, postal codes, and subdivisions in {page.city}:
             </p>
             <div className="grid sm:grid-cols-3 gap-3 pt-1">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
@@ -1313,7 +1313,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               Engineering Performance: How We Compare
             </h2>
             <p className="text-sm text-slate-400">
-              National competitors use cheap marketing terms. Here are the hard engineering specifications that separate surgical micro-mesh from everything else on the market.
+              National competitors use cheap marketing terms. Here are the hard engineering specifications that separate marine-grade 316 micro-mesh from everything else on the market.
             </p>
           </div>
 
@@ -1323,7 +1323,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
                 <tr className="border-b border-slate-700">
                   <th className="py-3.5 px-4 font-bold text-slate-300 bg-slate-900/80 w-1/4">Engineering Metric</th>
                   <th className="py-3.5 px-4 font-bold text-orange-400 bg-orange-950/40 w-1/4">
-                    Ozark Gutter Guard<br/><span className="text-orange-300 font-normal text-[11px]">316 Surgical Mesh</span>
+                    Ozark Gutter Guard<br/><span className="text-orange-300 font-normal text-[11px]">316 316 stainless mesh</span>
                   </th>
                   <th className="py-3.5 px-4 font-bold text-slate-400 bg-slate-900/60 w-1/4">
                     National Franchise<br/><span className="font-normal text-[11px]">Plastic / Reverse Curve</span>
@@ -1507,7 +1507,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           <ProjectGalleryWithTags 
             initialCity={page.city}
             title={`${page.city || 'Northwest Arkansas'} Jobsite Photo Records &amp; Engineering Schematics`}
-            subtitle={`Geocoded field photographs, flow testing records, and surgical micro-mesh installation logs across ${page.city || 'NWA'}.`}
+            subtitle={`Geocoded field photographs, flow testing records, and marine-grade 316 micro-mesh installation logs across ${page.city || 'NWA'}.`}
           />
         </div>
       </section>

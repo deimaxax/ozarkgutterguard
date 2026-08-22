@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Fayetteville Gutter Cleaning Cost Breakdown Across All ZIP Codes",
-    "content": "Fayetteville's heavy old-growth hardwood canopy across ZIP codes 72701, 72702, 72703, and 72704 creates one of the highest gutter cleaning frequency requirements in all of Northwest Arkansas. Mount Sequoyah and Kessler Mountain homes under 70-year heritage oaks need spring catkin removal (April), fall oak leaf cleanout (October), and often a mid-winter ice check after severe freezes. That's $450–$1,000 per year in recurring cleaning costs — $2,250–$5,000 over 5 years. Our permanent 50-micron surgical micro-mesh installation for Fayetteville homes starts at $1,350 — less than 2 years of professional cleanings. The $149 diagnostic cleanout fee is 100% credited toward installation. Same-week scheduling across all Fayetteville ZIP codes at (479) 929-2516."
+    "content": "Fayetteville's heavy old-growth hardwood canopy across ZIP codes 72701, 72702, 72703, and 72704 creates one of the highest gutter cleaning frequency requirements in all of Northwest Arkansas. Mount Sequoyah and Kessler Mountain homes under 70-year heritage oaks need spring catkin removal (April), fall oak leaf cleanout (October), and often a mid-winter ice check after severe freezes. That's $450–$1,000 per year in recurring cleaning costs — $2,250–$5,000 over 5 years. Our permanent 50-micron marine-grade 316 micro-mesh installation for Fayetteville homes starts at $1,350 — less than 2 years of professional cleanings. The $149 diagnostic cleanout fee is 100% credited toward installation. Same-week scheduling across all Fayetteville ZIP codes at (479) 929-2516."
   },
   "geoCoordinates": {
     "latitude": 36.0626,

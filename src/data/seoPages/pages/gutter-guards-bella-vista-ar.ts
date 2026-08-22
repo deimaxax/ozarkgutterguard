@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "Permanent pine needle gutter guards in Bella Vista, AR (72714, 72715). Stop cleaning Loblolly pines on steep hillside roofs. 10-Year No-Clog Guarantee.",
   "badge": "Bella Vista Pine Needle Specialist",
   "h1": "Bella Vista Pine Needle Gutter Protection",
-  "subheadline": "Engineered specifically for Bella Vista's dense Loblolly pine canopies and steep hillside rooflines. 50-micron surgical stainless mesh eliminates ladder climbing forever.",
+  "subheadline": "Engineered specifically for Bella Vista's dense Loblolly pine canopies and steep hillside rooflines. 50-micron marine-grade 316 stainless mesh eliminates ladder climbing forever.",
   "painPointTitle": "Why Standard Gutters Fail on Bella Vista Ridges",
   "painPoints": [
     {
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Engineered for Bella Vista Terrain, Loch Lomond & Highlands",
-    "content": "Bella Vista homes from Loch Lomond and Lake Norwood to Metfield and the Highlands face severe pine needle clogging and steep terrain challenges. When wet Loblolly needles pack into open gutters, decomposing acid eats away at aluminum troughs and rots wooden fascia boards. Our 316 surgical stainless steel micro-mesh (50-micron weave) blocks 100% of pine needles while pulling high-velocity storm water directly into downspouts without overflowing."
+    "content": "Bella Vista homes from Loch Lomond and Lake Norwood to Metfield and the Highlands face severe pine needle clogging and steep terrain challenges. When wet Loblolly needles pack into open gutters, decomposing acid eats away at aluminum troughs and rots wooden fascia boards. Our 316 marine-grade 316 stainless steel micro-mesh (50-micron weave) blocks 100% of pine needles while pulling high-velocity storm water directly into downspouts without overflowing."
   },
   "geoCoordinates": {
     "latitude": 36.4295,

@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "Commercial-grade micro-mesh gutter guards in Bentonville, AR (72712, 72713). Protect slabs from expansive clay soil movement. 15-min satellite estimates.",
   "badge": "Bentonville & Centerton Preferred",
   "h1": "Bentonville Medical-Grade Micro-Mesh Gutter Guards",
-  "subheadline": "Protect your Bentonville home from heavy oak tassels, shingle grit, and foundation soil shifting with surgical 316 stainless steel at 1/3 of corporate franchise pricing.",
+  "subheadline": "Protect your Bentonville home from heavy oak tassels, shingle grit, and foundation soil shifting with 316 stainless 316 stainless steel at 1/3 of corporate franchise pricing.",
   "painPointTitle": "Bentonville Soil & Heavy Oak Canopy Challenges",
   "painPoints": [
     {
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Protecting Bentonville Properties from Downtown to Coler Mountain",
-    "content": "Whether you own a historic home near Bentonville Square or a modern home in surrounding subdivisions, uncontrolled roof runoff erodes designer landscaping and strains foundation footings. Our direct-local installation team provides instant digital satellite sizing, eliminating in-home sales pressure completely while delivering surgical-grade steel armor."
+    "content": "Whether you own a historic home near Bentonville Square or a modern home in surrounding subdivisions, uncontrolled roof runoff erodes designer landscaping and strains foundation footings. Our direct-local installation team provides instant digital satellite sizing, eliminating in-home sales pressure completely while delivering marine-grade 316 steel armor."
   },
   "geoCoordinates": {
     "latitude": 36.3729,

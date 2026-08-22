@@ -5,10 +5,10 @@ export const page: SeoPageData = {
   "cluster": "location",
   "city": "Bella Vista",
   "metaTitle": "Lake Loch Lomond Gutter Guards | Bella Vista AR Pine Shield",
-  "metaDescription": "Surgical stainless steel micro-mesh engineered for Bella Vista hillside homes on Lake Loch Lomond. 100% pine needle defense on steep 9/12 pitches. 10-Yr Guarantee.",
+  "metaDescription": "marine-grade 316 stainless steel micro-mesh engineered for Bella Vista hillside homes on Lake Loch Lomond. 100% pine needle defense on steep 9/12 pitches. 10-Yr Guarantee.",
   "badge": "Lake Loch Lomond Hillside Specialist",
   "h1": "Lake Loch Lomond Gutter Guard Installation in Bella Vista",
-  "subheadline": "Bella Vista’s dense Loblolly and Shortleaf pines drop sharp, oily needles year-round. Our 50-micron surgical mesh eliminates dangerous 25-foot ladder climbs forever.",
+  "subheadline": "Bella Vista’s dense Loblolly and Shortleaf pines drop sharp, oily needles year-round. Our 50-micron 316 stainless mesh eliminates dangerous 25-foot ladder climbs forever.",
   "painPointTitle": "Why Loch Lomond Homes Face Constant Pine Needle Clogging",
   "painPoints": [
     {

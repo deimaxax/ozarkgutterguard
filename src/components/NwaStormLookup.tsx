@@ -31,7 +31,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Post Oak & White Oak Catkins (Spring Concrete Sludge)',
       gallonsPerHour: '2,880 Gallons/hr on 2,000 sq ft roofline',
       tornadoHailRisk: 'Moderate to High (Ozark Spring Severe Storm Corridor)',
-      recommendedMesh: '50-Micron 316 Surgical Marine Stainless Steel'
+      recommendedMesh: '50-Micron 316 316 stainless Marine Stainless Steel'
     },
     'Bella Vista': {
       annualRain: '48.3 inches',
@@ -41,7 +41,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Loblolly & Shortleaf Pine Needles (Porous Screen Penetration)',
       gallonsPerHour: '3,120 Gallons/hr down steep 9/12 to 12/12 hillside rooflines',
       tornadoHailRisk: 'High Ridge Wind Gusts up to 65 mph',
-      recommendedMesh: '50-Micron 316 Surgical Stainless + Steep-Pitch Valley Diverters'
+      recommendedMesh: '50-Micron 316 marine-grade 316 stainless + Steep-Pitch Valley Diverters'
     },
     'Rogers': {
       annualRain: '47.8 inches',
@@ -51,7 +51,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Silver Maple Helicopters & Oak Catkins + Beaver Lake Mildew',
       gallonsPerHour: '2,950 Gallons/hr on complex multi-hip estates',
       tornadoHailRisk: 'High (Beaver Lake Atmospheric Convective Zone)',
-      recommendedMesh: '50-Micron 316 Surgical Marine Stainless Mesh'
+      recommendedMesh: '50-Micron 316 316 stainless Marine Stainless Mesh'
     },
     'Fayetteville': {
       annualRain: '48.1 inches',
@@ -61,7 +61,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Centennial White Oak & Sugar Maple Heavy Autumn Leaf Drops',
       gallonsPerHour: '3,050 Gallons/hr over Mount Sequoyah & historic rooflines',
       tornadoHailRisk: 'Moderate to Severe Convective Storms',
-      recommendedMesh: '50-Micron 316 Heavy-Duty Surgical Stainless Mesh'
+      recommendedMesh: '50-Micron 316 Heavy-Duty marine-grade 316 stainless Mesh'
     },
     'Springdale': {
       annualRain: '47.2 inches',
@@ -71,7 +71,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Pin Oak, River Birch Seed Pods & Fine Agricultural Dust',
       gallonsPerHour: '2,800 Gallons/hr across expansive residential perimeters',
       tornadoHailRisk: 'Moderate to Severe Spring Squall Lines',
-      recommendedMesh: '50-Micron 316 Surgical Mesh + 3x4 Commercial Drops'
+      recommendedMesh: '50-Micron 316 316 stainless mesh + 3x4 Commercial Drops'
     },
     'Centerton': {
       annualRain: '47.0 inches',
@@ -81,7 +81,7 @@ export default function NwaStormLookup({ initialCity = 'Bentonville' }: NwaStorm
       canopyRisk: 'Young Red Oak Stands, Sweetgum & High Construction Dust',
       gallonsPerHour: '2,750 Gallons/hr on new construction slab foundations',
       tornadoHailRisk: 'Moderate Spring Severe Thunderstorms',
-      recommendedMesh: '50-Micron 316 Surgical Micro-Mesh Armor'
+      recommendedMesh: '50-Micron 316 marine-grade 316 micro-mesh Armor'
     }
   };
 

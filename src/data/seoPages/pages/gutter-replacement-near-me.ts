@@ -25,7 +25,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "On-Site Seamless Extrusion & Complete Tear-Off Service",
-    "content": "We remove old failing gutters, carefully inspect all wooden fascia boards for hidden water damage, and roll-form continuous 0.032 heavy-gauge seamless aluminum on mobile extrusion trucks right at your driveway. Paired with 3x4\" commercial downspouts and 50-micron surgical micro-mesh guards, your new system provides 100% protection against Ozark storms. Call (479) 929-2516."
+    "content": "We remove old failing gutters, carefully inspect all wooden fascia boards for hidden water damage, and roll-form continuous 0.032 heavy-gauge seamless aluminum on mobile extrusion trucks right at your driveway. Paired with 3x4\" commercial downspouts and 50-micron marine-grade 316 micro-mesh guards, your new system provides 100% protection against Ozark storms. Call (479) 929-2516."
   },
   "geoCoordinates": {
     "latitude": 36.0626,

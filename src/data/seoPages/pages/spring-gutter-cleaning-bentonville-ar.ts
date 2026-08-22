@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Bentonville Spring Cleaning: Downtown Square to Coler Mountain Neighborhoods",
-    "content": "Every Bentonville homeowner in ZIP codes 72712, 72713, and 72716 faces the same annual spring crisis — catkins from Post Oak and White Oak trees fill gutters before the first heavy April storm. Our spring cleanout service runs February 15 through May 15. We extract catkin mats, jet all downspout elbows clear, test flow rates, and document fascia condition before the tornado-season storms begin. The $149 spring cleanout fee is 100% credited toward our 50-micron surgical micro-mesh installation — meaning this is your last spring cleanout if you choose to upgrade. Same-week scheduling available across all Bentonville ZIP codes."
+    "content": "Every Bentonville homeowner in ZIP codes 72712, 72713, and 72716 faces the same annual spring crisis — catkins from Post Oak and White Oak trees fill gutters before the first heavy April storm. Our spring cleanout service runs February 15 through May 15. We extract catkin mats, jet all downspout elbows clear, test flow rates, and document fascia condition before the tornado-season storms begin. The $149 spring cleanout fee is 100% credited toward our 50-micron marine-grade 316 micro-mesh installation — meaning this is your last spring cleanout if you choose to upgrade. Same-week scheduling available across all Bentonville ZIP codes."
   },
   "geoCoordinates": {
     "latitude": 36.3729,

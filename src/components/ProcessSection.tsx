@@ -28,7 +28,7 @@ export default function ProcessSection({ cityName }: ProcessSectionProps) {
       icon: CheckCircle2,
       timing: "Same-Week Install",
       title: "Direct Contractor Installation",
-      description: "Our in-house crew flushes troughs, re-pitches slopes, installs zinc rafter hangers, and secures 316 surgical micro-mesh."
+      description: "Our in-house crew flushes troughs, re-pitches slopes, installs zinc rafter hangers, and secures 316 marine-grade 316 micro-mesh."
     }
   ];
 

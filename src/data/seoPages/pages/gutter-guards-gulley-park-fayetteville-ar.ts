@@ -5,7 +5,7 @@ export const page: SeoPageData = {
   "cluster": "location",
   "city": "Fayetteville",
   "metaTitle": "Gulley Park Gutter Guards | East Fayetteville AR Micro-Mesh",
-  "metaDescription": "Surgical stainless steel micro-mesh gutter guards for Gulley Park & Township Ave area homes in Fayetteville, AR. Stop maple helicopters & oak catkins. 10-Yr Guarantee.",
+  "metaDescription": "marine-grade 316 stainless steel micro-mesh gutter guards for Gulley Park & Township Ave area homes in Fayetteville, AR. Stop maple helicopters & oak catkins. 10-Yr Guarantee.",
   "badge": "Gulley Park & Township Area Specialist",
   "h1": "Gulley Park Area Gutter Guard Installation in Fayetteville",
   "subheadline": "Protecting established single-family homes around Gulley Park from heavy Sugar Maple and Pin Oak canopy drops.",
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving Gulley Park, E Township St, Crossover Rd & Old Wire Rd",
-    "content": "East Fayetteville neighborhoods surrounding Gulley Park feature mature tree-lined streets and established 1970s–2000s homes. When gutters fill with spring catkins and autumn maple leaves, water overflows directly onto foundation footings and garden beds. Our 50-micron surgical steel micro-mesh keeps water moving continuously at up to 150 inches per hour while deflecting 100% of organic solids."
+    "content": "East Fayetteville neighborhoods surrounding Gulley Park feature mature tree-lined streets and established 1970s–2000s homes. When gutters fill with spring catkins and autumn maple leaves, water overflows directly onto foundation footings and garden beds. Our 50-micron 316 stainless steel micro-mesh keeps water moving continuously at up to 150 inches per hour while deflecting 100% of organic solids."
   },
   "geoCoordinates": {
     "latitude": 36.088,

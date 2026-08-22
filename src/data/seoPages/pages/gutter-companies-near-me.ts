@@ -25,7 +25,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving Every Community Across Benton & Washington County",
-    "content": "Ozark Gutter Guard Co. provides seamless gutter installation, 50-micron surgical micro-mesh protection, fascia repair, and diagnostic cleanouts across Bentonville, Rogers, Fayetteville, Springdale, Bella Vista, Centerton, Cave Springs, and Lowell. Call (479) 929-2516."
+    "content": "Ozark Gutter Guard Co. provides seamless gutter installation, 50-micron marine-grade 316 micro-mesh protection, fascia repair, and diagnostic cleanouts across Bentonville, Rogers, Fayetteville, Springdale, Bella Vista, Centerton, Cave Springs, and Lowell. Call (479) 929-2516."
   },
   "geoCoordinates": {
     "latitude": 36.3729,

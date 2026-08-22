@@ -4,10 +4,10 @@ export const page: SeoPageData = {
   "slug": "brothers-gutters-nwa-alternative",
   "cluster": "comparison",
   "metaTitle": "Brothers That Just Do Gutters Alternative NWA | Local vs Franchise",
-  "metaDescription": "Looking for a Brothers Gutters alternative in Northwest Arkansas? Ozark Gutter Guard delivers the same surgical micro-mesh quality at 40% lower cost with local accountability.",
+  "metaDescription": "Looking for a Brothers Gutters alternative in Northwest Arkansas? Ozark Gutter Guard delivers the same marine-grade 316 micro-mesh quality at 40% lower cost with local accountability.",
   "badge": "Local NWA Alternative to National Franchise",
   "h1": "Brothers Gutters Alternative in NWA — Local Quality at 40% Less",
-  "subheadline": "Brothers That Just Do Gutters is a proven national model. But in Northwest Arkansas, Ozark Gutter Guard delivers identical surgical stainless micro-mesh technology with local crew accountability and no franchise markup.",
+  "subheadline": "Brothers That Just Do Gutters is a proven national model. But in Northwest Arkansas, Ozark Gutter Guard delivers identical marine-grade 316 stainless micro-mesh technology with local crew accountability and no franchise markup.",
   "painPointTitle": "How Ozark Gutter Guard Compares to Brothers Gutters in NWA",
   "painPoints": [
     {
@@ -25,7 +25,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Why NWA Homeowners Choose Local Over National Franchise",
-    "content": "Brothers That Just Do Gutters has built a strong national reputation with consistent systems and surgical micro-mesh quality. In Northwest Arkansas, Ozark Gutter Guard Co. delivers the same 316 marine-grade stainless steel micro-mesh specification — with a local advantage that franchises structurally cannot match: we know the Post Oak catkin problem on Coler Mountain, the pine needle issue on Bella Vista's Loch Lomond hillsides, the Silver Maple helicopter season in Pinnacle Hills, and the Vertisol clay soil risk in Springdale. Our local knowledge, combined with transparent $1,250–$1,850 pricing (vs. typical franchise quotes of $3,500–$6,000 in our market), delivers better outcomes for NWA homeowners. Call (479) 929-2516 to compare our written quote with any competitor's."
+    "content": "Brothers That Just Do Gutters has built a strong national reputation with consistent systems and marine-grade 316 micro-mesh quality. In Northwest Arkansas, Ozark Gutter Guard Co. delivers the same 316 marine-grade stainless steel micro-mesh specification — with a local advantage that franchises structurally cannot match: we know the Post Oak catkin problem on Coler Mountain, the pine needle issue on Bella Vista's Loch Lomond hillsides, the Silver Maple helicopter season in Pinnacle Hills, and the Vertisol clay soil risk in Springdale. Our local knowledge, combined with transparent $1,250–$1,850 pricing (vs. typical franchise quotes of $3,500–$6,000 in our market), delivers better outcomes for NWA homeowners. Call (479) 929-2516 to compare our written quote with any competitor's."
   }
 };
 

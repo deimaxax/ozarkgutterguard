@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Instant Free Gutter Quote | Ozark Gutter Guard Co.',
-  description: 'Get an accurate instant satellite quote for your Northwest Arkansas home in 90 seconds. 316 surgical stainless micro-mesh with 10-Year No-Clog Guarantee.',
+  description: 'Get an accurate instant satellite quote for your Northwest Arkansas home in 90 seconds. 316 marine-grade 316 stainless micro-mesh with 10-Year No-Clog Guarantee.',
   alternates: {
     canonical: 'https://ozarkgutterguard.com/quote',
   },

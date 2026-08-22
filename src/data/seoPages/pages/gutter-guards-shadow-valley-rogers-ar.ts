@@ -5,7 +5,7 @@ export const page: SeoPageData = {
   "cluster": "location",
   "city": "Rogers",
   "metaTitle": "Shadow Valley Gutter Guards | Rogers AR Country Club Mesh",
-  "metaDescription": "Premium surgical micro-mesh gutter protection for Shadow Valley Country Club homes in Rogers, AR. Eliminate recurring $250 cleaning fees. 10-Year Guarantee.",
+  "metaDescription": "Premium marine-grade 316 micro-mesh gutter protection for Shadow Valley Country Club homes in Rogers, AR. Eliminate recurring $250 cleaning fees. 10-Year Guarantee.",
   "badge": "Shadow Valley Community Specialist",
   "h1": "Shadow Valley Gutter Guard Installation in Rogers, AR",
   "subheadline": "Designed for Shadow Valley Country Club homes surrounded by mature Red Oaks and Dogwoods. Stop paying $250 every quarter for dangerous ladder cleanouts.",
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Turnkey Drainage Restoration Across Shadow Valley Parkway & Osage Mills",
-    "content": "Shadow Valley homes require precision exterior care that matches strict HOA architectural standards. Our fascia-mounted surgical micro-mesh installs flush along the gutter profile, completely invisible from street view. We realign gutter pitch with laser levels to eliminate stagnant water pockets where mosquitoes breed, seal all box miters with marine-grade polyurethane, and anchor the chassis into rafter tails with zinc screws. Backed by our written 10-Year Transferable No-Clog Guarantee."
+    "content": "Shadow Valley homes require precision exterior care that matches strict HOA architectural standards. Our fascia-mounted marine-grade 316 micro-mesh installs flush along the gutter profile, completely invisible from street view. We realign gutter pitch with laser levels to eliminate stagnant water pockets where mosquitoes breed, seal all box miters with marine-grade polyurethane, and anchor the chassis into rafter tails with zinc screws. Backed by our written 10-Year Transferable No-Clog Guarantee."
   },
   "geoCoordinates": {
     "latitude": 36.3195,

@@ -7,7 +7,7 @@ export const page: SeoPageData = {
   "metaDescription": "Combined gutter repair and fascia board replacement in Northwest Arkansas. Fix sagging gutters, rotten wood, and roofline water damage in one visit.",
   "badge": "Combined Gutter & Fascia Fix",
   "h1": "Gutter & Fascia Repair Near You in Northwest Arkansas",
-  "subheadline": "One contractor for rotted fascia replacement, gutter re-sloping, corner leak sealing, and permanent surgical micro-mesh protection.",
+  "subheadline": "One contractor for rotted fascia replacement, gutter re-sloping, corner leak sealing, and permanent marine-grade 316 micro-mesh protection.",
   "painPointTitle": "How Overflowing Gutters Destroy Fascia Boards in the Ozarks",
   "painPoints": [
     {

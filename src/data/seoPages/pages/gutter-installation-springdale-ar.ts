@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Springdale Gutter Installation: Har-Ber Meadows, Shiloh District & East Springdale",
-    "content": "We extrude heavy-gauge 0.032 seamless 6-inch aluminum gutters on-site for Springdale properties across ZIP codes 72762, 72764, 72765, and 72766. Every Springdale gutter installation includes laser-leveled positive slope, 1.5\" zinc hidden screw hangers every 24 inches, polyurethane-sealed corner miters, and our 50-micron 316 surgical stainless micro-mesh installed on the same visit. Downspout placement is engineered to discharge roof water a minimum of 6 feet from foundation footings — critical on Springdale's expansive clay soils. Turnkey pricing from $1,450 for standard Springdale ranch homes. Call (479) 929-2516."
+    "content": "We extrude heavy-gauge 0.032 seamless 6-inch aluminum gutters on-site for Springdale properties across ZIP codes 72762, 72764, 72765, and 72766. Every Springdale gutter installation includes laser-leveled positive slope, 1.5\" zinc hidden screw hangers every 24 inches, polyurethane-sealed corner miters, and our 50-micron 316 marine-grade 316 stainless micro-mesh installed on the same visit. Downspout placement is engineered to discharge roof water a minimum of 6 feet from foundation footings — critical on Springdale's expansive clay soils. Turnkey pricing from $1,450 for standard Springdale ranch homes. Call (479) 929-2516."
   },
   "geoCoordinates": {
     "latitude": 36.1867,

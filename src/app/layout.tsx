@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ozark Gutter Guard Co. | Northwest Arkansas Gutter Protection',
-    description: 'Direct contractor pricing on 316 surgical stainless steel micro-mesh gutter protection. 10-Year No-Clog Guarantee.',
+    description: 'Direct contractor pricing on 316 marine-grade 316 stainless steel micro-mesh gutter protection. 10-Year No-Clog Guarantee.',
     images: ['/images/contractor_truck.jpg'],
   },
   robots: {

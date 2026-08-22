@@ -18,7 +18,7 @@ export const page: SeoPageData = {
   ],
   localContext: {
     heading: 'Serving 72745: Lowell / Ward Nail Park',
-    content: 'ZIP code 72745 (Lowell) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 surgical stainless micro-mesh guards. Call (479) 929-2516.'
+    content: 'ZIP code 72745 (Lowell) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 marine-grade 316 stainless micro-mesh guards. Call (479) 929-2516.'
   },
   geoCoordinates: { latitude: 36.2559, longitude: -94.1308 }
 };

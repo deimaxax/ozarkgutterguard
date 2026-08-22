@@ -5,7 +5,7 @@ const post: GuidePost = {
   title: 'Micro-Mesh vs Reverse-Curve Leaf Guards: Which Works in Ozark Storms?',
   metaTitle: 'Micro-Mesh vs Reverse-Curve Gutter Guards NWA | Water Runoff & Debris Test',
   metaDescription:
-    'Comparing surface tension reverse-curve helmet hoods vs surgical micro-mesh in NWA. Why steep Ozark roofs cause leaf guards to overshoot in heavy rains.',
+    'Comparing surface tension reverse-curve helmet hoods vs marine-grade 316 micro-mesh in NWA. Why steep Ozark roofs cause leaf guards to overshoot in heavy rains.',
   category: 'weather',
   readTime: '5 min read',
   publishDate: '2026-04-12',
@@ -25,7 +25,7 @@ As rain flows down your roof shingles, surface tension is supposed to cause wate
 2. **Pollen & Dirt Film:** In April and May, oak pollen and road dust coat the aluminum nose. This oil and grit layer reduces the contact angle of water, forcing rain to shoot off the edge instead of wrapping around.
 
 **How Micro-Mesh Handles High Volume:**
-Stainless surgical mesh does not rely on fragile surface tension. Thousands of microscopic apertures act as a hydraulic siphon, pulling high-velocity sheet runoff directly through the mesh and into your 5" or 6" aluminum gutter.`,
+Stainless 316 stainless mesh does not rely on fragile surface tension. Thousands of microscopic apertures act as a hydraulic siphon, pulling high-velocity sheet runoff directly through the mesh and into your 5" or 6" aluminum gutter.`,
     },
     {
       heading: 'Wildlife, Wasps & Nesting Hazards in Northwest Arkansas',

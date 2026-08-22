@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving Shiloh District, N Thompson St, E Emma Ave & Lake Springdale Corridor",
-    "content": "Central Springdale homes near the Shiloh Historic District and Emma Avenue corridor require reliable gutter protection to prevent water damage to vintage architecture and foundation footings. Our direct-local installation team provides 50-micron 316 surgical stainless steel mesh on extruded aluminum frames. Mounted strictly to the gutter lip and fascia board—100% shingle safe. Backed by our written 10-Year Transferable Guarantee."
+    "content": "Central Springdale homes near the Shiloh Historic District and Emma Avenue corridor require reliable gutter protection to prevent water damage to vintage architecture and foundation footings. Our direct-local installation team provides 50-micron 316 marine-grade 316 stainless steel mesh on extruded aluminum frames. Mounted strictly to the gutter lip and fascia board—100% shingle safe. Backed by our written 10-Year Transferable Guarantee."
   },
   "geoCoordinates": {
     "latitude": 36.1867,

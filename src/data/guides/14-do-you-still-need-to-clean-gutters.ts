@@ -5,7 +5,7 @@ const post: GuidePost = {
   title: 'Do You Still Have to Clean Gutters If You Have Gutter Guards? (The Honest NWA Answer)',
   metaTitle: 'Do You Still Have to Clean Gutters With Guards? | NWA Honest Guide',
   metaDescription:
-    'Will you ever have to clean gutters again after installing guards in Northwest Arkansas? Understand the difference between screens, filters, and surgical mesh.',
+    'Will you ever have to clean gutters again after installing guards in Northwest Arkansas? Understand the difference between screens, filters, and 316 stainless mesh.',
   category: 'homeowner',
   readTime: '5 min read',
   publishDate: '2026-04-24',
@@ -26,7 +26,7 @@ Tree sap, pollen film, and oak catkin residue coat the curved intake opening. If
 **3. Standard Micro-Mesh (200+ Microns):**
 Keeps large leaves out, but fine pine needle tips and catkin hairs can snag on the rough mesh openings, requiring occasional hose rinsing.
 
-**4. 50-Micron Surgical Stainless Steel Mesh (True Zero-Internal-Cleaning):**
+**4. 50-Micron marine-grade 316 stainless Steel Mesh (True Zero-Internal-Cleaning):**
 The interior channel of your gutter stays 100% clean forever. No dirt, seeds, or shingle grit can physically enter the trough. High winds naturally clear dry foliage from the top surface.`,
     },
     {
@@ -37,11 +37,11 @@ However, once the rain stops and the Ozark sun dries the leaves (typically withi
     },
     {
       heading: 'Our 10-Year "Never Clean Inside" Written Promise',
-      body: `Ozark Gutter Guard stands behind our surgical micro-mesh with an explicit 10-Year Guarantee: if your gutters ever clog or fail to drain water away from your foundation, we service them at no charge.`,
+      body: `Ozark Gutter Guard stands behind our marine-grade 316 micro-mesh with an explicit 10-Year Guarantee: if your gutters ever clog or fail to drain water away from your foundation, we service them at no charge.`,
     },
   ],
 
-  ctaText: 'Eliminate Gutter Cleaning Forever with Surgical Micro-Mesh',
+  ctaText: 'Eliminate Gutter Cleaning Forever with marine-grade 316 micro-mesh',
   relatedSlugs: [
     'do-you-still-have-to-clean-gutters-if-you-have-gutter-guards',
     'oak-catkins-clogging-gutters-nwa',

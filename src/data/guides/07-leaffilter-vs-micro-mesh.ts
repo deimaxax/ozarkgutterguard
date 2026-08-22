@@ -1,8 +1,8 @@
 import type { GuidePost } from './_types';
 
 const post: GuidePost = {
-  slug: 'leaffilter-vs-surgical-micro-mesh-nwa-comparison',
-  title: 'LeafFilter vs Surgical Micro-Mesh: Honest Northwest Arkansas Comparison (2026)',
+  slug: 'leaffilter-vs-316 stainless-micro-mesh-nwa-comparison',
+  title: 'LeafFilter vs marine-grade 316 micro-mesh: Honest Northwest Arkansas Comparison (2026)',
   metaTitle: 'LeafFilter vs Micro-Mesh in NWA | Pricing, Warranty & Oak Catkin Performance',
   metaDescription:
     'Comparing LeafFilter and stainless micro-mesh in Bentonville, Rogers & Fayetteville. See real costs ($35-$45/ft vs $18/ft), warranty loopholes, and Ozark tree performance.',
@@ -17,17 +17,17 @@ const post: GuidePost = {
   sections: [
     {
       heading: 'How Both Systems Filter Water & Debris in NWA',
-      body: `Both LeafFilter and our custom surgical micro-mesh systems use stainless steel filtration, but their structural execution is completely different:
+      body: `Both LeafFilter and our custom marine-grade 316 micro-mesh systems use stainless steel filtration, but their structural execution is completely different:
 
 **1. LeafFilter (Vinyl Sub-Frame + 275-Micron Mesh):** LeafFilter stretches a stainless steel mesh over a rigid vinyl/plastic grid frame that sits pitched inside your existing gutter. Because the vinyl frame is exposed to intense Ozark summer UV rays (95°F+ July heat) and freezing winter ice, the plastic structure degrades, warps, and causes the mesh to sag over 3–5 years.
 
-**2. Ozark Gutter Guard (50-Micron 316L Surgical Mesh + Anodized Aluminum Chassis):** Our system uses marine-grade 316L stainless steel woven at 50 microns, clamped inside a heavy-gauge tempered aluminum chassis. There are zero plastic or vinyl components to warp, crack, or yellow under the Arkansas sun.`,
+**2. Ozark Gutter Guard (50-Micron 316L 316 stainless mesh + Anodized Aluminum Chassis):** Our system uses marine-grade 316L stainless steel woven at 50 microns, clamped inside a heavy-gauge tempered aluminum chassis. There are zero plastic or vinyl components to warp, crack, or yellow under the Arkansas sun.`,
     },
     {
       heading: 'Oak Catkins, Pine Needles & Shingle Grit Testing in NWA',
       body: `In Northwest Arkansas, standard micro-mesh filters face three aggressive organic threats:
 
-**Oak Catkins (April Season in Fayetteville & Bentonville):** LeafFilter\'s 275-micron aperture allows micro-catkin fibers and pollen strings to wedge into the mesh openings. When combined with asphalt shingle grit, it creates a calcified film that requires pressure-washing. 50-micron surgical mesh blocks even individual catkin fibers; the debris rests on top and blows away in 10 mph winds.
+**Oak Catkins (April Season in Fayetteville & Bentonville):** LeafFilter\'s 275-micron aperture allows micro-catkin fibers and pollen strings to wedge into the mesh openings. When combined with asphalt shingle grit, it creates a calcified film that requires pressure-washing. 50-micron 316 stainless mesh blocks even individual catkin fibers; the debris rests on top and blows away in 10 mph winds.
 
 **Loblolly Pine Needles (Bella Vista & Rogers):** Pine needles easily spear through standard screens and can lodge into LeafFilter\'s pitched vinyl borders. Our flat-plane aluminum chassis prevents needle spearing completely.
 

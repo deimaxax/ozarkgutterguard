@@ -8,7 +8,7 @@ import { Layers, CheckCircle2, XCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'LeafGuard vs LeafFilter vs Micro Mesh | 2026 Comparison | Ozark Gutter Guard Co.',
-  description: 'Technical comparison between LeafGuard curved hoods, LeafFilter plastic micro-mesh, and Ozark Gutter Guard 316 surgical stainless mesh. Save $3,000+ in NWA.',
+  description: 'Technical comparison between LeafGuard curved hoods, LeafFilter plastic micro-mesh, and Ozark Gutter Guard 316 marine-grade 316 stainless mesh. Save $3,000+ in NWA.',
   alternates: {
     canonical: 'https://ozarkgutterguard.com/micro-mesh-vs-screen-guards',
   },
@@ -84,7 +84,7 @@ export default function MicroMeshVsScreensPage() {
               <div className="bg-emerald-50/60 border border-emerald-300 rounded-lg p-5 sm:p-6 space-y-4 shadow-xs">
                 <div className="flex items-center gap-2 text-emerald-900 font-bold text-base sm:text-lg">
                   <CheckCircle2 className="w-5 h-5 text-brand-green" />
-                  <span>316 Surgical Stainless Micro-Mesh</span>
+                  <span>316 marine-grade 316 stainless Micro-Mesh</span>
                 </div>
                 <ul className="text-xs sm:text-sm text-slate-800 space-y-3 font-medium">
                   <li className="flex items-start gap-2">
@@ -93,7 +93,7 @@ export default function MicroMeshVsScreensPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-brand-green font-bold">✓</span>
-                    <span><strong>Durability:</strong> Marine-grade surgical steel will never rust, warp, or sag.</span>
+                    <span><strong>Durability:</strong> Marine-grade marine-grade 316 steel will never rust, warp, or sag.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-brand-green font-bold">✓</span>

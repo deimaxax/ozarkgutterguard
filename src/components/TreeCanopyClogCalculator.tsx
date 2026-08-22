@@ -32,7 +32,7 @@ export default function TreeCanopyClogCalculator({
           annualSludgeLbs: Math.round(180 * (canopyDensity / 100)),
           clogFrequencyDays: 35,
           failureMode: '3.5-inch needles weave into dense interlocking mesh filters inside standard slotted guards, trapping fine silt.',
-          recommendedArmor: '50-Micron 316 Marine Grade Surgical Weave (Zero Needle Penetration)',
+          recommendedArmor: '50-Micron 316 Marine Grade 316 stainless Weave (Zero Needle Penetration)',
         };
       case 'oak':
         return {
@@ -174,7 +174,7 @@ export default function TreeCanopyClogCalculator({
             <span className="text-xs font-bold text-amber-700 uppercase">Severe Bio-Load</span>
           </div>
           <p className="text-xs text-slate-600 leading-snug">
-            Without surgical micro-mesh, gutters will clog approximately every{' '}
+            Without marine-grade 316 micro-mesh, gutters will clog approximately every{' '}
             <strong className="text-slate-900">{profile.clogFrequencyDays} days</strong> during active dropping cycles.
           </p>
         </div>

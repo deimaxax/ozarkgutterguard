@@ -30,7 +30,7 @@ const post: GuidePost = {
       body: `1. **Demand a Certified Re-Inspection with a Licensed Contractor Present:** Arkansas homeowners have the right to request a second adjuster review. Never let an adjuster inspect your roof without a certified local contractor on-site to document pitch low-spots with a digital laser level.
 2. **Utilize High-Resolution Digital Flow Documentation:** We run digital flow meters and water-fill tests to prove to the adjuster that dented sections retain standing water.
 3. **Invoke the Arkansas Appraisal Clause:** If the carrier refuses to settle fairly, your policy’s appraisal clause allows an independent third-party umpire to establish the true repair scope, forcing the insurer to comply.
-4. **Upgrade to Impact-Resistant Armor:** Once your claim is approved, replace failing lightweight gutters with heavy-duty 0.027 aluminum and 316 surgical stainless steel mesh that resists future hail impacts.`,
+4. **Upgrade to Impact-Resistant Armor:** Once your claim is approved, replace failing lightweight gutters with heavy-duty 0.027 aluminum and 316 marine-grade 316 stainless steel mesh that resists future hail impacts.`,
     },
   ],
 

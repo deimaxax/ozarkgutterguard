@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Rogers Gutter Cleaning Cost vs Permanent Micro-Mesh: The 5-Year Math",
-    "content": "In Rogers, AR (ZIP codes 72756, 72757, 72758), the Silver Maple helicopter seed season in April, combined with Beaver Lake humidity and heavy autumn Red Oak and Dogwood leaf drops, means Rogers homeowners realistically need 3 professional cleaning visits per year. At $150–$250 per visit that's $450–$750 annually — $2,250–$3,750 over 5 years. Our permanent 50-micron 316 surgical stainless micro-mesh installation for a standard Rogers two-story home costs $1,450–$1,750 total — less than 2 years of recurring cleanings. The $149 diagnostic cleanout fee is 100% credited toward permanent installation. Call (479) 929-2516 for a same-week Rogers appointment."
+    "content": "In Rogers, AR (ZIP codes 72756, 72757, 72758), the Silver Maple helicopter seed season in April, combined with Beaver Lake humidity and heavy autumn Red Oak and Dogwood leaf drops, means Rogers homeowners realistically need 3 professional cleaning visits per year. At $150–$250 per visit that's $450–$750 annually — $2,250–$3,750 over 5 years. Our permanent 50-micron 316 marine-grade 316 stainless micro-mesh installation for a standard Rogers two-story home costs $1,450–$1,750 total — less than 2 years of recurring cleanings. The $149 diagnostic cleanout fee is 100% credited toward permanent installation. Call (479) 929-2516 for a same-week Rogers appointment."
   },
   "geoCoordinates": {
     "latitude": 36.332,

@@ -33,11 +33,11 @@ const ZIP_CODE_PAGES: SeoPageData[] = NWA_ZIP_CODES.map((z) => ({
   painPoints: [
     { title: `Dominant Canopy Threat: ${z.treeThreat.split('.')[0]}`, description: z.treeThreat },
     { title: 'Soil Dynamics & Foundation Risk', description: `${z.soilProfile} Gutter overflow rapidly saturates perimeters during ${z.annualRainfall}.` },
-    { title: `Roofline Dynamics (${z.avgRoofPitch})`, description: `Concentrated storm runoff in ${z.zip} requires surgical capillary micro-mesh that never overshoots or clogs.` },
+    { title: `Roofline Dynamics (${z.avgRoofPitch})`, description: `Concentrated storm runoff in ${z.zip} requires 316 stainless capillary micro-mesh that never overshoots or clogs.` },
   ],
   localContext: {
     heading: `${z.city} AR (${z.zip}) Local Drainage & Ground-Truth Analysis`,
-    content: `${z.localDetails} Our local installation crews provide same-week satellite sizing and full surgical micro-mesh installation across key ${z.city} neighborhoods including ${z.neighborhoods.join(', ')}. Backed by our written 10-Year Transferable No-Clog Guarantee.`,
+    content: `${z.localDetails} Our local installation crews provide same-week satellite sizing and full marine-grade 316 micro-mesh installation across key ${z.city} neighborhoods including ${z.neighborhoods.join(', ')}. Backed by our written 10-Year Transferable No-Clog Guarantee.`,
   },
   geoCoordinates: { latitude: z.latitude, longitude: z.longitude },
 }));

@@ -13,7 +13,7 @@ export const page: SeoPageData = {
   "painPoints": [
     {
       "title": "Extreme 10/12 Steep Roofline Runoff Velocity",
-      "description": "Mountain roof pitches accelerate storm water speed, requiring surgical mesh with hydrodynamic capillary action to siphon water without overflowing."
+      "description": "Mountain roof pitches accelerate storm water speed, requiring 316 stainless mesh with hydrodynamic capillary action to siphon water without overflowing."
     },
     {
       "title": "Pine Resin & Cedar Needle Compaction",
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving Scotsdale Drive, Highlands Boulevard & Metfield Ridges",
-    "content": "Bella Vista homes near Scotsdale Golf Course and high mountain ridges experience high winds, steep slopes, and relentless pine debris. Ozark Gutter Guard Co. provides heavy-gauge aluminum framing with 316 marine-grade surgical stainless mesh that withstands extreme weather without warping or lifting. Eliminates high-cost quarterly gutter cleanings and protects foundation walls from hillside washout."
+    "content": "Bella Vista homes near Scotsdale Golf Course and high mountain ridges experience high winds, steep slopes, and relentless pine debris. Ozark Gutter Guard Co. provides heavy-gauge aluminum framing with 316 marine-grade marine-grade 316 stainless mesh that withstands extreme weather without warping or lifting. Eliminates high-cost quarterly gutter cleanings and protects foundation walls from hillside washout."
   },
   "geoCoordinates": {
     "latitude": 36.475,

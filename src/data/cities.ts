@@ -38,7 +38,7 @@ export const CITIES_DATA: Record<string, CityData> = {
     cityState: "Bentonville, AR",
     title: "Bentonville Gutter Guards | 10-Yr No-Clog Warranty | Ozark Gutter Guard Co.",
     metaDescription: "Permanent micro-mesh gutter protection in Bentonville, AR. Medical-grade stainless steel for new builds & Coler MTB oak zones. Get instant satellite quote.",
-    h1: "Bentonville Gutter Guards — 316 Surgical Stainless Protection",
+    h1: "Bentonville Gutter Guards — 316 marine-grade 316 stainless Protection",
     h2Problem: "Why Traditional Plastic Screens Fail in Bentonville (Oak Tassels & Rapid Expansion)",
     h2Satellite: "The 15-Minute Satellite Sizing Process for Bentonville Homeowners",
     h3Guarantee: "Backed by Our Transferable 10-Year No-Clog Guarantee",
@@ -87,7 +87,7 @@ export const CITIES_DATA: Record<string, CityData> = {
     cityName: "Bella Vista",
     cityState: "Bella Vista, AR",
     title: "Bella Vista Gutter Guard Installation | Pine Needle Shield | Ozark Gutter Guard Co.",
-    metaDescription: "Tired of cleaning pine needles and oak tassels in Bella Vista? Surgical stainless micro-mesh engineered for steep hills & Loblolly pines. Instant quote.",
+    metaDescription: "Tired of cleaning pine needles and oak tassels in Bella Vista? marine-grade 316 stainless micro-mesh engineered for steep hills & Loblolly pines. Instant quote.",
     h1: "Gutter Guard Installation Bella Vista, AR",
     h2Problem: "Why Traditional Plastic Screens Fail in Bella Vista (Loblolly Pine Needles & Steep Pitches)",
     h2Satellite: "The 15-Minute Satellite Sizing Process for Bella Vista Homeowners",
@@ -126,7 +126,7 @@ export const CITIES_DATA: Record<string, CityData> = {
     localReview: {
       author: "Robert & Linda K.",
       neighborhood: "Lake Loch Lomond, Bella Vista",
-      review: "We live on a steep hillside surrounded by 50-foot Loblolly pines. I was paying $250 every 3 months for gutter cleaning. Ozark Gutter Guard installed surgical stainless steel mesh in one afternoon. Two torrential storms later, gutters run crystal clear!",
+      review: "We live on a steep hillside surrounded by 50-foot Loblolly pines. I was paying $250 every 3 months for gutter cleaning. Ozark Gutter Guard installed marine-grade 316 stainless steel mesh in one afternoon. Two torrential storms later, gutters run crystal clear!",
       rating: 5,
       date: "Verified Customer • 1 month ago"
     }
@@ -160,7 +160,7 @@ export const CITIES_DATA: Record<string, CityData> = {
       },
       {
         title: "Overpriced Big-Box Franchises",
-        description: "National gutter companies charge upwards of $6,500 in Rogers. We deliver superior surgical-grade steel at direct local prices ($1,250-$1,650).",
+        description: "National gutter companies charge upwards of $6,500 in Rogers. We deliver superior marine-grade 316 steel at direct local prices ($1,250-$1,650).",
         icon: "DollarSign"
       }
     ],
@@ -176,7 +176,7 @@ export const CITIES_DATA: Record<string, CityData> = {
     localReview: {
       author: "David H.",
       neighborhood: "Shadow Valley, Rogers",
-      review: "LeafFilter quoted me $6,400 for our two-story house. Ozark Gutter Guard came in at $1,520 with higher quality 316 surgical stainless steel mesh. Clean crew, zero pressure, done in 4 hours.",
+      review: "LeafFilter quoted me $6,400 for our two-story house. Ozark Gutter Guard came in at $1,520 with higher quality 316 marine-grade 316 stainless steel mesh. Clean crew, zero pressure, done in 4 hours.",
       rating: 5,
       date: "Verified Customer • 2 months ago"
     }

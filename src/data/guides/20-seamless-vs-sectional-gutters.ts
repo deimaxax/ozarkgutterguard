@@ -31,7 +31,7 @@ const post: GuidePost = {
     },
   ],
 
-  ctaText: 'Upgrade to Custom Seamless Gutters & Surgical Micro-Mesh',
+  ctaText: 'Upgrade to Custom Seamless Gutters & marine-grade 316 micro-mesh',
   relatedSlugs: [
     'seamless-gutter-installation-nwa',
     'what-is-an-alternative-to-gutter-guards',

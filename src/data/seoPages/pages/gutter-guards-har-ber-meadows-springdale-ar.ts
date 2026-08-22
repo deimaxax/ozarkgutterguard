@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Engineered for Har-Ber Meadows, Founders Park & Brush Creek Areas",
-    "content": "Har-Ber Meadows homes on large lots require dependable storm drainage to safeguard multi-car garages, driveways, and expansive foundation slabs. When standard gutter screens clog, thousands of gallons of rainwater pool along the slab edge, leading to costly foundation piering repairs. Our 316 surgical stainless micro-mesh system processes up to 150 inches of rain per hour while deflecting 100% of pine needles, river birch seeds, and agricultural dust."
+    "content": "Har-Ber Meadows homes on large lots require dependable storm drainage to safeguard multi-car garages, driveways, and expansive foundation slabs. When standard gutter screens clog, thousands of gallons of rainwater pool along the slab edge, leading to costly foundation piering repairs. Our 316 marine-grade 316 stainless micro-mesh system processes up to 150 inches of rain per hour while deflecting 100% of pine needles, river birch seeds, and agricultural dust."
   },
   "geoCoordinates": {
     "latitude": 36.1775,

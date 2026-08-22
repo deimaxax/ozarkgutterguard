@@ -29,11 +29,11 @@ export default function HydraulicGutterThroughput({
   const currentGutterCapacity = gutterSize === '5inch' ? fiveInchCapacityGpm : sixInchCapacityGpm;
 
   // Guard Throughput Limits (in/hr rain capability)
-  const surgicalMeshLimitInHr = 150;
+  const stainlessMeshLimitInHr = 150;
   const vinylSlottedLimitInHr = 45;
   const plasticHelmetLimitInHr = 60;
 
-  const isMeshPassing = stormIntensity <= surgicalMeshLimitInHr;
+  const isMeshPassing = stormIntensity <= stainlessMeshLimitInHr;
   const isVinylFailing = stormIntensity > vinylSlottedLimitInHr;
   const isHelmetFailing = stormIntensity > plasticHelmetLimitInHr;
 
@@ -162,10 +162,10 @@ export default function HydraulicGutterThroughput({
 
       {/* 3-Way Guard Comparison Under Simulated Load */}
       <div className="grid md:grid-cols-3 gap-4">
-        {/* Surgical Micro-Mesh */}
+        {/* marine-grade 316 micro-mesh */}
         <div className="bg-slate-50 border-2 border-emerald-600/50 rounded-xl p-4 space-y-2">
           <div className="flex justify-between items-center">
-            <span className="text-xs font-bold text-emerald-800 uppercase">316 Surgical Micro-Mesh</span>
+            <span className="text-xs font-bold text-emerald-800 uppercase">316 marine-grade 316 micro-mesh</span>
             <CheckCircle2 className="w-4 h-4 text-emerald-600" />
           </div>
           <span className="text-lg font-black text-slate-950 block">100% Water Capture</span>

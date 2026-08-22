@@ -51,7 +51,7 @@ export default function GuideConversionBlock({
           <div className="flex items-start gap-2 bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
             <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
             <span>
-              <strong>Direct Contractor Savings:</strong> Pay $16–$22/ft for 316 surgical mesh vs $38–$50/ft national franchise pricing.
+              <strong>Direct Contractor Savings:</strong> Pay $16–$22/ft for 316 316 stainless mesh vs $38–$50/ft national franchise pricing.
             </span>
           </div>
           <div className="flex items-start gap-2 bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">

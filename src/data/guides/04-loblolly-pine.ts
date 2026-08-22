@@ -33,7 +33,7 @@ This means Bella Vista homeowners cannot do what flat-terrain homeowners do: cle
 
 **Reverse-curve hoods:** Needles catch on the curved aluminum lip and pile up along the intake edge. The slot seals and water overshoots.
 
-**50-micron surgical mesh:** A 50-micron opening is smaller than the 1,000–2,000 micron diameter of a pine needle tip. Physical entry is impossible. Needles land on the mesh surface, dry, and blow off in the mountain breeze.`,
+**50-micron 316 stainless mesh:** A 50-micron opening is smaller than the 1,000–2,000 micron diameter of a pine needle tip. Physical entry is impossible. Needles land on the mesh surface, dry, and blow off in the mountain breeze.`,
     },
     {
       heading: 'What Happens to Your Fascia Boards When Pine Needle Mats Form',

@@ -53,7 +53,7 @@ When our technicians perform a 21-Point Roofline Audit on Bentonville homes, we 
     },
     {
       heading: 'The Permanent Fix: Two-Part Solution',
-      body: `**Part 1 — Install 50-micron surgical stainless mesh** so gutters never clog from Post Oak catkins, sweetgum balls, or shingle grit again. Water flows freely 24/7/365 regardless of season.
+      body: `**Part 1 — Install 50-micron marine-grade 316 stainless mesh** so gutters never clog from Post Oak catkins, sweetgum balls, or shingle grit again. Water flows freely 24/7/365 regardless of season.
 
 **Part 2 — Extend downspouts 6+ feet from foundation** so roof water discharges into the yard rather than against your slab. Most Bentonville builder homes have 12-inch downspout splashguards. That is not enough for Vertisol clay soils.
 

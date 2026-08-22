@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Rogers Gutter Installation: From Shadow Valley to Beaver Lake Properties",
-    "content": "Rogers properties across ZIP codes 72756, 72757, and 72758 span everything from historic downtown homes near First Street to sprawling Shadow Valley Country Club estates and Beaver Lake waterfront properties. Each requires precise gutter sizing. We pull GIS satellite measurements of your specific Rogers property, extrude custom seamless 6-inch aluminum runs on-site, and install our 50-micron 316 surgical stainless micro-mesh on the same visit. Turnkey pricing from $1,550 for standard Rogers two-story homes  —  saving you $4,000+ versus Pinnacle Hills franchise quotes."
+    "content": "Rogers properties across ZIP codes 72756, 72757, and 72758 span everything from historic downtown homes near First Street to sprawling Shadow Valley Country Club estates and Beaver Lake waterfront properties. Each requires precise gutter sizing. We pull GIS satellite measurements of your specific Rogers property, extrude custom seamless 6-inch aluminum runs on-site, and install our 50-micron 316 marine-grade 316 stainless micro-mesh on the same visit. Turnkey pricing from $1,550 for standard Rogers two-story homes  —  saving you $4,000+ versus Pinnacle Hills franchise quotes."
   },
   "geoCoordinates": {
     "latitude": 36.332,

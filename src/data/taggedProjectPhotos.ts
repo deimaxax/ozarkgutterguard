@@ -28,7 +28,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   {
     id: "photo-01",
     title: "Bella Vista Steep Hillside Pine Needle Defense",
-    caption: "316 Surgical micro-mesh mounted on 10/12 hillside roofline near Lake Loch Lomond, Bella Vista. 100% Loblolly pine needle deflection verified.",
+    caption: "316 marine-grade 316 micro-mesh mounted on 10/12 hillside roofline near Lake Loch Lomond, Bella Vista. 100% Loblolly pine needle deflection verified.",
     src: "/images/case_study_bella_vista_pine.svg",
     category: "case-study",
     city: "Bella Vista",
@@ -50,7 +50,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   {
     id: "photo-02",
     title: "Downtown Bentonville Post Oak Catkin Sludge Remediation",
-    caption: "Complete gutter tune-up, laser pitch leveling, and surgical micro-mesh installation on 1924 Craftsman home near Bentonville Square.",
+    caption: "Complete gutter tune-up, laser pitch leveling, and marine-grade 316 micro-mesh installation on 1924 Craftsman home near Bentonville Square.",
     src: "/images/case_study_bentonville_oak.svg",
     category: "case-study",
     city: "Bentonville",
@@ -72,7 +72,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   {
     id: "photo-03",
     title: "Pinnacle Hills Luxury Estate Multi-Tier Armor",
-    caption: "Custom 316 surgical micro-mesh with high-capacity valley splash diverters on Champions Drive, Pinnacle Hills, Rogers, AR.",
+    caption: "Custom 316 marine-grade 316 micro-mesh with high-capacity valley splash diverters on Champions Drive, Pinnacle Hills, Rogers, AR.",
     src: "/images/case_study_rogers_pinnacle.svg",
     category: "case-study",
     city: "Rogers",
@@ -84,7 +84,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
       micronSize: "50-Micron Weave",
       flowRateTested: "150 in/hr",
       pitch: "8/12 Multi-Tier",
-      material: "316 Surgical Stainless + Heavy Flanges",
+      material: "316 marine-grade 316 stainless + Heavy Flanges",
       treeThreat: "Silver Maple Helicopters & Oak Catkins",
       savings: "Saved $5,100 vs Corporate"
     },
@@ -93,7 +93,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   },
   {
     id: "photo-04",
-    title: "316 Surgical Micro-Mesh Technical Anatomy & Fascia Mount",
+    title: "316 marine-grade 316 micro-mesh Technical Anatomy & Fascia Mount",
     caption: "Cross-sectional schematic showing 100% shingle-safe fascia mounting, 50-micron stainless filter weave, and 150 in/hr capillary water intake.",
     src: "/images/diagram_micro_mesh_anatomy.svg",
     category: "technical",
@@ -116,7 +116,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   {
     id: "photo-05",
     title: "Hydrodynamic Water Flow Testing vs Competitors",
-    caption: "Laboratory rain test comparing 316 surgical mesh (150 in/hr intake) against national plastic curved hoods (60 in/hr) and DIY retail slits (35 in/hr).",
+    caption: "Laboratory rain test comparing 316 316 stainless mesh (150 in/hr intake) against national plastic curved hoods (60 in/hr) and DIY retail slits (35 in/hr).",
     src: "/images/flow_rate_testing_comparison.svg",
     category: "technical",
     city: "Springdale",
@@ -172,7 +172,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
       micronSize: "50-Micron Weave",
       flowRateTested: "150 in/hr",
       pitch: "9/12 Pitch",
-      material: "316 Surgical Stainless",
+      material: "316 marine-grade 316 stainless",
       treeThreat: "Loblolly Pines",
       savings: "Eliminated $1,200/yr cleanings"
     },
@@ -194,7 +194,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
       micronSize: "50-Micron Weave",
       flowRateTested: "150 in/hr",
       pitch: "10/12 Steep Pitch",
-      material: "316 Heavy Surgical Stainless",
+      material: "316 Heavy marine-grade 316 stainless",
       treeThreat: "Sugar Maple & Centennial Oaks",
       savings: "Saved $3,200 vs Franchise"
     },
@@ -216,7 +216,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
       micronSize: "50-Micron Weave",
       flowRateTested: "150 in/hr",
       pitch: "9/12 Pitch",
-      material: "316 Surgical Stainless",
+      material: "316 marine-grade 316 stainless",
       treeThreat: "White Oak & Sweetgum Balls",
       savings: "Saved $4,200 vs LeafFilter"
     },
@@ -226,7 +226,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   {
     id: "photo-10",
     title: "Split-Screen Before & After: Pine Needle Remediation",
-    caption: "Before: 4 inches of rotting pine needles choking gutters. After: Permanent 316 surgical stainless micro-mesh shedding 100% of debris.",
+    caption: "Before: 4 inches of rotting pine needles choking gutters. After: Permanent 316 marine-grade 316 stainless micro-mesh shedding 100% of debris.",
     src: "/images/gutter_before_after.jpg",
     category: "before-after",
     city: "Bella Vista",
@@ -238,7 +238,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
       micronSize: "50-Micron Weave",
       flowRateTested: "150 in/hr",
       pitch: "8/12 Pitch",
-      material: "316 Surgical Steel Armor",
+      material: "316 316 stainless Steel Armor",
       treeThreat: "Shortleaf Pines",
       savings: "100% Clog-Free Guarantee"
     },
@@ -247,7 +247,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
   },
   {
     id: "photo-11",
-    title: "Macro Detail: 50-Micron Surgical Stainless Weave",
+    title: "Macro Detail: 50-Micron marine-grade 316 stainless Weave",
     caption: "Close-up macro photography of 316 marine-grade stainless micro-mesh displaying smooth capillary aperture that rejects pine needles and shingle sand.",
     src: "/images/micromesh_macro_detail.jpg",
     category: "technical",
@@ -255,7 +255,7 @@ export const TAGGED_PROJECT_PHOTOS: TaggedProjectPhoto[] = [
     neighborhood: "Quality Control Lab",
     zipCode: "72712",
     geo: { latitude: 36.3729, longitude: -94.2088 },
-    tags: ["Macro Detail", "50-Micron", "Surgical Mesh", "Metallurgy", "316 Marine Stainless"],
+    tags: ["Macro Detail", "50-Micron", "316 stainless mesh", "Metallurgy", "316 Marine Stainless"],
     specs: {
       micronSize: "50 Microns (0.002 Inches)",
       flowRateTested: "150 in/hr",

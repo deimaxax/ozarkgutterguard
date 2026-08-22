@@ -73,7 +73,7 @@ export default function FoundationProtectionPage() {
                 The True Cost of Gutter Failure
               </h2>
               <p className="text-sm text-slate-600 mt-1">
-                A $1,250 – $1,650 investment in 316 surgical micro-mesh protects against catastrophic structural damage.
+                A $1,250 – $1,650 investment in 316 marine-grade 316 micro-mesh protects against catastrophic structural damage.
               </p>
             </div>
 

@@ -24,13 +24,13 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'comparison',
     badge: 'Buyer Warning & Pros/Cons Guide',
     h1: 'Is There a Downside to Gutter Guards? (The Honest Truth)',
-    subheadline: 'Why cheap foam inserts, curved helmets, and sliding guards under shingles fail â€” and how surgical micro-mesh avoids all of them.',
+    subheadline: 'Why cheap foam inserts, curved helmets, and sliding guards under shingles fail â€” and how marine-grade 316 micro-mesh avoids all of them.',
     metaTitle: 'Is There a Downside to Gutter Guards? (Honest 2026 Analysis)',
     metaDescription: 'Discover the real downsides of gutter guards: water overflow, fake maintenance-free promises, voided roof warranties, and high costs. Read before buying.',
     painPoint1: ['Water Cascading in Heavy Rain', 'Reverse-curve hoods fail during torrential Ozark rains, sending sheets of water cascading against foundations.'],
     painPoint2: ['Debris Trapped in Foam & Brushes', 'Foam inserts and bottle-brush guards become dense compost beds where seeds sprout and oak pollen turns into heavy sludge.'],
-    painPoint3: ['Overpriced High-Pressure Sales ($8,000)', 'National franchises charge $35â€“$45 per linear foot with pushy in-home reps. Ozark Gutter Guard installs surgical mesh for $8â€“$10/ft.'],
-    contextHeading: 'How to Avoid Every Downside: Surgical Micro-Mesh Mounted to Fascia, Not Shingles',
+    painPoint3: ['Overpriced High-Pressure Sales ($8,000)', 'National franchises charge $35â€“$45 per linear foot with pushy in-home reps. Ozark Gutter Guard installs 316 stainless mesh for $8â€“$10/ft.'],
+    contextHeading: 'How to Avoid Every Downside: marine-grade 316 micro-mesh Mounted to Fascia, Not Shingles',
     contextContent: 'The downsides of gutter guards come exclusively from outdated designs â€” foam inserts that sprout weeds in Rogers\u2019 Beaver Lake humidity, plastic cheese-grater screens that warp under Bentonville\u2019s 105\u00b0F July afternoons, and reverse-curve hoods that catastrophically overshoot during the Ozark Plateau\u2019s 2â€“3 inch/hour spring deluges. Northwest Arkansas homeowners who regret gutter guards almost always installed cheap retail products from Home Depot on Walton Boulevard, or let a national franchise tuck plastic brackets under their CertainTeed or Owens Corning shingle warranty. When you install 316 marine-grade stainless steel micro-mesh mounted strictly to the gutter lip and fascia board â€” with zero roof shingle contact â€” every documented downside is eliminated: 150 in/hr Ozark storm throughput, 50-micron pine needle filtration for Bella Vista Loblollies and Bentonville Post Oaks, and a 10-year transferable no-clog guarantee that moves with the home deed when you sell.'
   },
   {
@@ -44,8 +44,8 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint1: ['#1 Most Effective: 316 Stainless Micro-Mesh', 'Filters out 100% of pine needles, shingle grit, and oak pollen while accepting up to 150 inches of torrential rain per hour.'],
     painPoint2: ['#2 Moderate: Perforated Aluminum Panels', 'Handles large leaves well and resists snow loads, but small seeds and pine needles penetrate the larger punched holes.'],
     painPoint3: ['#3 Ineffective: Reverse-Curve Hoods', 'Relies on surface tension which fails during heavy downpours, causing severe water overshoot and foundation erosion.'],
-    contextHeading: 'Why Northwest Arkansas Roofs Demand 50-Micron Surgical Filtration',
-    contextContent: 'With heavy oak canopies in Fayetteville, Loblolly pines in Bella Vista, and Beaver Lake humidity in Rogers, standard screens fail within one season. NWA averages 47.5 inches of rain per year with flash events exceeding 2 inches per hour on the Ozark Plateau. Surgical 50-micron micro-mesh breaks water surface tension instantly, pulling rainwater into the trough at 150 in/hr while dry debris blows off in the daily breeze. That is why homeowners from Pinnacle Hills to Mount Sequoyah choose Ozark Gutter Guard over any national franchise brand.'
+    contextHeading: 'Why Northwest Arkansas Roofs Demand 50-Micron 316 stainless Filtration',
+    contextContent: 'With heavy oak canopies in Fayetteville, Loblolly pines in Bella Vista, and Beaver Lake humidity in Rogers, standard screens fail within one season. NWA averages 47.5 inches of rain per year with flash events exceeding 2 inches per hour on the Ozark Plateau. marine-grade 316 micro-mesh breaks water surface tension instantly, pulling rainwater into the trough at 150 in/hr while dry debris blows off in the daily breeze. That is why homeowners from Pinnacle Hills to Mount Sequoyah choose Ozark Gutter Guard over any national franchise brand.'
   },
   {
     slug: 'what-are-the-worst-gutter-guards-according-to-consumer-reports',
@@ -58,8 +58,8 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint1: ['Foam Inserts (The Compost Sponge)', 'Porous foam traps shingle silt and oak seeds, turning into a wet sponge where weeds and tree seedlings sprout inside your gutter.'],
     painPoint2: ['Bottle Brush Inserts (The Needle Comb)', 'Bristles catch pine needles and oak catkins like a comb, creating an impenetrable matted dam that forces water over the edges.'],
     painPoint3: ['Plastic Cheese Grater Screens', 'Cheap vinyl warps under Arkansas summer sun and cracks in winter freezes, popping out of place during moderate storms.'],
-    contextHeading: 'The Permanent Alternative: Heavy-Gauge Aluminum & Surgical Mesh',
-    contextContent: 'Consumer Reports and roofing experts agree that drop-in foam and brushes are temporary gimmicks. Permanent roofline protection requires an extruded aluminum chassis secured with zinc screws and a 316 surgical stainless steel filter screen.'
+    contextHeading: 'The Permanent Alternative: Heavy-Gauge Aluminum & 316 stainless mesh',
+    contextContent: 'Consumer Reports and roofing experts agree that drop-in foam and brushes are temporary gimmicks. Permanent roofline protection requires an extruded aluminum chassis secured with zinc screws and a 316 marine-grade 316 stainless steel filter screen.'
   },
   {
     slug: 'how-much-are-gutter-guards-for-a-2500-square-foot-house',
@@ -71,9 +71,9 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Complete cost breakdown for a 2,500 sq ft home (approx 200 linear feet). Compare Ozark Gutter Guard ($1,450 - $1,750) vs LeafFilter ($5,000 - $8,000).',
     painPoint1: ['DIY Store Kits ($400 - $600)', 'Materials only. Requires 15+ hours on a high ladder with dangerous fall risks and no pitch realignment or warranty.'],
     painPoint2: ['National Corporate Franchises ($5,000 - $8,000+)', 'Massive corporate markup to cover national television commercials, celebrity endorsements, and sales commissions.'],
-    painPoint3: ['Ozark Gutter Guard Co. ($1,450 - $1,750 Total)', 'Turnkey professional installation of 316 surgical micro-mesh, complete gutter tune-up, and 10-Year Transferable Guarantee.'],
+    painPoint3: ['Ozark Gutter Guard Co. ($1,450 - $1,750 Total)', 'Turnkey professional installation of 316 marine-grade 316 micro-mesh, complete gutter tune-up, and 10-Year Transferable Guarantee.'],
     contextHeading: 'What Is Included in Our 2,500 Sq Ft Turnkey Package for NWA Homeowners',
-    contextContent: 'For a 2,500 sq. ft. home in Bentonville, Rogers, or Fayetteville with approximately 200 linear feet of gutters, our fixed-price package includes: 100% full interior cleanout of existing post-oak catkin sludge and pine needle mats, laser pitch realignment to restore positive drainage slope, heavy-duty 1.5-inch zinc screw hidden hanger reinforcement every 24 inches, industrial polyurethane corner miter sealant, valley splash diverters at high-volume roof intersections, and custom-fitted 50-micron 316 surgical stainless steel micro-mesh armor. All of this is completed in a single afternoon by our local Benton County crew. No subcontractors, no surprises, no $7,000 corporate franchise markup.'
+    contextContent: 'For a 2,500 sq. ft. home in Bentonville, Rogers, or Fayetteville with approximately 200 linear feet of gutters, our fixed-price package includes: 100% full interior cleanout of existing post-oak catkin sludge and pine needle mats, laser pitch realignment to restore positive drainage slope, heavy-duty 1.5-inch zinc screw hidden hanger reinforcement every 24 inches, industrial polyurethane corner miter sealant, valley splash diverters at high-volume roof intersections, and custom-fitted 50-micron 316 marine-grade 316 stainless steel micro-mesh armor. All of this is completed in a single afternoon by our local Benton County crew. No subcontractors, no surprises, no $7,000 corporate franchise markup.'
   },
   {
     slug: 'what-is-an-alternative-to-gutter-guards',
@@ -108,7 +108,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'comparison',
     badge: '#1 Rated Industry Consensus',
     h1: 'What Is the #1 Rated Gutter Guard on the Market?',
-    subheadline: 'Why testing labs, independent roofers, and thousands of homeowner reviews rank surgical stainless micro-mesh as the undisputed leader.',
+    subheadline: 'Why testing labs, independent roofers, and thousands of homeowner reviews rank marine-grade 316 stainless micro-mesh as the undisputed leader.',
     metaTitle: 'What is the #1 Rated Gutter Guard? (Contractor & Consumer Consensus)',
     metaDescription: 'Stainless steel micro-mesh is rated #1 across Bob Vila, Consumer Reports, and professional roofing forums. See why it leads the market.',
     painPoint1: ['Unmatched 50-Micron Filtration', 'Blocks fine pine needles from Bella Vista Loblollies, Bentonville oak tassels, Rogers maple helicopters, and abrasive shingle granules while allowing maximum water capture.'],
@@ -122,27 +122,27 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'problem',
     badge: 'Maintenance Reality Guide',
     h1: 'Do You Still Have to Clean Gutters If You Have Gutter Guards?',
-    subheadline: 'The truth about marketing claims of "100% zero maintenance" vs the real-world performance of surgical micro-mesh armor.',
+    subheadline: 'The truth about marketing claims of "100% zero maintenance" vs the real-world performance of marine-grade 316 micro-mesh armor.',
     metaTitle: 'Do You Still Have to Clean Gutters with Gutter Guards? (Honest Truth)',
     metaDescription: 'The honest answer: No inside-the-gutter scooping, but rare surface brushing of pollen is needed. Learn how micro-mesh reduces maintenance by 95%.',
     painPoint1: ['Without Guards: Dangerous Sludge Scooping', 'Climbing ladders 3-4 times every year to scoop pounds of decomposing rotting black mud, spider nests, and stagnant mosquito water.'],
     painPoint2: ['With Cheap Screens: Nightmare Clogs', 'Debris wedges inside holes, requiring you to unscrew and dismantle the entire system to clean underneath.'],
     painPoint3: ['With Ozark Micro-Mesh: 95% Maintenance Free', 'Zero inside clogs forever. Dry pine needles and leaves blow off naturally in the breeze; fine pollen rinses through with heavy rain.'],
     contextHeading: 'Backed by Our 10-Year Transferable No-Clog Guarantee',
-    contextContent: 'If your gutters ever clog internally or overflow while protected by our 316 surgical micro-mesh guards, our local NWA crew will come out and clear it 100% free of charge. No fine print, no games.'
+    contextContent: 'If your gutters ever clog internally or overflow while protected by our 316 marine-grade 316 micro-mesh guards, our local NWA crew will come out and clear it 100% free of charge. No fine print, no games.'
   },
   {
     slug: 'is-leaffilter-a-better-choice-than-gutter-guard',
     cluster: 'comparison',
     badge: 'Brand vs Brand Comparison',
     h1: 'Is LeafFilter a Better Choice Than Other Gutter Guards?',
-    subheadline: 'An engineering comparison of LeafFilterâ€™s uPVC plastic chassis vs Ozark Gutter Guardâ€™s extruded aluminum frame & 316 surgical steel.',
+    subheadline: 'An engineering comparison of LeafFilterâ€™s uPVC plastic chassis vs Ozark Gutter Guardâ€™s extruded aluminum frame & 316 316 stainless steel.',
     metaTitle: 'Is LeafFilter Better Than Other Gutter Guards? (2026 Review)',
     metaDescription: 'LeafFilter uses micro-mesh on a plastic frame. Discover how Ozark Gutter Guard delivers superior full-metal durability for 1/3 the cost.',
     painPoint1: ['Frame Material: uPVC Plastic vs Extruded Aluminum', 'LeafFilter mounts steel mesh over a uPVC plastic chassis that can warp under intense Ozark summer sun. We use heavy-gauge extruded aluminum.'],
     painPoint2: ['Price Point: $5,000 - $8,000 vs $1,250 - $1,650', 'You pay 3x more with LeafFilter to cover corporate advertising and commissioned salesmen for the same filtration grade.'],
     painPoint3: ['Sales Experience: 3-Hour Pitch vs 15-Min Satellite', 'No pressure, no fake closing discounts, and no strangers in your living room with our digital satellite estimation.'],
-    contextHeading: 'Get Surgical Steel Protection Without Corporate Markups',
+    contextHeading: 'Get 316 stainless Steel Protection Without Corporate Markups',
     contextContent: 'LeafFilter is a proven micro-mesh concept, but their $30â€“$45/ft pricing is severely inflated. Ozark Gutter Guard installs heavy-duty all-metal micro-mesh for $8.50â€“$10.50/ft with local Northwest Arkansas accountability.'
   },
   {
@@ -157,7 +157,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Warranty Structure Controversy', 'Customers claimed warranties excluded exterior debris build-up, leaving homeowners with cleaning bills.'],
     painPoint3: ['Ozark Gutter Guard Solution', 'We use 316 marine-grade steel with an open-cell flow matrix and provide a 10-Year Transferable Guarantee with free service calls.'],
     contextHeading: 'Honest Truth: The Right Way to Protect Your Roofline',
-    contextContent: 'We believe in 100% transparency: no guard is zero-maintenance forever, but our 316 surgical micro-mesh paired with free local service calls gives you true industrial-grade protection without $6,000 corporate markups.'
+    contextContent: 'We believe in 100% transparency: no guard is zero-maintenance forever, but our 316 marine-grade 316 micro-mesh paired with free local service calls gives you true industrial-grade protection without $6,000 corporate markups.'
   },
   {
     slug: 'are-costco-gutter-guards-good',
@@ -171,21 +171,21 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['15+ Hours on a Dangerous Ladder', 'Requires cutting stainless steel mesh with tin snips, bending around corners, and risking dangerous ladder falls.'],
     painPoint3: ['Zero Gutter Realignment Included', 'DIY kits do not fix sagging pitch or leaking corner seams, causing trapped water behind the guards.'],
     contextHeading: 'The Verdict: Pro Grade Micro-Mesh Without the Ladder Risk',
-    contextContent: 'Costco EasyOn is a solid DIY product, but Ozark Gutter Guard Co. installs heavy-duty 316 surgical steel, realigns your slopes with lasers, reseals all corners, and guarantees zero clogs for 10 years starting at just $1,250 total.'
+    contextContent: 'Costco EasyOn is a solid DIY product, but Ozark Gutter Guard Co. installs heavy-duty 316 316 stainless steel, realigns your slopes with lasers, reseals all corners, and guarantees zero clogs for 10 years starting at just $1,250 total.'
   },
   {
     slug: 'are-there-any-gutter-guards-that-actually-work',
     cluster: 'comparison',
     badge: 'Contractor & Lab Proof',
     h1: 'Are There Any Gutter Guards That Actually Work? (Yes!)',
-    subheadline: 'Why surgical-grade stainless steel micro-mesh (50-micron rating) is the only technology that passes rigorous Ozark storm testing.',
+    subheadline: 'Why marine-grade 316 stainless steel micro-mesh (50-micron rating) is the only technology that passes rigorous Ozark storm testing.',
     metaTitle: 'Are There Any Gutter Guards That Actually Work? (2026 Lab Proof)',
     metaDescription: 'Yes! 316 stainless steel micro-mesh genuinely works. Learn why it stops 100% of pine needles and oak catkins while accepting torrential rain.',
     painPoint1: ['Why Foam & Brushes Fail Instantly', 'Foam acts like a wet sponge where seeds sprout, and bottle brushes trap pine needles like combs.'],
     painPoint2: ['Why Plastic Screens Fail in 12 Months', 'Plastic warps in Arkansas heat, letting small seeds and shingle grit enter the gutter trough.'],
     painPoint3: ['Why 316 Stainless Micro-Mesh Works', 'Microscopic 50-micron pores block 100% of pine needles and oak catkins while capillary water tension pulls torrential Ozark rain straight through at 150 in/hr.'],
     contextHeading: '100% Clog-Free Guarantee for 10 Years â€” Backed by a Local NWA Business',
-    contextContent: 'We stand behind our 316 surgical stainless micro-mesh with a 10-Year Transferable No-Clog Guarantee: if your gutters ever clog while protected by our system â€” in Bentonville, Rogers, Bella Vista, Fayetteville, Springdale, or any other NWA city we serve â€” our local crew cleans them 100% free, no fine print. We are not a national call center. We are a Benton County, Arkansas business that lives and works on the same Ozark Plateau roads as our customers. Our reputation depends on every installation performing flawlessly through post-oak catkin season, Loblolly pine needle season, and the spring tornado-storm deluges that hit NWA every March through May.'
+    contextContent: 'We stand behind our 316 marine-grade 316 stainless micro-mesh with a 10-Year Transferable No-Clog Guarantee: if your gutters ever clog while protected by our system â€” in Bentonville, Rogers, Bella Vista, Fayetteville, Springdale, or any other NWA city we serve â€” our local crew cleans them 100% free, no fine print. We are not a national call center. We are a Benton County, Arkansas business that lives and works on the same Ozark Plateau roads as our customers. Our reputation depends on every installation performing flawlessly through post-oak catkin season, Loblolly pine needle season, and the spring tornado-storm deluges that hit NWA every March through May.'
   },
   {
     slug: 'what-do-roofers-say-about-gutter-guards',
@@ -213,7 +213,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Negotiated LeafFilter Price ($2,700 - $3,800)', 'Even after 40% discounts, homeowners still pay nearly $25 per linear foot for plastic-frame micro-mesh.'],
     painPoint3: ['Ozark Gutter Guard Co. ($1,250 - $1,450 Total)', 'Fair, fixed contractor pricing with heavy-duty aluminum frames, full gutter cleaning, and laser pitch tune-up included.'],
     contextHeading: 'Save $3,000+ on Your 1,500 Sq Ft NWA Home',
-    contextContent: 'A 1,500 sq. ft. home in Bentonville, Rogers, or Bella Vista typically has 120â€“150 linear feet of gutters. LeafFilter\u2019s commissioned sales rep will quote $2,700â€“$6,800 for that same footage â€” then offer a fake \u201csame-day discount\u201d to close before you can compare prices. Ozark Gutter Guard Co. delivers an itemized satellite quote for that exact property via SMS within 15 minutes, with a guaranteed price of $1,050â€“$1,450 total. No living-room pitch, no expiring discounts, no subcontractors. The same 316 surgical stainless steel specification, installed by our local Benton County crew, with a 10-year transferable no-clog guarantee that adds verifiable value to your home\'s appraisal.'
+    contextContent: 'A 1,500 sq. ft. home in Bentonville, Rogers, or Bella Vista typically has 120â€“150 linear feet of gutters. LeafFilter\u2019s commissioned sales rep will quote $2,700â€“$6,800 for that same footage â€” then offer a fake \u201csame-day discount\u201d to close before you can compare prices. Ozark Gutter Guard Co. delivers an itemized satellite quote for that exact property via SMS within 15 minutes, with a guaranteed price of $1,050â€“$1,450 total. No living-room pitch, no expiring discounts, no subcontractors. The same 316 marine-grade 316 stainless steel specification, installed by our local Benton County crew, with a 10-year transferable no-clog guarantee that adds verifiable value to your home\'s appraisal.'
   },
   {
     slug: 'can-a-gutter-guard-be-installed-over-existing-gutters',
@@ -248,14 +248,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'comparison',
     badge: 'Solid Cover vs Mesh Review',
     h1: 'What Are People Saying About LeaFree Gutter Guards?',
-    subheadline: 'An in-depth analysis of nose-forward surface tension covers vs 316 surgical stainless steel micro-mesh in severe Ozark weather.',
+    subheadline: 'An in-depth analysis of nose-forward surface tension covers vs 316 marine-grade 316 stainless steel micro-mesh in severe Ozark weather.',
     metaTitle: 'LeaFree Gutter Guards Review (Solid Aluminum vs Micro-Mesh)',
     metaDescription: 'Comprehensive review of LeaFree solid aluminum gutter covers. Compare water surface tension, heavy rain overflow, and micro-mesh filtration.',
     painPoint1: ['Heavy Rain Overflow (Torrential Storms)', 'Surface tension breaks during heavy Ozark flash downpours, causing high-velocity water to shoot over the curved nose.'],
     painPoint2: ['Pine Needle Slot Wedging', 'Thin pine needles and oak catkins catch along the curved intake slot, wedging in place and blocking water entry.'],
     painPoint3: ['Shingle Installation Risks', 'Many solid covers slide up under your first row of roof shingles, risking wind-lift damage and voided manufacturer warranties.'],
     contextHeading: 'The Modern Solution: 316 Marine-Grade Micro-Mesh Armor',
-    contextContent: 'While LeaFree is durable aluminum, solid curved hoods struggle with Northwest Arkansas pine needles and flash storms. Our 316 surgical micro-mesh mounts 100% shingle-free and accepts up to 150 inches of rain per hour without water overshoot.'
+    contextContent: 'While LeaFree is durable aluminum, solid curved hoods struggle with Northwest Arkansas pine needles and flash storms. Our 316 marine-grade 316 micro-mesh mounts 100% shingle-free and accepts up to 150 inches of rain per hour without water overshoot.'
   },
   {
     slug: 'why-not-use-gutter-guards',
@@ -267,8 +267,8 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Why do some homeowners regret gutter guards? Learn about cheap plastic failure, ice dams, shingle damage, and how to do it right.',
     painPoint1: ['Mistake #1: Buying Cheap Foam or Plastic', 'Hardware store foam disintegrates into sludge, and plastic screens warp in the heat, creating clogs that are harder to clean.'],
     painPoint2: ['Mistake #2: Allowing Installers to Slide Under Shingles', 'Voiding your 30-year roof warranty by breaking the shingle seal is a catastrophic mistake. We mount strictly to the gutter and fascia.'],
-    painPoint3: ['Mistake #3: Overpaying $6,000 to National Sales Chains', 'Homeowners feel buyer remorse after paying $7,000 for plastic guards. Our direct model provides surgical steel for $1,250â€“$1,650.'],
-    contextHeading: 'The Right Way: Fascia-Mounted 316 Surgical Steel',
+    painPoint3: ['Mistake #3: Overpaying $6,000 to National Sales Chains', 'Homeowners feel buyer remorse after paying $7,000 for plastic guards. Our direct model provides 316 stainless steel for $1,250â€“$1,650.'],
+    contextHeading: 'The Right Way: Fascia-Mounted 316 316 stainless Steel',
     contextContent: 'You should avoid gutter guards IF you are installing cheap foam or letting salesmen tuck brackets under your shingles. But when you install commercial 316 stainless micro-mesh on realigned gutters, you protect your foundation for decades.'
   },
   {
@@ -281,7 +281,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Home Depot sells DIY gutter guards but does NOT offer direct guard installation. Compare store DIY kits vs Ozark Gutter Guard professional service.',
     painPoint1: ['Home Depot DIY Kits ($200 - $400 materials)', 'Requires purchasing ladders, tin snips, and safety harnesses, spending your entire weekend cutting metal at dangerous heights.'],
     painPoint2: ['Hiring a Random Handyman ($800 - $1,500 labor)', 'Handymen lack gutter-specific pitch tools, cannot repair sagging slopes properly, and offer zero transferable no-clog warranties.'],
-    painPoint3: ['Ozark Gutter Guard Turnkey Package ($1,250 - $1,650)', 'Commercial 316 surgical micro-mesh, complete cleaning, laser pitch tune-up, and 10-Year Transferable Guarantee for the same cost.'],
+    painPoint3: ['Ozark Gutter Guard Turnkey Package ($1,250 - $1,650)', 'Commercial 316 marine-grade 316 micro-mesh, complete cleaning, laser pitch tune-up, and 10-Year Transferable Guarantee for the same cost.'],
     contextHeading: 'Get Pro-Grade Armor Without the Weekend Ladder Hazard',
     contextContent: 'Installing 200 feet of gutter guards requires climbing up and down a ladder over 80 times. For roughly the same cost as buying materials and hiring an uninsured handyman, Ozark Gutter Guard delivers commercial-grade installation with a 10-year warranty.'
   },
@@ -309,7 +309,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Learn what quality 316 stainless micro-mesh gutter guards actually cost ($1,250 - $1,650 installed). Avoid low-end plastic and corporate markups.',
     painPoint1: ['Cheap DIY Screens ($1 - $3/ft)', 'Warp in summer sun, let in pine needles, and require total replacement every 2 years.'],
     painPoint2: ['Corporate Franchises ($25 - $45/ft)', 'Inflated to pay for TV ad budgets and commissioned in-home salespeople.'],
-    painPoint3: ['Direct Professional Micro-Mesh ($8.50 - $10.50/ft)', 'Extruded aluminum frames and 316 surgical stainless mesh installed with a 10-year warranty.'],
+    painPoint3: ['Direct Professional Micro-Mesh ($8.50 - $10.50/ft)', 'Extruded aluminum frames and 316 marine-grade 316 stainless mesh installed with a 10-year warranty.'],
     contextHeading: 'Fair Contractor Pricing for Northwest Arkansas',
     contextContent: 'For a standard 170-foot home, good gutter guards should cost between $1,250 and $1,650 complete with cleaning and slope adjustment. That is exactly what Ozark Gutter Guard delivers.'
   },
@@ -323,7 +323,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Consumer Reports benchmark tests rate stainless steel micro-mesh as the top performer over foam, brush, and plastic covers. See full details.',
     painPoint1: ['Micro-Mesh Filtration Dominance', 'Rated #1 for filtering out small grit and pine needles while maintaining high water throughput.'],
     painPoint2: ['Foam & Plastic Failures', 'Foam inserts and drop-in plastic screens ranked lowest due to rapid clogging and UV breakdown.'],
-    painPoint3: ['Ozark Gutter Guard Specification', 'We provide the exact same lab-tested 316 surgical stainless micro-mesh at direct contractor pricing.'],
+    painPoint3: ['Ozark Gutter Guard Specification', 'We provide the exact same lab-tested 316 marine-grade 316 stainless micro-mesh at direct contractor pricing.'],
     contextHeading: 'Lab-Proven Technology for Your Roofline',
     contextContent: 'Every independent test concludes that micro-mesh is superior. Ozark Gutter Guard Co. brings you this exact lab-proven technology without the $6,000 franchise sales markup.'
   },
@@ -338,7 +338,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint1: ['UV Heat Warping & Sagging', 'Ozark summer temperatures cause thin vinyl screens to warp and sag into the gutter, allowing debris to pour right past.'],
     painPoint2: ['Winter Freeze-Thaw Cracking', 'Sub-freezing winter storms make plastic brittle, causing it to crack under the weight of accumulated snow and ice.'],
     painPoint3: ['Rodent & Squirrel Chewing', 'Pests easily gnaw through plastic and foam to build warm nests inside your covered gutters. Metal is 100% rodent-proof.'],
-    contextHeading: 'The Gold Standard: Heavy-Gauge Aluminum & 316 Surgical Steel',
+    contextHeading: 'The Gold Standard: Heavy-Gauge Aluminum & 316 316 stainless Steel',
     contextContent: 'Plastic screens are designed for 1-2 years of temporary use. Our systems utilize rust-proof extruded aluminum frames and marine-grade 316 stainless steel micro-mesh that withstand severe Ozark weather for decades.'
   },
   {
@@ -353,21 +353,21 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Heavy Rain Performance: Micro-Mesh Wins', 'LeafGuardâ€™s surface-tension hood frequently overshoots during heavy downpours. Micro-mesh absorbs 150+ inches of rain per hour.'],
     painPoint3: ['Total Cost: $5,000 - $7,000 vs $8,000 - $12,000+', 'LeafGuard is drastically more expensive because you are forced to pay for a complete gutter replacement.'],
     contextHeading: 'The Smarter Alternative: Ozark Gutter Guard Co.',
-    contextContent: 'Why spend $6,000 on LeafFilter or $10,000 on LeafGuard? Ozark Gutter Guard Co. installs superior 316 surgical stainless steel micro-mesh on your existing gutters for just $1,250â€“$1,650, saving you thousands while delivering lab-tested clog protection.'
+    contextContent: 'Why spend $6,000 on LeafFilter or $10,000 on LeafGuard? Ozark Gutter Guard Co. installs superior 316 marine-grade 316 stainless steel micro-mesh on your existing gutters for just $1,250â€“$1,650, saving you thousands while delivering lab-tested clog protection.'
   },
   {
     slug: 'what-is-the-little-known-trick-for-cleaning-gutters',
     cluster: 'service',
     badge: 'Gutter Maintenance Hacks',
     h1: 'What Is the Little Known Trick for Cleaning Gutters?',
-    subheadline: 'How homeowners use DIY PVC leaf blower extensions to clean from the ground â€” and why permanent surgical micro-mesh is the ultimate solution.',
+    subheadline: 'How homeowners use DIY PVC leaf blower extensions to clean from the ground â€” and why permanent marine-grade 316 micro-mesh is the ultimate solution.',
     metaTitle: 'What is the Little Known Trick for Cleaning Gutters? (Ground Tools)',
     metaDescription: 'Discover ground-level gutter cleaning hacks (PVC blower extensions, wet vacs) and why permanent micro-mesh eliminates cleaning completely.',
     painPoint1: ['Hack 1: The PVC Leaf Blower "Gutter Blaster"', 'A curved U-pipe attached to a leaf blower can blast dry leaves out, but wet decomposing oak sludge remains stuck.'],
     painPoint2: ['Hack 2: Garden Cultivator on an Extension Pole', 'Useful for scraping loose debris from the ground, but leaves abrasive shingle grit packed tightly in the bottom.'],
-    painPoint3: ['The Permanent Fix: 316 Surgical Micro-Mesh Armor', 'Stops leaves, pine needles, and grit from ever entering your gutters in the first place, ending cleaning forever.'],
+    painPoint3: ['The Permanent Fix: 316 marine-grade 316 micro-mesh Armor', 'Stops leaves, pine needles, and grit from ever entering your gutters in the first place, ending cleaning forever.'],
     contextHeading: 'End Gutter Cleaning Forever with Ozark Gutter Guard',
-    contextContent: 'While blower hacks save you from climbing a ladder for dry leaves, wet Ozark oak sludge still clogs downspouts. Installing our 316 surgical micro-mesh ensures water flows freely while debris blows off naturally in the wind.'
+    contextContent: 'While blower hacks save you from climbing a ladder for dry leaves, wet Ozark oak sludge still clogs downspouts. Installing our 316 marine-grade 316 micro-mesh ensures water flows freely while debris blows off naturally in the wind.'
   },
   {
     slug: 'why-do-new-houses-not-have-gutters',
@@ -381,7 +381,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Mulch & Landscape Trenching', 'Water cascading off rooflines digs deep trenches in expensive new landscaping and washes mulch onto driveways.'],
     painPoint3: ['Exterior Siding Mud Splatter & Rot', 'Heavy splashing stains brick, rots wooden siding, and creates mold near ground-level weep holes.'],
     contextHeading: 'Seamless Gutters + Micro-Mesh Packages for New Construction',
-    contextContent: 'If your newly built home in Bentonville, Rogers, or Fayetteville came without gutters, Ozark Gutter Guard Co. provides complete custom seamless 6-inch aluminum gutter extrusion and surgical micro-mesh armor in one seamless installation.'
+    contextContent: 'If your newly built home in Bentonville, Rogers, or Fayetteville came without gutters, Ozark Gutter Guard Co. provides complete custom seamless 6-inch aluminum gutter extrusion and marine-grade 316 micro-mesh armor in one seamless installation.'
   },
   {
     slug: 'do-mesh-gutter-guards-get-clogged',
@@ -390,12 +390,12 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Do Mesh Gutter Guards Get Clogged? (Real World Testing)',
     subheadline: 'Learn how aperture micron sizing determines whether mesh stays clear or clogs with tree sap and pollen.',
     metaTitle: 'Do Mesh Gutter Guards Get Clogged? (Aperture Sizing Facts)',
-    metaDescription: 'Do micro-mesh gutter guards clog? Discover how 50-micron surgical steel prevents internal clogs and sheds oak pollen and pine needles.',
+    metaDescription: 'Do micro-mesh gutter guards clog? Discover how 50-micron 316 stainless steel prevents internal clogs and sheds oak pollen and pine needles.',
     painPoint1: ['Cheap Screen Holes (Too Big)', 'Standard 1/4\" wire mesh allows pine needles and seed pods to penetrate and form deep root clogs.'],
     painPoint2: ['Ultra-Fine Filter Cloth (Too Small)', '20-micron cloth can clog with fine pollen. Our balanced 50-micron aperture lets pollen rinse through with rain.'],
     painPoint3: ['Capillary Flow Dynamic', 'Hydrodynamic surface pulls water into the gutter while wind blows dry surface leaves away.'],
     contextHeading: 'Engineered for Arkansas Oak & Pine Foliage',
-    contextContent: 'Our 50-micron surgical stainless mesh strikes the perfect balance: fine enough to block 100% of pine needles and grit, yet open enough to let heavy rain rinse away seasonal pollen.'
+    contextContent: 'Our 50-micron marine-grade 316 stainless mesh strikes the perfect balance: fine enough to block 100% of pine needles and grit, yet open enough to let heavy rain rinse away seasonal pollen.'
   },
   {
     slug: 'is-leaffilter-overpriced',
@@ -408,8 +408,8 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint1: ['Multi-Million Dollar TV Commercials', 'National television ad campaigns and celebrity spokespeople add thousands of dollars to every residential quote.'],
     painPoint2: ['High-Commission In-Home Sales Reps', 'Sales reps who spend 3 hours in your living room receive substantial commissions on every closed contract.'],
     painPoint3: ['Corporate Franchise Royalty Fees', 'Franchise branches must pay substantial monthly royalties back to national headquarters on every job.'],
-    contextHeading: 'Same 316 Surgical Steel Specification â€” Factory Direct to Northwest Arkansas',
-    contextContent: 'LeafFilter\'s corporate quote on a 2,000 sq. ft. Bentonville home runs $5,500â€“$7,200. Ozark Gutter Guard Co. installs the identical 316 surgical stainless micro-mesh specification on that same Bentonville home for $1,350â€“$1,650 â€” because we eliminated the national television ad budget, the commissioned in-home sales reps driving company trucks, and the franchise royalty payments. We measure your roof via high-resolution GIS satellite imagery of your specific Benton or Washington County property, text you a guaranteed fixed-price quote within 15 minutes, and our local crew completes installation in a single afternoon across Coler Mountain, Pinnacle Hills, Mount Sequoyah, or wherever you live in NWA.'
+    contextHeading: 'Same 316 316 stainless Steel Specification â€” Factory Direct to Northwest Arkansas',
+    contextContent: 'LeafFilter\'s corporate quote on a 2,000 sq. ft. Bentonville home runs $5,500â€“$7,200. Ozark Gutter Guard Co. installs the identical 316 marine-grade 316 stainless micro-mesh specification on that same Bentonville home for $1,350â€“$1,650 â€” because we eliminated the national television ad budget, the commissioned in-home sales reps driving company trucks, and the franchise royalty payments. We measure your roof via high-resolution GIS satellite imagery of your specific Benton or Washington County property, text you a guaranteed fixed-price quote within 15 minutes, and our local crew completes installation in a single afternoon across Coler Mountain, Pinnacle Hills, Mount Sequoyah, or wherever you live in NWA.'
   },
   {
     slug: 'what-is-better-than-leaffilter',
@@ -423,7 +423,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['No Shingle-Tucking or Warranty Risk', 'Our armor mounts 100% to the gutter lip and fascia board, keeping your roof shingle manufacturer warranty completely intact.'],
     painPoint3: ['True Local Northwest Arkansas Accountability', 'When you call us, you speak directly with our local NWA team, not an out-of-state corporate call center.'],
     contextHeading: 'The Superior Northwest Arkansas Choice: Local Accountability + Lab-Grade Steel',
-    contextContent: 'Ozark Gutter Guard Co. combines everything: lab-tested 316 surgical stainless micro-mesh that processes 150 in/hr of Ozark storm water, heavy-gauge extruded aluminum structural frames that hold 45 lbs/linear ft of winter ice load, 15-minute GIS satellite quotes delivered by SMS, and transparent $1,250â€“$1,650 pricing. We have installed in Pinnacle Hills estates in Rogers, historic preservation homes on Mount Sequoyah in Fayetteville, steep Loch Lomond hillsides in Bella Vista, and Downtown Bentonville craftsmans within view of the Crystal Bridges museum trails. That is the local operational footprint that national brands cannot replicate with a call center in another state.'
+    contextContent: 'Ozark Gutter Guard Co. combines everything: lab-tested 316 marine-grade 316 stainless micro-mesh that processes 150 in/hr of Ozark storm water, heavy-gauge extruded aluminum structural frames that hold 45 lbs/linear ft of winter ice load, 15-minute GIS satellite quotes delivered by SMS, and transparent $1,250â€“$1,650 pricing. We have installed in Pinnacle Hills estates in Rogers, historic preservation homes on Mount Sequoyah in Fayetteville, steep Loch Lomond hillsides in Bella Vista, and Downtown Bentonville craftsmans within view of the Crystal Bridges museum trails. That is the local operational footprint that national brands cannot replicate with a call center in another state.'
   },
   {
     slug: 'how-much-do-gutter-guards-cost-at-costco',
@@ -437,7 +437,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['100-Foot Bulk Kit: $165 - $199 on Costco.com', 'Provides enough material for small single-story homes, but you must do all the ladder cutting yourself.'],
     painPoint3: ['Labor & Tune-Up Gap', 'Hiring a handyman costs an extra $6-$12/ft and offers no laser pitch realignment or 10-year warranty.'],
     contextHeading: 'Get Pro Turnkey Micro-Mesh for Just $1,250',
-    contextContent: 'Why spend your weekend on a high ladder? Ozark Gutter Guard Co. delivers heavy-duty 316 surgical stainless steel, full cleaning, and laser pitch realignment for just $1,250â€“$1,650 total.'
+    contextContent: 'Why spend your weekend on a high ladder? Ozark Gutter Guard Co. delivers heavy-duty 316 marine-grade 316 stainless steel, full cleaning, and laser pitch realignment for just $1,250â€“$1,650 total.'
   },
   {
     slug: 'what-are-the-downsides-of-using-gutter-guards',
@@ -458,10 +458,10 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'problem',
     badge: 'Troubleshooting Guide',
     h1: 'What Are Some Common Problems with Gutter Guards?',
-    subheadline: 'The top 4 issues homeowners experience with gutter guards and how modern surgical micro-mesh eliminates them.',
+    subheadline: 'The top 4 issues homeowners experience with gutter guards and how modern marine-grade 316 micro-mesh eliminates them.',
     metaTitle: 'What Are Some Common Problems with Gutter Guards? (And Solutions)',
     metaDescription: 'Discover common gutter guard problems: pine needle piercing, water overshoot, and ice dams. Learn the permanent engineering fixes.',
-    painPoint1: ['Pine Needles Piercing Openings', 'Fixed with 50-micron surgical weave that blocks Bella Vista Loblolly and Shortleaf needle tips completely.'],
+    painPoint1: ['Pine Needles Piercing Openings', 'Fixed with 50-micron 316 stainless weave that blocks Bella Vista Loblolly and Shortleaf needle tips completely.'],
     painPoint2: ['Water Overshooting Trough', 'Fixed with hydrodynamic surface tension that pulls in 150 inches of rain per hour.'],
     painPoint3: ['Internal Sludge & Root Growth', 'Fixed by eliminating foam and brushes in favor of smooth, self-cleaning stainless steel.'],
     contextHeading: 'Engineered for Zero Failure in Arkansas Weather',
@@ -521,7 +521,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Plastic Frame Expansion', 'uPVC chassis can warp and expand during extreme summer heat cycles.'],
     painPoint3: ['High-Pressure In-Home Sales Tactics', '3-hour living room presentations pushing same-day signing discounts.'],
     contextHeading: 'The Direct-to-Consumer Local Solution',
-    contextContent: 'Ozark Gutter Guard Co. gives you all-metal 316 surgical stainless micro-mesh on extruded aluminum frames for just $8.50â€“$10.50/ft with 15-minute digital satellite sizing.'
+    contextContent: 'Ozark Gutter Guard Co. gives you all-metal 316 marine-grade 316 stainless micro-mesh on extruded aluminum frames for just $8.50â€“$10.50/ft with 15-minute digital satellite sizing.'
   },
   {
     slug: 'what-is-considered-the-best-gutter-guard',
@@ -542,14 +542,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'problem',
     badge: 'Hydrodynamic Flow Analysis',
     h1: 'Do Gutter Guards Slow Down Water Flow? (Flow Rate Science)',
-    subheadline: 'How surgical micro-mesh breaks water surface tension to accept 150+ inches of rain per hour without restricting flow.',
+    subheadline: 'How marine-grade 316 micro-mesh breaks water surface tension to accept 150+ inches of rain per hour without restricting flow.',
     metaTitle: 'Do Gutter Guards Slow Down Water Flow? (Flow Rate Science)',
-    metaDescription: 'Do gutter guards restrict rainwater? Learn how surgical stainless micro-mesh handles torrential storm flows up to 150 inches per hour.',
+    metaDescription: 'Do gutter guards restrict rainwater? Learn how marine-grade 316 stainless micro-mesh handles torrential storm flows up to 150 inches per hour.',
     painPoint1: ['Solid Hoods Restrict Heavy Flow', 'Surface tension covers fail when water rushes too fast, cascading over the nose.'],
     painPoint2: ['Clogged Slotted Screens Create Dams', 'Debris sitting over wide slots blocks water entry during moderate rains.'],
     painPoint3: ['Micro-Mesh Siphons Water Instantly', 'Microscopic wire mesh acts like a capillary siphon, pulling water downward instantly.'],
     contextHeading: 'Tested for Ozark Flash Thunderstorms',
-    contextContent: 'Northwest Arkansas experiences intense flash rains. Our 316 surgical micro-mesh is lab-certified to process over 150 inches of rain per hour without spilling a single drop.'
+    contextContent: 'Northwest Arkansas experiences intense flash rains. Our 316 marine-grade 316 micro-mesh is lab-certified to process over 150 inches of rain per hour without spilling a single drop.'
   },
   {
     slug: 'what-are-the-best-gutter-guards-available-at-home-depot',
@@ -575,7 +575,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'LeafGuard vs LeafFilter comparison: costs, storm water performance, warranties, and why Ozark Gutter Guard is the superior choice.',
     painPoint1: ['LeafFilter: Better Filtration, High Price', 'Stainless micro-mesh filters fine needles well, but costs $30â€“$45/ft with aggressive sales.'],
     painPoint2: ['LeafGuard: Full Replacement, Massive Cost', 'Replaces your entire gutter with curved hood, costing $50â€“$70/ft ($10,000+ total).'],
-    painPoint3: ['Ozark Gutter Guard: The Winning Choice', 'Commercial 316 surgical micro-mesh on your sound gutters for just $8.50â€“$10.50/ft.'],
+    painPoint3: ['Ozark Gutter Guard: The Winning Choice', 'Commercial 316 marine-grade 316 micro-mesh on your sound gutters for just $8.50â€“$10.50/ft.'],
     contextHeading: 'Save $5,000+ with Local Direct Armor',
     contextContent: 'Skip the high corporate franchise overhead. Ozark Gutter Guard Co. gives you lab-tested micro-mesh protection on realigned gutters for 1/3 the cost.'
   },
@@ -603,7 +603,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Discover ladder-free gutter cleaning tools (telescopic wands, blower nozzles) and why permanent micro-mesh eliminates gutter maintenance.',
     painPoint1: ['Telescopic Water Pressure Wands', 'Blasts debris out from the ground, but can splatter muddy sludge onto walls and windows.'],
     painPoint2: ['Curved Wet/Dry Vacuum Tubes', 'Sucks leaves from the ground, but struggles with heavy wet decomposed sludge and pine needles.'],
-    painPoint3: ['Permanent Fix: 316 Surgical Micro-Mesh', 'Prevents leaves and debris from ever entering gutters, ending ladder climbing permanently.'],
+    painPoint3: ['Permanent Fix: 316 marine-grade 316 micro-mesh', 'Prevents leaves and debris from ever entering gutters, ending ladder climbing permanently.'],
     contextHeading: 'Stay Safely on the Ground Forever',
     contextContent: 'Over 164,000 Americans visit emergency rooms each year from ladder falls. Protect your safety and your roofline permanently with Ozark Gutter Guard micro-mesh armor.'
   },
@@ -619,18 +619,18 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Useless on Wet Decomposed Sludge', 'Wet pine needles, oak tassels, and shingle sand form a heavy cement that blowers cannot move.'],
     painPoint3: ['Dangerous on High Roofs', 'Operating a powerful leaf blower while balancing on a high ladder carries extreme fall hazards.'],
     contextHeading: 'The Permanent Solution: Self-Shedding Micro-Mesh',
-    contextContent: 'With Ozark Gutter Guard 316 surgical micro-mesh installed, dry leaves blow off naturally in the daily wind without you ever needing to climb a ladder.'
+    contextContent: 'With Ozark Gutter Guard 316 marine-grade 316 micro-mesh installed, dry leaves blow off naturally in the daily wind without you ever needing to climb a ladder.'
   },
   {
     slug: 'how-much-does-200-feet-of-gutter-cost',
     cluster: 'cost',
     badge: '200 Linear Ft Price Guide',
     h1: 'How Much Does 200 Feet of Gutters & Guards Cost?',
-    subheadline: 'Complete price breakdown for new seamless aluminum gutters and surgical micro-mesh armor on a typical 2,500 sq ft home.',
+    subheadline: 'Complete price breakdown for new seamless aluminum gutters and marine-grade 316 micro-mesh armor on a typical 2,500 sq ft home.',
     metaTitle: 'How Much Does 200 Feet of Gutters & Guards Cost? (2026 Guide)',
     metaDescription: 'Detailed cost breakdown for 200 linear feet of seamless gutters and micro-mesh guards in Arkansas ($1,450 - $2,800 turnkey).',
     painPoint1: ['Seamless 6-Inch Aluminum Gutters ($6 - $10 / ft)', 'Custom extruded on-site to exact roof measurements with heavy-duty hidden hangers.'],
-    painPoint2: ['Commercial 316 Micro-Mesh Guards ($8.50 - $10.50 / ft)', 'Surgical stainless steel mesh that blocks 100% of pine needles and shingle grit.'],
+    painPoint2: ['Commercial 316 Micro-Mesh Guards ($8.50 - $10.50 / ft)', 'marine-grade 316 stainless steel mesh that blocks 100% of pine needles and shingle grit.'],
     painPoint3: ['Complete Bundled Package ($14 - $18 / ft Turnkey)', 'Save up to 25% when installing new seamless gutters and micro-mesh armor together.'],
     contextHeading: 'Turnkey Packages for Northwest Arkansas Homes',
     contextContent: 'Whether you need new custom seamless gutters or want to protect your existing system, Ozark Gutter Guard Co. provides clear itemized pricing delivered via satellite within 15 minutes.'
@@ -661,7 +661,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Cause 2: Sludge Caked Over Cheap Screens', 'Organic dirt and oak pollen dry on flat plastic screens, blocking water entry.'],
     painPoint3: ['Solution: 316 Stainless Micro-Mesh & Valley Diverters', 'Hydrodynamic capillary mesh absorbs 150 in/hr, with splash diverters in high-flow valleys.'],
     contextHeading: 'Engineered for Severe Ozark Storms',
-    contextContent: 'We install custom aluminum splash shields at high-volume roof valleys and pitch our 316 surgical micro-mesh to maximize water capture during severe thunderstorm downpours.'
+    contextContent: 'We install custom aluminum splash shields at high-volume roof valleys and pitch our 316 marine-grade 316 micro-mesh to maximize water capture during severe thunderstorm downpours.'
   },
   {
     slug: 'is-it-better-to-have-gutter-guards-or-not',
@@ -673,7 +673,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Should you install gutter guards? Compare the lifetime cost of gutter guards ($1,250) vs 10 years of manual cleanings ($8,000+).',
     painPoint1: ['If You Have Trees: Gutter Guards Win', 'Prevents pine needles, oak catkins, and leaves from causing costly foundation saturation.'],
     painPoint2: ['If You Value Safety: Gutter Guards Win', 'Eliminates dangerous ladder climbing and expensive quarterly contractor cleaning bills.'],
-    painPoint3: ['Avoid Cheap Plastic: Choose Surgical Steel', 'The only bad gutter guard is cheap foam or plastic. 316 surgical micro-mesh delivers 20+ years of value.'],
+    painPoint3: ['Avoid Cheap Plastic: Choose 316 stainless Steel', 'The only bad gutter guard is cheap foam or plastic. 316 marine-grade 316 micro-mesh delivers 20+ years of value.'],
     contextHeading: 'The Highest ROI Exterior Home Upgrade',
     contextContent: 'Protecting your roofline with Ozark Gutter Guard micro-mesh prevents foundation cracking, fascia rot, and basement flooding while paying for itself in eliminated cleaning costs.'
   },
@@ -690,7 +690,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['New Construction Runoff Volume', 'Large modern roof footprints concentrate thousands of gallons during flash Ozark storms.'],
     painPoint3: ['Zero Sales Pressure', 'Receive a fixed digital estimate via satellite in 15 minutes without salesmen in your home.'],
     contextHeading: 'Protecting Centerton Homes with Direct Contractor Pricing',
-    contextContent: 'Centerton homeowners face intense seasonal storms and expansive clay soils. Our surgical micro-mesh armor ensures all roof runoff is evacuated away from foundations safely.',
+    contextContent: 'Centerton homeowners face intense seasonal storms and expansive clay soils. Our marine-grade 316 micro-mesh armor ensures all roof runoff is evacuated away from foundations safely.',
     geo: { latitude: 36.3609, longitude: -94.2844 }
   },
   {
@@ -701,7 +701,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Reliable Gutter Shield Installation in Lowell, AR',
     subheadline: 'Commercial-grade micro-mesh armor engineered for Lowell homes and heavy seasonal tree debris.',
     metaTitle: 'Lowell AR Gutter Guards | Local NWA Installers',
-    metaDescription: 'Protect your Lowell home from clogged gutters. Surgical stainless steel micro-mesh guards installed by local NWA technicians.',
+    metaDescription: 'Protect your Lowell home from clogged gutters. marine-grade 316 stainless steel micro-mesh guards installed by local NWA technicians.',
     painPoint1: ['Mature Tree Canopy Sludge', 'Spring oak tassels and fall leaves quickly clog 5-inch residential gutters.'],
     painPoint2: ['Fascia Board Water Rot', 'Water backing up behind clogged gutters rots roof decking and wooden soffits.'],
     painPoint3: ['10-Year No-Clog Guarantee', 'Local NWA warranty with 100% free service calls if gutters ever clog.'],
@@ -749,7 +749,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Commercial Micro-Mesh Gutter Guards in Cave Springs, AR',
     subheadline: 'Protecting luxury estate rooflines and new construction foundations across Cave Springs.',
     metaTitle: 'Cave Springs AR Gutter Guards | Ozark Gutter Guard Co.',
-    metaDescription: 'Premium surgical micro-mesh gutter guards in Cave Springs, AR. Fast satellite estimates. 10-Year Transferable Guarantee.',
+    metaDescription: 'Premium marine-grade 316 micro-mesh gutter guards in Cave Springs, AR. Fast satellite estimates. 10-Year Transferable Guarantee.',
     painPoint1: ['Large Estate Roof Perimeters', 'Sprawling roof surfaces concentrate massive water volumes during Ozark flash rains.'],
     painPoint2: ['Mulch & Landscape Washout', 'Cascading water erodes expensive designer landscaping and hardscaping.'],
     painPoint3: ['15-Minute Satellite Sizing', 'Itemized fixed pricing delivered digitally with zero living room sales friction.'],
@@ -763,7 +763,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     city: 'Prairie Grove',
     badge: 'Prairie Grove Service Area',
     h1: 'Reliable Gutter Shield Installation in Prairie Grove, AR',
-    subheadline: 'Keep your roofline clear of hardwood debris and protect your foundation with surgical micro-mesh.',
+    subheadline: 'Keep your roofline clear of hardwood debris and protect your foundation with marine-grade 316 micro-mesh.',
     metaTitle: 'Prairie Grove AR Gutter Guards | Ozark Gutter Guard Co.',
     metaDescription: 'Heavy-duty gutter protection in Prairie Grove, AR. 316 stainless steel micro-mesh. 10-Year No-Clog Warranty.',
     painPoint1: ['Hardwood Leaf Sludge', 'Dense fall leaf drops pack tightly inside standard gutters, triggering wood rot.'],
@@ -786,7 +786,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Pest & Wasp Nesting', 'Standing water inside clogged gutters attracts breeding mosquitoes and wasps.'],
     painPoint3: ['1/3 of Franchise Cost', 'Save $3,500+ compared to corporate sales brands with our factory-direct pricing.'],
     contextHeading: 'Tontitown Gutter Protection Experts',
-    contextContent: 'We provide heavy-duty extruded aluminum frames and 316 surgical stainless steel micro-mesh that withstand severe Ozark weather for decades.',
+    contextContent: 'We provide heavy-duty extruded aluminum frames and 316 marine-grade 316 stainless steel micro-mesh that withstand severe Ozark weather for decades.',
     geo: { latitude: 36.1770, longitude: -94.2463 }
   },
   {
@@ -797,12 +797,12 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Permanent Gutter Protection in Pea Ridge, AR',
     subheadline: 'Protect your Pea Ridge home from pine needles, oak tassels, and roof water erosion.',
     metaTitle: 'Pea Ridge AR Gutter Guards | Ozark Gutter Guard Co.',
-    metaDescription: 'Surgical stainless steel micro-mesh gutter guards in Pea Ridge, AR. 10-Year Guarantee. Instant satellite estimates.',
+    metaDescription: 'marine-grade 316 stainless steel micro-mesh gutter guards in Pea Ridge, AR. 10-Year Guarantee. Instant satellite estimates.',
     painPoint1: ['Pine Needle Penetration', 'Thin needles wedge into standard slotted screens, causing severe clogs.'],
     painPoint2: ['Fascia Board Water Damage', 'Overflowing water rots structural wood behind gutters, leading to costly repairs.'],
     painPoint3: ['10-Year No-Clog Guarantee', 'Local NWA guarantee covering 100% free cleanouts if gutters ever overflow.'],
     contextHeading: 'Engineered for Pea Ridge Foliage & Weather',
-    contextContent: 'Our Pea Ridge technicians install 50-micron surgical stainless micro-mesh that blocks 100% of Ozark pine needles and oak catkins while processing up to 150 in/hr of torrential storm flow across Benton County ZIP 72751.',
+    contextContent: 'Our Pea Ridge technicians install 50-micron marine-grade 316 stainless micro-mesh that blocks 100% of Ozark pine needles and oak catkins while processing up to 150 in/hr of torrential storm flow across Benton County ZIP 72751.',
     geo: { latitude: 36.4487, longitude: -94.1169 }
   },
   {
@@ -827,9 +827,9 @@ const EXTENDED_QUERIES: QueryDef[] = [
     city: 'Gravette',
     badge: 'Gravette Service Area',
     h1: 'Heavy-Duty Gutter Protection in Gravette, AR',
-    subheadline: 'Stop climbing ladders in Gravette. 316 surgical stainless micro-mesh installed with a 10-year warranty.',
+    subheadline: 'Stop climbing ladders in Gravette. 316 marine-grade 316 stainless micro-mesh installed with a 10-year warranty.',
     metaTitle: 'Gravette AR Gutter Guards | Ozark Gutter Guard Co.',
-    metaDescription: 'Surgical stainless steel micro-mesh gutter guards in Gravette, AR. 10-Year Guarantee. Free digital satellite quote.',
+    metaDescription: 'marine-grade 316 stainless steel micro-mesh gutter guards in Gravette, AR. 10-Year Guarantee. Free digital satellite quote.',
     painPoint1: ['Dangerous Ladder Fall Hazards', 'Multi-level roofs make seasonal gutter cleaning high-risk for homeowners.'],
     painPoint2: ['Seasonal Pine & Oak Sludge', 'Tree debris packs tight inside downspouts, causing heavy water spillover.'],
     painPoint3: ['Direct Factory Contractor Rates', 'Get medical-grade protection for 1/3 the price of corporate franchise quotes.'],
@@ -843,7 +843,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'High-Demand Local Search',
     h1: 'Guttering Near Me: Northwest Arkansas Installation & Armor',
-    subheadline: 'Searching for local guttering contractors? Get on-site seamless extrusions and surgical stainless micro-mesh with zero sales pressure.',
+    subheadline: 'Searching for local guttering contractors? Get on-site seamless extrusions and marine-grade 316 stainless micro-mesh with zero sales pressure.',
     metaTitle: 'Guttering Near Me | Northwest Arkansas Gutter Contractors',
     metaDescription: 'Looking for guttering near you in NWA? 15-minute satellite sizing, 316 marine stainless micro-mesh, and 10-year guarantees across Benton & Washington counties.',
     painPoint1: ['Eliminate Corporate Markup', 'Save up to 60% compared to national TV-advertised franchise guttering companies.'],
@@ -864,7 +864,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['High-Pressure Downspout Flushes', 'Clear stubborn underground clogs and verify water flows freely away from foundations.'],
     painPoint3: ['100% Service Fee Credit', 'Your $149 cleanout fee is fully applied toward permanent gutter armor installation.'],
     contextHeading: 'Northwest Arkansas Most Trusted Gutter Cleaning Service',
-    contextContent: 'Avoid dangerous ladder falls. Our licensed, $2M-insured local technicians restore high-velocity water flow to gutters and downspouts across all of Benton County and Washington County â€” from the Downtown Bentonville Historic District and Coler Mountain Bike Preserve neighborhoods to Shadow Valley and Pinnacle Hills in Rogers, from Lake Loch Lomond in Bella Vista to Mount Sequoyah and Wilson Park in Fayetteville. Our $149 gutter cleanout special is 100% credited toward permanent 316 surgical stainless micro-mesh installation, making it the smartest first step to ending gutter maintenance forever. Call (479) 929-2516 for same-week scheduling.'
+    contextContent: 'Avoid dangerous ladder falls. Our licensed, $2M-insured local technicians restore high-velocity water flow to gutters and downspouts across all of Benton County and Washington County â€” from the Downtown Bentonville Historic District and Coler Mountain Bike Preserve neighborhoods to Shadow Valley and Pinnacle Hills in Rogers, from Lake Loch Lomond in Bella Vista to Mount Sequoyah and Wilson Park in Fayetteville. Our $149 gutter cleanout special is 100% credited toward permanent 316 marine-grade 316 stainless micro-mesh installation, making it the smartest first step to ending gutter maintenance forever. Call (479) 929-2516 for same-week scheduling.'
   },
   {
     slug: 'gutter-cleaning-cost',
@@ -878,7 +878,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Hidden Multi-Story Surcharges', 'Many companies charge $150+ extra for steep roofs, walkouts, or second stories.'],
     painPoint3: ['The Permanent Math', 'One turnkey micro-mesh installation eliminates all future cleaning bills forever.'],
     contextHeading: 'Gutter Cleaning vs. Permanent Micro-Mesh ROI in Northwest Arkansas',
-    contextContent: 'In Northwest Arkansas, the spring Post Oak and White Oak catkin drop hits Bentonville and Rogers every March through May, clogging standard gutters within days. Bella Vista Loblolly and Shortleaf pines shed needles year-round, not just in autumn. Fayetteville\u2019s old-growth Sugar Maples and heritage oaks deliver a second catastrophic debris event every October. That means NWA homeowners who skip gutter protection typically need 3â€“4 professional cleanouts per year at $150â€“$250 each â€” $600â€“$1,000 annually. Over five years that is $3,000â€“$5,000 with zero equity gained. Investing in 316 surgical stainless micro-mesh at $1,250â€“$1,650 pays for itself in under 24 months while eliminating 10+ dangerous ladder climbs and protecting your foundation from expansive Vertisol clay soil movement.'
+    contextContent: 'In Northwest Arkansas, the spring Post Oak and White Oak catkin drop hits Bentonville and Rogers every March through May, clogging standard gutters within days. Bella Vista Loblolly and Shortleaf pines shed needles year-round, not just in autumn. Fayetteville\u2019s old-growth Sugar Maples and heritage oaks deliver a second catastrophic debris event every October. That means NWA homeowners who skip gutter protection typically need 3â€“4 professional cleanouts per year at $150â€“$250 each â€” $600â€“$1,000 annually. Over five years that is $3,000â€“$5,000 with zero equity gained. Investing in 316 marine-grade 316 stainless micro-mesh at $1,250â€“$1,650 pays for itself in under 24 months while eliminating 10+ dangerous ladder climbs and protecting your foundation from expansive Vertisol clay soil movement.'
   },
   {
     slug: '99-dollar-gutter-cleaning-near-me',
@@ -913,14 +913,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'Premium Materials',
     h1: 'Copper Gutters & Architectural Micro-Mesh Protection',
-    subheadline: 'Explore high-end copper gutter installations and how 316 surgical stainless steel mesh guards preserve luxury patinas and flow.',
+    subheadline: 'Explore high-end copper gutter installations and how 316 marine-grade 316 stainless steel mesh guards preserve luxury patinas and flow.',
     metaTitle: 'Copper Gutters & Micro-Mesh Protection | Ozark Gutter Guard Co.',
     metaDescription: 'Luxury copper gutter installations and compatible 316 marine-grade stainless micro-mesh in Northwest Arkansas. Call (479) 929-2516.',
     painPoint1: ['Galvanic Corrosion Safety', 'Our mounting hardware isolates metals to prevent electrolytic damage on copper systems.'],
     painPoint2: ['Unmatched Architectural Beauty', 'Copper develops a rich verdigris patina while delivering 50+ years of structural life.'],
-    painPoint3: ['Fine Mesh Filtering', '50-micron surgical mesh keeps copper troughs pristine without debris discoloration from Ozark pine pollen and oak catkins.'],
+    painPoint3: ['Fine Mesh Filtering', '50-micron 316 stainless mesh keeps copper troughs pristine without debris discoloration from Ozark pine pollen and oak catkins.'],
     contextHeading: 'Architectural Copper Gutter Solutions in NWA',
-    contextContent: 'For historic estates and custom luxury homes in Pinnacle Hills and Shadow Valley, copper gutters paired with surgical steel guards deliver unmatched elegance and permanent drainage.'
+    contextContent: 'For historic estates and custom luxury homes in Pinnacle Hills and Shadow Valley, copper gutters paired with 316 stainless steel guards deliver unmatched elegance and permanent drainage.'
   },
   {
     slug: 'roof-and-gutter-cleaning',
@@ -941,7 +941,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'Drainage Restoration',
     h1: 'Eavestrough Cleaning & Flow Alignment in Northwest Arkansas',
-    subheadline: 'Restore high-capacity rainwater flow to your eavestroughs with deep debris removal, miter sealing, and surgical mesh armor.',
+    subheadline: 'Restore high-capacity rainwater flow to your eavestroughs with deep debris removal, miter sealing, and 316 stainless mesh armor.',
     metaTitle: 'Eavestrough Cleaning Near Me | Professional Gutter Flow NWA',
     metaDescription: 'Complete eavestrough cleaning and guard installation across NWA. Eliminate clogs and foundation pooling. Free satellite quote.',
     painPoint1: ['Overflowing Eaves Damaging Siding', 'Water spilling over uncleaned eaves stains brick and rots exterior window sills.'],
@@ -960,7 +960,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Find trusted local gutter guys in Bentonville, Bella Vista, Rogers & Fayetteville. 15-minute satellite quotes and 10-year no-clog warranties.',
     painPoint1: ['No High-Pressure Sales Reps', 'We donâ€™t trap you in your living room for 3 hours. Get instant digital pricing online or by SMS.'],
     painPoint2: ['Direct Family-Owned Pricing', 'Save thousands compared to national franchise marketing companies.'],
-    painPoint3: ['Master Certified Installers', 'Our experienced technicians handle cleaning, slope adjustment, and surgical mesh armor.'],
+    painPoint3: ['Master Certified Installers', 'Our experienced technicians handle cleaning, slope adjustment, and 316 stainless mesh armor.'],
     contextHeading: 'Your Dedicated Local Northwest Arkansas Gutter Team',
     contextContent: 'Located at 1102 S Walton Blvd in Bentonville, our local crews live and work right here in the Ozarks, providing fast dispatch and unmatched customer service.'
   },
@@ -971,12 +971,12 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Cost to Clean Gutters on a 2-Story House in 2026',
     subheadline: 'Detailed pricing guide for 2-story and 3-story homes, steep roof pitches, walkout basements, and permanent guard savings.',
     metaTitle: 'Cost to Clean Gutters 2 Story House | 2026 Pricing Guide',
-    metaDescription: 'How much does it cost to clean 2-story gutters? Typical $175â€“$300 costs vs. permanent $1,550 ($58/mo) lifetime surgical micro-mesh installation.',
+    metaDescription: 'How much does it cost to clean 2-story gutters? Typical $175â€“$300 costs vs. permanent $1,550 ($58/mo) lifetime marine-grade 316 micro-mesh installation.',
     painPoint1: ['Dangerous Ladder Heights (20-30 Feet)', 'Second-story rooflines carry extreme fall risks that make DIY cleaning perilous.'],
     painPoint2: ['Steep Pitch Surcharges', 'Most gutter cleaning companies add 30-50% surcharges for steep mountain rooflines.'],
     painPoint3: ['Financing for $58/Month', 'Lock in lifetime 2-story gutter guards for as low as $58/month with 0% APR.'],
     contextHeading: '2-Story Gutter Protection Economics in NWA',
-    contextContent: 'Two-story homes in neighborhoods like Shadow Valley, Pinnacle Hills, and Loch Lomond require specialized ladder safety gear. Permanent surgical mesh ends multi-story cleaning risks forever.'
+    contextContent: 'Two-story homes in neighborhoods like Shadow Valley, Pinnacle Hills, and Loch Lomond require specialized ladder safety gear. Permanent 316 stainless mesh ends multi-story cleaning risks forever.'
   },
   {
     slug: 'gutter-cleaning-and-guard-installation',
@@ -985,12 +985,12 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Gutter Cleaning and Guard Installation Combo Package',
     subheadline: 'Never pay for a gutter cleaning again. Every micro-mesh installation includes a free 10-point cleanout, slope tune-up, and miter sealing.',
     metaTitle: 'Gutter Cleaning and Guard Installation | Turnkey Combo NWA',
-    metaDescription: 'Get your gutters cleaned, realigned, and protected with 316 surgical stainless micro-mesh in a single visit. 10-Year Guarantee.',
+    metaDescription: 'Get your gutters cleaned, realigned, and protected with 316 marine-grade 316 stainless micro-mesh in a single visit. 10-Year Guarantee.',
     painPoint1: ['Save the Cleaning Surcharge', 'Other companies charge $300 to clean before installing guards. We include it 100% FREE.'],
     painPoint2: ['Laser Pitch Re-leveling', 'We fix standing water pockets so water drains rapidly through the micro-mesh.'],
     painPoint3: ['10-Year Written Guarantee', 'If gutters ever clog with our guards installed, we clean them 100% free of charge.'],
     contextHeading: 'The Turnkey 10-Point Gutter Restoration Process',
-    contextContent: 'We donâ€™t just install screens over dirty gutters. We flush the troughs, secure hidden zinc rafter brackets, seal corner miters, and lock surgical steel mesh in place.'
+    contextContent: 'We donâ€™t just install screens over dirty gutters. We flush the troughs, secure hidden zinc rafter brackets, seal corner miters, and lock 316 stainless steel mesh in place.'
   },
   {
     slug: 'downspout-cleaning',
@@ -1016,7 +1016,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Thinking of hiring a handyman to clean gutters? Compare insurance liability, proper equipment, and permanent 316 micro-mesh solutions.',
     painPoint1: ['General Liability & Workers Comp', 'If an uninsured handyman falls from your roof, homeowner insurance can be held liable.'],
     painPoint2: ['Lack of Proper Slope Diagnostic Tools', 'A handyman may scoop leaves without fixing underlying gutter slope and loose brackets.'],
-    painPoint3: ['Permanent Solution vs Temporary Band-Aid', 'Invest in surgical micro-mesh guards once rather than paying $150 to a handyman every few months.'],
+    painPoint3: ['Permanent Solution vs Temporary Band-Aid', 'Invest in marine-grade 316 micro-mesh guards once rather than paying $150 to a handyman every few months.'],
     contextHeading: 'Contractor vs Handyman: Why Professional Coverage Matters',
     contextContent: 'Ozark Gutter Guard Co. carries $2,000,000 in commercial general liability and full workmanâ€™s compensation, giving Northwest Arkansas homeowners total peace of mind.'
   },
@@ -1030,7 +1030,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Exterior gutter washing and interior cleanouts in Northwest Arkansas. Remove black streaks and restore water flow. Call (479) 929-2516.',
     painPoint1: ['Black Electrostatic Tiger Stripes', 'Oxidation and acid rain create unsightly vertical streaks on exterior gutter faces.'],
     painPoint2: ['Safe Low-Pressure Soft Wash', 'We use biodegradable surfactants to clean gutter exteriors without stripping paint.'],
-    painPoint3: ['Interior Flush & Guard Armor', 'Combine exterior cosmetic washing with permanent interior surgical steel guards.'],
+    painPoint3: ['Interior Flush & Guard Armor', 'Combine exterior cosmetic washing with permanent interior 316 stainless steel guards.'],
     contextHeading: 'Transform Your Homeâ€™s Roofline Appearance in NWA',
     contextContent: 'Our exterior cleaning services remove organic mildew, algae, and grime from gutter exteriors and soffits while ensuring gutters drain smoothly.'
   },
@@ -1041,7 +1041,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'How to Clean Gutters with Gutter Guards Installed',
     subheadline: 'The truth about maintaining gutter guards: why cheap vinyl slotted covers trap debris and how 316 micro-mesh self-sheds in the wind.',
     metaTitle: 'Cleaning Gutters with Gutter Guards | Maintenance Guide 2026',
-    metaDescription: 'Do you need to clean gutters with guards? How 50-micron surgical stainless mesh eliminates interior clogs and self-sheds leaves naturally.',
+    metaDescription: 'Do you need to clean gutters with guards? How 50-micron marine-grade 316 stainless mesh eliminates interior clogs and self-sheds leaves naturally.',
     painPoint1: ['Slotted & Reverse-Curve Failure', 'Pine needles poke into slotted guards, requiring you to remove the covers to clean out sludge.'],
     painPoint2: ['Self-Shedding Micro-Mesh Design', 'Smooth 316 stainless steel allows dry leaves and needles to blow off naturally with standard 5 mph breeze.'],
     painPoint3: ['Our 10-Year No-Clog Warranty', 'If our micro-mesh system ever backs up, our local NWA crew cleans it for free.'],
@@ -1053,14 +1053,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'System Upgrades',
     h1: 'Removing Old Clogged Gutter Guards & Upgrading to 316 Mesh',
-    subheadline: 'Tired of failed plastic screens, foam inserts, or clogged curved hoods? We remove old defective covers and install surgical stainless steel.',
+    subheadline: 'Tired of failed plastic screens, foam inserts, or clogged curved hoods? We remove old defective covers and install marine-grade 316 stainless steel.',
     metaTitle: 'Removing Gutter Guards | Replacement & Upgrade Guide NWA',
-    metaDescription: 'Remove failed DIY plastic, foam, or LeafFilter guards and upgrade to surgical 316 stainless micro-mesh. 10-Year Guarantee in NWA.',
+    metaDescription: 'Remove failed DIY plastic, foam, or LeafFilter guards and upgrade to 316 stainless 316 stainless micro-mesh. 10-Year Guarantee in NWA.',
     painPoint1: ['Rotting Foam & Trapped Dirt', 'Foam gutter inserts act like sponges, holding moisture, breeding mosquitoes, and sprouting seeds.'],
     painPoint2: ['Brittle Cracked Plastic Screens', 'Summer Ozark heat warps vinyl covers within 24 months, dropping trapped debris into troughs.'],
     painPoint3: ['Safe Shingle-Free Removal', 'We carefully detach old covers without tearing shingles or voiding roof manufacturer warranties.'],
     contextHeading: 'Upgrade from Failed Systems to Lifetime Armor',
-    contextContent: 'Many NWA homeowners come to us after experiencing water damage from cheap retail guards. We safely dispose of old covers and install lifetime surgical steel.'
+    contextContent: 'Many NWA homeowners come to us after experiencing water damage from cheap retail guards. We safely dispose of old covers and install lifetime 316 stainless steel.'
   },
   {
     slug: 'spring-gutter-cleaning',
@@ -1082,14 +1082,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'Top Rated Local Search',
     h1: 'Top-Rated Gutter Cleaning Services Near Me in Northwest Arkansas',
-    subheadline: 'Same-week residential gutter cleaning, laser leveling, and surgical stainless micro-mesh armor.',
+    subheadline: 'Same-week residential gutter cleaning, laser leveling, and marine-grade 316 stainless micro-mesh armor.',
     metaTitle: 'Gutter Cleaning Services Near Me | NWA Licensed Contractors',
     metaDescription: 'Find the best gutter cleaning services near you in Bentonville, Rogers, Fayetteville & Bella Vista. Fast quotes & 10-year guarantees.',
     painPoint1: ['Same-Week Mobile Dispatch', 'Local trucks ready across Benton and Washington counties.'],
     painPoint2: ['Complete Interior Debris Flushing', 'We remove all organic sludge and check downspout flow.'],
     painPoint3: ['100% Fee Credit to Guards', 'Your cleanout cost is credited toward permanent 316 steel armor.'],
     contextHeading: 'Northwest Arkansas Gutter Cleaning Directory',
-    contextContent: 'Ozark Gutter Guard Co. provides dependable exterior drainage maintenance and surgical stainless micro-mesh installation.'
+    contextContent: 'Ozark Gutter Guard Co. provides dependable exterior drainage maintenance and marine-grade 316 stainless micro-mesh installation.'
   },
   {
     slug: 'rain-gutter-cleaning',
@@ -1101,7 +1101,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Professional rain gutter cleaning in Northwest Arkansas. Prevent roof overflow and foundation erosion with expert care.',
     painPoint1: ['Foundation Soil Erosion', 'Overflowing rain gouges trenches around foundation perimeter.'],
     painPoint2: ['Hidden Fascia Rot', 'Standing water decays structural wooden rafter tails.'],
-    painPoint3: ['Surgical Steel Upgrade', 'Never clean rain gutters again â€” 50-micron mesh blocks all NWA pine needles, oak catkins, and shingle grit permanently.'],
+    painPoint3: ['316 stainless Steel Upgrade', 'Never clean rain gutters again â€” 50-micron mesh blocks all NWA pine needles, oak catkins, and shingle grit permanently.'],
     contextHeading: 'Protecting NWA Homes from Heavy Rainfall',
     contextContent: 'We inspect, clean, and realign rain gutters to handle severe multi-inch Ozark storm deluges.'
   },
@@ -1129,9 +1129,9 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Is Ned Stevens gutter cleaning worth it? Compare recurring $200+ seasonal contracts vs permanent $1,250 lifetime micro-mesh armor.',
     painPoint1: ['Endless Subscription Fees', 'Paying $180â€“$250 four times a year costs over $7,000 across a decade.'],
     painPoint2: ['Subcontracted Daily Labor', 'National broker models frequently outsource jobs to unvetted third parties.'],
-    painPoint3: ['One-Time Permanent Solution', '316 surgical stainless micro-mesh eliminates all future cleaning bills forever.'],
+    painPoint3: ['One-Time Permanent Solution', '316 marine-grade 316 stainless micro-mesh eliminates all future cleaning bills forever.'],
     contextHeading: 'Contractor Transparency vs National Cleaning Franchises',
-    contextContent: 'Instead of paying endless seasonal cleaning fees, Northwest Arkansas homeowners save thousands by installing permanent surgical stainless mesh.'
+    contextContent: 'Instead of paying endless seasonal cleaning fees, Northwest Arkansas homeowners save thousands by installing permanent marine-grade 316 stainless mesh.'
   },
   {
     slug: 'local-gutter-cleaning',
@@ -1173,7 +1173,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['Complete 10-Point Restoration', 'Includes miter sealing, zinc screw tightening, and downspout checks.'],
     painPoint3: ['10-Year Transferable Warranty', 'Our permanent guards come with a written 10-year no-clog guarantee.'],
     contextHeading: 'The Highest Rated Gutter Service in NWA',
-    contextContent: 'We combine old-fashioned local work ethic with modern satellite sizing and surgical 316 stainless steel technology.'
+    contextContent: 'We combine old-fashioned local work ethic with modern satellite sizing and 316 stainless 316 stainless steel technology.'
   },
   {
     slug: 'gutter-cleaning-companies',
@@ -1199,7 +1199,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'See local gutter cleaning prices in Northwest Arkansas ($125â€“$250). Compare with $48/mo permanent 316 micro-mesh armor.',
     painPoint1: ['Transparent Square Footage Rates', 'Average 1,500â€“2,500 sq ft home cleanout ranges from $125 to $195.'],
     painPoint2: ['Zero Hidden Fees', 'No surprise charges for steep pitch or minor downspout clearing.'],
-    painPoint3: ['100% Credit Toward Guards', 'Apply your cleaning cost toward permanent surgical steel guards.'],
+    painPoint3: ['100% Credit Toward Guards', 'Apply your cleaning cost toward permanent 316 stainless steel guards.'],
     contextHeading: 'Upfront Pricing with Zero Sales Gimmicks',
     contextContent: 'We publish our direct local pricing so homeowners can make informed decisions without sitting through high-pressure sales pitches.'
   },
@@ -1227,7 +1227,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Industrial gutter vac cleaning in Northwest Arkansas. Deep sludge extraction without mess on landscaping or siding.',
     painPoint1: ['Zero Mess on Lawns & Siding', 'Debris is sucked directly into sealed collection chambers rather than blown onto decks.'],
     painPoint2: ['Extracts Dense Decomposed Grit', 'Vacuums heavy shingle sand that standard blowers leave behind.'],
-    painPoint3: ['Perfect Prep for Micro-Mesh', 'Leaves troughs clinically clean for surgical stainless guard fastening.'],
+    painPoint3: ['Perfect Prep for Micro-Mesh', 'Leaves troughs clinically clean for marine-grade 316 stainless guard fastening.'],
     contextHeading: 'Next-Generation Gutter Vacuum Technology',
     contextContent: 'Our specialized gutter vac equipment removes stubborn, compacted organic sludge without damaging aluminum seams or splashing dirty water.'
   },
@@ -1257,7 +1257,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     painPoint2: ['No Commissioned Salesmen', 'Get instant satellite estimates in 15 minutes without living room pitches.'],
     painPoint3: ['Direct Contractor Savings', 'Save up to $4,000 compared to national franchise quotes.'],
     contextHeading: 'Local Drainage Reliability in Northwest Arkansas',
-    contextContent: 'We take pride in providing transparent estimates, prompt service, and permanent 316 surgical stainless steel solutions.'
+    contextContent: 'We take pride in providing transparent estimates, prompt service, and permanent 316 marine-grade 316 stainless steel solutions.'
   },
   {
     slug: 'gutter-maintenance-near-me',
@@ -1269,7 +1269,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Protect your home with regular gutter maintenance in NWA. Slope leveling, miter sealing, and lifetime micro-mesh armor.',
     painPoint1: ['Prevent Foundation Slab Settling', 'Unchecked overflow leads to thousands in structural foundation repairs.'],
     painPoint2: ['Seam & Corner Resealing', 'Industrial polyurethane seals leaky miters permanently.'],
-    painPoint3: ['Lifetime No-Clog Guarantee', 'Upgrade to surgical micro-mesh and eliminate maintenance forever.'],
+    painPoint3: ['Lifetime No-Clog Guarantee', 'Upgrade to marine-grade 316 micro-mesh and eliminate maintenance forever.'],
     contextHeading: 'Complete Roofline Maintenance in Arkansas',
     contextContent: 'Regular gutter maintenance protects your home investment from costly wood rot, landscape washouts, and crawlspace water intrusion.'
   },
@@ -1278,12 +1278,12 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'Residential Care',
     h1: 'Residential House Gutter Cleaning Across Northwest Arkansas',
-    subheadline: 'Keep your Northwest Arkansas home exterior protected with prompt residential gutter cleaning and 50-micron surgical steel armor.',
+    subheadline: 'Keep your Northwest Arkansas home exterior protected with prompt residential gutter cleaning and 50-micron 316 stainless steel armor.',
     metaTitle: 'House Gutter Cleaning | Residential Gutter Experts NWA',
     metaDescription: 'Professional house gutter cleaning in Bentonville, Rogers, Fayetteville & Bella Vista. Fast, safe & mess-free.',
     painPoint1: ['Complete Roofline Cleanout', 'We clean upper and lower gutters, valleys, and downspout extensions.'],
     painPoint2: ['Property Protection', 'We use ladder stand-offs to protect your gutters and siding from dents.'],
-    painPoint3: ['Turnkey Guard Options', 'Convert your house to maintenance-free with surgical 316 micro-mesh.'],
+    painPoint3: ['Turnkey Guard Options', 'Convert your house to maintenance-free with 316 stainless 316 micro-mesh.'],
     contextHeading: 'Dedicated Residential Gutter Services',
     contextContent: 'Our residential specialists keep your house gutters draining smoothly in every season, preventing expensive water damage.'
   },
@@ -1380,7 +1380,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaTitle: 'Snow Guards for Gutters | Ice Dam Prevention NWA',
     metaDescription: 'Protect gutters from heavy snow loads and winter ice dams in Northwest Arkansas. Structural 316 stainless steel armor.',
     painPoint1: ['Prevent Heavy Snow Collapse', 'Heavy ice loads bend and detach unreinforced gutters from fascia.'],
-    painPoint2: ['Ice Dam Mitigation', 'Smooth surgical steel mesh prevents trapped water from backing up under shingles.'],
+    painPoint2: ['Ice Dam Mitigation', 'Smooth 316 stainless steel mesh prevents trapped water from backing up under shingles.'],
     painPoint3: ['1.5" Zinc Rafter Screws', 'Our hidden brackets anchor gutters directly into structural rafters every 24 inches.'],
     contextHeading: 'Winterizing Northwest Arkansas Rooflines',
     contextContent: 'Ozark winters bring heavy freezing rain and ice. Our heavy-duty mounting hardware and stainless micro-mesh withstand severe ice loads without bending.'
@@ -1446,14 +1446,14 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'comparison',
     badge: 'Franchise Cost Audit',
     h1: 'Stop Renting Cleanings for $300/yr: Permanent 316 Armor vs. Novelty Franchise Scooping',
-    subheadline: 'Why paying $250+ twice a year to window washing franchises costs $2,500+ over 5 years. Upgrade once to 316 surgical stainless micro-mesh for $48/mo.',
+    subheadline: 'Why paying $250+ twice a year to window washing franchises costs $2,500+ over 5 years. Upgrade once to 316 marine-grade 316 stainless micro-mesh for $48/mo.',
     metaTitle: 'Men In Kilts Gutter Cleaning vs Permanent 316 Gutter Armor NWA',
     metaDescription: 'Stop paying $300/yr for temporary gutter cleanings. Compare franchise recurring costs ($2,500/5yrs) vs $1,250 lifetime micro-mesh armor.',
     painPoint1: ['The $2,500 5-Year Rental Trap', 'Paying $250 twice a year for ladder cleanings costs thousands while leaving gutters vulnerable between visits.'],
     painPoint2: ['Ladder Denting & Shingle Wear', '10 seasonal visits by window cleaners bend aluminum gutter lips and damage shingle drip edges.'],
-    painPoint3: ['10-Year Transferable Armor', 'One-time surgical steel installation backed by a 10-year no-clog guarantee or $48/month financing.'],
+    painPoint3: ['10-Year Transferable Armor', 'One-time 316 stainless steel installation backed by a 10-year no-clog guarantee or $48/month financing.'],
     contextHeading: 'Specialized Exterior Drainage Craftsmanship & Zero Shingle Contact',
-    contextContent: 'We donâ€™t just scoop leaves. We realign pitch with laser levels, reinforce rafters with hidden zinc screws, and mount 316 surgical micro-mesh with zero shingle contact.'
+    contextContent: 'We donâ€™t just scoop leaves. We realign pitch with laser levels, reinforce rafters with hidden zinc screws, and mount 316 marine-grade 316 micro-mesh with zero shingle contact.'
   },
   {
     slug: 'shack-shine-gutter-cleaning',
@@ -1462,7 +1462,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     h1: 'Shack Shine Gutter Cleaning vs. Local Direct Contractors',
     subheadline: 'Evaluate multi-service home franchise costs against specialized exterior gutter contractors in Northwest Arkansas.',
     metaTitle: 'Shack Shine Gutter Cleaning vs Local NWA Contractor',
-    metaDescription: 'Comparing Shack Shine house detailing vs. dedicated surgical micro-mesh gutter guard installation in Northwest Arkansas.',
+    metaDescription: 'Comparing Shack Shine house detailing vs. dedicated marine-grade 316 micro-mesh gutter guard installation in Northwest Arkansas.',
     painPoint1: ['Higher Franchise Minimums', 'Large corporate cleaning brands charge steep minimum job fees ($250+).'],
     painPoint2: ['No Permanent Guard Technology', 'Franchises rely on you booking recurring cleanings year after year.'],
     painPoint3: ['Direct Local Pricing ($1,250 â€“ $1,650)', 'Install lifetime micro-mesh for the price of just 5 franchise cleaning visits.'],
@@ -1481,7 +1481,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Custom on-site 5-inch seamless aluminum gutters in Bentonville, Rogers & Fayetteville. 10-Year Warranty. Call (479) 929-2516.',
     painPoint1: ['Capacity Limits in Severe Downpours', '5-inch troughs handle up to 3 inches of rain/hr; steep Ozark roofs may require 6-inch upgrades.'],
     painPoint2: ['Custom On-Site Extrusions', 'Continuous seamless runs eliminate leak points at seams and corners.'],
-    painPoint3: ['Micro-Mesh Compatibility', 'Fits 316 surgical stainless mesh guards seamlessly with zero shingle contact.'],
+    painPoint3: ['Micro-Mesh Compatibility', 'Fits 316 marine-grade 316 stainless mesh guards seamlessly with zero shingle contact.'],
     contextHeading: 'Standard Residential Gutter Sizing in NWA',
     contextContent: 'We extrude heavy-gauge 0.032 seamless 5-inch gutters directly on-site to match your roofline exact dimensions.'
   },
@@ -1552,7 +1552,7 @@ const EXTENDED_QUERIES: QueryDef[] = [
     metaDescription: 'Heavy-duty galvanized steel seamless gutters in Northwest Arkansas. Maximum strength for rural, commercial & residential roofs.',
     painPoint1: ['Hail & Impact Defense', 'Resists heavy Ozark hail dents that can damage softer standard aluminum.'],
     painPoint2: ['Rigid Thermal Stability', 'Will not warp or buckle under 100Â°F Arkansas summer heat.'],
-    painPoint3: ['Compatible with 316 Stainless Mesh', 'Pair with surgical micro-mesh for permanent zero-maintenance drainage.'],
+    painPoint3: ['Compatible with 316 Stainless Mesh', 'Pair with marine-grade 316 micro-mesh for permanent zero-maintenance drainage.'],
     contextHeading: 'Heavy-Duty Galvanized Steel Solutions in NWA',
     contextContent: 'Galvanized gutters offer rugged, time-tested performance for rural properties, barns, and heavy residential structures in Arkansas.'
   },
@@ -1632,11 +1632,11 @@ const EXTENDED_QUERIES: QueryDef[] = [
     cluster: 'service',
     badge: 'Wildfire Defense',
     h1: 'Fire Hardening Gutter Protection: Wildfire Ember Deflectors',
-    subheadline: 'All-metal non-combustible 316 surgical stainless steel mesh and aluminum guards designed to block flying wildfire embers.',
+    subheadline: 'All-metal non-combustible 316 marine-grade 316 stainless steel mesh and aluminum guards designed to block flying wildfire embers.',
     metaTitle: 'Fire Hardened Gutter Guards | Non-Combustible Ember Defense NWA',
     metaDescription: 'Class-A fire-rated non-combustible metal gutter guards in Northwest Arkansas. Prevent flying wildfire embers from igniting dry roof debris.',
     painPoint1: ['Flying Embers Igniting Gutter Sludge', 'Over 60% of wildfire home ignitions occur when embers land in dry, pine-filled gutters.'],
-    painPoint2: ['Zero Plastic or Vinyl Components', '100% surgical stainless steel and aircraft aluminum will not melt or support combustion.'],
+    painPoint2: ['Zero Plastic or Vinyl Components', '100% marine-grade 316 stainless steel and aircraft aluminum will not melt or support combustion.'],
     painPoint3: ['Meets Wildland-Urban Interface Specs', 'Engineered to meet stringent Cal-Fire and Arkansas wildfire ember hardening standards.'],
     contextHeading: 'Wildland-Urban Interface Protection in the Ozarks',
     contextContent: 'Homes nestled in heavily wooded areas of Bella Vista, Beaver Lake, and Mount Sequoyah need all-metal gutter armor to stop ember ignition.'

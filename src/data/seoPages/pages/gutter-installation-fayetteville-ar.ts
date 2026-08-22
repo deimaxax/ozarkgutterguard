@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Fayetteville Gutter Installation Across All ZIP Codes (72701–72704)",
-    "content": "From the Wilson Park historic district (72701) to Gulley Park family neighborhoods (72703) and University of Arkansas campus zones (72701), every Fayetteville property has unique roofline demands. We custom-extrude 6-inch seamless aluminum on-site to match your exact measurements, installing 50-micron 316 surgical micro-mesh in the same visit. Fascia-and-gutter-lip mounting only  —  preserving 100% of your CertainTeed or GAF shingle warranty. Turnkey installation from $1,450 for standard Fayetteville homes."
+    "content": "From the Wilson Park historic district (72701) to Gulley Park family neighborhoods (72703) and University of Arkansas campus zones (72701), every Fayetteville property has unique roofline demands. We custom-extrude 6-inch seamless aluminum on-site to match your exact measurements, installing 50-micron 316 marine-grade 316 micro-mesh in the same visit. Fascia-and-gutter-lip mounting only  —  preserving 100% of your CertainTeed or GAF shingle warranty. Turnkey installation from $1,450 for standard Fayetteville homes."
   },
   "geoCoordinates": {
     "latitude": 36.0626,

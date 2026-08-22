@@ -43,7 +43,7 @@ Micro-mesh is the only technology that prevents fine organic residue from settli
     },
     {
       heading: 'The Transparent Local Pricing Advantage',
-      body: `While national top-rated brands charge $6,000–$10,000 via high-pressure franchise reps, Ozark Gutter Guard installs commercial 50-micron 316L surgical mesh at direct factory pricing (~$18/ft) with our local Benton County crew.`,
+      body: `While national top-rated brands charge $6,000–$10,000 via high-pressure franchise reps, Ozark Gutter Guard installs commercial 50-micron 316L 316 stainless mesh at direct factory pricing (~$18/ft) with our local Benton County crew.`,
     },
   ],
 

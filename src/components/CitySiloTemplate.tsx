@@ -242,7 +242,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
             <div className="space-y-1">
               <span className="text-xs font-black uppercase tracking-wider text-orange-400 block">Ozark Ground-Truth Operations — {city.cityName}, AR</span>
               <h3 className="text-xl sm:text-2xl font-black text-white tracking-tight">
-                Why {city.cityName} Rooflines Demand Surgical-Grade Protection
+                Why {city.cityName} Rooflines Demand marine-grade 316 Protection
               </h3>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed max-w-3xl">

@@ -17,7 +17,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "100% Service Fee Credit",
-      "description": "Every dollar of your $149 cleaning fee is applied toward permanent 316 surgical micro-mesh."
+      "description": "Every dollar of your $149 cleaning fee is applied toward permanent 316 marine-grade 316 micro-mesh."
     },
     {
       "title": "Licensed & $2M Insured Crew",

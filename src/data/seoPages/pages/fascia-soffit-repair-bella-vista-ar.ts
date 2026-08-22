@@ -21,7 +21,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "PVC Composite That Never Rots Again",
-      "description": "We replace decayed sub-fascia with rot-proof PVC composite, rehang your gutters level, and install 316 surgical micro-mesh to permanently stop water intrusion."
+      "description": "We replace decayed sub-fascia with rot-proof PVC composite, rehang your gutters level, and install 316 marine-grade 316 micro-mesh to permanently stop water intrusion."
     }
   ],
   "localContext": {

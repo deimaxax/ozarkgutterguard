@@ -30,7 +30,7 @@ export default function FaqSection({ onOpenQuote }: FaqSectionProps) {
             Frequently Asked Questions
           </h2>
           <p className="text-base text-slate-600 font-normal leading-relaxed">
-            Straightforward answers about our 316 surgical mesh, roof shingle safety, warranty terms, and direct contractor pricing.
+            Straightforward answers about our 316 316 stainless mesh, roof shingle safety, warranty terms, and direct contractor pricing.
           </p>
         </div>
 

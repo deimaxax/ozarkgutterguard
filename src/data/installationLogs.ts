@@ -23,7 +23,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Sugar Creek / Coler Mountain Area (NW Peach Orchard Rd)',
       roofProfile: '245 LF, Multi-Tier Hip Roof, Dense Sweetgum & Pine Mix',
       problem: 'Sweetgum balls and shingle grit lodging in standard slotted covers, causing complete water overshoot onto foundation flowerbeds.',
-      execution: 'Complete sludge extraction, installation of 50-micron surgical mesh directly to the front lip and fascia—zero roof shingle contact, preserving 100% CertainTeed roof warranty.',
+      execution: 'Complete sludge extraction, installation of 50-micron 316 stainless mesh directly to the front lip and fascia—zero roof shingle contact, preserving 100% CertainTeed roof warranty.',
     },
   ],
   'bella-vista': [
@@ -32,7 +32,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Loch Lomond Shoreline (Skyline Dr & Lake Norwood Rd)',
       roofProfile: '210 LF, 9/12 Steep Pitch, Dense Loblolly Pine Canopy',
       problem: 'Thin oily pine needles piercing slotted vinyl guards and forming a dense compacted mat blocking all 3 downspout inlets, triggering rear-eave overflow across a 27-foot drop.',
-      execution: 'Removed failed vinyl screens, extracted 4 cubic feet of compacted needle mat, installed 50-micron 316 stainless surgical mesh flush to gutter lip and fascia. Replaced 22 loose nail spikes with 1.5" zinc hidden hangers, re-sealed 3 leaking corner miters.',
+      execution: 'Removed failed vinyl screens, extracted 4 cubic feet of compacted needle mat, installed 50-micron 316 stainless 316 stainless mesh flush to gutter lip and fascia. Replaced 22 loose nail spikes with 1.5" zinc hidden hangers, re-sealed 3 leaking corner miters.',
       flowRateTested: '150 in/hr throughput verified post-installation.',
     },
     {
@@ -66,7 +66,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Mount Sequoyah Historic Corridor (Sequoyah Dr)',
       roofProfile: '198 LF, Multi-Level Historic, 70-Year White Oak & Sugar Maple Canopy',
       problem: 'Massive autumn leaf drops from giant heritage oaks crushing flimsy plastic guards under wet debris weight, causing total trough overflow against historic stone foundation walls and flooding the crawlspace.',
-      execution: 'Removed collapsed plastic grid covers, extracted 3.5 cubic feet of compacted leaf sludge, installed heavy-duty 50-micron 316 surgical stainless mesh on extruded aluminum chassis. Laser-leveled 5 sagging trough sections, added 2 downspout extenders redirecting discharge from foundation.',
+      execution: 'Removed collapsed plastic grid covers, extracted 3.5 cubic feet of compacted leaf sludge, installed heavy-duty 50-micron 316 marine-grade 316 stainless mesh on extruded aluminum chassis. Laser-leveled 5 sagging trough sections, added 2 downspout extenders redirecting discharge from foundation.',
       flowRateTested: '150 in/hr throughput capacity sustained through 2-inch/hr storm event.',
     },
     {
@@ -74,7 +74,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Wilson Park Historic District (Lafayette St & Gregg Ave)',
       roofProfile: '164 LF, Craftsman Bungalow, Sugar Maple & Sycamore Canopy',
       problem: 'Overflowing clogged gutters causing black water staining on historic wood siding and actively rotting 80-year-old cypress fascia boards. HOA required shingle-safe installation to maintain preservation status.',
-      execution: 'Careful removal of rotted wood fascia sections, replacement with primed composite backer, laser slope realignment on 2 sections, installation of 50-micron surgical steel mesh fully preserving historic roofline profile with zero shingle contact.',
+      execution: 'Careful removal of rotted wood fascia sections, replacement with primed composite backer, laser slope realignment on 2 sections, installation of 50-micron 316 stainless steel mesh fully preserving historic roofline profile with zero shingle contact.',
     },
   ],
   springdale: [
@@ -83,7 +83,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Har-Ber Meadows (Founders Park Dr)',
       roofProfile: '235 LF, Sprawling Single-Story, Vertisol Clay Soil Zone, Pin Oak Canopy',
       problem: 'Expansive clay soil shifting around slab footing caused by unchecked roof runoff pouring over clogged plastic gutter shields. Foundation repair company required certified gutter protection before warranting slab leveling.',
-      execution: 'Laser re-pitched 4 trough runs to eliminate standing water pockets, installed 50-micron 316 surgical micro-mesh, connected 3 underground downspout extension adaptors discharging 10 feet from foundation footing.',
+      execution: 'Laser re-pitched 4 trough runs to eliminate standing water pockets, installed 50-micron 316 marine-grade 316 micro-mesh, connected 3 underground downspout extension adaptors discharging 10 feet from foundation footing.',
       flowRateTested: '150 in/hr throughput verified under heavy spring storm test conditions.',
     },
     {
@@ -100,7 +100,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Kimmel Road / West Centerton Area (Main St Corridor)',
       roofProfile: '210 LF, New Construction Ranch, Expansive Clay Soil Zone, Young Red Oak Canopy',
       problem: 'Severe corner foundation pooling during spring flash downpours causing perimeter soil erosion and hairline drywall cracking inside home.',
-      execution: 'Installed 50-micron 316 surgical micro-mesh with extruded aluminum chassis across all 210 LF. Upgraded 2 downspouts to 3x4 inch commercial high-capacity drop outlets, laser-realigned slope on 2 sagging rear sections.',
+      execution: 'Installed 50-micron 316 marine-grade 316 micro-mesh with extruded aluminum chassis across all 210 LF. Upgraded 2 downspouts to 3x4 inch commercial high-capacity drop outlets, laser-realigned slope on 2 sagging rear sections.',
       flowRateTested: '150 in/hr throughput capacity verified.',
     },
   ],
@@ -119,7 +119,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Valley View Area (Hwy 62 Corridor)',
       roofProfile: '185 LF, Multi-Level Hillside, Valley Rain Volume Zone, Mixed Oak & Maple',
       problem: 'Steep roofline accelerating water velocity past cheap curved hoods, causing severe wall-splashing and driveway gully erosion during every significant Ozark storm.',
-      execution: 'Installed 50-micron 316 surgical micro-mesh with hydrodynamic surface design accepting high-velocity water without overshoot. Added 2 valley splash diverters at primary water concentration points on split-level transitions.',
+      execution: 'Installed 50-micron 316 marine-grade 316 micro-mesh with hydrodynamic surface design accepting high-velocity water without overshoot. Added 2 valley splash diverters at primary water concentration points on split-level transitions.',
     },
   ],
   'siloam-springs': [
@@ -128,7 +128,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'Sager Creek Historic District (E University St)',
       roofProfile: '178 LF, Historic Two-Story, Mature Heritage Oak Canopy',
       problem: 'Heritage oak canopy dropping massive autumn leaf loads overwhelming standard 5-inch gutters within 48 hours of peak fall events. Basement taking on water through foundation wall seepage cracks.',
-      execution: 'Upgraded critical front elevation to 6-inch high-capacity aluminum trough, installed 50-micron surgical micro-mesh, added 2 supplemental downspouts to increase drainage capacity for heavy seasonal leaf-fall volume.',
+      execution: 'Upgraded critical front elevation to 6-inch high-capacity aluminum trough, installed 50-micron marine-grade 316 micro-mesh, added 2 supplemental downspouts to increase drainage capacity for heavy seasonal leaf-fall volume.',
     },
   ],
   'cave-springs': [
@@ -137,7 +137,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'The Creeks Golf Estates (S Cave Springs Rd)',
       roofProfile: '267 LF, Luxury Estate, Multi-Hip Roof, Mixed Oak & Pine Canopy',
       problem: 'Multiple complex hip roof valleys concentrating massive rainfall volumes into 2 shared downspouts, causing severe foundation flowerbed erosion and slab corner displacement.',
-      execution: 'Engineered valley splash guard system at all 4 primary convergence points, laser-aligned all 267 LF, installed 50-micron 316 surgical micro-mesh with extruded aluminum frame on all elevations. Added 2 downspout outlets for complete drainage balance.',
+      execution: 'Engineered valley splash guard system at all 4 primary convergence points, laser-aligned all 267 LF, installed 50-micron 316 marine-grade 316 micro-mesh with extruded aluminum frame on all elevations. Added 2 downspout outlets for complete drainage balance.',
     },
   ],
   'prairie-grove': [
@@ -155,7 +155,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'St. Joseph Area (N Goad Springs Rd)',
       roofProfile: '187 LF, Two-Story Traditional, Oak & Sweetgum Canopy',
       problem: 'Sweetgum spiky seed balls lodging inside slotted screens during high-wind events, fully blocking water entry at gutter centerlines and requiring annual screen removal to clean underneath.',
-      execution: 'Replaced slotted screens with 50-micron surgical stainless mesh that deflects round sweetgum balls without capturing them. Completed laser slope realignment on 3 sagging trough sections, sealed 4 corner joints.',
+      execution: 'Replaced slotted screens with 50-micron marine-grade 316 stainless mesh that deflects round sweetgum balls without capturing them. Completed laser slope realignment on 3 sagging trough sections, sealed 4 corner joints.',
     },
   ],
   'pea-ridge': [
@@ -164,7 +164,7 @@ export const INSTALLATION_LOGS: Record<string, InstallationLog[]> = {
       location: 'North Ridge Area (N Slack St)',
       roofProfile: '172 LF, Ranch, Shortleaf Pine & Post Oak Canopy',
       problem: 'Thin pine needles wedging vertically into 1/4-inch slotted metal screens, building a compacted needle bridge that shed all rainfall over the gutter lip into foundation beds.',
-      execution: 'Installed 50-micron 316 stainless surgical mesh eliminating all needle penetration pathways. Replaced 16 loose hangers with zinc screws, re-pitched 2 sections to positive slope, sealed 2 leaking corner joints.',
+      execution: 'Installed 50-micron 316 stainless 316 stainless mesh eliminating all needle penetration pathways. Replaced 16 loose hangers with zinc screws, re-pitched 2 sections to positive slope, sealed 2 leaking corner joints.',
     },
   ],
   elkins: [

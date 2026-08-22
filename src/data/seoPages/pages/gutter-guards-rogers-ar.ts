@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "Heavy-duty gutter protection in Rogers, AR (72756, 72758). Protect against Beaver Lake humidity, mold, and mature hardwood debris. 10-Year Guarantee.",
   "badge": "Rogers & Beaver Lake Coverage",
   "h1": "Rogers Gutter Guards & Beaver Lake Moisture Protection",
-  "subheadline": "Engineered for Rogers hardwood valleys and Beaver Lake humidity. Keep your roofline dry, clear, and clog-free permanently with surgical micro-mesh.",
+  "subheadline": "Engineered for Rogers hardwood valleys and Beaver Lake humidity. Keep your roofline dry, clear, and clog-free permanently with marine-grade 316 micro-mesh.",
   "painPointTitle": "Rogers Lake Moisture & Hardwood Sludge Risks",
   "painPoints": [
     {
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Heavy-Duty Defense for Rogers, Pinnacle Hills & Beaver Lake Properties",
-    "content": "From Pinnacle Hills luxury estates to shaded homes surrounding Beaver Lake, Rogers properties require gutter protection that resists high humidity, moss build-up, and torrential volume downpours. Our systems utilize extruded aluminum frames and 316 surgical stainless micro-mesh that never warps or sags under heavy wet debris."
+    "content": "From Pinnacle Hills luxury estates to shaded homes surrounding Beaver Lake, Rogers properties require gutter protection that resists high humidity, moss build-up, and torrential volume downpours. Our systems utilize extruded aluminum frames and 316 marine-grade 316 stainless micro-mesh that never warps or sags under heavy wet debris."
   },
   "geoCoordinates": {
     "latitude": 36.332,

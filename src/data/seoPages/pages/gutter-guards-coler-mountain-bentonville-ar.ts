@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Protecting Bentonville Homes Along NW 3rd St, Peach Orchard & Sugar Creek",
-    "content": "The mature hardwood corridors around Coler Mountain Bike Preserve create one of Bentonville’s heaviest tree canopy loads. Standard DIY plastic mesh and vinyl covers fail within 6 months as catkins and roof gravel penetrate their wide openings. Ozark Gutter Guard Co. installs 50-micron surgical 316 stainless steel mesh that allows water to siphon through instantly while dry oak tassels naturally blow away in the breeze. Every installation includes full hand cleanout, downspout high-velocity flush, and 1.5-inch zinc rafter screw reinforcements."
+    "content": "The mature hardwood corridors around Coler Mountain Bike Preserve create one of Bentonville’s heaviest tree canopy loads. Standard DIY plastic mesh and vinyl covers fail within 6 months as catkins and roof gravel penetrate their wide openings. Ozark Gutter Guard Co. installs 50-micron 316 stainless 316 stainless steel mesh that allows water to siphon through instantly while dry oak tassels naturally blow away in the breeze. Every installation includes full hand cleanout, downspout high-velocity flush, and 1.5-inch zinc rafter screw reinforcements."
   },
   "geoCoordinates": {
     "latitude": 36.3768,

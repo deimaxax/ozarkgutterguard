@@ -31,8 +31,8 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.3729,
     longitude: -94.2088,
     metaTitle: "72712 Gutter Guards | Downtown Bentonville AR Micro-Mesh",
-    metaDescription: "Commercial-grade 316 surgical stainless micro-mesh gutter guards for 72712 Bentonville, AR. Stop oak catkin sludge and protect home foundations. 10-Yr Guarantee.",
-    h1: "Surgical Gutter Guard Installation in 72712 (Bentonville, AR)",
+    metaDescription: "Commercial-grade 316 marine-grade 316 stainless micro-mesh gutter guards for 72712 Bentonville, AR. Stop oak catkin sludge and protect home foundations. 10-Yr Guarantee.",
+    h1: "316 stainless Gutter Guard Installation in 72712 (Bentonville, AR)",
     subheadline: "Protecting 72712 homes from Coler Preserve oak catkins, heavy spring rains, and foundation clay soil erosion with lifetime 316 stainless steel micro-mesh.",
     localDetails: "In ZIP code 72712, covering Downtown Bentonville, Coler Preserve, and historic neighborhoods, heavy post oak catkins drop throughout April and May, turning standing water in gutters into dense sludge. Our 50-micron micro-mesh allows torrential Ozark downpours to flow into downspouts while shedding 100% of organic tree debris."
   },
@@ -52,7 +52,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     metaDescription: "Permanent gutter protection for 72713 West Bentonville homes. Direct contractor pricing, 0% financing, and 10-Year No-Clog Guarantee. Fast satellite quotes.",
     h1: "72713 Gutter Guard Installation  —  West Bentonville, AR",
     subheadline: "Engineered for newer subdivisions and multi-tier architectural rooflines in 72713. High-intake micro-mesh prevents foundation pooling and fascia rot.",
-    localDetails: "ZIP code 72713 features rapidly expanding residential subdivisions with steep multi-tier rooflines. During heavy thunderstorms, concentrated runoff in valleys overshoots standard plastic covers. Our surgical steel mesh handles up to 150 inches of rain per hour with zero overflow."
+    localDetails: "ZIP code 72713 features rapidly expanding residential subdivisions with steep multi-tier rooflines. During heavy thunderstorms, concentrated runoff in valleys overshoots standard plastic covers. Our 316 stainless steel mesh handles up to 150 inches of rain per hour with zero overflow."
   },
   {
     zip: "72714",
@@ -67,10 +67,10 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.4295,
     longitude: -94.2316,
     metaTitle: "72714 Gutter Guards | Bella Vista South Pine Needle Mesh",
-    metaDescription: "Stop Loblolly pine needle clogging in 72714 Bella Vista, AR. Surgical stainless steel micro-mesh engineered for steep hillside rooflines. 10-Yr Guarantee.",
+    metaDescription: "Stop Loblolly pine needle clogging in 72714 Bella Vista, AR. marine-grade 316 stainless steel micro-mesh engineered for steep hillside rooflines. 10-Yr Guarantee.",
     h1: "72714 Gutter Guard Installation (Bella Vista Pines)",
     subheadline: "Permanent pine needle filtration engineered for steep mountain rooflines and 25-foot hillside drops in 72714 Bella Vista.",
-    localDetails: "In ZIP code 72714, homes surrounding Lake Loch Lomond and Metfield are blanketed by towering Loblolly pines that shed sharp needles year-round. Standard vinyl guards act like combs, trapping needles until gutters overflow down steep slopes. Our 316 surgical micro-mesh creates an impenetrable barrier where needles dry and blow off in the wind."
+    localDetails: "In ZIP code 72714, homes surrounding Lake Loch Lomond and Metfield are blanketed by towering Loblolly pines that shed sharp needles year-round. Standard vinyl guards act like combs, trapping needles until gutters overflow down steep slopes. Our 316 marine-grade 316 micro-mesh creates an impenetrable barrier where needles dry and blow off in the wind."
   },
   {
     zip: "72715",
@@ -103,7 +103,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.2628,
     longitude: -94.2285,
     metaTitle: "72718 Gutter Guards | Cave Springs AR Micro-Mesh Armor",
-    metaDescription: "Custom surgical stainless gutter protection for 72718 Cave Springs luxury estates. Eliminate maple seeds and foundation water pooling. 10-Yr Guarantee.",
+    metaDescription: "Custom marine-grade 316 stainless gutter protection for 72718 Cave Springs luxury estates. Eliminate maple seeds and foundation water pooling. 10-Yr Guarantee.",
     h1: "72718 Gutter Guard Installation in Cave Springs, AR",
     subheadline: "Custom stainless steel micro-mesh tailored for luxury homes and golf communities in 72718 Cave Springs.",
     localDetails: "Homes in 72718 Cave Springs feature expansive estate rooflines that collect large volumes of water and mature maple seeds. Our micro-mesh system prevents seeds from taking root inside gutter troughs while guiding runoff safely away from custom foundations."
@@ -121,7 +121,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.3608,
     longitude: -94.2858,
     metaTitle: "72719 Gutter Guards | Centerton AR Direct Contractor Rates",
-    metaDescription: "Affordable surgical micro-mesh gutter guards in 72719 Centerton, AR. Protect your home slab foundation from $15,000 settling repairs. 10-Yr Guarantee.",
+    metaDescription: "Affordable marine-grade 316 micro-mesh gutter guards in 72719 Centerton, AR. Protect your home slab foundation from $15,000 settling repairs. 10-Yr Guarantee.",
     h1: "72719 Gutter Guard Installation  —  Centerton, AR",
     subheadline: "Protect your slab foundation from water saturation in 72719 Centerton. Direct local pricing with zero corporate markup.",
     localDetails: "In 72719 Centerton, expansive clay soils swell when saturated and shrink in dry periods. Gutter overflows dump water directly along foundation perimeters, leading to costly drywall cracking. Our permanent micro-mesh keeps water channeling smoothly through downspouts during every storm."
@@ -157,9 +157,9 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.3050,
     longitude: -94.1850,
     metaTitle: "72758 Gutter Guards | Pinnacle Hills & Shadow Valley Rogers",
-    metaDescription: "Premier 316 surgical micro-mesh gutter protection for 72758 West Rogers, Pinnacle Hills & Shadow Valley estates. Zero roof penetration. 10-Yr Guarantee.",
+    metaDescription: "Premier 316 marine-grade 316 micro-mesh gutter protection for 72758 West Rogers, Pinnacle Hills & Shadow Valley estates. Zero roof penetration. 10-Yr Guarantee.",
     h1: "72758 Gutter Guard Installation  —  Pinnacle Hills & Shadow Valley",
-    subheadline: "Architectural-grade surgical micro-mesh custom fitted for 72758 luxury homes in Pinnacle Hills and Shadow Valley.",
+    subheadline: "Architectural-grade marine-grade 316 micro-mesh custom fitted for 72758 luxury homes in Pinnacle Hills and Shadow Valley.",
     localDetails: "ZIP code 72758 encompasses premier residential communities with multi-tier roofs and strict HOA standards. Our fascia-mounted micro-mesh maintains pristine rooflines without touching roofing shingles, preserving 100% of your shingle manufacturer warranty."
   },
   {
@@ -177,7 +177,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     metaTitle: "72745 Gutter Guards | Lowell AR Micro-Mesh Protection",
     metaDescription: "Professional micro-mesh gutter guards in 72745 Lowell, AR. Stop climbing ladders and prevent foundation water damage. 10-Year Guarantee.",
     h1: "72745 Gutter Guard Installation in Lowell, AR",
-    subheadline: "Central NWA drainage defense for 72745 Lowell homes. Laser slope pitch realignment and surgical steel micro-mesh.",
+    subheadline: "Central NWA drainage defense for 72745 Lowell homes. Laser slope pitch realignment and 316 stainless steel micro-mesh.",
     localDetails: "Located at the central crossroads of Benton County, 72745 Lowell homes experience heavy storm crosswinds and intense rain volume. We realign gutter pitch and install zinc hidden screws to ensure gutters never sag or overflow."
   },
   {
@@ -193,10 +193,10 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.4503,
     longitude: -94.1166,
     metaTitle: "72751 Gutter Guards | Pea Ridge AR Hardwood Defense",
-    metaDescription: "Heavy-duty surgical micro-mesh gutter guards for 72751 Pea Ridge, AR. Protect large single-family homes and acreages. 10-Yr Guarantee.",
+    metaDescription: "Heavy-duty marine-grade 316 micro-mesh gutter guards for 72751 Pea Ridge, AR. Protect large single-family homes and acreages. 10-Yr Guarantee.",
     h1: "72751 Gutter Guard Installation in Pea Ridge, AR",
     subheadline: "Heavy hardwood canopy protection for 72751 Pea Ridge homes. 100% oak catkin and walnut leaf deflection.",
-    localDetails: "In 72751 Pea Ridge, mature oak and walnut trees drop heavy leaves and seed nuts every fall that smash flimsy plastic covers. Our surgical stainless steel mesh on heavy aluminum framing withstands heavy debris weight with zero sagging."
+    localDetails: "In 72751 Pea Ridge, mature oak and walnut trees drop heavy leaves and seed nuts every fall that smash flimsy plastic covers. Our marine-grade 316 stainless steel mesh on heavy aluminum framing withstands heavy debris weight with zero sagging."
   },
   {
     zip: "72701",
@@ -211,10 +211,10 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.0626,
     longitude: -94.1574,
     metaTitle: "72701 Gutter Guards | Mount Sequoyah & Downtown Fayetteville",
-    metaDescription: "Surgical stainless micro-mesh gutter guards for 72701 Fayetteville historic homes & Mount Sequoyah estates. 100% shingle-safe. 10-Yr Guarantee.",
+    metaDescription: "marine-grade 316 stainless micro-mesh gutter guards for 72701 Fayetteville historic homes & Mount Sequoyah estates. 100% shingle-safe. 10-Yr Guarantee.",
     h1: "72701 Gutter Guard Installation  —  Mount Sequoyah & Downtown",
     subheadline: "Preserving historic architecture and conquering heavy hardwood leaf falls across 72701 Fayetteville.",
-    localDetails: "ZIP code 72701 includes historic Fayetteville and Mount Sequoyah where majestic 70-year-old hardwoods create the highest organic debris volume in Northwest Arkansas. Our low-profile surgical mesh is mounted 100% to the gutter lip and fascia, keeping historic rooflines rot-free and fully protected."
+    localDetails: "ZIP code 72701 includes historic Fayetteville and Mount Sequoyah where majestic 70-year-old hardwoods create the highest organic debris volume in Northwest Arkansas. Our low-profile 316 stainless mesh is mounted 100% to the gutter lip and fascia, keeping historic rooflines rot-free and fully protected."
   },
   {
     zip: "72703",
@@ -247,7 +247,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.0790,
     longitude: -94.2150,
     metaTitle: "72704 Gutter Guards | West Fayetteville & Wedington Corridor",
-    metaDescription: "Prevent foundation water damage with surgical micro-mesh gutter guards in 72704 West Fayetteville, AR. 10-Year No-Clog Guarantee.",
+    metaDescription: "Prevent foundation water damage with marine-grade 316 micro-mesh gutter guards in 72704 West Fayetteville, AR. 10-Year No-Clog Guarantee.",
     h1: "72704 Gutter Guard Installation  —  West Fayetteville",
     subheadline: "Protect your slab foundation and landscape from storm runoff in 72704 West Fayetteville.",
     localDetails: "The Wedington Corridor in 72704 features high residential growth on expansive clay soils. Our permanent gutter armor prevents water pooling at foundation corners, eliminating risks of cracked slabs and uneven settling."
@@ -265,10 +265,10 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.1867,
     longitude: -94.1950,
     metaTitle: "72762 Gutter Guards | Har-Ber Meadows & West Springdale",
-    metaDescription: "Heavy-duty 316 surgical micro-mesh gutter guards for 72762 Springdale, AR. Prevent clay soil slab damage. 10-Yr Guarantee.",
+    metaDescription: "Heavy-duty 316 marine-grade 316 micro-mesh gutter guards for 72762 Springdale, AR. Prevent clay soil slab damage. 10-Yr Guarantee.",
     h1: "72762 Gutter Guard Installation  —  Har-Ber Meadows & West Springdale",
     subheadline: "Engineered for large multi-story homes and expansive clay soils in 72762 Springdale.",
-    localDetails: "In 72762 West Springdale and Har-Ber Meadows, large roof surface areas produce massive water flow during storms. Our 50-micron surgical steel mesh handles maximum throughput while keeping out 100% of fine agricultural dust and pollen."
+    localDetails: "In 72762 West Springdale and Har-Ber Meadows, large roof surface areas produce massive water flow during storms. Our 50-micron 316 stainless steel mesh handles maximum throughput while keeping out 100% of fine agricultural dust and pollen."
   },
   {
     zip: "72764",
@@ -319,10 +319,10 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     latitude: 36.0420,
     longitude: -94.2250,
     metaTitle: "72730 Gutter Guards | Farmington AR Permanent Protection",
-    metaDescription: "Top-rated 316 surgical stainless micro-mesh gutter guards for 72730 Farmington, AR. Prevent foundation erosion. 10-Yr Guarantee.",
+    metaDescription: "Top-rated 316 marine-grade 316 stainless micro-mesh gutter guards for 72730 Farmington, AR. Prevent foundation erosion. 10-Yr Guarantee.",
     h1: "72730 Gutter Guard Installation in Farmington, AR",
     subheadline: "Protecting Farmington valley homes in 72730 from torrential storm runoff and foundation saturation.",
-    localDetails: "Homes in 72730 Farmington sit on valley clay that expands rapidly when gutters overflow. We install surgical-grade stainless micro-mesh to keep water moving smoothly away from home foundations."
+    localDetails: "Homes in 72730 Farmington sit on valley clay that expands rapidly when gutters overflow. We install marine-grade 316 stainless micro-mesh to keep water moving smoothly away from home foundations."
   },
   {
     zip: "72761",
@@ -336,11 +336,11 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     annualRainfall: "46.8 inches/year",
     latitude: 36.1881,
     longitude: -94.5405,
-    metaTitle: "72761 Gutter Guards | Siloam Springs AR Surgical Mesh",
-    metaDescription: "Permanent surgical micro-mesh gutter guards for 72761 Siloam Springs, AR. 100% debris deflection. 10-Yr Guarantee.",
+    metaTitle: "72761 Gutter Guards | Siloam Springs AR 316 stainless mesh",
+    metaDescription: "Permanent marine-grade 316 micro-mesh gutter guards for 72761 Siloam Springs, AR. 100% debris deflection. 10-Yr Guarantee.",
     h1: "72761 Gutter Guard Installation in Siloam Springs, AR",
     subheadline: "Sager Creek basin hardwood and Sycamore protection for 72761 Siloam Springs homes.",
-    localDetails: "In 72761 Siloam Springs, giant sycamore leaves and seed balls clog 5-inch gutters in a single afternoon. Our surgical-grade mesh prevents all clogs while maintaining maximum water flow."
+    localDetails: "In 72761 Siloam Springs, giant sycamore leaves and seed balls clog 5-inch gutters in a single afternoon. Our marine-grade 316 mesh prevents all clogs while maintaining maximum water flow."
   },
   {
     zip: "72753",
@@ -375,7 +375,7 @@ export const NWA_ZIP_CODES: ZipCodeData[] = [
     metaTitle: "72736 Gutter Guards | Gravette & Hiwasse AR Micro-Mesh",
     metaDescription: "Heavy-duty stainless steel gutter guards in 72736 Gravette, AR. Direct local prices and 10-Year Guarantee.",
     h1: "72736 Gutter Guard Installation in Gravette, AR",
-    subheadline: "Durable surgical steel micro-mesh for 72736 Gravette and Hiwasse residential rooflines.",
+    subheadline: "Durable 316 stainless steel micro-mesh for 72736 Gravette and Hiwasse residential rooflines.",
     localDetails: "In 72736 Gravette and Western Benton County, homes and acreage farmsteads require gutter guards that withstand severe Ozark thunderstorm winds and heavy tree drops without maintenance."
   }
 ];

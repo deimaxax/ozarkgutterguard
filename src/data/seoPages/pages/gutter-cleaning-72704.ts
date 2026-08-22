@@ -18,7 +18,7 @@ export const page: SeoPageData = {
   ],
   localContext: {
     heading: 'Serving 72704: West Fayetteville / Wedington',
-    content: 'ZIP code 72704 (Fayetteville) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 surgical stainless micro-mesh guards. Call (479) 929-2516.'
+    content: 'ZIP code 72704 (Fayetteville) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 marine-grade 316 stainless micro-mesh guards. Call (479) 929-2516.'
   },
   geoCoordinates: { latitude: 36.061, longitude: -94.221 }
 };

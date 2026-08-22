@@ -7,7 +7,7 @@ export const page: SeoPageData = {
   "metaDescription": "Licensed, fully insured gutter contractors serving Northwest Arkansas. Commercial 316 stainless micro-mesh & seamless aluminum gutters. (479) 929-2516.",
   "badge": "Licensed NWA Contractors",
   "h1": "Licensed Gutter Contractors Near You in Northwest Arkansas",
-  "subheadline": "Professional gutter craftsmen equipped with laser leveling, mobile extrusion trucks, and medical-grade 316 surgical stainless steel micro-mesh.",
+  "subheadline": "Professional gutter craftsmen equipped with laser leveling, mobile extrusion trucks, and medical-grade 316 marine-grade 316 stainless steel micro-mesh.",
   "painPointTitle": "What Sets Professional Gutter Contractors Apart from Handymen",
   "painPoints": [
     {

@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Bella Vista Gutter Guard Pricing: Loch Lomond, Highlands & Scotsdale Communities",
-    "content": "Bella Vista's steep terrain and dense pine canopy create a unique pricing environment compared to flat-terrain NWA cities. Homeowners in ZIP codes 72714 and 72715 should budget $1,150–$2,100 for complete installation depending on roof pitch and linear footage. The 50-micron surgical specification we use for Bella Vista is the only filtration aperture that blocks Loblolly and Shortleaf pine needle tips — wider aperture national brand systems are not appropriate for Bella Vista's specific debris type. Every Bella Vista quote is satellite-measured from GIS aerial imagery and delivered via SMS in 15 minutes. No in-home appointments. Call (479) 929-2516."
+    "content": "Bella Vista's steep terrain and dense pine canopy create a unique pricing environment compared to flat-terrain NWA cities. Homeowners in ZIP codes 72714 and 72715 should budget $1,150–$2,100 for complete installation depending on roof pitch and linear footage. The 50-micron 316 stainless specification we use for Bella Vista is the only filtration aperture that blocks Loblolly and Shortleaf pine needle tips — wider aperture national brand systems are not appropriate for Bella Vista's specific debris type. Every Bella Vista quote is satellite-measured from GIS aerial imagery and delivered via SMS in 15 minutes. No in-home appointments. Call (479) 929-2516."
   },
   "geoCoordinates": {
     "latitude": 36.4295,

@@ -20,7 +20,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "Ozark Gutter Guard ($1,250–$1,850 turnkey): Best Total Value",
-      "description": "Same 316 surgical stainless specification as LeafFilter, installed professionally with laser slope realignment, 10-Year Transferable Guarantee, and full cleanout included — for 60–70% less."
+      "description": "Same 316 marine-grade 316 stainless specification as LeafFilter, installed professionally with laser slope realignment, 10-Year Transferable Guarantee, and full cleanout included — for 60–70% less."
     }
   ],
   "localContext": {

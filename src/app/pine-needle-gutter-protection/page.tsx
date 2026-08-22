@@ -10,7 +10,7 @@ import { TreePine, CheckCircle2, AlertOctagon, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Best Gutter Guards for Pine Needles | 50-Micron Mesh | Ozark Gutter Guard Co.',
-  description: 'Stop Loblolly pine needles from clogging your gutters. 50-micron surgical stainless steel micro-mesh engineered for Bella Vista & Ozark pine canopies.',
+  description: 'Stop Loblolly pine needles from clogging your gutters. 50-micron marine-grade 316 stainless steel micro-mesh engineered for Bella Vista & Ozark pine canopies.',
   alternates: {
     canonical: 'https://ozarkgutterguard.com/pine-needle-gutter-protection',
   },
@@ -45,7 +45,7 @@ export default function PineNeedlePage() {
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed">
-                  Standard slotted screens and reverse-curve hoods fail completely against fine needles. Our 316 surgical stainless micro-mesh stops 100% of pine needles while letting torrential Arkansas downpours flow freely.
+                  Standard slotted screens and reverse-curve hoods fail completely against fine needles. Our 316 marine-grade 316 stainless micro-mesh stops 100% of pine needles while letting torrential Arkansas downpours flow freely.
                 </p>
 
                 <div className="space-y-2 text-xs sm:text-sm text-slate-800 font-semibold pt-1">
@@ -111,7 +111,7 @@ export default function PineNeedlePage() {
               <div className="bg-white border-2 border-slate-900 p-6 space-y-3">
                 <div className="flex items-center gap-2 text-slate-950 font-bold font-heading uppercase text-base">
                   <span className="text-amber-600 font-bold text-xl">✓</span>
-                  <span>Ozark 316 Surgical Stainless Micro-Mesh</span>
+                  <span>Ozark 316 marine-grade 316 stainless Micro-Mesh</span>
                 </div>
                 <ul className="text-xs sm:text-sm text-slate-800 space-y-2 font-mono font-bold">
                   <li>✓ 50-micron aperture: Pine needles rest flat on top and blow away in the wind</li>

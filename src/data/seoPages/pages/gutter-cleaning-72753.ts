@@ -18,7 +18,7 @@ export const page: SeoPageData = {
   ],
   localContext: {
     heading: 'Serving 72753: Prairie Grove / Battlefield',
-    content: 'ZIP code 72753 (Prairie Grove) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 surgical stainless micro-mesh guards. Call (479) 929-2516.'
+    content: 'ZIP code 72753 (Prairie Grove) requires thorough seasonal maintenance. Our $149 service includes full hand-clearing, high-velocity downspout power-flush, laser slope check, and 21-Point Audit. $149 credited 100% toward permanent 316 marine-grade 316 stainless micro-mesh guards. Call (479) 929-2516.'
   },
   geoCoordinates: { latitude: 35.9754, longitude: -94.3169 }
 };

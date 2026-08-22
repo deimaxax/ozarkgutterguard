@@ -152,7 +152,7 @@ export default function HOAComplianceCheck({ initialCity = 'Bentonville' }: HOAC
             <span>Pre-Certified For Architectural Review in {selectedSubdivision}</span>
           </div>
           <p className="text-xs text-slate-300">
-            Our 316 surgical micro-mesh installs flush with the gutter line with zero upward visible bulge, maintaining 100% curb appeal and HOA compliance.
+            Our 316 marine-grade 316 micro-mesh installs flush with the gutter line with zero upward visible bulge, maintaining 100% curb appeal and HOA compliance.
           </p>
         </div>
         <a

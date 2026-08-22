@@ -8,7 +8,7 @@ export const page: SeoPageData = {
   "metaDescription": "100% shingle-safe micro-mesh gutter protection for historic homes in Wilson Park Fayetteville, AR. Zero roof warranty impact. 10-Year No-Clog Guarantee.",
   "badge": "Wilson Park Historic Preservation",
   "h1": "Wilson Park Gutter Guard Installation in Fayetteville, AR",
-  "subheadline": "Preserve historic Craftsman and Tudor rooflines in the Wilson Park and Washington-Willow Historic Districts with fascia-only mounting and surgical stainless steel mesh.",
+  "subheadline": "Preserve historic Craftsman and Tudor rooflines in the Wilson Park and Washington-Willow Historic Districts with fascia-only mounting and marine-grade 316 stainless steel mesh.",
   "painPointTitle": "Preserving Historic Architecture & Stopping Wood Rot",
   "painPoints": [
     {

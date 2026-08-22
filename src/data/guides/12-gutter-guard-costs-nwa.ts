@@ -39,7 +39,7 @@ Understanding your exact linear footage is the first step to evaluating fair con
 
 **3. Ozark Gutter Guard (Direct Local Installation):**
 - Total Installed Cost: **~$3,240** (~$18/ft flat)
-- What\'s Included: Pre-installation tune-up, full gutter cleanout, pitch realignment, downspout flushing, 50-micron 316L surgical mesh installation, and a 10-Year Written Guarantee.`,
+- What\'s Included: Pre-installation tune-up, full gutter cleanout, pitch realignment, downspout flushing, 50-micron 316L 316 stainless mesh installation, and a 10-Year Written Guarantee.`,
     },
     {
       heading: 'ROI Analysis: Gutter Guards vs Foundation & Fascia Repairs',
@@ -48,7 +48,7 @@ Understanding your exact linear footage is the first step to evaluating fair con
 - **Rotted Wood Fascia & Soffit Replacement:** $1,500 – $3,500
 - **Professional Gutter Cleaning (2× per year for 10 years):** $3,500 – $4,500
 
-Investing ~$3,000 in surgical micro-mesh pays for itself in routine maintenance savings alone while safeguarding your home\'s greatest equity investment.`,
+Investing ~$3,000 in marine-grade 316 micro-mesh pays for itself in routine maintenance savings alone while safeguarding your home\'s greatest equity investment.`,
     },
   ],
 

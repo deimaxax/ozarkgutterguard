@@ -7,7 +7,7 @@ export const page: SeoPageData = {
   "metaDescription": "Industrial-grade commercial gutter installation for Northwest Arkansas businesses, churches, and warehouses. Heavy 0.032 aluminum & steel box gutters.",
   "badge": "Commercial Installation Pros",
   "h1": "Commercial Gutter Installation in Northwest Arkansas",
-  "subheadline": "Engineered high-capacity drainage for commercial roofs: oversized 7-inch box profiles, 4x5-inch commercial downspouts, and surgical micro-mesh.",
+  "subheadline": "Engineered high-capacity drainage for commercial roofs: oversized 7-inch box profiles, 4x5-inch commercial downspouts, and marine-grade 316 micro-mesh.",
   "painPointTitle": "Engineering Standards for Commercial Roof Runoff in NWA",
   "painPoints": [
     {
@@ -20,7 +20,7 @@ export const page: SeoPageData = {
     },
     {
       "title": "Permanent 50-Micron Micro-Mesh Protection",
-      "description": "Eliminate expensive commercial maintenance contracts with self-clearing surgical stainless steel mesh."
+      "description": "Eliminate expensive commercial maintenance contracts with self-clearing marine-grade 316 stainless steel mesh."
     }
   ],
   "localContext": {

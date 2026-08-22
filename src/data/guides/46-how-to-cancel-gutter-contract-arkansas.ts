@@ -12,7 +12,7 @@ const post: GuidePost = {
   heroEmoji: '⚖️',
 
   intro:
-    'If a national gutter guard salesperson spent three hours in your living room and pressured you into signing a $5,000 to $10,000 installation contract, you are not alone. Many homeowners in Bentonville, Rogers, Fayetteville, and Springdale experience immediate buyer’s remorse after realizing local Arkansas contractors provide identical 316 surgical stainless steel mesh for 50% to 65% less. Under Arkansas law, you have specific statutory rights to cancel.',
+    'If a national gutter guard salesperson spent three hours in your living room and pressured you into signing a $5,000 to $10,000 installation contract, you are not alone. Many homeowners in Bentonville, Rogers, Fayetteville, and Springdale experience immediate buyer’s remorse after realizing local Arkansas contractors provide identical 316 marine-grade 316 stainless steel mesh for 50% to 65% less. Under Arkansas law, you have specific statutory rights to cancel.',
 
   sections: [
     {

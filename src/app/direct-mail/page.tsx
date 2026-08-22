@@ -65,7 +65,7 @@ export default function DirectMailPage() {
               </h1>
 
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                Thank you for scanning your direct mail card. Present this voucher for a complete interior hand cleanout, high-velocity downspout jetting, laser slope realignment, and a 21-point video audit. <strong className="text-brand-navy">100% of your $149 fee is credited</strong> toward permanent 316 surgical micro-mesh guards if you ever choose to install them.
+                Thank you for scanning your direct mail card. Present this voucher for a complete interior hand cleanout, high-velocity downspout jetting, laser slope realignment, and a 21-point video audit. <strong className="text-brand-navy">100% of your $149 fee is credited</strong> toward permanent 316 marine-grade 316 micro-mesh guards if you ever choose to install them.
               </p>
             </div>
 

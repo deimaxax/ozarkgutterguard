@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Bentonville Gutter Cleaning + 21-Point Audit: Turning a $149 Visit Into Foundation Protection",
-    "content": "Every Bentonville gutter cleaning call includes our 21-Point Roof & Foundation Water-Flow Audit at no extra charge. Our technician documents standing water, rotting fascia, sagging slope, and cracked miters with photos sent directly to your phone. This transforms a $149 scooping call into a complete drainage intelligence report. Most Bentonville homeowners discover 1–3 issues that, left unaddressed, become $2,000–$8,000 repairs within 2 years. We serve all Bentonville ZIPs: 72712, 72713, 72716. Minimum job size $150. The $149 fee is 100% credited toward permanent 50-micron surgical micro-mesh installation  —  so your cleaning investment is never wasted. Call (479) 929-2516 for same-week scheduling."
+    "content": "Every Bentonville gutter cleaning call includes our 21-Point Roof & Foundation Water-Flow Audit at no extra charge. Our technician documents standing water, rotting fascia, sagging slope, and cracked miters with photos sent directly to your phone. This transforms a $149 scooping call into a complete drainage intelligence report. Most Bentonville homeowners discover 1–3 issues that, left unaddressed, become $2,000–$8,000 repairs within 2 years. We serve all Bentonville ZIPs: 72712, 72713, 72716. Minimum job size $150. The $149 fee is 100% credited toward permanent 50-micron marine-grade 316 micro-mesh installation  —  so your cleaning investment is never wasted. Call (479) 929-2516 for same-week scheduling."
   },
   "geoCoordinates": {
     "latitude": 36.3729,

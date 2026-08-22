@@ -12,7 +12,7 @@ export const page: SeoPageData = {
   "painPoints": [
     {
       "title": "Gutter Guard Cost Per Linear Foot: $8.50–$10.50/ft Turnkey",
-      "description": "Direct local contractor rate for 50-micron 316 surgical stainless steel micro-mesh including full cleanout, laser pitch realignment, and 10-year guarantee."
+      "description": "Direct local contractor rate for 50-micron 316 marine-grade 316 stainless steel micro-mesh including full cleanout, laser pitch realignment, and 10-year guarantee."
     },
     {
       "title": "Home Size Cost Matrix (150 LF, 200 LF, 250 LF)",

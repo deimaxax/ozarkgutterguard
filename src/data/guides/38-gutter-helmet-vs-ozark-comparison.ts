@@ -5,7 +5,7 @@ const post: GuidePost = {
   title: 'Gutter Helmet vs Ozark Gutter Guard: The Shingle Warranty & Valley Overflow Truth',
   metaTitle: 'Gutter Helmet vs Ozark Gutter Guard | NWA Comparison & Pricing',
   metaDescription:
-    'Comparing Gutter Helmet hood covers vs Ozark surgical micro-mesh in NWA. Why sliding metal brackets under roof shingles can void manufacturer warranties in Arkansas.',
+    'Comparing Gutter Helmet hood covers vs Ozark marine-grade 316 micro-mesh in NWA. Why sliding metal brackets under roof shingles can void manufacturer warranties in Arkansas.',
   category: 'homeowner',
   readTime: '6 min read',
   publishDate: '2026-06-18',
@@ -23,7 +23,7 @@ Most Gutter Helmet installations require lifting the bottom row of your asphalt 
 **Why This Is a Major Risk in Arkansas:**
 - **Voided Roof Warranties:** Major shingle manufacturers like Owens Corning, GAF, and CertainTeed have specific warranty clauses stating that breaking the thermal adhesive seal or driving unapproved fasteners through shingles can void your wind and leak warranty.
 - **Ozark Tornado & Storm Gusts:** NWA regularly experiences 60–75 mph straight-line thunderstorm gusts. Broken shingle seals allow wind to lift tabs, tearing whole sections off your roof deck.
-- **Fascia-Only Mount by Ozark Gutter Guard:** Our surgical micro-mesh mounts exclusively to the heavy-gauge front gutter lip and the fascia board. We never touch, lift, or penetrate your roofing shingles. Your roof warranty remains 100% intact.`,
+- **Fascia-Only Mount by Ozark Gutter Guard:** Our marine-grade 316 micro-mesh mounts exclusively to the heavy-gauge front gutter lip and the fascia board. We never touch, lift, or penetrate your roofing shingles. Your roof warranty remains 100% intact.`,
     },
     {
       heading: 'Roof Valley Shoot-Over in Severe Ozark Storms',

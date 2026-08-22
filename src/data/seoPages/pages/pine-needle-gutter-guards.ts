@@ -4,10 +4,10 @@ export const page: SeoPageData = {
   "slug": "pine-needle-gutter-guards",
   "cluster": "problem",
   "metaTitle": "Best Gutter Guards for Pine Needles | 50-Micron Mesh | Ozark Gutter Guard Co.",
-  "metaDescription": "Best gutter guards for pine needles in Bella Vista, Rogers & Ozark forests. 50-micron 316 surgical stainless steel micro-mesh eliminates needle penetration.",
+  "metaDescription": "Best gutter guards for pine needles in Bella Vista, Rogers & Ozark forests. 50-micron 316 marine-grade 316 stainless steel micro-mesh eliminates needle penetration.",
   "badge": "Pine Needle Filtration Specialist",
   "h1": "Best Gutter Guards for Pine Needles in Arkansas",
-  "subheadline": "Engineered specifically for Bella Vista and Rogers Loblolly and Shortleaf pine canopies — 50-micron surgical stainless mesh eliminates pine needle clogging forever.",
+  "subheadline": "Engineered specifically for Bella Vista and Rogers Loblolly and Shortleaf pine canopies — 50-micron marine-grade 316 stainless mesh eliminates pine needle clogging forever.",
   "painPointTitle": "How to Stop Pine Needles in Gutters (Technical 50-Micron Solution)",
   "painPoints": [
     {
@@ -25,7 +25,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "How to Stop Pine Needles in Gutters Permanently",
-    "content": "Bella Vista and Lake Loch Lomond homes sit beneath dense Loblolly and Shortleaf pine canopies that drop sharp oily needles 365 days a year. Standard slotted covers, foam inserts, and reverse-curve hoods fail because needles penetrate vertical openings or catch along curved edges. Our 50-micron 316 surgical stainless steel micro-mesh creates an impenetrable surface where pine needles dry in the sun and blow away in the daily Ozark breeze. Includes full 10-Year Transferable Guarantee. Call (479) 929-2516 for a 15-minute satellite estimate."
+    "content": "Bella Vista and Lake Loch Lomond homes sit beneath dense Loblolly and Shortleaf pine canopies that drop sharp oily needles 365 days a year. Standard slotted covers, foam inserts, and reverse-curve hoods fail because needles penetrate vertical openings or catch along curved edges. Our 50-micron 316 marine-grade 316 stainless steel micro-mesh creates an impenetrable surface where pine needles dry in the sun and blow away in the daily Ozark breeze. Includes full 10-Year Transferable Guarantee. Call (479) 929-2516 for a 15-minute satellite estimate."
   }
 };
 

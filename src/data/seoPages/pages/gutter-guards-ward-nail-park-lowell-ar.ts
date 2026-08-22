@@ -5,7 +5,7 @@ export const page: SeoPageData = {
   "cluster": "location",
   "city": "Lowell",
   "metaTitle": "Ward Nail Park Lowell Gutter Guards | Hickory Creek AR Mesh",
-  "metaDescription": "Heavy-duty surgical micro-mesh gutter guards for Ward Nail Park & Hickory Creek area homes in Lowell, AR. Stop oak catkins. 10-Yr Guarantee.",
+  "metaDescription": "Heavy-duty marine-grade 316 micro-mesh gutter guards for Ward Nail Park & Hickory Creek area homes in Lowell, AR. Stop oak catkins. 10-Yr Guarantee.",
   "badge": "Ward Nail Park & Hickory Creek Specialist",
   "h1": "Ward Nail Park Area Gutter Guard Installation in Lowell",
   "subheadline": "Protecting established Lowell single-story and two-story homes from oak catkin sludge, hickory debris, and fascia wood rot.",
@@ -26,7 +26,7 @@ export const page: SeoPageData = {
   ],
   "localContext": {
     "heading": "Serving Ward Nail Park, N Monroe Ave, Hickory Creek & Hwy 71B",
-    "content": "Lowell homes situated between Rogers and Springdale experience heavy seasonal foliage drops and flash Ozark thunderstorms. Our 10-point gutter restoration includes laser pitch correction, zinc rafter screw installation, polyurethane miter sealing, and 316 surgical stainless micro-mesh armor. Turnkey contractor rates with zero living-room sales pressure."
+    "content": "Lowell homes situated between Rogers and Springdale experience heavy seasonal foliage drops and flash Ozark thunderstorms. Our 10-point gutter restoration includes laser pitch correction, zinc rafter screw installation, polyurethane miter sealing, and 316 marine-grade 316 stainless micro-mesh armor. Turnkey contractor rates with zero living-room sales pressure."
   },
   "geoCoordinates": {
     "latitude": 36.2559,
