@@ -2,7 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Phone, CheckCircle2, MapPin, ShieldCheck, ArrowDown } from 'lucide-react';
+import Link from 'next/link';
+import { Phone, CheckCircle2, MapPin, ShieldCheck, ArrowDown, Sparkles } from 'lucide-react';
 import SatelliteEstimator from './SatelliteEstimator';
 
 interface HeroSectionProps {
@@ -21,43 +22,60 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           
-          {/* Left Column: Home Services Contractor Proposition */}
+          {/* Left Column: Gutter Guards & Gutter Cleaning Value Proposition */}
           <div className="lg:col-span-7 space-y-6">
             
             {/* Top Local Contractor Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-bold">
               <MapPin className="w-3.5 h-3.5 text-blue-600" />
-              <span>Locally Owned &amp; Operated in {cityName}</span>
+              <span>Gutter Guards &amp; Cleaning Specialists • {cityName}</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
-              {customH1 || `Never Clean Your Gutters Again.`}
+              {customH1 || `Northwest Arkansas Gutter Cleaning & Permanent Guards.`}
             </h1>
 
-            {/* Straightforward Subtitle */}
+            {/* Dual Subtitle: Covers BOTH Guards & Cleaning */}
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-              {customSub || `We install heavy-duty stainless steel gutter guards that keep out pine needles, oak tassels, and leaves for good. Save thousands compared to national sales companies with our direct local pricing.`}
+              {customSub || `Whether you need a fast $149 seasonal gutter cleanout or permanent stainless steel micro-mesh guards to never climb a ladder again — our local in-house crew has you covered.`}
             </p>
 
-            {/* 3 Clear Homeowner Benefits */}
-            <ul className="space-y-2.5 text-sm sm:text-base text-slate-800 font-medium pt-1">
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                <span><strong>Save Up to 65%</strong> — Direct contractor rates with zero sales commissions</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                <span><strong>100% Roof Warranty Safe</strong> — Mounted to fascia, zero shingle contact</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                <span><strong>10-Year Written Guarantee</strong> — If they ever clog, we clean them for free</span>
-              </li>
-            </ul>
+            {/* 2 Core Service Pillars Side-by-Side */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+              
+              {/* Option 1: Permanent Guards */}
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">Permanent Solution</span>
+                  <span className="text-xs font-semibold text-slate-500">10-Yr Guarantee</span>
+                </div>
+                <h3 className="font-bold text-slate-950 text-sm sm:text-base">
+                  316 Stainless Gutter Guards
+                </h3>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
+                  Blocks 100% of pine needles and oak catkins. Fascia mounted (zero shingle contact).
+                </p>
+              </div>
 
-            {/* Direct Phone Call Button */}
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+              {/* Option 2: Fast Cleanout */}
+              <div className="p-4 rounded-xl bg-emerald-50/60 border border-emerald-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">Fast Service</span>
+                  <span className="text-xs font-bold text-emerald-700">$149 Flat Rate</span>
+                </div>
+                <h3 className="font-bold text-slate-950 text-sm sm:text-base">
+                  Full Gutter Cleanout &amp; Flush
+                </h3>
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
+                  Hand debris clearing, downspout jetting, and 100% credited toward guards if you upgrade.
+                </p>
+              </div>
+
+            </div>
+
+            {/* Direct Phone Call Button & Quick Links */}
+            <div className="pt-1 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
               <a
                 href={phoneHref}
                 className="btn-contractor-primary min-h-[50px] px-6 py-3.5 text-base font-bold flex items-center justify-center gap-2.5 shadow-sm transition"
@@ -66,18 +84,17 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                 <span>Call Dispatch: {phoneDisplay}</span>
               </a>
 
-              <a
-                href="#estimate-form"
-                className="sm:hidden min-h-[48px] px-5 py-3 rounded-lg bg-slate-100 border border-slate-300 text-slate-900 text-sm font-bold flex items-center justify-center gap-2"
+              <Link
+                href="/gutter-cleaning"
+                className="min-h-[50px] px-5 py-3.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-sm font-bold flex items-center justify-center gap-2 transition shadow-sm"
               >
-                <span>Calculate Cost Online Below</span>
-                <ArrowDown className="w-4 h-4" />
-              </a>
+                <span>Book $149 Cleanout</span>
+              </Link>
             </div>
 
             {/* Crew Image Card */}
             <div className="rounded-xl overflow-hidden border border-slate-200 bg-white shadow-2xs">
-              <div className="relative h-44 sm:h-52 w-full bg-slate-100">
+              <div className="relative h-40 sm:h-48 w-full bg-slate-100">
                 <Image
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"
@@ -95,7 +112,7 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
 
           </div>
 
-          {/* Right Column: INSTANT SATELLITE QUOTE FORM (Immediate data entry, zero wasted time) */}
+          {/* Right Column: INSTANT QUOTE FORM (Supports Both Guards & Cleanout) */}
           <div id="estimate-form" className="lg:col-span-5 lg:sticky lg:top-24 scroll-mt-20">
             <SatelliteEstimator initialCity={cityName} />
           </div>
