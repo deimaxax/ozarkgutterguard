@@ -11,7 +11,7 @@ import { PRESS_RELEASES_DATA } from '@/data/pressReleases';
  * Phase 2: Top 25 High-Volume ZIP Sub-Hubs & E-E-A-T Technical Guides (Current Active Phase)
  * Phase 3: Full 1,100+ Programmatic Landing Page Mesh
  */
-const CURRENT_ROLLOUT_PHASE: 1 | 2 | 3 = 2; // Controlled Staged Release
+const CURRENT_ROLLOUT_PHASE: 1 | 2 | 3 = 3; // Full Production Rollout
 
 const CORE_CITY_SLUGS = new Set([
   'gutter-guards-bentonville-ar',
