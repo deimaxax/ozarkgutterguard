@@ -200,9 +200,9 @@ export default function CommercialQuoteForm({ initialCity = 'Northwest Arkansas'
             <span>{isSubmitting ? 'Submitting Bid Request...' : 'Submit Commercial RFP / Bid Request →'}</span>
           </button>
 
-          <div className="flex items-center justify-between text-[11px] text-slate-500 pt-1">
+          <div className="flex items-center justify-between text-[11px] text-slate-700 pt-1 font-medium">
             <span className="flex items-center gap-1">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+              <ShieldCheck className="w-3.5 h-3.5 text-[#0F1E36]" />
               <span>$2M Insurance &amp; W-9 Ready</span>
             </span>
             <a href={phoneHref} className="text-[#0F1E36] font-bold hover:underline">
@@ -213,12 +213,12 @@ export default function CommercialQuoteForm({ initialCity = 'Northwest Arkansas'
       ) : (
         <div className="p-8 text-center space-y-4 bg-slate-50">
           <div className="w-12 h-12 bg-[#0F1E36] text-white rounded-full flex items-center justify-center mx-auto">
-            <CheckCircle2 className="w-6 h-6 text-emerald-400" />
+            <CheckCircle2 className="w-6 h-6 text-red-400" />
           </div>
           <div className="space-y-1">
-            <h4 className="text-lg font-bold text-[#0F1E36]">
+            <h3 className="text-lg font-bold text-[#0F1E36]">
               Commercial Request Received
-            </h4>
+            </h3>
             <p className="text-xs text-slate-600 max-w-sm mx-auto leading-relaxed">
               Thank you, <strong className="text-[#0F1E36]">{name}</strong>. Our commercial project estimator will review the specs for <strong className="text-[#0F1E36]">{companyName}</strong> and follow up within 1 business day.
             </p>
