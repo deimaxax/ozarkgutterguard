@@ -8,9 +8,21 @@ interface SatelliteEstimatorProps {
 }
 
 export default function SatelliteEstimator({ initialCity = 'Bentonville' }: SatelliteEstimatorProps) {
+  const sanitizeInitialCity = (city?: string) => {
+    if (!city) return 'Bentonville';
+    const quickMatch = ['Bentonville', 'Bella Vista', 'Rogers', 'Fayetteville', 'Springdale'].find(
+      c => c.toLowerCase() === city.toLowerCase()
+    );
+    if (quickMatch) return quickMatch;
+    if (city.toLowerCase().includes('commercial') || city.toLowerCase().includes('hoa') || city.length > 25) {
+      return 'Bentonville';
+    }
+    return city;
+  };
+
   const [step, setStep] = useState<1 | 2>(1);
   const [streetAddress, setStreetAddress] = useState('');
-  const [selectedCity, setSelectedCity] = useState(initialCity || 'Bentonville');
+  const [selectedCity, setSelectedCity] = useState(sanitizeInitialCity(initialCity));
   const [isCustomCity, setIsCustomCity] = useState(false);
   const [customCityInput, setCustomCityInput] = useState('');
   const [stories, setStories] = useState<'1-story' | '2-story' | 'large'>('1-story');
@@ -186,14 +198,9 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
           {/* Step 2: Street Address */}
           <div>
-            <div className="flex items-center justify-between mb-1.5">
-              <label htmlFor="street-address-field" className="block text-xs font-bold text-[#0F1E36] uppercase tracking-wider">
-                2. Property Street Address:
-              </label>
-              <span className="text-xs font-semibold text-[#D92626]">
-                📍 {currentCity}, AR
-              </span>
-            </div>
+            <label htmlFor="street-address-field" className="block text-xs font-bold text-[#0F1E36] uppercase tracking-wider mb-1.5">
+              2. Property Street Address:
+            </label>
             <div className="relative">
               <input
                 id="street-address-field"
@@ -206,7 +213,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
                   setStreetAddress(e.target.value);
                   if (errorMsg) setErrorMsg('');
                 }}
-                placeholder="e.g., 1404 SW A St, Bentonville"
+                placeholder={`e.g., 1404 SW A St, ${currentCity}`}
                 className="w-full px-3.5 py-3 border border-slate-300 focus:border-[#0F1E36] text-base sm:text-sm text-slate-900 bg-white outline-none font-medium placeholder:text-slate-400"
               />
             </div>
