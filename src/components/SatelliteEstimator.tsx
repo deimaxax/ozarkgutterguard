@@ -407,9 +407,9 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
             <CheckCircle2 className="w-6 h-6 text-red-400" />
           </div>
           <div className="space-y-1">
-            <h4 className="text-lg font-bold text-slate-900">
+            <h3 className="text-lg font-bold text-slate-900">
               Estimate Sent Successfully!
-            </h4>
+            </h3>
             <p className="text-xs text-slate-700 max-w-sm mx-auto leading-relaxed">
               Your itemized estimate of <strong className="text-slate-900 font-bold">{priceDetails.price}</strong> for <span className="font-semibold">{fullDisplayAddress}</span> has been sent.
             </p>

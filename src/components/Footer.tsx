@@ -90,9 +90,9 @@ export default function Footer() {
 
           {/* Col 2: Services (2 cols) */}
           <div className="lg:col-span-2 space-y-2.5">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-white">
               Services
-            </h4>
+            </h3>
             <ul className="space-y-0.5 text-slate-300">
               <li>
                 <Link href="/micro-mesh-vs-screen-guards" className="inline-block py-1.5 hover:text-white transition">
@@ -119,9 +119,9 @@ export default function Footer() {
 
           {/* Col 3: Service Areas (3 cols) */}
           <div className="lg:col-span-3 space-y-2.5">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-white">
               Service Areas
-            </h4>
+            </h3>
             <ul className="space-y-0.5 text-slate-300">
               <li>
                 <Link href="/gutter-guards-bentonville-ar" className="inline-block py-1.5 hover:text-white transition">
@@ -158,9 +158,9 @@ export default function Footer() {
 
           {/* Col 4: Trust & Info (2 cols) */}
           <div className="lg:col-span-2 space-y-2.5">
-            <h4 className="text-xs font-bold uppercase tracking-wider text-white">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-white">
               Company &amp; Trust
-            </h4>
+            </h3>
             <ul className="space-y-0.5 text-slate-300">
               <li>
                 <Link href="/about" className="inline-block py-1.5 hover:text-white transition">

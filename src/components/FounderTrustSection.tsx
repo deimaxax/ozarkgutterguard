@@ -72,9 +72,9 @@ export default function FounderTrustSection() {
                   <Sparkles className="w-4 h-4 text-[#D92626]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#0F1E36] text-sm">
+                  <h3 className="font-bold text-[#0F1E36] text-sm">
                     Triple Magnetic Sweep
-                  </h4>
+                  </h3>
                   <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
                     We perform rolling magnetic sweeps across your driveway, lawn, and landscaping to guarantee 0 stray screws or fasteners for tires and pets.
                   </p>
@@ -86,9 +86,9 @@ export default function FounderTrustSection() {
                   <ShieldCheck className="w-4 h-4 text-[#0F1E36]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#0F1E36] text-sm">
+                  <h3 className="font-bold text-[#0F1E36] text-sm">
                     Full AC &amp; Flowerbed Tarps
-                  </h4>
+                  </h3>
                   <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
                     Protective tarps cover your HVAC condensers, delicate plants, and outdoor patio furniture before any gutter flushing or extraction begins.
                   </p>
@@ -100,9 +100,9 @@ export default function FounderTrustSection() {
                   <HeartHandshake className="w-4 h-4 text-[#183059]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-[#0F1E36] text-sm">
+                  <h3 className="font-bold text-[#0F1E36] text-sm">
                     Daily 6:00 PM Clean Site Handover
-                  </h4>
+                  </h3>
                   <p className="text-xs text-slate-600 mt-0.5 leading-relaxed">
                     All debris is bagged, hauled away in our service vehicles, and your property is left immaculate with a photo sign-off sent to your phone.
                   </p>
