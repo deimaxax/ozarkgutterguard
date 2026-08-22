@@ -10,30 +10,33 @@ export default function TopBar() {
     <div className="bg-[#0F1E36] text-slate-300 text-xs py-1.5 px-4 border-b border-[#183059]">
       <div className="max-w-7xl mx-auto flex justify-between items-center text-[11px] sm:text-xs">
         
-        {/* Left: Star Rating & License */}
+        {/* Left: Local Owner & Star Rating */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <div className="flex items-center gap-1 text-slate-200 font-medium">
+          <span className="inline-flex items-center gap-1 font-bold text-slate-200">
+            <span>🇺🇸</span>
+            <span className="text-white font-semibold">100% NWA Locally Owned</span>
+          </span>
+          <span className="text-slate-600 hidden sm:inline">•</span>
+          <div className="hidden sm:flex items-center gap-1 text-slate-300 font-medium">
             <span className="flex text-amber-400">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-3 h-3 fill-amber-400 text-amber-400" />
               ))}
             </span>
-            <span>5.0 Rating (187+ Reviews)</span>
+            <span>5.0 (180+ Local Reviews)</span>
           </div>
-          <span className="text-slate-500 hidden sm:inline">•</span>
-          <span className="text-slate-300 hidden sm:inline">Northwest Arkansas</span>
         </div>
 
         {/* Right: Phone & License */}
         <div className="flex items-center gap-3">
-          <span className="text-slate-400 hidden md:inline">AR Lic. #OGG-479-NWA</span>
+          <span className="text-slate-400 hidden md:inline">AR Lic. #039182</span>
           <span className="text-slate-600 hidden md:inline">•</span>
           <a
             href={phoneHref}
             className="text-red-400 hover:text-red-300 font-bold transition-colors inline-flex items-center gap-1"
           >
             <Phone className="w-3 h-3" />
-            <span>{phoneDisplay}</span>
+            <span>Call Local Dispatch: {phoneDisplay}</span>
           </a>
         </div>
 
