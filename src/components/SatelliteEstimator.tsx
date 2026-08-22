@@ -409,7 +409,7 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
               Estimate Sent Successfully!
             </h4>
             <p className="text-xs text-slate-700 max-w-sm mx-auto leading-relaxed">
-              Your itemized estimate of <strong className="text-slate-900 font-bold">{priceDetails.price}</strong> for <span className="font-semibold">{fullDisplayAddress}</span> has been dispatched.
+              Your itemized estimate of <strong className="text-slate-900 font-bold">{priceDetails.price}</strong> for <span className="font-semibold">{fullDisplayAddress}</span> has been sent.
             </p>
           </div>
 

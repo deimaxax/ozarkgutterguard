@@ -226,7 +226,7 @@ export default function CommercialQuoteForm({ initialCity = 'Northwest Arkansas'
           <div className="p-3.5 bg-white border border-slate-200 rounded-xl text-xs text-slate-700 text-left">
             <div className="font-bold text-[#0F1E36] flex items-center gap-1.5 mb-0.5">
               <Phone className="w-3.5 h-3.5 text-[#D92626]" />
-              <span>Need Immediate Dispatch or COI?</span>
+              <span>Need Immediate Help or COI?</span>
             </div>
             <p className="text-slate-600">
               Call our commercial desk directly at <a href={phoneHref} className="text-[#0F1E36] font-bold underline">{phoneDisplay}</a>.

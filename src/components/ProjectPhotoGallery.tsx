@@ -76,7 +76,7 @@ export default function ProjectGalleryWithTags({
           { key: 'technical', label: 'Technical & Flow Tests' },
           { key: 'installation', label: 'Residential Installs' },
           { key: 'before-after', label: 'Before & After' },
-          { key: 'fleet', label: 'Fleet & Dispatch' },
+          { key: 'fleet', label: 'Service Trucks & Crew' },
         ].map(cat => (
           <button
             key={cat.key}

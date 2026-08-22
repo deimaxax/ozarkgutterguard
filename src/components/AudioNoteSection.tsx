@@ -71,7 +71,7 @@ export default function AudioNoteSection() {
               {/* Animated / Interactive Audio Waveform */}
               <div className="flex-1 space-y-1">
                 <div className="flex items-center justify-between text-[10px] font-mono text-slate-400">
-                  <span>15-Sec Audio Dispatch</span>
+                  <span>15-Sec Voice Note from David</span>
                   <span>{isPlaying ? `${Math.round((progress / 100) * 15)}s / 15s` : '0:15'}</span>
                 </div>
                 <div className="h-4 flex items-center gap-0.5 overflow-hidden">

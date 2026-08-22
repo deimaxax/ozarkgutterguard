@@ -45,7 +45,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-slate-500 shrink-0" />
-                <span>dispatch@ozarkgutterguard.com</span>
+                <span>contact@ozarkgutterguard.com</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400 text-[11px] pt-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-slate-400 shrink-0" />

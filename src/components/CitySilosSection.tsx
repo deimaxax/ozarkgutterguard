@@ -17,7 +17,7 @@ export default function CitySilosSection() {
             Northwest Arkansas Service Coverage
           </h2>
           <p className="text-base text-slate-600 font-normal leading-relaxed">
-            Local in-house installation crews dispatched daily across Benton and Washington counties:
+            Our local in-house installation crews work across Benton and Washington counties:
           </p>
         </div>
 
