@@ -18,6 +18,7 @@ import HydraulicGutterThroughput from '@/components/HydraulicGutterThroughput';
 import HOAComplianceCheck from '@/components/HOAComplianceCheck';
 import { getCaseStudiesForCity } from '@/data/caseStudies';
 import { resolveProgrammaticAuthority } from '@/lib/programmaticEngine';
+import { generateBreadcrumbSchema } from '@/lib/generateBreadcrumbs';
 import { 
   ShieldCheck, 
   Phone, 
@@ -167,6 +168,21 @@ export default async function DynamicSeoPage({ params }: PageProps) {
         geo={page.geoCoordinates}
         faqs={FAQS_DATA.slice(0, 5)}
         seasonalEvent={seasonalEvent}
+      />
+
+      {/* Strict Parent-Child Silo BreadcrumbList JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            generateBreadcrumbSchema(
+              page.slug,
+              authVector.resolvedCity,
+              cityData?.slug || `gutter-guards-${authVector.resolvedCity.toLowerCase().replace(/\s+/g, '-')}-ar`,
+              page.badge
+            )
+          ),
+        }}
       />
 
       {/* Top Notification Bar with Local Click-to-Call */}
@@ -1120,7 +1136,22 @@ export default async function DynamicSeoPage({ params }: PageProps) {
 
       {/* INTERACTIVE NWA NOAA STORM DAMAGE & DRAINAGE VERIFIER */}
       <section className="py-14 bg-white border-t border-slate-200">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4 space-y-4">
+          {/* Mobile Emergency Dispatch Action Strip (Anti-Pogo-Sticking) */}
+          <div className="bg-orange-600 text-white rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row items-center justify-between gap-3 shadow-md">
+            <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-center sm:text-left">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-300 animate-ping shrink-0" />
+              <span>Severe Weather Alert: Active NWA Hail &amp; Flash Storm Drainage Response</span>
+            </div>
+            <a
+              href={phoneHref}
+              className="w-full sm:w-auto px-4 py-2 rounded-lg bg-slate-950 hover:bg-slate-900 text-white text-xs font-black flex items-center justify-center gap-1.5 transition shrink-0"
+            >
+              <Phone className="w-3.5 h-3.5 text-orange-400" />
+              <span>Call Dispatch: {phoneDisplay}</span>
+            </a>
+          </div>
+
           <StormDamageVerifier 
             initialCity={authVector.resolvedCity} 
             initialZip={authVector.postalCode} 
