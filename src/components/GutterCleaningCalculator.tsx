@@ -58,35 +58,39 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
   return (
     <div className="bg-white border-2 border-slate-200/90 rounded-2xl shadow-sm overflow-hidden text-slate-900">
       
-      {/* Warm Personal Header */}
-      <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-[#FAF9F6]">
-        <div className="flex items-center gap-3.5">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300 shrink-0 shadow-xs">
-            <Image
-              src="/images/david_vance.jpg"
-              alt="David Vance - Owner & Lead Installer"
-              width={48}
-              height={48}
-              className="w-full h-full object-cover"
-              priority
-            />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-black text-slate-900 text-sm sm:text-base">David Vance</span>
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
-                Owner &amp; Lead Installer
-              </span>
+      {/* Clean Contractor Header with Social Proof */}
+      <div className="p-4 sm:p-5 border-b border-slate-100 bg-[#FAF9F6]">
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className="relative w-11 h-11 rounded-full overflow-hidden border border-slate-300 shrink-0 shadow-xs">
+              <Image
+                src="/images/david_vance.jpg"
+                alt="David Vance - Owner & Lead Installer"
+                width={44}
+                height={44}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
-            <p className="text-xs text-slate-600 font-medium mt-0.5">
-              Bentonville Resident • Serving All NWA
-            </p>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-slate-900 text-sm">David Vance</span>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 bg-slate-200/70 px-1.5 py-0.5 rounded">
+                  Owner &amp; Installer
+                </span>
+              </div>
+              <p className="text-xs text-slate-500 font-medium">Bentonville, AR</p>
+            </div>
+          </div>
+
+          <div className="text-right shrink-0">
+            <div className="flex items-center justify-end gap-1 text-amber-500 text-xs">
+              <span>★★★★★</span>
+              <span className="text-slate-900 font-bold text-xs ml-0.5">4.9</span>
+            </div>
+            <span className="text-[10px] text-slate-500 font-medium block">180+ Local Reviews</span>
           </div>
         </div>
-
-        <p className="text-xs text-slate-700 mt-3 bg-white p-2.5 rounded-lg border border-slate-200/80 leading-relaxed font-normal">
-          &quot;Select your home size and address below. We&apos;ll give you a call or text today to set up a time that works for you.&quot;
-        </p>
       </div>
 
       <div className="p-5 sm:p-6">
