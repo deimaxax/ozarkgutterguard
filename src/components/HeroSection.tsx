@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { Phone, Star, ShieldCheck, ArrowRight, CheckCircle2, MapPin } from 'lucide-react';
+import { Phone, CheckCircle2, MapPin, ShieldCheck, ArrowDown } from 'lucide-react';
+import SatelliteEstimator from './SatelliteEstimator';
 
 interface HeroSectionProps {
   cityName?: string;
@@ -16,10 +16,10 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
   const phoneDisplay = "(479) 929-2516";
 
   return (
-    <section className="bg-white border-b border-slate-200 py-12 sm:py-16 text-slate-900">
+    <section className="bg-white border-b border-slate-200 py-10 sm:py-14 text-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           
           {/* Left Column: Home Services Contractor Proposition */}
           <div className="lg:col-span-7 space-y-6">
@@ -31,12 +31,12 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.1]">
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight leading-[1.12]">
               {customH1 || `Never Clean Your Gutters Again.`}
             </h1>
 
             {/* Straightforward Subtitle */}
-            <p className="text-base sm:text-xl text-slate-600 leading-relaxed font-normal">
+            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
               {customSub || `We install heavy-duty stainless steel gutter guards that keep out pine needles, oak tassels, and leaves for good. Save thousands compared to national sales companies with our direct local pricing.`}
             </p>
 
@@ -56,64 +56,48 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
               </li>
             </ul>
 
-            {/* Call To Action Buttons for Home Services */}
-            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
-              <Link
-                href="/satellite-quote"
-                className="btn-contractor-primary min-h-[52px] px-7 py-3.5 text-base font-bold flex items-center justify-center gap-2 shadow-sm hover:bg-blue-700 transition"
-              >
-                <span>Get a Free Online Quote</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              
+            {/* Direct Phone Call Button */}
+            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
               <a
                 href={phoneHref}
-                className="min-h-[52px] px-6 py-3.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-base font-bold flex items-center justify-center gap-2.5 transition shadow-sm"
+                className="btn-contractor-primary min-h-[50px] px-6 py-3.5 text-base font-bold flex items-center justify-center gap-2.5 shadow-sm transition"
               >
                 <Phone className="w-4 h-4 text-emerald-400" />
-                <span>Call: {phoneDisplay}</span>
+                <span>Call Dispatch: {phoneDisplay}</span>
+              </a>
+
+              <a
+                href="#estimate-form"
+                className="sm:hidden min-h-[48px] px-5 py-3 rounded-lg bg-slate-100 border border-slate-300 text-slate-900 text-sm font-bold flex items-center justify-center gap-2"
+              >
+                <span>Calculate Cost Online Below</span>
+                <ArrowDown className="w-4 h-4" />
               </a>
             </div>
 
-          </div>
-
-          {/* Right Column: Real Contractor Truck & Workmanship Image */}
-          <div className="lg:col-span-5 space-y-4">
-            <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-lg relative">
-              <div className="relative h-72 sm:h-96 w-full bg-slate-100">
+            {/* Crew Image Card */}
+            <div className="rounded-xl overflow-hidden border border-slate-200 bg-white shadow-2xs">
+              <div className="relative h-44 sm:h-52 w-full bg-slate-100">
                 <Image
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"
                   fill
                   priority
                   className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  sizes="(max-width: 1024px) 100vw, 60vw"
                 />
               </div>
-              <div className="p-4 bg-slate-950 text-white space-y-1">
-                <div className="font-bold text-sm flex items-center justify-between">
-                  <span>Ozark Gutter Guard Co.</span>
-                  <span className="text-emerald-400 text-xs font-semibold">● Local In-House Crew</span>
-                </div>
-                <p className="text-xs text-slate-400">
-                  Shop: 1102 S Walton Blvd, Bentonville, AR • Serving All NWA
-                </p>
+              <div className="p-3 bg-slate-950 text-white flex items-center justify-between text-xs">
+                <span className="font-bold">In-House Local Crew • Fully Licensed &amp; Insured</span>
+                <span className="text-slate-400">1102 S Walton Blvd, Bentonville</span>
               </div>
             </div>
 
-            {/* Simple Quick Quote Link Box */}
-            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex items-center justify-between gap-3 text-xs">
-              <div>
-                <strong className="text-slate-900 block font-bold text-sm">Need a Quick Ballpark Cost?</strong>
-                <span className="text-slate-600">Takes 90 seconds online with satellite measuring.</span>
-              </div>
-              <Link
-                href="/satellite-quote"
-                className="px-4 py-2 bg-white border border-slate-300 text-slate-900 font-bold rounded-lg hover:border-slate-400 shrink-0 shadow-2xs"
-              >
-                Estimate →
-              </Link>
-            </div>
+          </div>
+
+          {/* Right Column: INSTANT SATELLITE QUOTE FORM (Immediate data entry, zero wasted time) */}
+          <div id="estimate-form" className="lg:col-span-5 lg:sticky lg:top-24 scroll-mt-20">
+            <SatelliteEstimator initialCity={cityName} />
           </div>
 
         </div>
