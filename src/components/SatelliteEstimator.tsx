@@ -120,12 +120,6 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
       
       {/* Warm Local Header */}
       <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-slate-50/70">
-        <div className="flex items-center gap-2 mb-1">
-          <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-          <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-800">
-            Local NWA Upfront Pricing
-          </span>
-        </div>
         <h3 className="font-bold text-lg sm:text-xl text-[#0F1E36] tracking-tight">
           Get Your Instant Local Estimate
         </h3>

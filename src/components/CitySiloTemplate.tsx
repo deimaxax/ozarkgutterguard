@@ -410,7 +410,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
 
               <Link
                 href="/satellite-quote"
-                className="btn-cta-pulse bg-brand-green hover:bg-brand-greenHover text-white px-7 py-3.5 rounded-xl font-black text-xs sm:text-sm flex items-center gap-2 shrink-0 shadow-sm"
+                className="bg-emerald-700 hover:bg-emerald-800 text-white px-7 py-3.5 rounded-xl font-black text-xs sm:text-sm flex items-center gap-2 shrink-0 shadow-sm transition"
               >
                 <span>Instant Satellite Quote</span>
                 <ArrowRight className="w-4 h-4" />
