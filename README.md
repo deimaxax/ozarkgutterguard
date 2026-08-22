@@ -187,5 +187,28 @@ All interactive widgets emit clean GA4 / Google Ads conversion events to validat
 * `emergency_call_click`: Emitted on 1-click calls from the Mobile Dispatch Strip.
 * `satellite_estimator_quote`: Emitted upon instant quote generation.
 
-2. **Keep thin queries noindexed**: Only set `noindex: false` on pages with unique first-party data.
-3. **Preserve E-E-A-T ground truth**: Maintain real engineering metrics (50-micron aperture, 316 stainless steel, 150 in/hr flow, 47.5" rainfall, 0% shingle warranty contact).
+---
+
+## 🏆 7. Master Execution Playbook: How to Rank #1 on Google in NWA
+
+Follow this exact battle plan to outrank Foster Roofing, LeafFilter, and regional competitors:
+
+### Step 1: Instant 72-Hour Search Console Verification
+1. Connect domain to [Google Search Console](https://search.google.com/search-console).
+2. Submit primary sitemap: `https://ozarkgutterguard.com/sitemap.xml`.
+3. Use GSC **URL Inspection Tool** to manually request indexing for the 5 Pillar Hubs:
+   - `/gutter-guards-bentonville-ar`
+   - `/gutter-guards-rogers-ar`
+   - `/gutter-guards-fayetteville-ar`
+   - `/gutter-guards-springdale-ar`
+   - `/gutter-guards-bella-vista-ar`
+
+### Step 2: Google Business Profile (GBP) Power-Link
+1. Set primary category to: `Gutter Cleaning Service` / `Roofing Contractor`.
+2. Link official website URL directly to `/` or `/gutter-guards-bentonville-ar`.
+3. Geotag and upload 5+ authentic job photos with NWA GPS coordinates (Benton County / Washington County).
+
+### Step 3: Social & Local Referral Boost (First 14 Days)
+1. Share technical guides (e.g. `/guides/oak-catkins-clogging-gutters-nwa`, `/guides/how-to-cancel-high-pressure-gutter-guard-contract-arkansas`) on local NWA community forums (Nextdoor, Facebook NWA Homeowners).
+2. Real human traffic reading the 5-minute guides triggers Google's **NavBoost** click-stream and dwell time algorithms, skyrocketing your organic rankings!
+
