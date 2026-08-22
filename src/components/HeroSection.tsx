@@ -75,21 +75,6 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
               </a>
             </div>
 
-            {/* Trust Badges */}
-            <div className="pt-4 border-t border-slate-200 flex items-center gap-6 text-xs text-slate-600 flex-wrap">
-              <div className="flex items-center gap-1.5 font-bold text-slate-900">
-                <span className="flex text-amber-500">★★★★★</span>
-                <span>5.0 Star Rating (180+ Reviews)</span>
-              </div>
-              <div className="flex items-center gap-1.5 font-medium">
-                <ShieldCheck className="w-4 h-4 text-blue-600" />
-                <span>AR Lic. #039182</span>
-              </div>
-              <div className="flex items-center gap-1.5 font-medium text-slate-500">
-                <span>$2,000,000 Insured</span>
-              </div>
-            </div>
-
           </div>
 
           {/* Right Column: Real Contractor Truck & Workmanship Image */}
