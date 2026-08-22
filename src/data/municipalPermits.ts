@@ -50,7 +50,7 @@ export const MUNICIPAL_PERMITS_DATA: Record<string, MunicipalPermitInfo> = {
     phone: "(479) 621-1100",
     websiteUrl: "https://www.rogersar.gov/224/Risk-Reduction-Code-Enforcement",
     drainageCodeStandard: "2021 Arkansas Residential Building Code (R903.4 Roof Drainage) & City of Rogers Stormwater Management Ordinance",
-    permitRequirement: "Maintenance and retrofit installations of surgical micro-mesh guards on existing residential gutters require no permit. Gutter replacement adheres to Rogers drainage discharge setback requirements.",
+    permitRequirement: "Maintenance and retrofit installations of marine-grade micro-mesh guards on existing residential gutters require no permit. Gutter replacement adheres to Rogers drainage discharge setback requirements.",
     stormwaterPolicy: "Mandates that all roof drainage conductors discharge at least 5 feet away from residential building foundations and prevent surface runoff overload into municipal storm sewers.",
     soilConditionSummary: "Captina and Tonti silt loam with fragipan sublayers that trap perched water tables near foundations during Beaver Lake heavy spring rains.",
     floodPlainNotes: "Properties bordering Beaver Lake, Prairie Creek, and Osage Creek basins require high-capacity flow systems rated to handle 2.5+ in/hr storm bursts.",

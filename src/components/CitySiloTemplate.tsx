@@ -88,7 +88,7 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
                 </h1>
 
                 <p className="text-base sm:text-lg text-slate-700 font-normal leading-relaxed">
-                  Medical-grade 316 surgical stainless steel micro-mesh custom fitted for {city.cityName} rooflines. No $6,000 corporate franchise markups, and zero high-pressure salesmen.
+                  Marine-grade 316 stainless steel micro-mesh custom fitted for {city.cityName} rooflines. No $6,000 corporate franchise markups, and zero high-pressure salesmen.
                 </p>
 
                 {/* Local Neighborhoods Served Bar */}

@@ -300,17 +300,17 @@ export default async function DynamicSeoPage({ params }: PageProps) {
             <div className="max-w-6xl mx-auto px-4 space-y-6">
               <div className="text-center max-w-2xl mx-auto">
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
-                  Topographical Rigging &amp; Lake Moisture Matrix
+                  Steep Roofline &amp; Lakefront Drainage
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-black text-slate-950 mt-2">
-                  Why Hillside &amp; Lake Properties Require 316 Surgical Steel
+                  Why Hillside &amp; Lake Properties Need 316 Stainless Micro-Mesh
                 </h2>
               </div>
               <div className="grid md:grid-cols-3 gap-5">
                 {page.painPoints.map((point, index) => (
                   <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
                     <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-mono font-bold uppercase">
-                      Topographical Threat 0{index + 1}
+                      Drainage Factor 0{index + 1}
                     </span>
                     <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
@@ -476,7 +476,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
                 <div className="lg:col-span-7 space-y-5">
                   <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold uppercase tracking-wider">
                     <Zap className="w-3.5 h-3.5 text-blue-600" />
-                    <span>{page.badge} · 150 in/hr Hydrological Intake</span>
+                    <span>{page.badge} · High-Volume Stormwater Intake</span>
                   </div>
                   <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight leading-[1.15]">
                     {page.h1}
@@ -486,8 +486,8 @@ export default async function DynamicSeoPage({ params }: PageProps) {
                   </p>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
                     <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
-                      <span className="text-[10px] font-bold text-slate-500 uppercase block">Water Intake</span>
-                      <span className="text-xl font-black text-slate-900">150 in/hr</span>
+                      <span className="text-[10px] font-bold text-slate-500 uppercase block">Rain Intake</span>
+                      <span className="text-xl font-black text-slate-900">High-Flow Mesh</span>
                     </div>
                     <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
                       <span className="text-[10px] font-bold text-slate-500 uppercase block">Shingle Grit</span>
@@ -506,7 +506,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
             </div>
           </section>
 
-          {/* PRIMARY INTERACTIVE TOOL: Flash Storm Hydrology Simulator */}
+          {/* PRIMARY INTERACTIVE TOOL: Stormwater Flow Simulator */}
           <section className="py-12 bg-slate-50 border-b border-slate-200">
             <div className="max-w-4xl mx-auto px-4">
               <HydraulicGutterThroughput initialCity={page.city || 'Springdale'} />
@@ -519,14 +519,14 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               <div className="text-center max-w-2xl mx-auto mb-8">
                 <h2 className="text-2xl font-black text-slate-950">{page.painPointTitle}</h2>
                 <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                  How high-velocity Ozark thunderstorm deluges overwhelm standard gutters.
+                  How high-velocity Ozark thunderstorm downpours overwhelm standard gutters.
                 </p>
               </div>
               <div className="grid md:grid-cols-3 gap-5">
                 {page.painPoints.map((point, index) => (
                   <div key={index} className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-2">
                     <span className="px-2 py-0.5 rounded bg-slate-200 text-slate-800 text-[10px] font-mono font-bold uppercase">
-                      Flash Storm Metric 0{index + 1}
+                      Storm Drainage Metric 0{index + 1}
                     </span>
                     <h3 className="text-base font-bold text-slate-900">{point.title}</h3>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{point.description}</p>
@@ -550,7 +550,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
             <div className="rounded-xl overflow-hidden border border-slate-200 shadow-sm">
               <Image 
                 src="/images/pinnacle_hills.jpg" 
-                alt="Pinnacle Hills Rogers AR luxury home with 316 surgical stainless micro-mesh gutter guards" 
+                alt="Pinnacle Hills Rogers AR home with 316 marine-grade stainless micro-mesh gutter guards" 
                 width={1200} 
                 height={675} 
                 className="w-full h-auto object-cover"
@@ -573,7 +573,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               />
               <div className="bg-slate-50 px-4 py-2.5 text-xs text-slate-600 font-medium border-t border-slate-200 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-brand-green"></span>
-                <span>Jobsite Record: Surgical micro-mesh shedding heavy spring catkins near Coler Mountain Preserve, Bentonville.</span>
+                <span>Jobsite Record: Stainless micro-mesh shedding heavy spring catkins near Coler Mountain Preserve, Bentonville.</span>
               </div>
             </div>
           )}
@@ -589,7 +589,7 @@ export default async function DynamicSeoPage({ params }: PageProps) {
               />
               <div className="bg-slate-50 px-4 py-2.5 text-xs text-slate-600 font-medium border-t border-slate-200 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-brand-green"></span>
-                <span>Jobsite Record: Steep pitch 9/12 hillside armor on Lake Loch Lomond, Bella Vista. 100% pine needle filtration.</span>
+                <span>Jobsite Record: Steep pitch 9/12 hillside protection on Lake Loch Lomond, Bella Vista. 100% pine needle filtration.</span>
               </div>
             </div>
           )}

@@ -83,17 +83,17 @@ export default function SiteDirectoryPage() {
   );
 
   const mainServicesList = [
-    { title: 'Home Page & Overview', href: '/', desc: 'Medical-grade 316 surgical stainless micro-mesh gutter guards.' },
-    { title: 'Instant 90-Sec Satellite Quote', href: '/satellite-quote', desc: 'GIS aerial measurements delivered via text in 15 minutes.' },
-    { title: 'Press Room & Newsroom', href: '/press', desc: 'Official digital PR, severe storm announcements, and engineering releases.' },
-    { title: 'Diagnostic Cleanout & 21-Pt Audit ($149)', href: '/gutter-cleaning', desc: 'Full interior sludge extraction, downspout flush, and slope audit.' },
+    { title: 'Home Page & Overview', href: '/', desc: 'Marine-grade 316 stainless micro-mesh gutter guards & local NWA installation.' },
+    { title: 'Instant Online & Satellite Estimate', href: '/satellite-quote', desc: 'Accurate pricing sent via text message in 15 minutes.' },
+    { title: 'Company News & Announcements', href: '/press', desc: 'Service updates, storm preparedness guides, and community announcements.' },
+    { title: 'Full Gutter Cleanout & Flush ($149)', href: '/gutter-cleaning', desc: 'Hand sludge clearing, downspout flush, and 100% credited toward guards.' },
     { title: 'Verified Customer Reviews (5.0 Stars)', href: '/reviews', desc: '180+ verified 5-star reviews across Benton & Washington Counties.' },
-    { title: 'Before & After Field Photos & Job Logs', href: '/before-after-photos', desc: 'Real job site documentation, flow rate testing, and roof profiles.' },
-    { title: 'Seamless Gutter Installation NWA', href: '/seamless-gutter-installation-nwa', desc: 'Custom on-site 6-inch aluminum extrusions.' },
-    { title: 'Pine Needle Filtration Armor', href: '/pine-needle-gutter-protection', desc: '50-micron surgical mesh engineered for Bella Vista Loblolly pines.' },
-    { title: 'Oak Tassel & Catkin Defense', href: '/oak-tassel-gutter-protection', desc: 'Blocks spring oak tassels and sweetgum seed balls.' },
-    { title: 'Foundation Water Damage Prevention', href: '/foundation-water-damage-prevention', desc: 'Protecting Vertisol clay soil from perimeter saturation.' },
-    { title: 'Micro-Mesh vs Screen Guards Comparison', href: '/micro-mesh-vs-screen-guards', desc: 'Lab comparison of micro-mesh vs plastic screens and helmets.' },
+    { title: 'Before & After Field Photos & Job Logs', href: '/before-after-photos', desc: 'Real Northwest Arkansas job site documentation and photo gallery.' },
+    { title: 'Seamless Gutter Installation NWA', href: '/seamless-gutter-installation-nwa', desc: 'Custom on-site seamless aluminum gutter fabrication and install.' },
+    { title: 'Pine Needle Gutter Protection', href: '/pine-needle-gutter-protection', desc: 'Fine micro-mesh engineered for Bella Vista Loblolly and shortleaf pines.' },
+    { title: 'Oak Tassel & Catkin Defense', href: '/oak-tassel-gutter-protection', desc: 'Blocks spring oak catkins, maple seeds, and fall leaf sludge.' },
+    { title: 'Foundation Water Damage Prevention', href: '/foundation-water-damage-prevention', desc: 'Protecting Northwest Arkansas foundations from water pooling and erosion.' },
+    { title: 'Micro-Mesh vs Screen Guards Comparison', href: '/micro-mesh-vs-screen-guards', desc: 'Clear comparison of micro-mesh vs plastic screens and reverse-curve covers.' },
   ];
 
   return (
@@ -109,23 +109,23 @@ export default function SiteDirectoryPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950 border border-emerald-500/40 text-emerald-400 text-xs font-bold">
               <Compass className="w-3.5 h-3.5" />
-              <span>Full Site Directory &amp; Crawl Index</span>
+              <span>Northwest Arkansas Service Directory</span>
             </div>
             <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-              Northwest Arkansas Site Directory
+              Northwest Arkansas Service Directory
             </h1>
             <p className="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed">
-              Explore our complete index of local city hubs, neighborhood drainage guides, ZIP code coverage, technical homeowner research, and exterior drainage services across Benton County and Washington County.
+              Explore our complete index of local city hubs, neighborhood drainage guides, ZIP code coverage, and exterior gutter protection services across Benton County and Washington County.
             </p>
             <div className="pt-2 flex flex-wrap gap-3 text-xs font-bold text-slate-300">
               <span className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">
-                {mainServicesList.length + indexedPages.length + GUIDES_DATA.length} Total Pages Indexed
+                {mainServicesList.length + indexedPages.length + GUIDES_DATA.length} Total Service Pages
               </span>
               <span className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">
                 {cityHubPages.length} City Hubs
               </span>
               <span className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">
-                {zipCodePages.length} ZIP Codes
+                {zipCodePages.length} Local ZIP Codes
               </span>
               <span className="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800">
                 {GUIDES_DATA.length} Homeowner Guides
@@ -335,28 +335,24 @@ export default function SiteDirectoryPage() {
             </section>
           )}
 
-          {/* XML Sitemap Direct Link Box */}
-          <section className="p-6 rounded-2xl bg-slate-950 text-white flex flex-col sm:flex-row items-center justify-between gap-4 border border-slate-800">
+          {/* Homeowner Help & Direct Dispatch Box */}
+          <section className="p-6 rounded-2xl bg-[#0F1E36] text-white flex flex-col sm:flex-row items-center justify-between gap-4 border border-[#183059]">
             <div className="space-y-1">
-              <span className="text-xs font-bold uppercase tracking-wider text-emerald-400 block">
-                Machine-Readable Indexing
+              <span className="text-xs font-bold uppercase tracking-wider text-red-400 block">
+                Local NWA Support
               </span>
               <h3 className="text-lg font-black text-white">
-                Official XML Sitemap for Search Engine Crawlers
+                Need Help Finding Service for Your Specific Neighborhood?
               </h3>
               <p className="text-xs text-slate-300">
-                Our dynamic XML sitemap is automatically updated with lastmod timestamps for Googlebot, Bingbot, and Applebot.
+                Talk directly with our Bentonville technicians for custom rooflines, steep slopes, or neighborhood-specific tree foliage questions.
               </p>
             </div>
             <a
-              href="/sitemap.xml"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shrink-0 transition-colors shadow-md"
+              href="tel:+14799292516"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl btn-contractor-primary text-white font-bold text-xs shrink-0 transition-colors shadow-md"
             >
-              <FileText className="w-4 h-4" />
-              <span>View Raw XML Sitemap</span>
-              <ExternalLink className="w-3.5 h-3.5" />
+              <span>Call Office: (479) 929-2516</span>
             </a>
           </section>
 
