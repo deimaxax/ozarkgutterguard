@@ -30,6 +30,7 @@ import SatelliteEstimator from './SatelliteEstimator';
 import LocalCaseStudyCard from './LocalCaseStudyCard';
 import MunicipalPermitSection from './MunicipalPermitSection';
 import NwaStormLookup from './NwaStormLookup';
+import ProjectGalleryWithTags from './ProjectPhotoGallery';
 import { CityData } from '@/data/cities';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';
 import { getCaseStudiesForCity } from '@/data/caseStudies';
@@ -367,6 +368,17 @@ export default function CitySiloTemplate({ city }: CitySiloTemplateProps) {
             </div>
           </section>
         )}
+
+        {/* CITY-FILTERED TAGGED PHOTO & SCHEMATIC GALLERY */}
+        <section className="py-14 bg-white border-t border-slate-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ProjectGalleryWithTags 
+              initialCity={city.cityName}
+              title={`Verified ${city.cityName}, AR Jobsite Photos & Engineering Schematics`}
+              subtitle={`Documented field photographs and installation specs from residential properties across ${city.cityName} neighborhoods.`}
+            />
+          </div>
+        </section>
 
         {/* NWA STORM LOOKUP & RUNOFF CALCULATOR TOOL */}
         <section className="py-14 bg-white border-t border-slate-200">

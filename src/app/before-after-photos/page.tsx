@@ -1,11 +1,13 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { ClipboardList, MapPin, ArrowRight, Phone, Zap } from 'lucide-react';
+import { ClipboardList, MapPin, ArrowRight, Phone, Zap, Camera, ShieldCheck } from 'lucide-react';
 import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StickyMobileBar from '@/components/StickyMobileBar';
+import ProjectGalleryWithTags from '@/components/ProjectPhotoGallery';
 import { INSTALLATION_LOGS } from '@/data/installationLogs';
+import { TAGGED_PROJECT_PHOTOS } from '@/data/taggedProjectPhotos';
 
 export const metadata: Metadata = {
   title: 'Before & After Gutter Guard Photos | NWA Real Job Documentation',
@@ -43,8 +45,37 @@ const cityDisplayName: Record<string, string> = {
 };
 
 export default function BeforeAfterPhotosPage() {
+  const imageGallerySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name: 'Ozark Gutter Guard Co. Northwest Arkansas Jobsite Photo Gallery',
+    description: 'Verified field installation photographs, technical schematics, and before-and-after documentation across Benton & Washington Counties.',
+    url: 'https://ozarkgutterguard.com/before-after-photos',
+    image: TAGGED_PROJECT_PHOTOS.map(p => ({
+      '@type': 'ImageObject',
+      name: p.title,
+      caption: p.caption,
+      contentUrl: `https://ozarkgutterguard.com${p.src}`,
+      datePublished: '2026',
+      contentLocation: {
+        '@type': 'Place',
+        name: `${p.neighborhood}, ${p.city}, AR`,
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: p.geo.latitude,
+          longitude: p.geo.longitude,
+        }
+      }
+    }))
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-slate-900 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(imageGallerySchema) }}
+      />
+
       <TopBar />
       <Header />
 
@@ -52,19 +83,27 @@ export default function BeforeAfterPhotosPage() {
         <section className="bg-slate-950 text-white py-14 border-b border-slate-800">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
             <span className="text-xs font-black uppercase tracking-wider text-orange-400 block">
-              E-E-A-T Field Documentation
+              E-E-A-T Field Documentation &amp; Image Verification
             </span>
             <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
-              Real NWA Installation Reports & Field Photos
+              Real NWA Installation Photos &amp; Field Reports
             </h1>
             <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
-              Every job we complete is documented with roof profile data, problem diagnosis, execution notes, and flow rate testing. No stock photos. No generic before/afters.
+              Every job we complete is documented with roof profile data, problem diagnosis, execution notes, flow rate testing, and high-resolution photo proof. No stock photos. No generic before/afters.
             </p>
             <div className="pt-2 flex flex-wrap justify-center gap-2 text-xs font-bold text-slate-300">
+              <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{TAGGED_PROJECT_PHOTOS.length} Geocoded Project Photos</span>
               <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{allLogs.length} Documented Jobs</span>
               <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">{Object.keys(INSTALLATION_LOGS).length} NWA Cities</span>
               <span className="px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">150 in/hr Flow Tested</span>
             </div>
+          </div>
+        </section>
+
+        {/* Interactive Tagged Photo Gallery with Lightbox & Category Filters */}
+        <section className="py-12 sm:py-16 bg-slate-50 border-b border-slate-200">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ProjectGalleryWithTags />
           </div>
         </section>
 

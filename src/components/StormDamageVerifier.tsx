@@ -39,6 +39,15 @@ export default function StormDamageVerifier({
     e.preventDefault();
     if (!streetAddress) return;
     setIsScanning(true);
+
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'storm_verifier_scan', {
+        event_category: 'Engagement',
+        event_label: `${initialCity} - ${initialZip}`,
+        property_address: streetAddress,
+      });
+    }
+
     setTimeout(() => {
       setIsScanning(false);
       setHasInteracted(true);

@@ -16,6 +16,7 @@ import StormDamageVerifier from '@/components/StormDamageVerifier';
 import TreeCanopyClogCalculator from '@/components/TreeCanopyClogCalculator';
 import HydraulicGutterThroughput from '@/components/HydraulicGutterThroughput';
 import HOAComplianceCheck from '@/components/HOAComplianceCheck';
+import ProjectGalleryWithTags from '@/components/ProjectPhotoGallery';
 import { getCaseStudiesForCity } from '@/data/caseStudies';
 import { resolveProgrammaticAuthority } from '@/lib/programmaticEngine';
 import { generateBreadcrumbSchema } from '@/lib/generateBreadcrumbs';
@@ -1133,6 +1134,17 @@ export default async function DynamicSeoPage({ params }: PageProps) {
           </div>
         </section>
       )}
+
+      {/* VERIFIED JOBSITE & SCHEMATIC PHOTO GALLERY WITH TAGS */}
+      <section className="py-14 bg-white border-t border-slate-200">
+        <div className="max-w-6xl mx-auto px-4">
+          <ProjectGalleryWithTags 
+            initialCity={page.city}
+            title={`${page.city || 'Northwest Arkansas'} Jobsite Photo Records &amp; Engineering Schematics`}
+            subtitle={`Geocoded field photographs, flow testing records, and surgical micro-mesh installation logs across ${page.city || 'NWA'}.`}
+          />
+        </div>
+      </section>
 
       {/* INTERACTIVE NWA NOAA STORM DAMAGE & DRAINAGE VERIFIER */}
       <section className="py-14 bg-white border-t border-slate-200">

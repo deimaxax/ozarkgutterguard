@@ -156,7 +156,26 @@ git add . ; git commit -m "feat: your descriptive commit message" ; git push ori
 
 ---
 
-## 🔒 5. Long-Term SEO Golden Rules
-1. **Never create flat link dumps**: Always link child pages back to their parent city pillar.
+## 🔒 5. Long-Term SEO Golden Rules & Staged Rollout Scorecard
+
+### Staged Rollout Phase Transition Criteria (GSC Scorecard)
+Never transition from `CURRENT_ROLLOUT_PHASE = 1` to `Phase 2` purely based on time. Transition **only** when meeting these Google Search Console metrics:
+
+| Phase Transition | Metric Requirement | Data Verification Source |
+|---|---|---|
+| **Phase 1 → Phase 2** | **100% Core Hub Indexation**: All 5 main city hubs show status `Submitted and indexed`. | GSC Pages / Coverage Report |
+| **Crawl Frequency** | Googlebot Smartphone visits Core Hubs at least once every 48 hours. | GSC Crawl Stats / Server Logs |
+| **Dwell Time** | Average session duration $\ge 50\text{ seconds}$ on city landing pages. | GA4 Engagement Overview |
+| **Bounce / Return to SERP** | $< 40\%$ return rate (zero mass pogo-sticking loops). | GA4 / Clarity Session Replays |
+| **First Impressions** | GSC registers impressions for queries like `gutter guards bentonville ar`, `micro mesh rogers ar`. | GSC Performance Report |
+
+---
+
+## 📈 6. Micro-Conversion Telemetry (NavBoost Signal Activation)
+All interactive widgets emit clean GA4 / Google Ads conversion events to validate real-world user intent:
+* `storm_verifier_scan`: Emitted when a user submits an address in `StormDamageVerifier.tsx`.
+* `emergency_call_click`: Emitted on 1-click calls from the Mobile Dispatch Strip.
+* `satellite_estimator_quote`: Emitted upon instant quote generation.
+
 2. **Keep thin queries noindexed**: Only set `noindex: false` on pages with unique first-party data.
 3. **Preserve E-E-A-T ground truth**: Maintain real engineering metrics (50-micron aperture, 316 stainless steel, 150 in/hr flow, 47.5" rainfall, 0% shingle warranty contact).

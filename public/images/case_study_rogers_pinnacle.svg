@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="estateGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#091e3a" />
+      <stop offset="60%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#estateGrad)" />
+
+  <!-- Multi-Tier Luxury Estate Roofline -->
+  <polygon points="100,550 280,260 480,550" fill="#334155" stroke="#64748b" stroke-width="2" />
+  <polygon points="320,550 500,200 700,550" fill="#1e293b" stroke="#64748b" stroke-width="2" />
+  <!-- Valley Splash Diverter Highlight -->
+  <polygon points="360,400 440,550 320,550" fill="#38bdf8" opacity="0.3" stroke="#0284c7" stroke-width="2" />
+  
+  <!-- Gutter Line -->
+  <line x1="80" y1="550" x2="720" y2="550" stroke="#f97316" stroke-width="8" />
+
+  <!-- Right Information Specs -->
+  <g transform="translate(660, 80)">
+    <rect width="480" height="580" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-width="2" opacity="0.95" />
+    
+    <text x="35" y="50" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="1.5">ROGERS FIELD CASE RECORD</text>
+    <text x="35" y="85" fill="#ffffff" font-family="system-ui, sans-serif" font-size="24" font-weight="900">Pinnacle Hills &amp; Shadow Valley</text>
+    <text x="35" y="115" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="14">Silver Maple Helicopters &amp; Beaver Lake Humidity</text>
+
+    <!-- Stat Items -->
+    <g transform="translate(35, 140)">
+      <rect width="410" height="70" rx="10" fill="#1e293b" />
+      <text x="20" y="30" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="800">PRIMARY THREAT</text>
+      <text x="20" y="52" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Silver Maple Seeds + Lake Mildew</text>
+    </g>
+
+    <g transform="translate(35, 225)">
+      <rect width="410" height="70" rx="10" fill="#1e293b" />
+      <text x="20" y="30" fill="#ea580c" font-family="system-ui, sans-serif" font-size="11" font-weight="800">ROOFLINE PROFILE</text>
+      <text x="20" y="52" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Multi-Tier Luxury Estate (290 LF, 8/12 Pitch)</text>
+    </g>
+
+    <g transform="translate(35, 310)">
+      <rect width="410" height="70" rx="10" fill="#1e293b" />
+      <text x="20" y="30" fill="#10b981" font-family="system-ui, sans-serif" font-size="11" font-weight="800">INSTALLED SPECIFICATION</text>
+      <text x="20" y="52" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">316 Marine Grade Micro-Mesh + Valley Diverters</text>
+    </g>
+
+    <g transform="translate(35, 395)">
+      <rect width="410" height="70" rx="10" fill="#1e293b" />
+      <text x="20" y="30" fill="#facc15" font-family="system-ui, sans-serif" font-size="11" font-weight="800">VERIFIED HOMEOWNER SAVINGS</text>
+      <text x="20" y="52" fill="#4ade80" font-family="system-ui, sans-serif" font-size="16" font-weight="900">Saved $5,100 vs Corporate Quote</text>
+    </g>
+
+    <text x="35" y="510" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="13" font-weight="500">
+      ✓ ARC HOA Pre-Approved • Beaver Lake Corrosion Safe
+    </text>
+    <text x="35" y="535" fill="#94a3b8" font-family="monospace" font-size="11">
+      GEO: 36.3125° N, 94.1842° W | Rogers, AR 72758
+    </text>
+  </g>
+</svg>

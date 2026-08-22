@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="meshGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <linearGradient id="waterFlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.9" />
+    </linearGradient>
+    <pattern id="meshWeave" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 0 4 L 8 4 M 4 0 L 4 8" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.7" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#skyGrad)" />
+
+  <!-- Technical Schematic Grid Lines -->
+  <g stroke="#475569" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.3">
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+    <line x1="300" y1="0" x2="300" y2="800" />
+    <line x1="600" y1="0" x2="600" y2="800" />
+    <line x1="900" y1="0" x2="900" y2="800" />
+  </g>
+
+  <!-- Roof Shingle Decking (Zero Contact Profile) -->
+  <polygon points="100,280 650,80 720,120 220,340" fill="url(#roofGrad)" stroke="#64748b" stroke-width="2" />
+  <line x1="120" y1="270" x2="640" y2="90" stroke="#94a3b8" stroke-width="3" />
+  <line x1="160" y1="300" x2="680" y2="120" stroke="#475569" stroke-width="2" />
+  
+  <!-- Fascia Board Mounting (100% Shingle Safe) -->
+  <rect x="200" y="340" width="30" height="260" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2" />
+  <rect x="230" y="340" width="120" height="240" fill="#94a3b8" opacity="0.2" />
+
+  <!-- Gutter Trough (Seamless 6-Inch Aluminum) -->
+  <path d="M 230 360 L 230 520 C 230 550 250 560 280 560 L 460 560 C 490 560 510 540 510 500 L 510 390 L 490 390 L 490 495 C 490 525 480 535 455 535 L 285 535 C 260 535 255 525 255 495 L 255 360 Z" fill="#e2e8f0" stroke="#0f172a" stroke-width="3" />
+
+  <!-- 316 Surgical Stainless Steel Micro-Mesh System -->
+  <path d="M 225 350 L 515 385 L 510 405 L 225 365 Z" fill="url(#meshGrad)" stroke="#ea580c" stroke-width="2" />
+  <polygon points="225,350 515,385 510,405 225,365" fill="url(#meshWeave)" />
+
+  <!-- Rainwater Capillary Ingress (150 in/hr Flow Demonstration) -->
+  <g fill="none" stroke="url(#waterFlow)" stroke-width="3" stroke-linecap="round">
+    <path d="M 320 220 Q 350 310 370 360 Q 380 400 380 480 Q 380 530 400 530" stroke-dasharray="10,5" />
+    <path d="M 400 180 Q 430 290 440 370 Q 445 420 445 490" stroke-dasharray="8,4" />
+    <path d="M 460 150 Q 490 270 500 380 Q 505 440 500 500" stroke-dasharray="12,6" />
+  </g>
+
+  <!-- Deflected Debris (Catkins, Pine Needles, Leaves Bouncing Off) -->
+  <!-- Pine Needles Shedding in Breeze -->
+  <g stroke="#84cc16" stroke-width="2.5" stroke-linecap="round">
+    <line x1="530" y1="360" x2="610" y2="330" />
+    <line x1="540" y1="375" x2="620" y2="350" />
+    <line x1="520" y1="390" x2="590" y2="385" />
+  </g>
+  <!-- Oak Catkin Cluster -->
+  <path d="M 540 330 Q 570 310 600 325 Q 630 340 650 320" fill="none" stroke="#eab308" stroke-width="4" stroke-dasharray="4,2" />
+
+  <!-- Technical Callout Box 1: Zero Shingle Penetration -->
+  <g transform="translate(680, 160)">
+    <rect width="440" height="110" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+    <circle cx="35" cy="40" r="16" fill="#10b981" />
+    <text x="29" y="46" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="900">✓</text>
+    <text x="65" y="38" fill="#10b981" font-family="system-ui, sans-serif" font-size="16" font-weight="800">100% SHINGLE-SAFE FASCIA MOUNT</text>
+    <text x="65" y="62" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Zero shingle penetration or lifting.</text>
+    <text x="65" y="82" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Preserves 100% GAF, CertainTeed &amp; OC warranties.</text>
+  </g>
+
+  <!-- Technical Callout Box 2: 50-Micron Weave -->
+  <g transform="translate(680, 300)">
+    <rect width="440" height="110" rx="12" fill="#0f172a" stroke="#ea580c" stroke-width="2" />
+    <circle cx="35" cy="40" r="16" fill="#ea580c" />
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="900">μ</text>
+    <text x="65" y="38" fill="#f97316" font-family="system-ui, sans-serif" font-size="16" font-weight="800">50-MICRON 316 SURGICAL STEEL</text>
+    <text x="65" y="62" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Blocks 100% pine needles, shingle sand &amp; catkins.</text>
+    <text x="65" y="82" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Natural breeze sweeps debris off dry surface.</text>
+  </g>
+
+  <!-- Technical Callout Box 3: 150 In/Hr Storm Flow -->
+  <g transform="translate(680, 440)">
+    <rect width="440" height="110" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="35" cy="40" r="16" fill="#0284c7" />
+    <text x="28" y="46" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="900">⚡</text>
+    <text x="65" y="38" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="16" font-weight="800">150 INCHES/HOUR INTAKE CAPACITY</text>
+    <text x="65" y="62" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Hydrodynamic capillary draw stops overflow.</text>
+    <text x="65" y="82" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Tested through extreme 2.8 in/hr Ozark flash deluges.</text>
+  </g>
+
+  <!-- Bottom Geo-Tag EXIF Proof Overlay -->
+  <rect x="50" y="720" width="1100" height="50" rx="8" fill="#090d16" stroke="#334155" stroke-width="1" />
+  <text x="70" y="750" fill="#94a3b8" font-family="monospace" font-size="12">
+    📍 GEO: 36.3729° N, 94.2088° W | BENTONVILLE, AR | SPEC: 316-SS-50U | LIC: AR #OGG-479-NWA | TEST: 150 IN/HR
+  </text>
+</svg>
