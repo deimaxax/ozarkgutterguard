@@ -1,7 +1,24 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
+import { Plus_Jakarta_Sans, Inter } from 'next/font/google';
 import './globals.css';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-jakarta',
+  weight: ['400', '500', '600', '700', '800'],
+  preload: true,
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
+  preload: false,
+});
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -102,12 +119,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth ${plusJakartaSans.variable} ${inter.variable}`}>
       <head>
-        {/* Google Tag Manager */}
+        {/* Google Tag Manager (lazyOnload to prevent blocking FCP / LCP) */}
         <Script
           id="google-tag-manager"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -116,22 +133,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-N2ZFPF8X');`,
           }}
         />
-        {/* End Google Tag Manager */}
-        {/* Google Analytics */}
+        {/* Google Analytics (lazyOnload) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-X3N5LB8WFK"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Script
           id="google-analytics"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-X3N5LB8WFK');`,
           }}
         />
-        {/* End Google Analytics */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="geo.region" content="US-AR" />
         <meta name="geo.placename" content="Bentonville, Arkansas" />
         <meta name="geo.position" content="36.3729;-94.2088" />
@@ -148,7 +161,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        {/* End Google Tag Manager (noscript) */}
         {children}
       </body>
     </html>

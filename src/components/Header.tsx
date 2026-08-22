@@ -109,8 +109,9 @@ export default function Header({ onOpenQuote }: HeaderProps = {}) {
               <Image
                 src="/logo.png"
                 alt="Ozark Gutter Guard"
-                width={380}
-                height={120}
+                width={280}
+                height={88}
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 260px"
                 className="h-[76px] sm:h-[90px] md:h-[104px] w-auto object-contain transition-transform group-hover:scale-105"
                 priority
               />

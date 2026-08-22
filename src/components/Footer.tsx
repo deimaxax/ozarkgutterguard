@@ -23,6 +23,7 @@ export default function Footer() {
                   alt="Ozark Gutter Guard Co."
                   width={220}
                   height={70}
+                  sizes="180px"
                   className="h-9 w-auto object-contain"
                 />
               </Link>
