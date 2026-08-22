@@ -106,16 +106,13 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
   return (
     <div className="bg-white border border-slate-200 shadow-sm overflow-hidden">
       
-      {/* Clean Unboxed Form Header */}
-      <div className="p-5 sm:p-6 pb-2 border-b border-slate-100">
-        <span className="text-[11px] font-bold text-[#1D4ED8] uppercase tracking-wider block mb-1">
-          NO HOUSE VISIT REQUIRED • EXACT QUOTE IN 15 MINUTES
-        </span>
+      {/* Clean Form Header */}
+      <div className="p-5 sm:p-6 pb-3 border-b border-slate-100">
         <h3 className="font-bold text-lg sm:text-xl text-[#0F172A] tracking-tight">
-          Request Your Free Satellite Estimate
+          Instant Satellite Roofline Estimate
         </h3>
         <p className="text-xs text-slate-500 mt-1 font-normal">
-          Direct Northwest Arkansas contractor pricing • Remote measurement &amp; sizing.
+          Calculates linear footage &amp; price in 90 seconds without an in-home visit.
         </p>
       </div>
 
