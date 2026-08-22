@@ -40,7 +40,7 @@ export default function GutterCleaningPage() {
 
           {/* Quick Header */}
           <div className="space-y-2 max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 border border-emerald-300 text-emerald-900 text-xs font-bold uppercase tracking-wider">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-300 text-slate-800 text-xs font-bold uppercase tracking-wider">
               <span>$149 Flat Rate • 100% Credited Toward Guards</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight">
@@ -51,14 +51,12 @@ export default function GutterCleaningPage() {
             </p>
           </div>
 
-          {/* 2-Column Grid: Form First on Mobile */}
+          {/* 2-Column Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             
-            {/* Form Column: Shown FIRST on mobile and on the right on desktop */}
+            {/* Form Column */}
             <div id="book" className="lg:col-span-5 lg:order-2">
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-md overflow-hidden">
-                <GutterCleaningCalculator initialCity="Bentonville" />
-              </div>
+              <GutterCleaningCalculator initialCity="Bentonville" />
             </div>
 
             {/* Scope & Audit Details Column */}
@@ -72,7 +70,7 @@ export default function GutterCleaningPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
                   {auditPoints.map((item, idx) => (
                     <div key={idx} className="flex items-start gap-2.5">
-                      <div className="w-5 h-5 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center shrink-0 mt-0.5 font-bold">
+                      <div className="w-5 h-5 rounded-full bg-slate-100 text-red-600 flex items-center justify-center shrink-0 mt-0.5 font-bold border border-slate-200">
                         ✓
                       </div>
                       <div>
@@ -85,16 +83,16 @@ export default function GutterCleaningPage() {
               </div>
 
               {/* Direct Dispatch Phone Box */}
-              <div className="bg-slate-900 text-white rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
+              <div className="bg-[#0F1E36] text-white rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs">
                 <div>
                   <strong className="block font-bold text-sm">Need Same-Day Emergency Service?</strong>
-                  <span className="text-xs text-slate-400">Call our Bentonville shop directly for immediate scheduling.</span>
+                  <span className="text-xs text-slate-300">Call our Bentonville shop directly for immediate scheduling.</span>
                 </div>
                 <a
                   href={phoneHref}
                   className="btn-contractor-primary px-5 py-2.5 text-xs font-bold flex items-center gap-2 shrink-0 shadow-xs"
                 >
-                  <Phone className="w-4 h-4 text-emerald-400" />
+                  <Phone className="w-4 h-4 text-white" />
                   <span>Call: {phoneDisplay}</span>
                 </a>
               </div>

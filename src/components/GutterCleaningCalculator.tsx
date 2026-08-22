@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Calculator, CheckCircle2, ShieldCheck, ArrowRight, Phone, Check, Sparkles } from 'lucide-react';
+import Image from 'next/image';
+import { CheckCircle2, ArrowRight, Phone, Home, ShieldCheck } from 'lucide-react';
 
 interface GutterCleaningCalculatorProps {
   initialCity?: string;
@@ -9,38 +10,23 @@ interface GutterCleaningCalculatorProps {
 
 export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }: GutterCleaningCalculatorProps) {
   const [stories, setStories] = useState<'1-story' | '2-story' | '3-story'>('1-story');
-  const [footage, setFootage] = useState<number>(150);
-  const [trees, setTrees] = useState<'moderate' | 'heavy-pine' | 'heavy-oak'>('moderate');
   const [address, setAddress] = useState('');
   const [phone, setPhone] = useState('');
   const [name, setName] = useState('');
-  const [step, setStep] = useState<1 | 2>(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
 
-  // Diagnostic price is standard $149 for single-story, with slight adjustment for multi-story rigging
   const cleanPrice = stories === '1-story' ? 149 : stories === '2-story' ? 189 : 249;
-  
-  // Guard price calculation for instant comparison ($18/ft baseline)
-  const estimatedGuardPriceLow = Math.round(footage * 16.5);
-  const estimatedGuardPriceHigh = Math.round(footage * 19.5);
-  const monthlyPayment = Math.round(estimatedGuardPriceLow / 24);
-
-  const handleNextStep = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!address.trim()) {
-      setErrorMsg('Please enter your property address.');
-      return;
-    }
-    setErrorMsg('');
-    setStep(2);
-  };
 
   const handleFormSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!address.trim()) {
+      setErrorMsg('Please enter your property address in Northwest Arkansas.');
+      return;
+    }
     if (!phone || phone.length < 10) {
-      setErrorMsg('Please enter a valid 10-digit phone number.');
+      setErrorMsg('Please enter a valid phone number so our local dispatch can confirm your slot.');
       return;
     }
 
@@ -56,10 +42,8 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
           name: name || 'Gutter Cleaning Lead',
           phone,
           stories,
-          serviceType: 'Gutter Cleaning + 21-Point Audit',
+          serviceType: 'Gutter Cleaning + 21-Point Inspection',
           estimatedCleanPrice: `$${cleanPrice}`,
-          footage: `${footage} LF`,
-          treeThreat: trees,
           source: '/gutter-cleaning'
         }),
       });
@@ -72,220 +56,168 @@ export default function GutterCleaningCalculator({ initialCity = 'Bentonville' }
   };
 
   return (
-    <div className="bg-white rounded-2xl border-2 border-orange-500/80 shadow-xl overflow-hidden">
-      {/* Top Header */}
-      <div className="bg-slate-950 text-white p-5 border-b border-slate-800">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-orange-600 flex items-center justify-center font-black text-white text-sm">
-              <Calculator className="w-4 h-4" />
-            </div>
-            <div>
-              <h3 className="font-bold text-base text-white leading-tight">
-                Interactive Cleanout &amp; Upgrade Calculator
-              </h3>
-              <p className="text-xs text-slate-400">
-                Live pricing for {initialCity} &amp; all NWA properties
-              </p>
-            </div>
+    <div className="bg-white border-2 border-slate-200/90 rounded-2xl shadow-sm overflow-hidden text-slate-900">
+      
+      {/* Warm Personal Header */}
+      <div className="p-5 sm:p-6 pb-4 border-b border-slate-100 bg-[#FAF9F6]">
+        <div className="flex items-center gap-3.5">
+          <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300 shrink-0 shadow-xs">
+            <Image
+              src="/images/david_vance.jpg"
+              alt="David Vance - Owner & Bentonville Resident"
+              width={48}
+              height={48}
+              className="w-full h-full object-cover"
+              priority
+            />
           </div>
-          <span className="text-[11px] font-bold bg-emerald-950 border border-emerald-500/40 text-emerald-400 px-2.5 py-1 rounded-full">
-            100% Fee Credited
-          </span>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-black text-slate-900 text-sm sm:text-base">David Vance</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
+                Local Dispatch
+              </span>
+            </div>
+            <p className="text-xs text-slate-600 font-medium mt-0.5">
+              Bentonville, AR • Same-Week Scheduling
+            </p>
+          </div>
         </div>
+
+        <p className="text-xs text-slate-700 mt-3 italic bg-white p-2.5 rounded-lg border border-slate-200/80 leading-relaxed font-normal">
+          &quot;Select your home size below. We&apos;ll lock in your flat rate with zero hidden fees — 100% credited toward guards if you ever upgrade.&quot;
+        </p>
       </div>
 
       <div className="p-5 sm:p-6">
         {submitted ? (
-          <div className="text-center py-6 space-y-4">
-            <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
-              <CheckCircle2 className="w-7 h-7" />
+          <div className="text-center py-4 space-y-4 bg-[#FAF9F6] p-4 rounded-xl">
+            <div className="w-12 h-12 rounded-full bg-[#0F1E36] text-white flex items-center justify-center mx-auto">
+              <CheckCircle2 className="w-6 h-6 text-red-400" />
             </div>
-            <h4 className="text-xl font-black text-slate-900">Your Estimate is Confirmed!</h4>
+            <h4 className="text-lg font-bold text-slate-900">Appointment Request Received!</h4>
             <p className="text-xs text-slate-600 max-w-sm mx-auto leading-relaxed">
-              We texted your estimate confirmation for <strong>{address}</strong>. Our local technician will contact you shortly to confirm your preferred cleanout time.
+              We received your cleanout request for <strong className="text-slate-900">{address}</strong>. Our Bentonville team will text/call you shortly to confirm your exact arrival window.
             </p>
-            <div className="bg-orange-50 border border-orange-200 rounded-xl p-4 text-xs space-y-1 max-w-xs mx-auto">
-              <div className="text-slate-500 font-semibold">Estimated Cleanout &amp; Audit:</div>
-              <div className="text-2xl font-black text-orange-600">${cleanPrice} Flat</div>
-              <div className="text-[11px] text-emerald-700 font-bold">★ 100% credited if you ever upgrade to guards</div>
+            <div className="bg-white border border-slate-200 rounded-xl p-3.5 text-xs space-y-1 max-w-xs mx-auto">
+              <div className="text-slate-500 font-semibold">Flat Rate Cleanout:</div>
+              <div className="text-2xl font-black text-slate-900">${cleanPrice}</div>
+              <div className="text-[11px] text-red-600 font-bold">100% Credited Toward Guards</div>
             </div>
             <a
               href="tel:+14799292516"
-              className="inline-flex items-center gap-2 bg-slate-950 text-white px-5 py-2.5 rounded-xl font-bold text-xs shadow-sm hover:bg-slate-800 transition"
+              className="inline-flex items-center gap-2 btn-contractor-navy px-5 py-2.5 rounded-xl font-bold text-xs shadow-xs"
             >
-              <Phone className="w-3.5 h-3.5 text-orange-400" />
-              <span>Call Dispatch: (479) 929-2516</span>
+              <Phone className="w-3.5 h-3.5 text-red-400" />
+              <span>Questions? Call (479) 929-2516</span>
             </a>
           </div>
-        ) : step === 1 ? (
-          <form onSubmit={handleNextStep} className="space-y-5">
+        ) : (
+          <form onSubmit={handleFormSubmit} className="space-y-4">
+            
             {/* 1. Stories Toggle */}
             <div className="space-y-1.5">
-              <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
-                1. Home Height &amp; Stories
-              </label>
-              <div className="grid grid-cols-3 gap-2">
-                {(['1-story', '2-story', '3-story'] as const).map((s) => (
-                  <button
-                    key={s}
-                    type="button"
-                    onClick={() => setStories(s)}
-                    className={`py-2 px-3 text-xs font-bold rounded-xl border transition-all ${
-                      stories === s
-                        ? 'bg-orange-600 text-white border-orange-600 shadow-xs'
-                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
-                    }`}
-                  >
-                    {s === '1-story' ? '1 Story' : s === '2-story' ? '2 Story' : '3+ / Steep'}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* 2. Linear Footage Slider */}
-            <div className="space-y-1.5">
-              <div className="flex justify-between items-center text-xs">
-                <label className="font-bold text-slate-800 uppercase tracking-wider">
-                  2. Approximate Linear Footage
-                </label>
-                <span className="font-black text-orange-600 font-mono text-sm">{footage} LF</span>
-              </div>
-              <input
-                type="range"
-                min="80"
-                max="350"
-                step="10"
-                value={footage}
-                onChange={(e) => setFootage(Number(e.target.value))}
-                className="w-full accent-orange-600 cursor-pointer h-2 bg-slate-200 rounded-lg"
-              />
-              <div className="flex justify-between text-[10px] text-slate-400 font-mono">
-                <span>80 LF (Small)</span>
-                <span>150–200 LF (Typical NWA)</span>
-                <span>350 LF (Estate)</span>
-              </div>
-            </div>
-
-            {/* 3. Local Tree Debris Profile */}
-            <div className="space-y-1.5">
-              <label className="text-xs font-bold text-slate-800 uppercase tracking-wider block">
-                3. Primary Tree Threat
+              <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
+                1. Select Home Size
               </label>
               <div className="grid grid-cols-3 gap-2">
                 {[
-                  { key: 'moderate', label: 'Hardwoods / Leaves' },
-                  { key: 'heavy-oak', label: 'Oak Catkins (Sludge)' },
-                  { key: 'heavy-pine', label: 'Pine Needles (Pines)' },
-                ].map((t) => (
+                  { id: '1-story', label: '1-Story', price: '$149' },
+                  { id: '2-story', label: '2-Story', price: '$189' },
+                  { id: '3-story', label: '3+ / Steep', price: '$249' },
+                ].map((s) => (
                   <button
-                    key={t.key}
+                    key={s.id}
                     type="button"
-                    onClick={() => setTrees(t.key as any)}
-                    className={`p-2 text-[11px] font-bold rounded-xl border text-center leading-tight transition-all ${
-                      trees === t.key
-                        ? 'bg-slate-900 text-white border-slate-900'
-                        : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
+                    onClick={() => setStories(s.id as any)}
+                    className={`py-2.5 px-2 text-left rounded-lg border transition cursor-pointer ${
+                      stories === s.id
+                        ? 'bg-[#0F1E36] text-white border-[#0F1E36] shadow-xs'
+                        : 'bg-slate-50 text-slate-800 border-slate-200 hover:bg-slate-100'
                     }`}
                   >
-                    {t.label}
+                    <div className="flex items-center gap-1 mb-0.5">
+                      <Home className={`w-3.5 h-3.5 ${stories === s.id ? 'text-white' : 'text-slate-400'}`} />
+                      <span className="text-xs font-bold">{s.label}</span>
+                    </div>
+                    <span className={`text-xs font-bold block ${stories === s.id ? 'text-red-300' : 'text-red-600'}`}>
+                      {s.price} Flat
+                    </span>
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Live Pricing Breakdown Card */}
-            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2.5">
-              <div className="flex justify-between items-center pb-2 border-b border-slate-200">
-                <div>
-                  <span className="text-xs font-bold text-slate-900 block">Cleanout &amp; 21-Point Audit:</span>
-                  <span className="text-[10px] text-slate-500">Includes downspout jet &amp; laser pitch check</span>
-                </div>
-                <div className="text-right">
-                  <span className="text-xl font-black text-orange-600">${cleanPrice}</span>
-                  <span className="text-[10px] text-emerald-700 font-bold block">100% credited</span>
-                </div>
-              </div>
-
-              <div className="flex justify-between items-center text-xs text-slate-600">
-                <span>If upgraded to permanent 316 mesh:</span>
-                <span className="font-bold text-slate-900">${estimatedGuardPriceLow} – ${estimatedGuardPriceHigh} <span className="text-[10px] text-slate-400 font-normal">(${monthlyPayment}/mo)</span></span>
-              </div>
-            </div>
-
-            {/* Address Input */}
+            {/* 2. Property Address */}
             <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-800 block">Property Street Address</label>
+              <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
+                2. Property Street Address
+              </label>
               <input
                 type="text"
-                placeholder="e.g. 1404 SW A St, Bentonville"
+                required
+                placeholder={`e.g. 1404 SW A St, ${initialCity}`}
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-orange-500"
+                className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 outline-none focus:border-[#0F1E36] bg-white font-medium"
               />
             </div>
 
-            {errorMsg && <p className="text-xs text-red-600 font-semibold">{errorMsg}</p>}
+            {/* 3. Name & Phone */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="John Miller"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 outline-none focus:border-[#0F1E36] bg-white font-medium"
+                />
+              </div>
 
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-900 uppercase tracking-wider block">
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  required
+                  placeholder="(479) 929-2516"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 outline-none focus:border-[#0F1E36] bg-white font-medium"
+                />
+              </div>
+            </div>
+
+            {errorMsg && (
+              <p className="text-xs text-red-700 font-semibold bg-red-50 p-2.5 rounded-lg border border-red-200">
+                {errorMsg}
+              </p>
+            )}
+
+            {/* Submit Button */}
             <button
               type="submit"
-              className="w-full btn-contractor-green py-3 text-sm font-bold flex items-center justify-center gap-2 shadow-sm"
+              disabled={isSubmitting}
+              className="w-full btn-contractor-primary min-h-[50px] py-3 text-sm font-bold flex items-center justify-center gap-2 shadow-xs cursor-pointer transition active:scale-[0.98] rounded-xl"
             >
-              <span>See Written Breakdown &amp; Lock In $149 Rate</span>
-              <ArrowRight className="w-4 h-4" />
+              <span>{isSubmitting ? 'Booking...' : `Lock In My $${cleanPrice} Cleanout →`}</span>
             </button>
-          </form>
-        ) : (
-          <form onSubmit={handleFormSubmit} className="space-y-4">
-            <div className="bg-orange-50 border border-orange-200 rounded-xl p-3 text-xs space-y-1">
-              <div className="font-bold text-orange-900">Property: {address}</div>
-              <div className="text-slate-600">Cleanout Rate: <strong className="text-orange-700">${cleanPrice} Flat</strong> (100% Credited Toward Guards)</div>
+
+            {/* Reassurance Footer */}
+            <div className="pt-2 border-t border-slate-100 space-y-1 text-center text-xs text-slate-500">
+              <p>✓ 100% Credited Toward Guards • Zero Sales Pressure</p>
+              <p>Prefer to call? <a href="tel:+14799292516" className="text-slate-900 font-bold hover:underline">(479) 929-2516</a></p>
             </div>
 
-            <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-800 block">Your Name</label>
-              <input
-                type="text"
-                placeholder="First & Last Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-orange-500"
-              />
-            </div>
-
-            <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-800 block">Mobile Phone Number (For Instant SMS Confirmation)</label>
-              <input
-                type="tel"
-                placeholder="(479) 555-0123"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-sm focus:outline-none focus:border-orange-500"
-              />
-            </div>
-
-            {errorMsg && <p className="text-xs text-red-600 font-semibold">{errorMsg}</p>}
-
-            <div className="space-y-2 pt-1">
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full btn-contractor-green py-3 text-sm font-bold flex items-center justify-center gap-2 shadow-sm disabled:opacity-50"
-              >
-                <span>{isSubmitting ? 'Confirming...' : 'Get Instant Written Quote via SMS'}</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-              <button
-                type="button"
-                onClick={() => setStep(1)}
-                className="w-full text-xs text-slate-500 hover:text-slate-800 text-center py-1 font-semibold"
-              >
-                ← Back to edit property specs
-              </button>
-            </div>
           </form>
         )}
       </div>
     </div>
   );
 }
+
