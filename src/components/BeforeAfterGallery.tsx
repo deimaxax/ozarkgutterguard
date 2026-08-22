@@ -14,10 +14,10 @@ export default function BeforeAfterGallery() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div className="max-w-3xl space-y-2">
-            <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
+            <span className="text-xs font-bold text-[#D92626] uppercase tracking-wider block">
               Recent Work
             </span>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F1E36] tracking-tight">
               Real Installations in Northwest Arkansas
             </h2>
             <p className="text-base text-slate-600 font-normal leading-relaxed">
@@ -27,7 +27,7 @@ export default function BeforeAfterGallery() {
 
           <Link
             href="/before-after-photos"
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs rounded-lg transition self-start md:self-auto shadow-xs"
+            className="btn-contractor-navy inline-flex items-center gap-2 px-5 py-2.5 text-white font-semibold text-xs rounded-lg transition self-start md:self-auto shadow-xs"
           >
             <span>View All Photos</span>
             <ArrowRight className="w-4 h-4" />
@@ -44,14 +44,14 @@ export default function BeforeAfterGallery() {
               className="object-cover"
             />
           </div>
-          <div className="p-4 bg-slate-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs font-medium">
+          <div className="p-4 bg-[#0F1E36] text-white flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs font-medium">
             <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-[#1D4ED8]" />
+              <MapPin className="w-4 h-4 text-[#D92626]" />
               <span>Bella Vista Job: Heavy Pine Needle Protection</span>
             </div>
             <div className="flex gap-4 text-xs font-semibold">
-              <span className="text-rose-400">BEFORE: Clogged &amp; Sagging</span>
-              <span className="text-blue-400">AFTER: Clean &amp; Guarded</span>
+              <span className="text-red-400">BEFORE: Clogged &amp; Sagging</span>
+              <span className="text-emerald-400">AFTER: Clean &amp; Guarded</span>
             </div>
           </div>
         </div>

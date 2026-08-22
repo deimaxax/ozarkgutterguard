@@ -16,7 +16,7 @@ export default function TestimonialsSection() {
               ))}
               <span className="text-xs font-bold text-slate-700 ml-1">5.0 Star Rating (187+ NWA Reviews)</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F1E36] tracking-tight">
               Verified Northwest Arkansas Reviews
             </h2>
           </div>
@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
             href="https://maps.google.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs font-bold text-[#1D4ED8] hover:underline flex items-center gap-1 self-start md:self-auto"
+            className="text-xs font-bold text-[#D92626] hover:underline flex items-center gap-1 self-start md:self-auto"
           >
             <span>Read all 187+ Google reviews →</span>
           </a>
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
                       <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                     ))}
                   </div>
-                  <span className="text-xs font-semibold text-[#1D4ED8] bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-100">
+                  <span className="text-xs font-semibold text-[#0F1E36] bg-slate-100 px-2.5 py-0.5 rounded-full border border-slate-200">
                     {item.savings}
                   </span>
                 </div>
@@ -57,13 +57,13 @@ export default function TestimonialsSection() {
 
               <div className="pt-3.5 border-t border-slate-200/80 flex justify-between items-center text-xs">
                 <div>
-                  <div className="font-bold text-slate-900">{item.name}</div>
+                  <div className="font-bold text-[#0F1E36]">{item.name}</div>
                   <div className="text-slate-500 text-[11px] flex items-center gap-1 mt-0.5">
-                    <MapPin className="w-3 h-3 text-[#1D4ED8]" />
+                    <MapPin className="w-3 h-3 text-[#D92626]" />
                     <span>{item.location}</span>
                   </div>
                 </div>
-                <div className="flex items-center gap-1 text-[11px] text-[#1D4ED8] font-bold bg-white px-2 py-0.5 rounded border border-slate-200">
+                <div className="flex items-center gap-1 text-[11px] text-[#0F1E36] font-bold bg-white px-2 py-0.5 rounded border border-slate-200">
                   <span>✓ Verified</span>
                 </div>
               </div>

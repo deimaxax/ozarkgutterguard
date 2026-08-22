@@ -7,7 +7,7 @@ export default function GutterCleaningBanner() {
   const phoneDisplay = "(479) 929-2516";
 
   return (
-    <section className="bg-slate-50 border-b border-slate-200 py-10 sm:py-16 text-slate-900">
+    <section className="bg-[#F8F9FA] border-b border-slate-200 py-10 sm:py-16 text-[#0F1E36]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 shadow-sm">
@@ -16,19 +16,19 @@ export default function GutterCleaningBanner() {
             {/* Left Col: Offer details */}
             <div className="lg:col-span-8 space-y-4">
               <div className="space-y-2">
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-[#0F1E36] text-xs font-bold uppercase tracking-wider">
                   <span>Fast Seasonal Service</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-950 tracking-tight">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0F1E36] tracking-tight">
                   Not Ready for Guards? Get a $149 Full Cleanout
                 </h2>
                 <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-                  We'll hand-clean all debris, flush your downspouts, and send before/after photos straight to your phone. <strong className="text-slate-900 font-bold">100% of your $149 fee is credited toward gutter guards</strong> if you decide to install within 12 months.
+                  We'll hand-clean all debris, flush your downspouts, and send before/after photos straight to your phone. <strong className="text-[#0F1E36] font-bold">100% of your $149 fee is credited toward gutter guards</strong> if you decide to install within 12 months.
                 </p>
               </div>
 
               {/* 4 Simple Checkpoints */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-800 pt-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-[#0F1E36] pt-2">
                 <div className="flex items-center gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
                   <span>Hand debris removal (no lawn mess)</span>
@@ -49,15 +49,15 @@ export default function GutterCleaningBanner() {
             </div>
 
             {/* Right Col: Price Card */}
-            <div className="lg:col-span-4 rounded-xl border border-slate-200 bg-slate-50 p-6 space-y-4 text-center">
+            <div className="lg:col-span-4 rounded-xl border border-slate-200 bg-[#F8F9FA] p-6 space-y-4 text-center">
               <div className="space-y-0.5">
                 <span className="text-xs font-bold uppercase tracking-wider text-slate-500 block">
                   Flat Rate Special
                 </span>
-                <div className="text-4xl sm:text-5xl font-black text-slate-950 tracking-tight">
+                <div className="text-4xl sm:text-5xl font-black text-[#0F1E36] tracking-tight">
                   $149
                 </div>
-                <span className="text-xs font-bold text-emerald-700 block pt-0.5">
+                <span className="text-xs font-bold text-[#D92626] block pt-0.5">
                   100% Credited Toward Guards
                 </span>
               </div>

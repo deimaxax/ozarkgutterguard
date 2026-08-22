@@ -3,11 +3,7 @@ const nextConfig = {
   reactStrictMode: false,
   poweredByHeader: false,
   compress: true,
-  cleanDistDir: true,
-  devIndicators: {
-    appIsrStatus: false,
-    buildActivity: false,
-  },
+  devIndicators: false,
   transpilePackages: ['lucide-react'],
   async headers() {
     return [

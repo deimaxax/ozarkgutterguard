@@ -23,10 +23,10 @@ export default function FaqSection({ onOpenQuote }: FaqSectionProps) {
         
         {/* Section Header */}
         <div className="max-w-2xl mb-12 space-y-2">
-          <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
+          <span className="text-xs font-bold text-[#D92626] uppercase tracking-wider block">
             Clear Homeowner Answers
           </span>
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-extrabold text-[#0F1E36] tracking-tight">
             Frequently Asked Questions
           </h2>
           <p className="text-base text-slate-600 font-normal leading-relaxed">
@@ -49,10 +49,10 @@ export default function FaqSection({ onOpenQuote }: FaqSectionProps) {
                   className="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-slate-50 transition cursor-pointer"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-base font-bold text-slate-900 leading-snug">
+                  <span className="text-base font-bold text-[#0F1E36] leading-snug">
                     {faq.question}
                   </span>
-                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180 text-[#1D4ED8]' : ''}`} />
+                  <ChevronDown className={`w-5 h-5 text-slate-400 shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180 text-[#D92626]' : ''}`} />
                 </button>
 
                 {isOpen && (
@@ -66,9 +66,9 @@ export default function FaqSection({ onOpenQuote }: FaqSectionProps) {
         </div>
 
         {/* Direct Contact Banner */}
-        <div className="mt-12 p-6 sm:p-8 bg-[#0F172A] text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-6 shadow-md">
+        <div className="mt-12 p-6 sm:p-8 bg-[#0F1E36] text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-6 shadow-md border border-[#183059]">
           <div className="space-y-1 text-center sm:text-left">
-            <span className="text-xs font-bold text-blue-400 uppercase tracking-wider block">
+            <span className="text-xs font-bold text-red-400 uppercase tracking-wider block">
               Direct Technical Line
             </span>
             <h3 className="font-bold text-lg sm:text-xl text-white tracking-tight">

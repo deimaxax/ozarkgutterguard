@@ -25,10 +25,14 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
           {/* Left Column: Gutter Guards & Gutter Cleaning Value Proposition */}
           <div className="lg:col-span-7 space-y-6">
             
-            {/* Top Local Contractor Badge */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-xs font-bold">
-              <MapPin className="w-3.5 h-3.5 text-blue-600" />
-              <span>Gutter Guards &amp; Cleaning Specialists • {cityName}</span>
+            {/* Contractor Credential / Location */}
+            <div className="flex items-center gap-2.5 text-xs font-semibold text-slate-600 tracking-wide">
+              <span className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-100 text-slate-700 text-[11px] font-bold uppercase tracking-wider border border-slate-200">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                Licensed &amp; Insured
+              </span>
+              <span className="text-slate-300">•</span>
+              <span className="text-slate-600 font-medium">Bentonville &amp; {cityName}</span>
             </div>
 
             {/* Main Headline */}
@@ -45,12 +49,12 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               
               {/* Option 1: Permanent Guards */}
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">Permanent Solution</span>
+                  <span className="text-xs font-bold text-[#183059] uppercase tracking-wider">Permanent Solution</span>
                   <span className="text-xs font-semibold text-slate-500">10-Yr Guarantee</span>
                 </div>
-                <h3 className="font-bold text-slate-950 text-sm sm:text-base">
+                <h3 className="font-bold text-[#0F1E36] text-sm sm:text-base">
                   316 Stainless Gutter Guards
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed font-normal">
@@ -59,12 +63,12 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
               </div>
 
               {/* Option 2: Fast Cleanout */}
-              <div className="p-4 rounded-xl bg-emerald-50/60 border border-emerald-200 space-y-2">
+              <div className="p-4 rounded-xl bg-red-50/50 border border-red-200/80 shadow-xs space-y-2">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">Fast Service</span>
-                  <span className="text-xs font-bold text-emerald-700">$149 Flat Rate</span>
+                  <span className="text-xs font-bold text-[#D92626] uppercase tracking-wider">Fast Service</span>
+                  <span className="text-xs font-bold text-[#D92626]">$149 Flat Rate</span>
                 </div>
-                <h3 className="font-bold text-slate-950 text-sm sm:text-base">
+                <h3 className="font-bold text-[#0F1E36] text-sm sm:text-base">
                   Full Gutter Cleanout &amp; Flush
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed font-normal">
@@ -80,13 +84,13 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                 href={phoneHref}
                 className="btn-contractor-primary min-h-[50px] px-6 py-3.5 text-base font-bold flex items-center justify-center gap-2.5 shadow-sm transition"
               >
-                <Phone className="w-4 h-4 text-emerald-400" />
+                <Phone className="w-4 h-4 text-white" />
                 <span>Call Dispatch: {phoneDisplay}</span>
               </a>
 
               <Link
                 href="/gutter-cleaning"
-                className="min-h-[50px] px-5 py-3.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-sm font-bold flex items-center justify-center gap-2 transition shadow-sm"
+                className="btn-contractor-navy min-h-[50px] px-5 py-3.5 rounded-lg text-white text-sm font-bold flex items-center justify-center gap-2 transition shadow-sm"
               >
                 <span>Book $149 Cleanout</span>
               </Link>

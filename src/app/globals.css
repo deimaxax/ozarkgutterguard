@@ -14,7 +14,7 @@
   
   body {
     background-color: #F8F9FA;
-    color: #1E293B;
+    color: #0F1E36;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
@@ -29,7 +29,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: #0F172A;
+    color: #0F1E36;
     letter-spacing: -0.025em;
   }
 }
@@ -43,49 +43,54 @@
   padding-top: max(10px, env(safe-area-inset-top, 12px));
 }
 
-/* Luxury Residential Contractor Button Styles */
+/* High-Urgency Dispatch CTA Button Styles (#D92626 / #E63946) */
 .btn-contractor-primary,
+.btn-contractor-red,
 .btn-contractor-blue,
 .btn-contractor-amber,
 .btn-contractor-green {
-  background-color: #1D4ED8;
+  background-color: #D92626;
   color: #FFFFFF;
   font-weight: 700;
   border-radius: 8px;
-  border: 1px solid #1E40AF;
+  border: 1px solid #B91C1C;
   transition: all 0.15s ease-in-out;
 }
 
 .btn-contractor-primary:hover,
+.btn-contractor-red:hover,
 .btn-contractor-blue:hover,
 .btn-contractor-amber:hover,
 .btn-contractor-green:hover {
-  background-color: #1E40AF;
-  border-color: #172554;
-  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
+  background-color: #B91C1C;
+  border-color: #991B1B;
+  box-shadow: 0 4px 14px rgba(217, 38, 38, 0.35);
 }
 
 .btn-contractor-primary:active,
+.btn-contractor-red:active,
 .btn-contractor-blue:active,
 .btn-contractor-amber:active,
 .btn-contractor-green:active {
   transform: scale(0.98);
 }
 
+/* Trust Foundation Deep Navy Button (#0F1E36 / #183059) */
 .btn-contractor-navy,
 .btn-contractor-dark {
-  background-color: #0F172A;
+  background-color: #0F1E36;
   color: #FFFFFF;
   font-weight: 700;
   border-radius: 8px;
-  border: 1px solid #1E293B;
+  border: 1px solid #183059;
   transition: all 0.15s ease-in-out;
 }
 
 .btn-contractor-navy:hover,
 .btn-contractor-dark:hover {
-  background-color: #1E293B;
-  border-color: #334155;
+  background-color: #183059;
+  border-color: #243B53;
+  box-shadow: 0 4px 12px rgba(15, 30, 54, 0.25);
 }
 
 .btn-contractor-navy:active,
@@ -95,7 +100,7 @@
 
 .btn-contractor-outline {
   border: 1px solid #CBD5E1;
-  color: #0F172A;
+  color: #0F1E36;
   font-weight: 700;
   border-radius: 8px;
   background-color: #FFFFFF;
@@ -103,8 +108,9 @@
 }
 
 .btn-contractor-outline:hover {
-  background-color: #F8FAFC;
-  border-color: #94A3B8;
+  background-color: #F8F9FA;
+  border-color: #183059;
+  color: #0F1E36;
 }
 
 .btn-contractor-outline:active {
@@ -116,11 +122,11 @@
   background-color: #FFFFFF;
   border: 1px solid #E2E8F0;
   border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(15, 30, 54, 0.05);
   transition: all 0.15s ease-in-out;
 }
 
 .contractor-card:hover {
   border-color: #CBD5E1;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(15, 30, 54, 0.08);
 }

@@ -7,7 +7,7 @@ export default function TopBar() {
   const phoneDisplay = "(479) 929-2516";
 
   return (
-    <div className="bg-slate-950 text-slate-400 text-xs py-1.5 px-4 border-b border-slate-850">
+    <div className="bg-[#0F1E36] text-slate-300 text-xs py-1.5 px-4 border-b border-[#183059]">
       <div className="max-w-7xl mx-auto flex justify-between items-center text-[11px] sm:text-xs">
         
         {/* Left: Star Rating & License */}
@@ -20,17 +20,17 @@ export default function TopBar() {
             </span>
             <span>5.0 Rating (187+ Reviews)</span>
           </div>
-          <span className="text-slate-700 hidden sm:inline">•</span>
-          <span className="text-slate-400 hidden sm:inline">Northwest Arkansas</span>
+          <span className="text-slate-500 hidden sm:inline">•</span>
+          <span className="text-slate-300 hidden sm:inline">Northwest Arkansas</span>
         </div>
 
         {/* Right: Phone & License */}
         <div className="flex items-center gap-3">
-          <span className="text-slate-500 hidden md:inline">AR Lic. #OGG-479-NWA</span>
-          <span className="text-slate-700 hidden md:inline">•</span>
+          <span className="text-slate-400 hidden md:inline">AR Lic. #OGG-479-NWA</span>
+          <span className="text-slate-600 hidden md:inline">•</span>
           <a
             href={phoneHref}
-            className="text-blue-400 hover:text-blue-300 font-semibold transition-colors inline-flex items-center gap-1"
+            className="text-red-400 hover:text-red-300 font-bold transition-colors inline-flex items-center gap-1"
           >
             <Phone className="w-3 h-3" />
             <span>{phoneDisplay}</span>

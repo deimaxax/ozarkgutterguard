@@ -29,10 +29,10 @@ export default function SystemicScopeSection() {
         
         {/* Section Header */}
         <div className="max-w-3xl mb-12 space-y-2">
-          <span className="text-xs font-bold text-[#1D4ED8] uppercase tracking-wider block">
+          <span className="text-xs font-bold text-[#D92626] uppercase tracking-wider block">
             Craftsmanship Standard
           </span>
-          <h2 className="text-2xl sm:text-4xl font-black text-[#0F172A] tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-black text-[#0F1E36] tracking-tight">
             The 3-Step Installation Done Right
           </h2>
           <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
@@ -48,10 +48,10 @@ export default function SystemicScopeSection() {
               className="bg-[#F8F9FA] rounded-2xl border border-slate-200 p-6 sm:p-8 flex flex-col justify-between space-y-6 shadow-xs hover:border-slate-300 transition"
             >
               <div className="space-y-3.5">
-                <div className="w-9 h-9 rounded-xl bg-slate-950 text-white font-black text-sm flex items-center justify-center shadow-xs">
+                <div className="w-9 h-9 rounded-xl bg-[#0F1E36] text-white font-black text-sm flex items-center justify-center shadow-xs">
                   {item.number}
                 </div>
-                <h3 className="font-bold text-lg sm:text-xl text-[#0F172A] tracking-tight leading-snug">
+                <h3 className="font-bold text-lg sm:text-xl text-[#0F1E36] tracking-tight leading-snug">
                   {item.title}
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed font-normal">
@@ -59,8 +59,8 @@ export default function SystemicScopeSection() {
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-slate-200 flex items-center gap-2 text-xs font-bold text-[#1D4ED8]">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#1D4ED8]"></span>
+              <div className="pt-4 border-t border-slate-200 flex items-center gap-2 text-xs font-bold text-[#183059]">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#D92626]"></span>
                 <span>{item.highlight}</span>
               </div>
             </div>
