@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="space-y-1.5 text-slate-300 text-xs pt-1">
               <div className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                <span>1102 S Walton Blvd, Bentonville, AR 72712</span>
+                <span>Bentonville, AR 72712 • Serving all Northwest Arkansas</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
@@ -50,6 +50,40 @@ export default function Footer() {
               <div className="flex items-center gap-2 text-slate-400 text-[11px] pt-1">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                 <span>AR Lic. #039182 • Fully Insured</span>
+              </div>
+            </div>
+
+            {/* Verified Profiles & Directory Badges */}
+            <div className="pt-3">
+              <span className="text-[11px] font-semibold text-slate-400 block mb-2 uppercase tracking-wider">
+                Find Us &amp; Verified Profiles
+              </span>
+              <div className="flex flex-wrap gap-1.5">
+                {[
+                  { name: "Yelp", href: "https://yelp.com/biz/ozark-gutter-guard-fayetteville" },
+                  { name: "Nextdoor", href: "https://nextdoor.com/page/ozark-gutter-guard-fayetteville-ar" },
+                  { name: "Houzz", href: "https://www.houzz.com/professionals/roofing-and-gutters/ozark-gutter-guard-pfvwus-pf~2052376562" },
+                  { name: "Thumbtack", href: "https://www.thumbtack.com/ar/bentonville/pro/ozark-gutter-guards/service/588283928151015428" },
+                  { name: "Facebook", href: "https://www.facebook.com/OzarkGutterGuard" },
+                  { name: "YouTube", href: "https://www.youtube.com/@OzarkGutterGuard" },
+                  { name: "LinkedIn", href: "https://www.linkedin.com/company/ozark-gutter-guard/" },
+                  { name: "Instagram", href: "https://www.instagram.com/ozarkgutterguard/" },
+                  { name: "X (Twitter)", href: "https://x.com/OzarkGutterGuar" },
+                  { name: "Pinterest", href: "https://www.pinterest.com/ozarkgutterguard/" },
+                  { name: "EZLocal", href: "https://ezlocal.com/ar/bentonville/gutter-cleaning-service/0919817979" },
+                  { name: "Manta", href: "https://www.manta.com/c/m1hft21/ozark-gutter-guard" },
+                  { name: "MerchantCircle", href: "https://www.merchantcircle.com/ozark-gutter-guard-fayetteville-ar" }
+                ].map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-2 py-0.5 rounded bg-[#183059] hover:bg-red-600/80 text-[10px] text-slate-300 hover:text-white transition font-medium border border-slate-700/50"
+                  >
+                    {item.name}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
