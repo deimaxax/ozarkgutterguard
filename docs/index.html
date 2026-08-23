@@ -469,5 +469,25 @@
 
   </div>
 
+
+  <!-- Ghost Cloaking & Competitive Shield -->
+  <script>
+  (function() {
+    var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
+    if (isSpy) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var links = document.querySelectorAll('a');
+        links.forEach(function(a) {
+          var span = document.createElement('span');
+          span.textContent = a.textContent;
+          span.className = a.className;
+          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
+        });
+      });
+    }
+  })();
+  </script>
+
 </body>
 </html>
+<!-- Updated: 2026-08-23 -->
