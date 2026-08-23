@@ -1,232 +1,145 @@
-# 🛡️ Ozark Gutter Guard Co. — Master Technical & SEO Architecture
+# 🛡️ Ozark Gutter Guard Co. — Official Engineering & Technical Repository
 
-**Direct Contractor 316 Surgical Stainless Steel Micro-Mesh Protection Across Northwest Arkansas**  
-*Operating in Bentonville, Rogers, Fayetteville, Springdale, Bella Vista, and all NWA ZIP codes.*
+[![Website](https://img.shields.io/badge/Official_Website-ozarkgutterguard.com-0F1E36?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ozarkgutterguard.com)
+[![Direct Phone](https://img.shields.io/badge/Local_Dispatch-(479)_929--2516-D92626?style=for-the-badge&logo=phone&logoColor=white)](tel:+14799292516)
+[![License](https://img.shields.io/badge/Arkansas_Licence-%23039182-183059?style=for-the-badge&logo=shield&logoColor=white)](https://ozarkgutterguard.com/warranty)
+[![Google Reviews](https://img.shields.io/badge/Google_Rating-4.9_★_(187_Reviews)-F59E0B?style=for-the-badge&logo=google&logoColor=white)](https://ozarkgutterguard.com/reviews)
 
----
-
-## 🚀 1. Project Overview & Current Architecture
-
-This project is built using a **1% Anti-Doorway Algorithmic Protection & First-Party Data Moat Strategy** designed to resist Google Core Updates and SpamBrain Scaled Content filters.
-
-### Core Stack
-* **Framework**: Next.js 15 (App Router, SSG / ISR)
-* **Language**: TypeScript
-* **Styling**: Tailwind CSS & Vanilla CSS Design Tokens
-* **Icons**: Lucide React
-* **Static Generation**: 1,137 pre-rendered static HTML routes with zero runtime latency
+> **Northwest Arkansas Direct-From-Installer Gutter Protection & Seamless Gutter Systems.**  
+> Permanent marine-grade 316 surgical stainless steel micro-mesh engineered for Ozark pine needles, heavy oak catkins, and torrential downpours. Zero corporate franchise markups, 100% owner-operated accountability.
 
 ---
 
-## 🏛️ 2. Architectural Pillars (What We Have Built)
+## 📍 Northwest Arkansas Service Areas & Core City Hubs
 
-### A. DOM Entropy & 4 Rotating Layout Archetypes (`src/app/[slug]/page.tsx`)
-To eliminate **Template Fingerprinting** (where Google detects 95%+ identical DOM trees), pages rotate between 4 distinct layout architectures:
-1. **Archetype A: Mountain & Lake Pine Needle Fortress**
-   - *Targets*: Bella Vista (72714, 72715), Beaver Lake, Loch Lomond, Scotsdale, Holiday Island.
-   - *Key Tools & Modules*: `TreeCanopyClogCalculator` (Pine profile), 45 lbs/ft snow/sleet load resistance, 9/12 to 12/12 steep hillside rigging.
-2. **Archetype B: Historic Urban & Hardwood Oak Catkin Zone**
-   - *Targets*: Downtown Bentonville (72712), Coler Mountain, Historic Fayetteville (72701, Wilson Park, Mount Sequoyah).
-   - *Key Tools & Modules*: `TreeCanopyClogCalculator` (Oak profile), spring catkin sludge breakdown, 0% roof shingle penetration (GAF/CertainTeed warranty safe).
-3. **Archetype C: Master-Planned Subdivision & HOA Hub**
-   - *Targets*: Pinnacle Hills, Shadow Valley (72758), West Bentonville (72713), Centerton (72719), Har-Ber Meadows (72762).
-   - *Key Tools & Modules*: `HOAComplianceCheck` (ARC color pre-approval), multi-tier valley splash diverters, expansive Vertisol clay foundation soil protection.
-4. **Archetype D: High-Volume Flash Storm & Industrial Matrix**
-   - *Targets*: Springdale (72764, 72765), Rogers Commercial (72756), Lowell (72745), Siloam Springs (72761), Tontitown.
-   - *Key Tools & Modules*: `HydraulicGutterThroughput` (150 in/hr storm intake vs 5" and 6" K-Style gutters), shingle grit shedding.
+Direct contractor installation, hand cleanouts, and aerial satellite estimating across Benton & Washington Counties:
 
-### B. Interactive Conversion Tools & Bridges (Zero Pogo-Sticking)
-* **`GuideConversionBlock.tsx`**: High-contrast "Homeowner Translation Bridge" translating technical specs into direct contractor savings ($16–$22/ft vs $50/ft) and 1-click dispatch/satellite quote CTAs with GA4 telemetry.
-* **`TreeCanopyClogCalculator.tsx`**: Dynamic bio-load simulator calculating annual sludge weight (lbs) and runoff gallons for Pine, Oak, Maple, and Sweetgum canopies.
-* **`HydraulicGutterThroughput.tsx`**: Real-time rainfall intake simulator (1.0 to 4.5 in/hr) comparing 316 Surgical Micro-Mesh against failing reverse helmets and DIY slotted vinyl screens.
-* **`HOAComplianceCheck.tsx`**: Architectural Review Committee pre-approval check for NWA subdivisions.
-* **`NwaStormLookup.tsx`**: Grounded local storm history and hail footprint tracker for NWA ZIP codes.
-* **`SatelliteEstimator.tsx`**: Instant 90-second satellite roofline quote calculator.
-
-### C. Hierarchical Parent-Child Silo Mesh
-* **Pillar Hubs (Tier 1)**: `/gutter-guards-bentonville-ar`, `/gutter-guards-rogers-ar`, `/gutter-guards-fayetteville-ar`, `/gutter-guards-springdale-ar`, `/gutter-guards-bella-vista-ar`.
-* **Sub-Hubs & ZIP Nodes (Tier 2)**: 20+ NWA postal codes (`gutter-guards-72712-bentonville-ar`, etc.) with child breadcrumbs linking to parents.
-* **Technical Guides & E-E-A-T Studies (Tier 3)**: **50+ in-depth buyer & competitor-intercept guides** (`/guides/[slug]`) and press releases (`/press/[slug]`) generating massive Information Gain and funneling topical PageRank directly to Core City Pillars.
-
-### D. Competitor Intercept & Aggressive Buyer Capture Playbook (`/guides/*`)
-The `/guides` authority hub hosts high-intent, problem-solving guides designed to siphon traffic from national franchises and local competitors:
-1. **Competitor Intercepts**: `leaffilter-alternatives-northwest-arkansas`, `is-leaffilter-overpriced`, `leafguard-vs-ozark-gutter-guard-nwa-comparison`, `gutter-helmet-vs-ozark-comparison`.
-2. **Cost & Pricing Transparency**: `gutter-guard-cost-per-foot-arkansas`, `what-is-the-average-cost-to-have-gutter-guards-installed`.
-3. **Problem & Flaw Diagnostics**: `why-are-my-gutter-guards-overflowing-in-heavy-rain`, `why-is-my-foundation-cracking-bentonville-ar`.
-4. **Legal & Consumer Protection**: `how-to-cancel-high-pressure-gutter-guard-contract-arkansas` (3-day cooling off statutory rule).
-5. **Health & Wildlife Defense**: `mosquitoes-breeding-in-clogged-gutters-bentonville-ar`, `squirrels-and-rats-entering-attic-through-rotted-fascia-nwa`.
-6. **Storm & Insurance Strategy**: `how-to-fight-denied-gutter-hail-claim-state-farm-arkansas`, `why-ice-dams-tear-gutters-off-houses-in-bella-vista`.
-7. **HOA & Luxury Subdivisions**: `shadow-valley-hoa-gutter-guard-guidelines-rogers-ar`.
+| City Hub | Primary Protection Focus | Official Authority Link |
+| :--- | :--- | :--- |
+| **Bentonville, AR** | Spring Oak Catkin Sludge, Expansive Clay Foundation Defense, Coler MTB Corridor | [Bentonville Gutter Guards](https://ozarkgutterguard.com/gutter-guards-bentonville-ar) |
+| **Bella Vista, AR** | Dense Loblolly Pine Needle Armor, 9/12–12/12 Hillside Rigging, Lake Loch Lomond | [Bella Vista Gutter Guard Installation](https://ozarkgutterguard.com/gutter-guards-bella-vista-ar) |
+| **Rogers, AR** | Pinnacle Hills HOA Compliance, Maple Debris Shedding, Shadow Valley | [Rogers AR Gutter Guards](https://ozarkgutterguard.com/gutter-guards-rogers-ar) |
+| **Fayetteville, AR** | Historic Hardwood Canopies, Mount Sequoyah Slope Runoff, Wilson Park | [Fayetteville AR Gutter Guards](https://ozarkgutterguard.com/gutter-guards-fayetteville-ar) |
+| **Springdale, AR** | Heavy Storm Runoff, Industrial & Commercial Buildings, Har-Ber Meadows | [Springdale AR Gutter Guards](https://ozarkgutterguard.com/gutter-guards-springdale-ar) |
 
 ---
 
-## 📖 3. Standard Operating Procedures (What to Do Next Time)
+## 🔬 Core Services & Interactive Tools
 
-Follow these exact steps when adding new content, keywords, case studies, or guides to maintain 100% algorithmic safety:
-
----
-
-### Workflow A: Adding a New Technical Guide Post (`/guides/[slug]`)
-
-1. **Create the Guide File**:
-   Create a new file in `src/data/guides/` using the sequential naming format (e.g., `42-your-topic-slug.ts`).
-2. **Follow the `GuidePost` Structure**:
-   ```typescript
-   // src/data/guides/42-your-topic-slug.ts
-   import { GuidePost } from './_types';
-
-   const post: GuidePost = {
-     slug: 'your-topic-slug',
-     title: 'Compelling SEO Title (50-60 chars) | Ozark Gutter Guard Co.',
-     metaDescription: 'Authoritative meta description including NWA regional context and warranty data.',
-     category: 'comparisons', // 'comparisons' | 'costs' | 'maintenance' | 'problems' | 'materials'
-     publishDate: '2026-08-22',
-     readTime: '6 min read',
-     badge: 'Technical Field Guide',
-     h1: 'Full H1 Heading with Primary Search Keyword',
-     heroSubtitle: 'Direct technical summary answering the user query in the first paragraph.',
-     sections: [
-       {
-         heading: 'Section 1: Engineering Analysis',
-         content: `In-depth technical breakdown with specific measurements (50-micron, 316 stainless steel, 150 in/hr).`
-       },
-       {
-         heading: 'Section 2: Northwest Arkansas Ground-Truth Specs',
-         content: `Regional data mentioning Benton or Washington County climate, rainfall (47.5"), or tree species.`
-       }
-     ],
-     relatedSlugs: ['oak-catkins-clogging-gutters-nwa', 'ozark-rainfall-patterns-roof-drainage-guide']
-   };
-
-   export default post;
-   ```
-3. **Register in Index**:
-   Open `src/data/guides/_index.ts`:
-   - Import your new post: `import post42 from './42-your-topic-slug';`
-   - Add it to the `GUIDES_DATA` array.
+* 🛰️ **[Instant 90-Second Satellite Roofline Estimator](https://ozarkgutterguard.com/satellite-quote)** — Calculate exact installed pricing online without salesmen visits.
+* 🛡️ **[Marine-Grade 316 Stainless Steel Micro-Mesh vs Slotted Screens](https://ozarkgutterguard.com/micro-mesh-vs-screen-guards)** — 440-micron filtration comparison.
+* 🌲 **[Loblolly Pine Needle Gutter Protection](https://ozarkgutterguard.com/pine-needle-gutter-protection)** — Specialized defense against 4–9 inch pine needles.
+* 🌳 **[Spring Oak Catkin & Tassel Gutter Armor](https://ozarkgutterguard.com/oak-tassel-gutter-protection)** — Prevent oak pollen sludge and rotten fascia boards.
+* 🌧️ **[Seamless Gutter Installation & Downspout Sizing](https://ozarkgutterguard.com/seamless-gutter-installation-nwa)** — Heavy-gauge 0.032 aluminum continuous gutters.
+* 🏠 **[Foundation Water Damage & Clay Soil Protection Guide](https://ozarkgutterguard.com/foundation-water-damage-prevention)** — Prevent costly settling and slab cracks in Ozark soils.
+* 🧹 **[$149 Gutter Cleaning & Roofline Audit](https://ozarkgutterguard.com/gutter-cleaning)** — 100% credited toward permanent guard installation.
+* 📷 **[Real Job Photos & Before/After Gallery](https://ozarkgutterguard.com/before-after-photos)** — Verified installations across NWA neighborhoods.
 
 ---
 
-### Workflow B: Adding a New Programmatic Keyword or Location Node
+## 📊 Technical Comparison: 316 Surgical Micro-Mesh vs Franchises vs DIY
 
-1. **For Individual High-Priority Landing Pages**:
-   - Create `src/data/seoPages/pages/<your-slug>.ts` implementing `SeoPageData`.
-   - Import and add it into `src/data/seoPages/pages/_index.ts`.
-2. **For High-Volume Programmatic Keywords (`extended-queries.ts`)**:
-   - Add entry to `EXTENDED_QUERIES` in `src/data/seoPages/extended-queries.ts`.
-   - **Important**: Keep `noindex: true` on thin template variations to protect domain crawl budget and avoid doorway penalties.
-3. **When a Programmatic Page is Promoted to a Full Guide**:
-   - Add the slug to `GUIDE_SLUGS_PROMOTED` in `src/data/seoPages/_index.ts` so Next.js does not create duplicate URL collisions.
-
----
-
-### Workflow C: Adding a New Field Case Study / Installation Log (E-E-A-T Proof)
-
-1. **Add Job Photo**: Place the photo in `public/images/` (e.g. `public/images/new_subdivision.jpg`).
-2. **Update Case Studies**: Open `src/data/caseStudies.ts` and append a new record:
-   ```typescript
-   {
-     id: 'cs-bentonville-04',
-     city: 'Bentonville',
-     subdivision: 'Shadow Valley / Coler Corridor',
-     roofProfile: '8/12 pitch, architectural shingles with Post Oak canopy',
-     problem: 'Spring oak catkin sludge backed water under drip edge',
-     solution: 'Installed 180 LF 316 surgical micro-mesh with laser pitch leveling',
-     flowTested: '150 in/hr certified intake',
-     image: '/images/new_subdivision.jpg'
-   }
-   ```
-3. **Update Installation Logs**: Open `src/data/installationLogs.ts` and add technical field notes under the corresponding city key.
+| Feature | Ozark Gutter Guard Co. | National Franchises (LeafFilter/LeafGuard) | Hardware Store DIY Screens |
+| :--- | :--- | :--- | :--- |
+| **Screen Material** | **Marine-Grade 316 Stainless Steel Mesh + Anodized Aluminum Frame** | Plastic Frame + Standard 304 Steel Mesh | Molded Vinyl or Thin Stamped Aluminum |
+| **What It Keeps Out** | **Blocks 100% of pine needles, oak tassels, shingle grit, and seeds** | Allows fine oak tassels and small debris to pass through | Clogs easily with needles and small twigs |
+| **Heavy Rain Performance** | **150+ in/hr certified intake — Zero overshoot during Ozark storms** | Water can sheet off and spill over in heavy downpours | Easily overflows during moderate rainfall |
+| **Roof Warranty Safe** | **100% Safe — Fastened to gutters & fascia (Never under shingles)** | Slid under shingles — May void your manufacturer roof warranty | Clipped under shingles or bent over edges |
+| **Gutter Realignment** | **Full hand-cleanout & slope tune-up included on every job** | Often charges an extra $500–$1,000 for basic gutter repairs | None — Installed over existing un-sloped gutters |
+| **Typical Home Cost (150–200 FT)** | **$1,250 – $1,650 (Direct local owner rate)** | $4,500 – $7,500 (Sales commissions & franchise markups) | $350 – $600 (Materials only + your own weekend labor) |
+| **Warranty** | **Lifetime Material Warranty + 10-Year No-Clog Performance Guarantee** | Limited corporate warranty with fine-print exclusions | No warranty against clogging |
 
 ---
 
-### Workflow D: Adding a New Press Release (`/press/[slug]`)
+## 📚 Authoritative Homeowner Engineering Guides
 
-1. Open `src/data/pressReleases.ts`.
-2. Add a new object to `PRESS_RELEASES_DATA` with `slug`, `headline`, `dateline`, `summary`, and `body` containing quotes from our lead field technician.
-3. The page will automatically generate at `/press/[slug]` and appear in `sitemap.xml`.
+* 📖 [Why Traditional Reverse-Curve Helmets Overflow in Ozark Storms](https://ozarkgutterguard.com/guides/why-are-my-gutter-guards-overflowing-in-heavy-rain)
+* 📖 [How Oak Catkins Turn Into Concrete Sludge in Northwest Arkansas Gutters](https://ozarkgutterguard.com/guides/oak-catkins-clogging-gutters-nwa)
+* 📖 [How Expansive Ozark Clay Soil Destroys Home Foundations](https://ozarkgutterguard.com/guides/why-is-my-foundation-cracking-bentonville-ar)
+* 📖 [The True Cost of Gutter Guards in Arkansas (2026 Price Breakdown)](https://ozarkgutterguard.com/guides/gutter-guard-cost-per-foot-arkansas)
+* 📖 [Why Ice Dams Tear Gutters Off Rooflines in Bella Vista](https://ozarkgutterguard.com/guides/why-ice-dams-tear-gutters-off-houses-in-bella-vista)
+* 📖 [How to Legally Cancel High-Pressure In-Home Gutter Sales Contracts](https://ozarkgutterguard.com/guides/how-to-cancel-high-pressure-gutter-guard-contract-arkansas)
 
 ---
 
-## 🛠️ 4. Build, Validation & Deployment
+## 🏢 Business NAP & Entity Verification Data
 
-### Run Development Server
-```bash
-npm run dev
-```
-
-### Validate Production Build (Checks all 1,137+ static routes)
-```bash
-npm run build
-```
-
-### Git Commit & Push Routine (PowerShell safe)
-```powershell
-git add . ; git commit -m "feat: your descriptive commit message" ; git push origin main
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Ozark Gutter Guard Co.",
+  "legalName": "Ozark Gutter Guard Co. LLC",
+  "url": "https://ozarkgutterguard.com",
+  "logo": "https://ozarkgutterguard.com/logo.png",
+  "image": "https://ozarkgutterguard.com/images/contractor_truck.jpg",
+  "description": "Northwest Arkansas direct contractor for marine-grade 316 stainless steel micro-mesh gutter guards, seamless gutter installation, and seasonal cleanouts.",
+  "telephone": "+1-479-929-2516",
+  "email": "info@ozarkgutterguard.com",
+  "license": "Arkansas Contractor License #039182",
+  "founder": {
+    "@type": "Person",
+    "name": "David Vance",
+    "jobTitle": "Founder & Lead Installer"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Serving Benton & Washington Counties",
+    "addressLocality": "Bentonville",
+    "addressRegion": "AR",
+    "postalCode": "72712",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 36.3729,
+    "longitude": -94.2088
+  },
+  "areaServed": [
+    "Bentonville, AR",
+    "Bella Vista, AR",
+    "Rogers, AR",
+    "Fayetteville, AR",
+    "Springdale, AR",
+    "Centerton, AR",
+    "Lowell, AR",
+    "Cave Springs, AR",
+    "Pea Ridge, AR",
+    "Siloam Springs, AR"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "187",
+    "bestRating": "5"
+  }
+}
 ```
 
 ---
 
-## 🔒 5. Long-Term SEO Golden Rules & Staged Rollout Scorecard
+## 🌐 Verified Directory & Social Profiles
 
-### Staged Rollout Phase Transition Criteria (GSC Scorecard)
-Never transition from `CURRENT_ROLLOUT_PHASE = 1` to `Phase 2` purely based on time. Transition **only** when meeting these Google Search Console metrics:
-
-| Phase Transition | Metric Requirement | Data Verification Source |
-|---|---|---|
-| **Phase 1 → Phase 2** | **100% Core Hub Indexation**: All 5 main city hubs show status `Submitted and indexed`. | GSC Pages / Coverage Report |
-| **Crawl Frequency** | Googlebot Smartphone visits Core Hubs at least once every 48 hours. | GSC Crawl Stats / Server Logs |
-| **Dwell Time** | Average session duration $\ge 50\text{ seconds}$ on city landing pages. | GA4 Engagement Overview |
-| **Bounce / Return to SERP** | $< 40\%$ return rate (zero mass pogo-sticking loops). | GA4 / Clarity Session Replays |
-| **First Impressions** | GSC registers impressions for queries like `gutter guards bentonville ar`, `micro mesh rogers ar`. | GSC Performance Report |
-
----
-
-## 📈 6. Micro-Conversion Telemetry (NavBoost Signal Activation)
-All interactive widgets emit clean GA4 / Google Ads conversion events to validate real-world user intent:
-* `storm_verifier_scan`: Emitted when a user submits an address in `StormDamageVerifier.tsx`.
-* `emergency_call_click`: Emitted on 1-click calls from the Mobile Dispatch Strip.
-* `satellite_estimator_quote`: Emitted upon instant quote generation.
+* [Yelp Business Profile](https://yelp.com/biz/ozark-gutter-guard-fayetteville)
+* [Nextdoor Neighborhood Recommendation](https://nextdoor.com/page/ozark-gutter-guard-fayetteville-ar)
+* [Houzz Pro Profile](https://www.houzz.com/professionals/roofing-and-gutters/ozark-gutter-guard-pfvwus-pf~2052376562)
+* [Thumbtack Pro Profile](https://www.thumbtack.com/ar/bentonville/pro/ozark-gutter-guards/service/588283928151015428)
+* [Facebook Page](https://www.facebook.com/OzarkGutterGuard)
+* [YouTube Channel](https://www.youtube.com/@OzarkGutterGuard)
+* [LinkedIn Company Page](https://www.linkedin.com/company/ozark-gutter-guard/)
+* [Instagram Profile](https://www.instagram.com/ozarkgutterguard/)
+* [X / Twitter](https://x.com/OzarkGutterGuar)
+* [Pinterest Board](https://www.pinterest.com/ozarkgutterguard/)
 
 ---
 
-## 🏆 7. Master Execution Playbook: How to Rank #1 on Google in NWA
+## 💻 Tech Stack & Architecture
 
-Follow this exact battle plan to outrank Foster Roofing, LeafFilter, and regional competitors:
-
-### Step 1: Instant 72-Hour Search Console Verification
-1. Connect domain to [Google Search Console](https://search.google.com/search-console).
-2. Submit primary sitemap: `https://ozarkgutterguard.com/sitemap.xml`.
-3. Use GSC **URL Inspection Tool** to manually request indexing for the 5 Pillar Hubs:
-   - `/gutter-guards-bentonville-ar`
-   - `/gutter-guards-rogers-ar`
-   - `/gutter-guards-fayetteville-ar`
-   - `/gutter-guards-springdale-ar`
-   - `/gutter-guards-bella-vista-ar`
-
-### Step 2: Google Business Profile (GBP) Power-Link
-1. Set primary category to: `Gutter Cleaning Service` / `Roofing Contractor`.
-2. Link official website URL directly to `/` or `/gutter-guards-bentonville-ar`.
-3. Geotag and upload 5+ authentic job photos with NWA GPS coordinates (Benton County / Washington County).
-
-### Step 3: Social & Local Referral Boost (First 14 Days)
-1. Share technical guides (e.g. `/guides/oak-catkins-clogging-gutters-nwa`, `/guides/how-to-cancel-high-pressure-gutter-guard-contract-arkansas`) on local NWA community forums (Nextdoor, Facebook NWA Homeowners).
-2. Real human traffic reading the 5-minute guides triggers Google's **NavBoost** click-stream and dwell time algorithms, skyrocketing your organic rankings!
+* **Framework**: Next.js 15 (App Router, SSG / Static Generation)
+* **Optimization**: Server-side `sharp` image engine, Native AVIF/WebP, Deferred Interaction Analytics
+* **Design**: Vanilla CSS & Tailwind CSS tokens (WCAG AA Compliant, 100/100 Lighthouse)
+* **Performance**: 1,150 pre-rendered static HTML routes with sub-100ms server response
 
 ---
 
-## 🛡️ 8. 5 Institutional Anti-Spam & Information Gain Protocols
-
-1. **Protocol 1: Information Gain & Empirical Grounding (Patent US20220300588A1)**:
-   - Zero generic filler. All pages feature non-synthetic physical parameters (*Quercus stellata*, $145.2\text{ lbs/100 LF}$ sludge density, $\text{pH } 3.8–4.2$ tannic acid, $150\text{ in/hr}$ flow rate, 2021 IRC NWA amendments).
-2. **Protocol 2: Semantic Token Entropy (Anti-SimHash Doorway Filter)**:
-   - Hubs (permits/inspectors), Spokes (NOAA dBZ swaths), and Neighborhoods (ARC colors/wind shear) use strictly distinct token dictionaries.
-3. **Protocol 3: Accessibility, SSR Rendering & NavBoost Protection**:
-   - Progressive enhancement ensures all NOAA and case study data is in static HTML (SSR).
-   - Sticky emergency dispatch and `GuideConversionBlock` emit GA4 conversion events.
-4. **Protocol 4: Schema.org & Knowledge Graph Triangulation (Zero Identity Poisoning)**:
-   - `generateGuideSchema.ts` enforces `sameAs` exclusively to business profiles; municipal Wikidata IDs live strictly in `areaServed` or `about`.
-5. **Protocol 5: Production Code Implementation**:
-   - 100% typed TypeScript with deterministic hash morphing across 1,146 static routes.
-
-
+© 2026 Ozark Gutter Guard Co. All Rights Reserved. Arkansas Lic. #039182.
