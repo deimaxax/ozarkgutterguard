@@ -88,9 +88,10 @@ export default function HeroSection({ cityName = 'Northwest Arkansas', customH1,
                   src="/images/contractor_truck.jpg"
                   alt="Ozark Gutter Guard service truck in Northwest Arkansas"
                   fill
-                  priority
+                  priority={false}
+                  quality={70}
                   className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 500px, 600px"
                 />
               </div>
               <div className="p-2.5 bg-slate-950 text-white flex items-center justify-between text-xs">

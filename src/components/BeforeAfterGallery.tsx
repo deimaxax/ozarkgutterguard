@@ -41,6 +41,8 @@ export default function BeforeAfterGallery() {
               src="/images/gutter_before_after.jpg"
               alt="Clogged gutters vs stainless steel micro-mesh in Bella Vista, AR"
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1100px"
+              quality={70}
               className="object-cover"
             />
           </div>
@@ -51,7 +53,7 @@ export default function BeforeAfterGallery() {
             </div>
             <div className="flex gap-4 text-xs font-semibold">
               <span className="text-red-400">BEFORE: Clogged &amp; Sagging</span>
-              <span className="text-emerald-400">AFTER: Clean &amp; Guarded</span>
+              <span className="text-slate-200">AFTER: Clean &amp; Guarded</span>
             </div>
           </div>
         </div>
@@ -69,7 +71,8 @@ export default function BeforeAfterGallery() {
                   alt={photo.title}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px"
+                  quality={70}
                 />
                 <div className="absolute top-2.5 left-2.5 bg-slate-900/90 backdrop-blur-xs text-white text-[10px] font-bold px-2.5 py-1 rounded-md">
                   {photo.city}, AR
