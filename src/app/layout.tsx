@@ -3,6 +3,7 @@ import Script from 'next/script';
 import { Plus_Jakarta_Sans, Inter } from 'next/font/google';
 import './globals.css';
 import SchemaJsonLd from '@/components/SchemaJsonLd';
+import AnalyticsDeferred from '@/components/AnalyticsDeferred';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -121,30 +122,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${plusJakartaSans.variable} ${inter.variable}`}>
       <head>
-        {/* Google Tag Manager (lazyOnload to prevent blocking FCP / LCP) */}
-        <Script
-          id="google-tag-manager"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N2ZFPF8X');`,
-          }}
-        />
-        {/* Google Analytics (lazyOnload) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-X3N5LB8WFK"
-          strategy="lazyOnload"
-        />
-        <Script
-          id="google-analytics"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-X3N5LB8WFK');`,
-          }}
-        />
         <meta name="geo.region" content="US-AR" />
         <meta name="geo.placename" content="Bentonville, Arkansas" />
         <meta name="geo.position" content="36.3729;-94.2088" />
@@ -152,6 +129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <SchemaJsonLd type="business" />
       </head>
       <body className="min-h-screen flex flex-col antialiased text-slate-900 bg-[#F8F9FA] font-sans selection:bg-amber-100 selection:text-amber-900 overflow-x-clip">
+        <AnalyticsDeferred />
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
