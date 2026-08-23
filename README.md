@@ -1,5 +1,6 @@
 # 🛡️ Ozark Gutter Guard Co. — Official Engineering & Technical Repository
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deimaxax/ozarkgutterguard/blob/main/Ozark_Gutter_Guard_Hydraulic_Rainfall_Calculator.ipynb)
 [![Live Portal](https://img.shields.io/badge/Live_DOFOLLOW_Portal-deimaxax.github.io-blue?style=for-the-badge&logo=github&logoColor=white)](https://deimaxax.github.io/ozarkgutterguard/)
 [![NPM Package](https://img.shields.io/badge/NPM_Package-v1.0.0-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/nwa-gutter-guard-calculator)
 [![Website](https://img.shields.io/badge/Official_Website-ozarkgutterguard.com-0F1E36?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ozarkgutterguard.com)

@@ -1,0 +1,29 @@
+name: Daily Content Freshness Heartbeat
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-freshness:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Sitemap and Whitepaper timestamps
+        run: |
+          CURRENT_DATE=$(date -u +"%Y-%m-%d")
+          if [ -f docs/sitemap.xml ]; then
+            sed -i "s|<lastmod>.*</lastmod>|<lastmod>$CURRENT_DATE</lastmod>|g" docs/sitemap.xml
+          fi
+          echo "<!-- Updated: $CURRENT_DATE -->" >> docs/index.html
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/sitemap.xml docs/index.html
+          git diff-index --quiet HEAD || git commit -m "chore(seo): automated daily freshness timestamp [$CURRENT_DATE]"
+          git push origin main || echo "No changes to push"
