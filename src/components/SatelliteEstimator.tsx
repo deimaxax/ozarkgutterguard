@@ -48,12 +48,8 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
   const handleCalculate = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!streetAddress.trim() || streetAddress.trim().length < 3) {
-      setErrorMsg('Please enter your property street address (e.g. 1404 SW A St).');
-      return;
-    }
     if (isCustomCity && !customCityInput.trim()) {
-      setErrorMsg('Please enter your city name.');
+      setErrorMsg('Please enter your town or city name.');
       return;
     }
     setErrorMsg('');
@@ -62,6 +58,10 @@ export default function SatelliteEstimator({ initialCity = 'Bentonville' }: Sate
 
   const handleFinalSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!streetAddress.trim() || streetAddress.trim().length < 3) {
+      setErrorMsg('Please enter your property street address (e.g. 1404 SW A St).');
+      return;
+    }
     if (!phone || phone.length < 10) {
       setErrorMsg('Please enter a valid phone number for your written estimate.');
       return;
