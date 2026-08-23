@@ -1,0 +1,31 @@
+{
+  "name": "nwa-gutter-guard-calculator",
+  "version": "1.0.0",
+  "description": "Northwest Arkansas Gutter Protection, Hydraulic Flow, and Direct Contractor Pricing Estimator by Ozark Gutter Guard Co.",
+  "main": "calculator.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deimaxax/ozarkgutterguard.git"
+  },
+  "keywords": [
+    "gutter-guards",
+    "bentonville-ar",
+    "bella-vista-ar",
+    "rogers-ar",
+    "fayetteville-ar",
+    "micro-mesh",
+    "gutter-calculator",
+    "rain-gutters",
+    "northwest-arkansas"
+  ],
+  "author": "David Vance <info@ozarkgutterguard.com> (https://ozarkgutterguard.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://ozarkgutterguard.com/satellite-quote"
+  },
+  "homepage": "https://ozarkgutterguard.com"
+}
