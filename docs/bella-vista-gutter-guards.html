@@ -68,9 +68,9 @@
         <strong style="font-size: 15px;">Calculate Your Bella Vista Installed Price</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">15-Minute Satellite Roof Measurement • Zero In-Home Salesmen</span>
       </div>
-      <a href="https://ozarkgutterguard.com/gutter-guards-bella-vista-ar" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbGxhLXZpc3RhLWFy">
         Visit Official Bella Vista Hub &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. Why Standard Covers Fail in Bella Vista</h2>
@@ -85,10 +85,10 @@
 
     <h2>3. Bella Vista Suburb & ZIP Code Directory</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72714-bella-vista-ar" class="dofollow" rel="dofollow">72714 Bella Vista Town Center & Metfield Area Gutter Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72715-bella-vista-ar" class="dofollow" rel="dofollow">72715 Bella Vista Highlands & Scotsdale Golf Community Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/pine-needle-gutter-protection" class="dofollow" rel="dofollow">Specialized Pine Needle Protection Whitepaper</a></li>
-      <li><a href="https://ozarkgutterguard.com/guides/why-ice-dams-tear-gutters-off-houses-in-bella-vista" class="dofollow" rel="dofollow">Why Winter Ice Dams Tear Gutters Off Bella Vista Roofs</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzE0LWJlbGxhLXZpc3RhLWFy">72714 Bella Vista Town Center & Metfield Area Gutter Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzE1LWJlbGxhLXZpc3RhLWFy">72715 Bella Vista Highlands & Scotsdale Golf Community Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9waW5lLW5lZWRsZS1ndXR0ZXItcHJvdGVjdGlvbg==">Specialized Pine Needle Protection Whitepaper</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvd2h5LWljZS1kYW1zLXRlYXItZ3V0dGVycy1vZmYtaG91c2VzLWluLWJlbGxhLXZpc3Rh">Why Winter Ice Dams Tear Gutters Off Bella Vista Roofs</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -97,21 +97,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

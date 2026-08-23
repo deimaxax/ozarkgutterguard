@@ -70,9 +70,9 @@
         <strong style="font-size: 15px;">Read Full 2026 Rankings on Official Site</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">Instant Aerial Satellite Measurement • 10-Year No-Clog Guarantee</span>
       </div>
-      <a href="https://ozarkgutterguard.com/guides/best-gutter-guards-arkansas" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvYmVzdC1ndXR0ZXItZ3VhcmRzLWFya2Fuc2Fz">
         Read Full Arkansas Guide &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. 2026 Arkansas Performance Scorecard</h2>
@@ -120,11 +120,11 @@
 
     <h2>2. Key Regional Guides & Service Hubs</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/guides/best-gutter-guards-arkansas" class="dofollow" rel="dofollow">Official Best Gutter Guards in Arkansas Guide</a></li>
-      <li><a href="https://ozarkgutterguard.com/guides/top-rated-gutter-guards-consumer-reports-nwa-analysis" class="dofollow" rel="dofollow">Consumer Reports Analysis for NWA</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-bentonville-ar" class="dofollow" rel="dofollow">Bentonville Gutter Guards Hub</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-bella-vista-ar" class="dofollow" rel="dofollow">Bella Vista Gutter Guard Installation</a></li>
-      <li><a href="https://ozarkgutterguard.com/satellite-quote" class="dofollow" rel="dofollow">Launch Instant Online Satellite Estimator</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvYmVzdC1ndXR0ZXItZ3VhcmRzLWFya2Fuc2Fz">Official Best Gutter Guards in Arkansas Guide</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvdG9wLXJhdGVkLWd1dHRlci1ndWFyZHMtY29uc3VtZXItcmVwb3J0cy1ud2EtYW5hbHlzaXM=">Consumer Reports Analysis for NWA</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbnRvbnZpbGxlLWFy">Bentonville Gutter Guards Hub</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbGxhLXZpc3RhLWFy">Bella Vista Gutter Guard Installation</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9zYXRlbGxpdGUtcXVvdGU=">Launch Instant Online Satellite Estimator</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -133,21 +133,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

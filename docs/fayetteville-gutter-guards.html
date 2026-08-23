@@ -67,9 +67,9 @@
         <strong style="font-size: 15px;">Calculate Your Fayetteville Installed Cost</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">Instant 15-Minute Satellite Sizing • Zero Sales Rep Visits</span>
       </div>
-      <a href="https://ozarkgutterguard.com/gutter-guards-fayetteville-ar" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWZheWV0dGV2aWxsZS1hcg==">
         Visit Official Fayetteville Hub &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. Hillside Foundation Drainage in Fayetteville</h2>
@@ -79,10 +79,10 @@
 
     <h2>2. Fayetteville Neighborhood & ZIP Code Directory</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72701-fayetteville-ar" class="dofollow" rel="dofollow">72701 Historic Downtown & Mount Sequoyah Gutter Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72703-fayetteville-ar" class="dofollow" rel="dofollow">72703 North Fayetteville & Gulley Park Area Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72704-fayetteville-ar" class="dofollow" rel="dofollow">72704 West Fayetteville & Wedington Corridor Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/foundation-water-damage-prevention" class="dofollow" rel="dofollow">Foundation Water Damage & Erosion Prevention Guide</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzAxLWZheWV0dGV2aWxsZS1hcg==">72701 Historic Downtown & Mount Sequoyah Gutter Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzAzLWZheWV0dGV2aWxsZS1hcg==">72703 North Fayetteville & Gulley Park Area Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzA0LWZheWV0dGV2aWxsZS1hcg==">72704 West Fayetteville & Wedington Corridor Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9mb3VuZGF0aW9uLXdhdGVyLWRhbWFnZS1wcmV2ZW50aW9u">Foundation Water Damage & Erosion Prevention Guide</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -91,21 +91,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

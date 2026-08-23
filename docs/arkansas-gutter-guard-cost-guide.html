@@ -70,9 +70,9 @@
         <strong style="font-size: 15px;">Calculate Your Exact Installed Price Range</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">Instant Aerial Satellite Measurement • Zero High-Pressure Salesmen</span>
       </div>
-      <a href="https://ozarkgutterguard.com/satellite-quote" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9zYXRlbGxpdGUtcXVvdGU=">
         Launch Price Calculator &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. The Real Cost Comparison: Direct Contractor vs Franchise</h2>
@@ -109,15 +109,15 @@
 
     <h2>2. Why Are National Franchises So Expensive?</h2>
     <p>
-      National franchise corporations pay 20–30% in direct commissions to door-to-door salesmen, plus 15–20% in national TV advertising. When you purchase from a direct local installer like <a href="https://ozarkgutterguard.com/" class="dofollow" rel="dofollow">Ozark Gutter Guard Co.</a>, 100% of those corporate markups are eliminated.
+      National franchise corporations pay 20–30% in direct commissions to door-to-door salesmen, plus 15–20% in national TV advertising. When you purchase from a direct local installer like <span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS8=">Ozark Gutter Guard Co.</span>, 100% of those corporate markups are eliminated.
     </p>
 
     <h2>3. Related Consumer & Technical Guides</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/guides/gutter-guard-cost-per-foot-arkansas" class="dofollow" rel="dofollow">Detailed Arkansas Gutter Guard Cost Analysis</a></li>
-      <li><a href="https://ozarkgutterguard.com/guides/how-to-cancel-high-pressure-gutter-guard-contract-arkansas" class="dofollow" rel="dofollow">How to Legally Cancel High-Pressure In-Home Sales Contracts</a></li>
-      <li><a href="https://ozarkgutterguard.com/micro-mesh-vs-screen-guards" class="dofollow" rel="dofollow">316 Surgical Stainless Micro-Mesh vs Slotted Screens</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-cleaning" class="dofollow" rel="dofollow">$149 Roofline Inspection & Cleanout Feasibility Audit</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvZ3V0dGVyLWd1YXJkLWNvc3QtcGVyLWZvb3QtYXJrYW5zYXM=">Detailed Arkansas Gutter Guard Cost Analysis</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvaG93LXRvLWNhbmNlbC1oaWdoLXByZXNzdXJlLWd1dHRlci1ndWFyZC1jb250cmFjdC1hcmthbnNhcw==">How to Legally Cancel High-Pressure In-Home Sales Contracts</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9taWNyby1tZXNoLXZzLXNjcmVlbi1ndWFyZHM=">316 Surgical Stainless Micro-Mesh vs Slotted Screens</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItY2xlYW5pbmc=">$149 Roofline Inspection & Cleanout Feasibility Audit</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -126,21 +126,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

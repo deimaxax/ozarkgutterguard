@@ -68,9 +68,9 @@
         <strong style="font-size: 15px;">Calculate Your Bentonville Installed Price</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">15-Minute Satellite Roof Measurement • Zero Salesmen Visits</span>
       </div>
-      <a href="https://ozarkgutterguard.com/gutter-guards-bentonville-ar" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbnRvbnZpbGxlLWFy">
         Visit Official Bentonville Hub &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. The Problem: Oak Catkin Sludge in Benton County Gutters</h2>
@@ -85,7 +85,7 @@
 
     <h2>3. The Solution: Marine-Grade 316 Stainless Steel Micro-Mesh</h2>
     <p>
-      <a href="https://ozarkgutterguard.com/" class="dofollow" rel="dofollow">Ozark Gutter Guard Co.</a> installs 440-micron medical-grade 316 stainless steel micro-mesh fastened directly to the gutter lip and fascia board with heavy-gauge self-tapping hex screws.
+      <span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS8=">Ozark Gutter Guard Co.</span> installs 440-micron medical-grade 316 stainless steel micro-mesh fastened directly to the gutter lip and fascia board with heavy-gauge self-tapping hex screws.
     </p>
     <ul>
       <li><strong>Intake Capacity:</strong> Certified 150+ inches of rainfall per hour with zero valley overflow.</li>
@@ -95,10 +95,10 @@
 
     <h2>4. Bentonville Suburb & Neighborhood Directory</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72712-bentonville-ar" class="dofollow" rel="dofollow">72712 Downtown Bentonville & Coler Mountain Gutter Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72713-bentonville-ar" class="dofollow" rel="dofollow">72713 West Bentonville & Evening Star Subdivision Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-bentonville-ar" class="dofollow" rel="dofollow">Slaughter Pen & Crystal Bridges Area Gutter Protection</a></li>
-      <li><a href="https://ozarkgutterguard.com/satellite-quote" class="dofollow" rel="dofollow">Instant Bentonville Aerial Roofline Quote Tool</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzEyLWJlbnRvbnZpbGxlLWFy">72712 Downtown Bentonville & Coler Mountain Gutter Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzEzLWJlbnRvbnZpbGxlLWFy">72713 West Bentonville & Evening Star Subdivision Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbnRvbnZpbGxlLWFy">Slaughter Pen & Crystal Bridges Area Gutter Protection</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9zYXRlbGxpdGUtcXVvdGU=">Instant Bentonville Aerial Roofline Quote Tool</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -107,21 +107,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

@@ -64,9 +64,9 @@
         <strong style="font-size: 15px;">Get Your Instant Satellite Pine Armor Quote</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">15-Minute Online Measurement • 10-Year No-Clog Guarantee</span>
       </div>
-      <a href="https://ozarkgutterguard.com/pine-needle-gutter-protection" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9waW5lLW5lZWRsZS1ndXR0ZXItcHJvdGVjdGlvbg==">
         Visit Official Pine Protection Hub &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. The Geometry of Pine Needle Clogging</h2>
@@ -81,10 +81,10 @@
 
     <h2>3. Related Regional Hubs & Guides</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/pine-needle-gutter-protection" class="dofollow" rel="dofollow">Official Pine Needle Gutter Protection Hub</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-bella-vista-ar" class="dofollow" rel="dofollow">Bella Vista Pine Needle Armor Installation</a></li>
-      <li><a href="https://ozarkgutterguard.com/micro-mesh-vs-screen-guards" class="dofollow" rel="dofollow">316 Stainless Micro-Mesh vs Slotted Screens</a></li>
-      <li><a href="https://ozarkgutterguard.com/satellite-quote" class="dofollow" rel="dofollow">Instant 90-Second Aerial Quote Calculator</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9waW5lLW5lZWRsZS1ndXR0ZXItcHJvdGVjdGlvbg==">Official Pine Needle Gutter Protection Hub</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLWJlbGxhLXZpc3RhLWFy">Bella Vista Pine Needle Armor Installation</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9taWNyby1tZXNoLXZzLXNjcmVlbi1ndWFyZHM=">316 Stainless Micro-Mesh vs Slotted Screens</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9zYXRlbGxpdGUtcXVvdGU=">Instant 90-Second Aerial Quote Calculator</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -93,21 +93,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 

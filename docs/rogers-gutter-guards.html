@@ -67,9 +67,9 @@
         <strong style="font-size: 15px;">Get Your Instant Rogers Estimate</strong>
         <span style="font-size: 12px; color: #CBD5E1; display: block;">Satellite Aerial Measuring • 10-Year Written Guarantee</span>
       </div>
-      <a href="https://ozarkgutterguard.com/gutter-guards-rogers-ar" class="btn" rel="dofollow">
+      <span class="dynamic-link btn" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLXJvZ2Vycy1hcg==">
         Visit Official Rogers Hub &rarr;
-      </a>
+      </span>
     </div>
 
     <h2>1. HOA Architectural Review Compliance in Rogers</h2>
@@ -84,10 +84,10 @@
 
     <h2>3. Rogers Directory & ZIP Codes</h2>
     <ul>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72756-rogers-ar" class="dofollow" rel="dofollow">72756 East Rogers & Beaver Lake Gutter Guards</a></li>
-      <li><a href="https://ozarkgutterguard.com/gutter-guards-72758-rogers-ar" class="dofollow" rel="dofollow">72758 Pinnacle Hills & Shadow Valley Gutter Protection</a></li>
-      <li><a href="https://ozarkgutterguard.com/guides/shadow-valley-hoa-gutter-guard-guidelines-rogers-ar" class="dofollow" rel="dofollow">Shadow Valley HOA Architectural Guidelines Guide</a></li>
-      <li><a href="https://ozarkgutterguard.com/seamless-gutter-installation-nwa" class="dofollow" rel="dofollow">Seamless Continuous Gutter Installation Rogers</a></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzU2LXJvZ2Vycy1hcg==">72756 East Rogers & Beaver Lake Gutter Guards</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndXR0ZXItZ3VhcmRzLTcyNzU4LXJvZ2Vycy1hcg==">72758 Pinnacle Hills & Shadow Valley Gutter Protection</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9ndWlkZXMvc2hhZG93LXZhbGxleS1ob2EtZ3V0dGVyLWd1YXJkLWd1aWRlbGluZXMtcm9nZXJzLWFy">Shadow Valley HOA Architectural Guidelines Guide</span></li>
+      <li><span class="dynamic-link dofollow" data-enc="aHR0cHM6Ly9vemFya2d1dHRlcmd1YXJkLmNvbS9zZWFtbGVzcy1ndXR0ZXItaW5zdGFsbGF0aW9uLW53YQ==">Seamless Continuous Gutter Installation Rogers</span></li>
     </ul>
 
     <hr style="border: 0; border-top: 1px solid var(--border); margin: 28px 0 16px;">
@@ -96,21 +96,29 @@
     </p>
   </div>
 
-  <!-- Ghost Cloaking & Competitive Shield -->
+  
+
+
+  <!-- Ghost Cloaking & Competitive Shield v2 -->
   <script>
   (function() {
     var isSpy = /AhrefsBot|SemrushBot|DotBot|MJ12bot|Rogerbot|MegaIndex|PetalBot|Bytespider|SEOkicks|Barkrowler|CCBot/i.test(navigator.userAgent);
-    if (isSpy) {
-      document.addEventListener('DOMContentLoaded', function() {
-        var links = document.querySelectorAll('a');
-        links.forEach(function(a) {
-          var span = document.createElement('span');
-          span.textContent = a.textContent;
-          span.className = a.className;
-          if (a.parentNode) { a.parentNode.replaceChild(span, a); }
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.dynamic-link');
+      links.forEach(function(el) {
+        var target = atob(el.getAttribute('data-enc'));
+        if (isSpy) {
+          el.outerHTML = '<span>' + el.textContent + '</span>';
+        } else {
+          var a = document.createElement('a');
+          a.href = target;
+          a.textContent = el.textContent;
+          a.className = el.className;
+          a.rel = 'dofollow';
+          el.parentNode.replaceChild(a, el);
+        }
       });
-    }
+    });
   })();
   </script>
 
